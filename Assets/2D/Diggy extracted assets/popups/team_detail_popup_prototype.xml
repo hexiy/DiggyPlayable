@@ -1,0 +1,40 @@
+<element name="black_screen" skin="@shade_black" anchorTop="0" anchorBottom="1" mouseUp="backMouseUp_handler">
+    <element name="popup_body" preferredWidth="2024" preferredHeight="1036" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true">
+        <element name="popup_bg" skin="@small_popup_bg" preferredWidth="2024" preferredHeight="1036" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+            <element skin="@small_popup_bg_divider" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="110" preferredWidth="2024"/>
+            <element name="popup_title" skin="@team_header_font" model="#GUI3242" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="30" preferredHeight="150" preferredWidth="1500" flushBatch="true"/>
+
+            <element name="team_detail_left_part" preferredHeight="800" preferredWidth="607" anchorX="-626" anchorY="170" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+                <element name="team_detail_logo_and_member_count_holder" preferredHeight="200" preferredWidth="160">
+                    <element name="team_detail_logo_holder" skin="@black_bg" preferredWidth="160" preferredHeight="160">
+                        <element name="team_detail_logo" skin="@asset" preferredWidth="140" preferredHeight="140" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+                    </element>
+                    <element name="team_detail_member_count" preferredHeight="150" preferredWidth="260" skin="@team_hint_font" flushBatch="true" anchorY="160" anchorX="-50"/>
+                </element>
+                <element name="team_detail_name" preferredWidth="380" preferredHeight="100" skin="@team_title_hint_left_font" flushBatch="true" anchorX="200"/>
+                <element name="team_detail_description" preferredHeight="350" preferredWidth="420" skin="@team_hint_font_left" flushBatch="true" anchorY="80" anchorX="200"/>
+                <element name="team_detail_id_lbl" model="#GUI3243" preferredHeight="90" preferredWidth="300" anchorY="390" skin="@team_hint_font_left"/>
+                <element name="team_detail_id" preferredHeight="90" preferredWidth="300" anchorY="390" anchorX="300" skin="@team_hint_white_font_right"/>
+                <element name="team_detail_type_lbl" model="#GUI3229" preferredHeight="100" preferredWidth="300" anchorY="460" skin="@team_hint_font_left"/>
+                <element name="team_detail_type" preferredHeight="90" preferredWidth="300" anchorY="460" anchorX="300" skin="@team_hint_white_font_right"/>
+                <element name="team_detail_score_lbl" model="#GUI3244" preferredHeight="100" preferredWidth="500" anchorY="530" skin="@team_hint_font_left"/>
+                <element name="team_detail_score" preferredHeight="90" preferredWidth="300" anchorY="530" anchorX="300" skin="@team_hint_white_font_right"/>
+                <element name="team_detail_req_level_lbl" model="#GUI3232" preferredHeight="90" preferredWidth="300" anchorY="600" skin="@team_hint_font_left"/>
+                <element name="team_detail_req_level" preferredHeight="90" preferredWidth="300" anchorY="600" anchorX="300" skin="@team_hint_white_font_right"/>
+                <element name="team_detail_join_button" preferredHeight="180" preferredWidth="400" anchorY="665" skin="@btn_green_01" skin.is_not_open="@btn_red" visible="true" visible.has_team="false" visible.cant_join="false" visible.already_applied="false" mouseChildren="false">
+                    <element name="team_detail_join_button_label" skin="@oswald_bold_85_basic_drevo1" model="#GUI3239" model.is_not_open="#GUI3313" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true"/>
+                </element>
+                <element name="team_detail_cant_join_lbl" visible="false" visible.cant_join="true" skin="@oswald_bold_85_basic_drevo1_big" anchorX="0" preferredHeight="180" preferredWidth="400" anchorY="665" flushBatch="true" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"/>
+                <element name="team_detail_already_applied_lbl" visible="false" visible.already_applied="true" skin="@oswald_bold_85_basic_drevo1_big" anchorX="0" preferredHeight="180" preferredWidth="400" anchorY="665" flushBatch="true" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"/>
+            </element>
+            <element anchorTop="0" anchorBottom="1" anchorLeft="0" anchorRight="1" mouseDown="scrollPlayersMouseDown_handler">
+                <element name="team_detail_scrollable_part_holder" skin="@black_bg" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredHeight="800" preferredWidth="1250" anchorX="320" anchorY="170">
+                    <element name="team_detail_scrollable_mask_wrapper" anchorAlign="TOP_CENTER" preferredWidth="1250" preferredHeight="800" anchorX="-625" anchorY="0" useMask="true">
+                        <element name="team_detail_scrollable_holder" anchorAlign="TOP_CENTER" preferredWidth="1250" preferredHeight="800" anchorX="-625" anchorY="0"/>
+                    </element>
+                </element>
+            </element>
+        </element>
+        <element name="btn_close" skin="@preloader_production_cancel_icon" visible="true" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" anchorX="25" anchorY="-25"/>
+    </element>
+</element>

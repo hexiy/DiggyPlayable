@@ -1,0 +1,9 @@
+<element name="black_screen" skin="@black" anchorTop="0" anchorBottom="1" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+    <element name="popup_body" skin="@purple_bg" preferredWidth="1188" preferredHeight="558" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+        <element name="popup_text" skin="@popup_big_gem_white" preferredWidth="1000" preferredHeight="250" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="50" flushBatch="true"/>
+
+        <element name="popup_close_btn" skin="@btn_blue" preferredHeight="142" preferredWidth="300" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="360">
+            <element name="popup_close_btn_label" skin="@oswald_bold_85_gem1_white" preferredWidth="290" preferredHeight="140" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="22" flushBatch="true"/>
+        </element>
+    </element>
+</element>

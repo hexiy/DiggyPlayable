@@ -1,0 +1,9 @@
+<element skin="@bg_treasure_parts" preferredWidth="150" preferredHeight="150">
+    <element name="rewardImage" skin="@asset" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+    <element preferredWidth="40" preferredHeight="40" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" anchorX="5" anchorY="-10" visible.completed="false" visible="true">
+        <element skin="@otaznik" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1" />
+    </element>
+    <element preferredWidth="40" preferredHeight="31" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" anchorX="5" anchorY="-5" visible="false" visible.completed="true">
+        <element skin="@shop_limit_reached" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1" />
+    </element>
+</element>

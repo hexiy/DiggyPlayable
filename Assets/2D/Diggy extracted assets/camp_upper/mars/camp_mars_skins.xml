@@ -1,0 +1,20 @@
+<!--	UI SKIN DEFINITIONS FILE 	-->
+<data>
+    <fontSkin id="camp_greece_brown" font="@oswald_bold" autoSize="true" color="0x418bae" fontScale=".8"/>
+
+
+    <textureSkin id="camp_bg" texture="@camp_bg_mars" scaleX="2" scaleY="2"/>
+    <textureSkin id="elevator" texture="@elevator" scaleX="2" scaleY="2"/>
+    <textureSkin id="camp_greece_dirt" texture="@camp_greece_dirt" tiled="true" scaleX="2" scaleY="2"/>
+    <textureSkin id="camp_greece_god_bg" texture="@camp_greece_god_bg" scaleX="2" scaleY="2"/>
+    <textureSkin id="camp_greece_lift" texture="@camp_greece_lift" scaleX="2" scaleY="2"/>
+    
+    <textureSkin id="camp_greece_caravan" texture="@camp_greece_caravan" scaleX="2" scaleY="2"/>
+    <textureSkin id="camp_greece_kitchen" texture="@camp_greece_kitchen" scaleX="2" scaleY="2"/>
+    <textureSkin id="camp_greece_metalurg" texture="@camp_greece_metalurg" scaleX="2" scaleY="2"/>
+    <textureSkin id="camp_greece_museum" texture="@camp_greece_museum" scaleX="2" scaleY="2"/>
+    <textureSkin id="camp_oracle" texture="@camp_oracle" scaleX="2" scaleY="2"/>
+    <textureSkin id="camp_balloon_mars" texture="@camp_balloon_mars" scaleX="1" scaleY="1"/>
+    <textureSkin id="pet_house_camp" texture="@pet_house_camp" scaleX="1" scaleY="1"/>
+
+</data>

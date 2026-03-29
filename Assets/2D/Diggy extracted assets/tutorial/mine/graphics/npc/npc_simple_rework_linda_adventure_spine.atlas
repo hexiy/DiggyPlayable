@@ -1,0 +1,112 @@
+
+npc_simple_rework_linda_adventure_spine.png
+size: 128,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+LindaAdventurer_content_LindaAdventurer_head_Layer_3
+  rotate: false
+  xy: 1, 1
+  size: 58, 49
+  orig: 58, 49
+  offset: 0, 0
+  index: -1
+LindaAdventurer_content_LindaAdventurer_hairBack_Layer_1
+  rotate: false
+  xy: 61, 1
+  size: 35, 43
+  orig: 35, 43
+  offset: 0, 0
+  index: -1
+LindaAdventurer_content_LindaAdventurer_head_Layer_7
+  rotate: false
+  xy: 98, 1
+  size: 25, 30
+  orig: 25, 30
+  offset: 0, 0
+  index: -1
+LindaAdventurer_content_LindaAdventurer_body_Vrstva_1
+  rotate: false
+  xy: 98, 33
+  size: 16, 27
+  orig: 16, 27
+  offset: 0, 0
+  index: -1
+LindaAdventurer_content_LindaAdventurer_hand2_amulet
+  rotate: false
+  xy: 61, 46
+  size: 16, 17
+  orig: 16, 17
+  offset: 0, 0
+  index: -1
+LindaAdventurer_content_LindaAdventurer_hand_Layer_1
+  rotate: false
+  xy: 116, 33
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+LindaAdventurer_content_LindaAdventurer_eyes_Layer_1
+  rotate: false
+  xy: 1, 52
+  size: 18, 8
+  orig: 18, 8
+  offset: 0, 0
+  index: -1
+LindaAdventurer_content_LindaAdventurer_eye_Layer_1
+  rotate: false
+  xy: 79, 46
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+LindaAdventurer_content_LindaAdventurer_lip2_Layer_1
+  rotate: false
+  xy: 87, 46
+  size: 7, 4
+  orig: 7, 4
+  offset: 0, 0
+  index: -1
+LindaAdventurer_main_Layer_2
+  rotate: false
+  xy: 21, 52
+  size: 22, 4
+  orig: 22, 4
+  offset: 0, 0
+  index: -1
+LindaAdventurer_content_LindaAdventurer_lash1_Layer_1
+  rotate: false
+  xy: 116, 48
+  size: 5, 3
+  orig: 5, 3
+  offset: 0, 0
+  index: -1
+LindaAdventurer_content_LindaAdventurer_lashes2_Layer_1
+  rotate: false
+  xy: 123, 48
+  size: 4, 3
+  orig: 4, 3
+  offset: 0, 0
+  index: -1
+LindaAdventurer_content_LindaAdventurer_teeth_Layer_1
+  rotate: false
+  xy: 45, 52
+  size: 8, 2
+  orig: 8, 2
+  offset: 0, 0
+  index: -1
+LindaAdventurer_content_LindaAdventurer_lip1_Layer_1
+  rotate: false
+  xy: 116, 53
+  size: 11, 2
+  orig: 11, 2
+  offset: 0, 0
+  index: -1
+LindaAdventurer_content_LindaAdventurer_lash2_Layer_1
+  rotate: false
+  xy: 55, 52
+  size: 3, 2
+  orig: 3, 2
+  offset: 0, 0
+  index: -1
+

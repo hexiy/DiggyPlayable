@@ -1,0 +1,52 @@
+<element skin="@middle_popup" preferredWidth="530" preferredHeight="956">
+	<element anchorX="-20" preferredWidth="530" preferredHeight="926">
+		<element name="name" skin="@shop_item_name_font" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="20" preferredWidth="450" preferredHeight="400"/>
+
+		<!-- IMAGE -->
+		<element name="image" anchorLeft=".5" anchorRight=".5" anchorY="215" skin="@asset" pivotAlign="MIDDLE_CENTER"/>
+
+		<!-- LINE -->
+		<element anchorLeft=".5" anchorRight=".5" anchorY="365" skin="@shop_line1" pivotAlign="TOP_CENTER"/>
+
+		<!-- POTION -->
+		<element name="potion" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1">
+			<!-- COUNT -->
+			<element name="count" skin="@oswald_bold" anchorY="380" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" anchorX="55"/>
+
+			<!-- VALUE -->
+			<element anchorX="-70" anchorY="372" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT">
+				<p:layout><horizontal gap="10"/></p:layout>
+				<element name="type" skin="@storage_icon_time"/>
+				<element anchorY="10" name="value" skin="@oswald_bold"/>
+			</element>
+
+			<!-- LINE -->
+			<element anchorLeft=".5" anchorRight=".5" anchorY="445" skin="@shop_line2" pivotAlign="TOP_CENTER"/>
+
+			<!-- BUTTONS -->
+			<element name="buttonUse" mouseChildren="false" skin="@btn_center1" preferredWidth="440" preferredHeight="142" anchorAlign="BOTTOM_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="-260" mouseDown="buildingUseDown_handler">
+				<element name="buttonLabel" skin="@oswald_bold_85_basic_drevo1" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="10"/>
+			</element>
+			<element name="buttonUseAll" mouseChildren="false" skin="@btn_center1" preferredWidth="440" preferredHeight="142" anchorAlign="BOTTOM_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="-100" mouseDown="buildingSellDown_handler">
+				<element name="buttonLabel" skin="@oswald_bold_85_basic_drevo1" preferredWidth="186" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="10"/>
+			</element>
+		</element>
+
+		<!-- RING -->
+		<element name="ring" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1">
+			<!-- COUNT -->
+			<element name="count" skin="@oswald_bold" anchorY="380" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"/>
+
+			<!-- TEXT -->
+			<element name="text" preferredWidth="480" preferredHeight="300" visible="false" anchorLeft=".5" anchorRight=".5" anchorY="80" skin="@infoFont" pivotAlign="TOP_CENTER"/>
+
+			<!-- LINE -->
+			<element anchorLeft=".5" anchorRight=".5" anchorY="445" skin="@shop_line2" pivotAlign="TOP_CENTER"/>
+
+			<!-- BUTTONS -->
+			<element name="buttonUseAll" mouseChildren="false" skin="@btn_center1" preferredWidth="440" preferredHeight="142" anchorAlign="BOTTOM_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="-100" mouseDown="buildingSellDown_handler">
+				<element name="buttonLabel" skin="@oswald_bold_85_basic_drevo1" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="10"/>
+			</element>
+		</element>
+	</element>
+</element>

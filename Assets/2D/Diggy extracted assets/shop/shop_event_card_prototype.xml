@@ -1,0 +1,89 @@
+<element preferredWidth="620" preferredHeight="896">
+
+    <!-- BACKGROUND top -->
+    <element skin="@white_card_gradient" color="0x2D2318" preferredWidth="580" preferredHeight="890" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"/>
+    <!-- BACKGROUND middle -->
+    <element skin="@solid_white" color="0x7E5E41" preferredWidth="580" preferredHeight="150" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="530"/>
+    <!-- BACKGROUND bottom -->
+    <element skin="@shop_card_small" preferredWidth="580" preferredHeight="311" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="615"/>
+
+    <!-- EVENT NAME -->
+    <element name="event_name" skin="@oswald_48_white_center_middle" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="0"
+             preferredWidth="560" preferredHeight="110" flushBatch="true"/>
+
+    <!-- VINTAGE LOGO -->
+    <element name="vintageBadgeHolder" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1">
+        <element skin="@vintage_event_icon_background" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="130" anchorX="200"/>
+    </element>
+
+    <!-- EVENT IMAGE -->
+    <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="100" preferredWidth="400" preferredHeight="400">
+        <element name="story_border" skin="@event_icon_border" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+        <element name="story_graphics" skin="@asset" anchorLeft="0.06" anchorTop="0.06" anchorRight="0.94" anchorBottom="0.87" flushBatch="true"/>
+    </element>
+
+    <!-- PROGRESSES -->
+    <element name="progress_bars" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="0" anchorY="35"
+             preferredWidth="580" preferredHeight="170">
+        <!-- QUEST ICON-->
+        <element preferredWidth="120" preferredHeight="120"
+                 anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="-150"
+                 visible="false" visible.quest_done="false" visible.quest_not_done="true">
+            <element skin="@map_rework_quest_icon_disabled"
+                     anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1" flushBatch="true"/>
+        </element>
+        <element preferredWidth="170" preferredHeight="170"
+                 anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="-160"
+                 visible="false" visible.quest_done="true" visible.quest_not_done="false">
+            <element skin="@map_rework_quest_icon"
+                     anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1" flushBatch="true"/>
+        </element>
+        <!-- ACHIEVEMENT ICON-->
+        <element preferredWidth="120" preferredHeight="120"
+                 anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="0"
+                 visible="false" visible.achievement_done="false" visible.achievement_not_done="true">
+            <element skin="@map_rework_achievement_icon_disabled"
+                     anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1" flushBatch="true"/>
+        </element>
+        <element preferredWidth="170" preferredHeight="170"
+                 anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="0"
+                 visible="false" visible.achievement_done="true" visible.achievement_not_done="false">
+            <element skin="@map_rework_achievement_icon"
+                     anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1" flushBatch="true"/>
+        </element>
+        <!-- COLLECTION ICON-->
+        <element preferredWidth="120" preferredHeight="120"
+                 anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="150"
+                 visible="false" visible.collection_done="false" visible.collection_not_done="true">
+            <element skin="@map_rework_artifact_icon_disabled"
+                     anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1" flushBatch="true"/>
+        </element>
+        <element preferredWidth="170" preferredHeight="170"
+                 anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="160"
+                 visible="false" visible.collection_done="true" visible.collection_not_done="false">
+            <element skin="@map_rework_artifact_icon"
+                     anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1" flushBatch="true"/>
+        </element>
+    </element>
+
+    <!-- PRICE -->
+    <element skin="@white_bg_no_shadow" preferredWidth="520" preferredHeight="100" color="0x403122"
+             anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="0" anchorY="155"/>
+    <element preferredWidth="540" preferredHeight="100"
+             anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="0" anchorY="160">
+        <p:layout><horizontal gap="15"/></p:layout>
+        <element preferredWidth="65" preferredHeight="66" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+            <element name="btn_buy_gem_icon" skin="@ico_gem" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+        </element>
+        <element name="gem_price_text" skin="@typeface_46_white_at" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+    </element>
+
+    <!-- INFO BUTTON -->
+    <element name="btn_info" skin="@invisible" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER"
+             preferredWidth="420" preferredHeight="190" anchorX="0" anchorY="0"
+             mouseOut="eventInfoOut_handler" mouseUp="eventInfoUp_handler" mouseDown="eventInfoDown_handler" mouseChildren="false">
+        <element skin="@btn_blue_narrow_150" anchorY="0" anchorY.down="7" preferredWidth="420" preferredHeight="190"/>
+        <element name="info_text" anchorY="-10" anchorY.down="-3" model="#GUI3663" skin="@typeface_70_white_center_middle" preferredWidth="400" preferredHeight="180"
+                 anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="-3" flushBatch="true" />
+    </element>
+</element>

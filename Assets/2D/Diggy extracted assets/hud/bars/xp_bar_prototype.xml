@@ -1,0 +1,8 @@
+<element name="exp_wrapper" preferredWidth="232" mouseUp="expButton_handler" pivotAlign="TOP_LEFT" anchorAlign="TOP_LEFT">
+    <element name="xpBar_blackBg" skin="@bg_black" preferredWidth="230" preferredHeight="42" anchorY="28" anchorX="29"/>
+    <element name="xpBar" skin="@top_bar_exp" preferredHeight="33" anchorX="31" anchorY="32"/>
+    <element name="top_left_bg_01" skin="@top_left_alpha_bg" preferredHeight="50" preferredWidth="240" anchorY="24" anchorX="27"/>
+    <element name="topBtnLvl" skin="@top_btn_lvl" anchorX="-10" anchorY="12" flushBatch="true" >
+        <element name="lvl" skin="@typeface_36_white_center_middle" preferredWidth="75" preferredHeight="88" anchorX="8" anchorY="-6" flushBatch="true"/>
+    </element>
+</element>

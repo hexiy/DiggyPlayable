@@ -1,0 +1,27 @@
+<element name="black_screen" skin="@black" anchorTop="0" anchorBottom="1" mouseUp="okMouseUp_handler">
+    <element name="popup_body" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="1150" preferredHeight="850">
+        <element name="payment_ok" skin="@middle_popup" skin.eventpass="@purple_bg" preferredWidth="1150" preferredWidth.eventpass="1260" preferredHeight="850" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+            <element name="rewardImage" skin="@gem_received_gem_small" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="100"/>
+            <element name="payment_asset_pack" skin="@camp_ui_pack_btn" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="100" preferredWidth="400" preferredHeight="400"/>
+            <element name="payment_text" skin="@oswald_54_black_center_top" preferredWidth="900" preferredHeight="220" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"
+                     anchorY="450" anchorY.pack="520"/>
+
+            <element name="eventpass_holder" visible="false" visible.eventpass="true" preferredWidth="700" preferredHeight="650" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+                <element name="payment_text_header" skin="@popup_big_gem_white" preferredHeight="130" preferredWidth="800" anchorY="-210" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true"/>
+                <element name="desc_eventpass_text" skin="@oswald_bold_85_gem1_white" preferredWidth="600" preferredHeight="400" anchorY="50" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true"></element>
+            </element>
+
+            <element name="btn_eventpass" skin="@btn_blue" visible="false" visible.eventpass="true" preferredWidth="330" preferredHeight="142" anchorY="-70" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" mouseChildren="false">
+                <element name="btn_eventpass_text" skin="@oswald_bold_85_gem1_white" preferredWidth="500" preferredHeight="135" anchorY="26" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true"/>
+            </element>
+
+            <element name="btn_gem" skin="@button_green_01" visible="true" visible.eventpass="false" skin.pressed="@button_green_02" preferredWidth="530" preferredHeight="142" anchorY="-70" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" mouseChildren="false">
+                <element name="btn_gem_text" skin="@oswald_bold_85_gem1" anchorY="8" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+            </element>
+
+        </element>
+        <element name="payment_fail" skin="@middle_popup" skin.eventpass="@purple_bg" preferredWidth="760" preferredHeight="300" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+            <element name="payment_text_fail" skin="@popup_big_gem" skin.eventpass="@popup_big_gem_white" preferredWidth="650" preferredHeight="400" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="100"/>
+        </element>
+    </element>
+</element>

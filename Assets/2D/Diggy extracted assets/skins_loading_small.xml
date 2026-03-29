@@ -1,0 +1,98 @@
+<!--	PRELOADER SKIN DEFINITIONS FILE 	-->
+<data>
+    <textureSkin id="account_device_icon" texture="@account_device_icon" scaleX="2.0" scaleY="2.0"/>
+    <textureSkin id="account_fb_icon" texture="@account_fb_icon" scaleX="2.0" scaleY="2.0"/>
+    <textureSkin id="eye_password" texture="@eye_password"/>
+    <textureSkin id="eye_password_crossed" texture="@eye_password_crossed"/>
+    <textureSkin id="flag_BG" texture="@flag_BG"/>
+    <textureSkin id="flag_CZ" texture="@flag_CZ"/>
+    <textureSkin id="flag_DE" texture="@flag_DE"/>
+    <textureSkin id="flag_DK" texture="@flag_DK"/>
+    <textureSkin id="flag_EN" texture="@flag_EN"/>
+    <textureSkin id="flag_ES" texture="@flag_ES"/>
+    <textureSkin id="flag_FI" texture="@flag_FI"/>
+    <textureSkin id="flag_FR" texture="@flag_FR"/>
+    <textureSkin id="flag_GR" texture="@flag_GR"/>
+    <textureSkin id="flag_HU" texture="@flag_HU"/>
+    <textureSkin id="flag_IT" texture="@flag_IT"/>
+    <textureSkin id="flag_NL" texture="@flag_NL"/>
+    <textureSkin id="flag_PL" texture="@flag_PL"/>
+    <textureSkin id="flag_PT" texture="@flag_PT"/>
+    <textureSkin id="flag_RO" texture="@flag_RO"/>
+    <textureSkin id="flag_RU" texture="@flag_RU"/>
+    <textureSkin id="flag_SE" texture="@flag_SE"/>
+    <textureSkin id="flag_SK" texture="@flag_SK"/>
+    <textureSkin id="flag_TR" texture="@flag_TR"/>
+
+    <textureSkin id="free_skin_1" texture="@free_skin_1" scaleX="2.0" scaleY="2.0"/>
+    <textureSkin id="free_skin_29" texture="@free_skin_29" scaleX="2.0" scaleY="2.0"/>
+    <textureSkin id="free_skin_30" texture="@free_skin_30" scaleX="2.0" scaleY="2.0"/>
+    <textureSkin id="free_skin_31" texture="@free_skin_31" scaleX="2.0" scaleY="2.0"/>
+    <textureSkin id="free_skin_32" texture="@free_skin_32" scaleX="2.0" scaleY="2.0"/>
+    <textureSkin id="free_skin_45" texture="@free_skin_45" scaleX="2.0" scaleY="2.0"/>
+    <textureSkin id="free_skin_71" texture="@free_skin_71" scaleX="2.0" scaleY="2.0"/>
+    <textureSkin id="free_skin_120" texture="@free_skin_120" scaleX="2.0" scaleY="2.0"/>
+    <textureSkin id="login_fb_icon" texture="@login_fb_icon" scaleX="2.0" scaleY="2.0"/>
+    <textureSkin id="login_mail_icon" texture="@login_mail_icon" scaleX="2.0" scaleY="2.0"/>
+    <textureSkin id="preloader_arrow" texture="@preloader_arrow" scaleX="4.0" scaleY="4.0"/>
+    <textureSkin id="preloader_bar_bg_c" texture="@preloader_bar_bg_c" scaleX="2.0" scaleY="2.0"/>
+    <textureSkin id="preloader_bar_bg_l" texture="@preloader_bar_bg_l" scaleX="2.0" scaleY="2.0"/>
+    <textureSkin id="preloader_bar_c" texture="@preloader_bar_c" scaleX="2.0" scaleY="2.0"/>
+    <textureSkin id="preloader_bar_l" texture="@preloader_bar_l" scaleX="2.0" scaleY="2.0"/>
+    <textureSkin id="preloader_bar_r" texture="@preloader_bar_r" scaleX="2.0" scaleY="2.0"/>
+    <textureSkin id="preloader_BG" texture="@preloader_BG" scaleX="2.0" scaleY="2.0"/>
+    <textureSkin id="preloader_skinSelect_BG" texture="@preloader_skinSelect_BG" sliceLeft="1" sliceRight="3" scaleX="2.0" scaleY="2.0"/>
+    <textureSkin id="preloader_black_bg" texture="@preloader_black_bg" scaleX="4.0" scaleY="4.0"/>
+    <textureSkin id="preloader_blank_btn" texture="@preloader_blank_btn" scaleX="4.0" scaleY="4.0"/>
+    <textureSkin id="preloader_brown_BG" texture="@preloader_brown_BG" sliceLeft="9" sliceRight="12" scaleX="2.0" scaleY="2.0"/>
+    <textureSkin id="preloader_button_green_01" texture="@preloader_button_green_01" sliceLeft="14" sliceRight="16" sliceTop="20" sliceBottom="21" scaleX="4.0" scaleY="4.0"/>
+    <textureSkin id="preloader_button_red_01" texture="@preloader_button_red_01" sliceLeft="14" sliceRight="16" sliceTop="20" sliceBottom="21" scaleX="4.0" scaleY="4.0"/>
+    <textureSkin id="preloader_button_brown_01" texture="@preloader_button_brown_01" sliceLeft="14" sliceRight="16" sliceTop="20" sliceBottom="21" scaleX="4.0" scaleY="4.0"/>
+    <textureSkin id="preloader_button_wood" texture="@preloader_button_wood" scaleX="4.0" scaleY="4.0"/>
+    <textureSkin id="preloader_card_BG" texture="@preloader_card_BG" sliceLeft="31" sliceRight="41" scaleX="2.0" scaleY="2.0"/>
+    <textureSkin id="preloader_highlight" texture="@preloader_highlight" scaleX="2.0" scaleY="2.0"/>
+    <textureSkin id="preloader_login_btn1" texture="@preloader_login_btn1" scaleX="4.0" scaleY="4.0"/>
+    <textureSkin id="preloader_login_btn2" texture="@preloader_login_btn2" scaleX="4.0" scaleY="4.0"/>
+    <textureSkin id="preloader_apple_btn" texture="@preloader_apple_btn" scaleX="2.0" scaleY="2.0"/>
+    <textureSkin id="preloader_login_screen_BG" texture="@preloader_login_screen_BG" sliceLeft="30" sliceRight="36" scaleX="2.0" scaleY="2.0"/>
+    <textureSkin id="preloader_login_screen_BG_apple" texture="@preloader_login_screen_BG_apple" sliceLeft="30" sliceRight="36" scaleX="2.0" scaleY="2.0"/>
+    <textureSkin id="preloader_login_screen_BG2" texture="@preloader_login_screen_BG2" sliceLeft="30" sliceRight="36" scaleX="2.0" scaleY="2.0"/>
+    <textureSkin id="preloader_logo" texture="@preloader_logo" scaleX="2.0" scaleY="2.0"/>
+    <textureSkin id="preloader_map_manager_detail_name_bg" texture="@preloader_map_manager_detail_name_bg" scaleX="2.0" scaleY="2.0"/>
+    <textureSkin id="preloader_middle_popup_BG" texture="@preloader_middle_popup_BG" sliceLeft="18" sliceRight="20" scaleX="2.0" scaleY="2.0"/>
+    <textureSkin id="preloader_play_btn" texture="@preloader_play_btn" scaleX="4.0" scaleY="4.0"/>
+    <textureSkin id="login_input_bg" texture="@login_input_bg" scaleX="2.0" scaleY="2.0"/>
+    <textureSkin id="preloader_production_cancel_icon" texture="@preloader_production_cancel_icon" scaleX="2.0" scaleY="2.0"/>
+    <textureSkin id="preloader_production_cancel_icon_big" texture="@preloader_production_cancel_icon" scaleX="3.0" scaleY="3.0"/>
+    <textureSkin id="login_hide_top" texture="@login_hide_top" scaleX="2.0" scaleY="2.0"/>
+    <textureSkin id="preloader_white_circle_bg" texture="@preloader_white_circle_bg"/>
+
+    <textureSkin id="preloader_red_mark" texture="@preloader_red_mark" scaleX="6.0" scaleY="6.0" rotation="0.349"/>
+    <textureSkin id="preloader_blue_mark" texture="@preloader_blue_mark" scaleX="4.0" scaleY="4.0" rotation="0.349"/>
+    <textureSkin id="preloader_inner_background" texture="@preloader_inner_background" sliceLeft="7" sliceRight="8" sliceTop="6" sliceBottom="8" scaleX="2.0" scaleY="2.0"/>
+
+    <!-- FONTS-->
+
+    <fontSkin id="typeface_81_white_at"     font="@diggy_typeface" autoSize="true" color="0xFFFFFF" fontScale="1.5"/>
+
+    <fontSkin id="bold_64_dgreen_at" font="@oswald_bold" autoSize="true" color="0x1B5517" fontScale="2.0"/>
+    <fontSkin id="bold_64_white_at" font="@oswald_bold" autoSize="true" color="0xFFFFFF" fontScale="2.0"/>
+    <fontSkin id="bold_48_white_at" font="@oswald_bold" autoSize="true" color="0xFFFFFF" fontScale="1.5"/>
+    <fontSkin id="bold_48_black_at" font="@oswald_bold" autoSize="true" color="0x000000" fontScale="1.5"/>
+    <fontSkin id="bold_40_black_at" font="@oswald_bold" autoSize="true" color="0x000000" fontScale="1.25"/>
+    <fontSkin id="bold_32_white_at" font="@oswald_bold" autoSize="true" color="0xFFFFFF" fontScale="1.0"/>
+    <fontSkin id="bold_30_white_at" font="@oswald_bold" autoSize="true" color="0xFFFFFF" fontScale=".94"/>
+    <fontSkin id="bold_24_brown_at" font="@oswald_bold" autoSize="true" color="0x412d0f" fontScale="0.75"/>
+    <fontSkin id="bold_24_white_at" font="@oswald_bold" autoSize="true" color="0xFFFFFF" fontScale="0.75"/>
+
+    <fontSkin id="bold_27_brown_af_middle_center" font="@oswald_bold" autoSize="false" hAlign="CENTER" vAlign="MIDDLE" wordWrap="true" color="0x412d0d" fontScale="0.85"/>
+    <fontSkin id="bold_40_brown_af_middle_center" font="@oswald_bold" hAlign="CENTER" vAlign="MIDDLE" autoSize="false" wordWrap="true" color="0x412d0d" fontScale="1.25"/>
+    <fontSkin id="bold_27_white_af_middle_center" font="@oswald_bold" hAlign="CENTER" vAlign="MIDDLE" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="0.85"/>
+    <fontSkin id="bold_40_black_af_middle_center" font="@oswald_bold" hAlign="CENTER"  vAlign="MIDDLE" autoSize="false" wordWrap="true" color="0x000000" fontScale="1.25"/>
+    <fontSkin id="bold_32_black_af_left_top" font="@oswald_bold" hAlign="LEFT"  vAlign="TOP" autoSize="false" wordWrap="true" color="0x000000" fontScale="1.0"/>
+    <fontSkin id="bold_32_white_af_middle_center" font="@oswald_bold" hAlign="CENTER" vAlign="MIDDLE" autoSize="false" color="0xFFFFFF" fontScale="1.0"/>
+    <fontSkin id="bold_24_black_af_left_top" font="@oswald_bold" hAlign="LEFT"  vAlign="TOP" autoSize="false" wordWrap="true" color="0x000000" fontScale="0.75"/>
+
+    <fontSkin id="bold_32_white_af_center" font="@oswald_bold" autoSize="false" wordWrap="true"  color="0xFFFFFF" fontScale="1.0" hAlign="CENTER" />
+    <fontSkin id="bold_32_white_af_middle_center" font="@oswald_bold" autoSize="false" wordWrap="true"  color="0xFFFFFF" fontScale="1.0" vAlign="MIDDLE" hAlign="CENTER" />
+</data>

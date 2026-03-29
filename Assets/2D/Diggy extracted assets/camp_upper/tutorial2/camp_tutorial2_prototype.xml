@@ -1,0 +1,71 @@
+<element anchorTop="0" anchorBottom="1" anchorLeft="0" anchorRight="1" mouseUp="backgroundMouseUp_handler">
+	<element name="camp_dirt" skin="@camp_egypt_dirt" anchorY="1150">
+		<element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorX="10" skin="@camp_egypt_lift"/>
+	</element>
+	<element name="background" skin="@camp_bg" anchorY="-190" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER"/>
+	<element anchorY="250" anchorLeft="0" anchorRight="1">
+		<element skin="@elevator" anchorY="720" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"  flushBatch="true"/>
+		<element preferredWidth="332" preferredHeight="280" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="750">
+			<element name="elevator_button" skin="@camp_ui_elevator_btn" visible.default-enabled="true" visible.disabled="false" anchorX="106" anchorY="112">
+				<element name="debris_discount" preferredWidth="140" preferredHeight="140">
+					<element name="debris_discount_badge" skin="@minus_20_percent" preferredWidth="115" preferredHeight="115" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+					<element name="debris_discount_arrow" skin="@production_start_icon" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="32"/>
+				</element>
+			</element>
+		</element>
+
+		<!-- CARAVAN -->
+		<element name="caravan" anchorX="385" anchorY="898" visible="false">
+			<element name="caravanImage" skin="@camp_egypt_caravan" pivotAlign="BOTTOM_CENTER" mouseUp="addonCaravanMouseDown_handler"/>
+			<element name="caravan_bar" visible="false" pivotAlign="TOP_RIGHT" anchorX="147" anchorY="-390" preferredWidth="310" preferredHeight="60" mouseUp="addonCaravanMouseDown_handler">
+				<element skin="@camp_ui_progress_bar_bg" preferredWidth="290" anchorX="10" anchorY="10"/>
+				<element name="caravan_bar_fill" skin="@camp_ui_progress_bar_fill" preferredWidth="0" preferredWidth.delivered="290" anchorX="10" anchorY="10"/>
+				<element visible="false" visible.delivering="true" name="caravan_time" skin="@camp_ui_progress_bar_font" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="10" model="00:00:00"/>
+				<element skin="@camp_ui_progress_bar_outline"/>
+				<element visible="false" visible.delivered="true" skin="@camp_ui_progress_bar_done" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+			</element>
+		</element>
+
+		<!-- MUSEUM -->
+		<element name="museum" skin="@camp_egypt_museum" anchorX="620" anchorY="854" visible="false" preferredWidth="468" preferredHeight="307" pivotAlign="BOTTOM_CENTER" mouseUp="addonMuseumMouseDown_handler" >
+			<element name="museumRewardNote" skin="@notif_bg" pivotAlign="BOTTOM_CENTER" anchorAlign="TOP_CENTER" anchorY="-30" visible="true">
+				<element skin="@notif_reward" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="20"/>
+			</element>
+		</element>
+
+		<!-- PET HOUSE -->
+        <element name="petHouse" anchorX="1530" anchorY="600" visible="false">
+            <element skin="@pet_house_camp" anchorX="0" anchorY="0" pivotAlign="BOTTOM_CENTER" mouseUp="addonPetHouseMouseDown_handler" flushBatch="true" >
+                <element name="petTreatRewardNote" skin="@notif_bg" pivotAlign="BOTTOM_CENTER" anchorAlign="TOP_CENTER" anchorY="-30" anchorX="0"
+                         visible="true">
+                    <element skin="@ico_pet_energy" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="20" flushBatch="true"/>
+                </element>
+            </element>
+        </element>
+
+		<!-- KITCHEN -->
+		<element name="cookingImageTutorialOnly" anchorX="1380" anchorY="854" skin="@invisible" preferredWidth="368" preferredHeight="307" visible="true" pivotAlign="BOTTOM_CENTER"/>
+		<element name="cooking" anchorX="1380" anchorY="854" visible="true" pivotAlign="MIDDLE_CENTER">
+			<element name="cookingImage" skin="@camp_egypt_kitchen" pivotAlign="BOTTOM_CENTER" mouseUp="addonKitchenMouseDown_handler" preferredWidth="468" preferredHeight="307"/>
+			<element name="cooking_bar" visible="false" pivotAlign="BOTTOM_CENTER" anchorX="-26" anchorY="-320" preferredWidth="310" preferredHeight="60" mouseUp="addonKitchenMouseDown_handler">
+				<element skin="@camp_ui_progress_bar_bg" preferredWidth="290" anchorX="10" anchorY="10"/>
+				<element name="cooking_bar_fill" skin="@camp_ui_progress_bar_fill" preferredWidth="0" preferredWidth.delivered="290" anchorX="10" anchorY="10"/>
+				<element visible="false" visible.delivering="true" name="cooking_time" skin="@camp_ui_progress_bar_font" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="10" model="00:00:00"/>
+				<element skin="@camp_ui_progress_bar_outline"/>
+				<element visible="false" visible.delivered="true" skin="@camp_ui_progress_bar_done" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+			</element>
+		</element>
+
+		<!-- METALURG -->
+		<element name="metalurg" anchorX="1706" anchorY="918" visible="false">
+			<element name="metalurgImage" skin="@camp_egypt_metalurg" pivotAlign="BOTTOM_CENTER" mouseUp="addonMetlaurgMouseDown_handler"/>
+			<element name="metalurg_bar" visible="false" pivotAlign="BOTTOM_CENTER" anchorX="-26" anchorY="-380" preferredWidth="310" preferredHeight="60" mouseUp="addonMetlaurgMouseDown_handler">
+				<element skin="@camp_ui_progress_bar_bg" preferredWidth="290" anchorX="10" anchorY="10"/>
+				<element name="metalurg_bar_fill" skin="@camp_ui_progress_bar_fill" preferredWidth="0" preferredWidth.delivered="290" anchorX="10" anchorY="10"/>
+				<element visible="false" visible.delivering="true" name="metalurg_time" skin="@camp_ui_progress_bar_font" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="10" model="00:00:00"/>
+				<element skin="@camp_ui_progress_bar_outline"/>
+				<element visible="false" visible.delivered="true" skin="@camp_ui_progress_bar_done" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+			</element>
+		</element>
+	</element>
+</element>

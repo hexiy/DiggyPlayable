@@ -1,0 +1,14 @@
+
+npc_standard_olive_tree3_animated_spine.png
+size: 32,32
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Olivovnik3_list_Layer_1
+  rotate: false
+  xy: 1, 1
+  size: 13, 17
+  orig: 13, 17
+  offset: 0, 0
+  index: -1
+

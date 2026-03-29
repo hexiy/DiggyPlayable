@@ -1,0 +1,119 @@
+
+DuhovaZaba_export.png
+size: 64,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+p_zaba_content_DuhovaZaba_body_Layer1
+  rotate: false
+  xy: 1, 1
+  size: 26, 16
+  orig: 26, 16
+  offset: 0, 0
+  index: -1
+p_zaba_content_DuhovaZaba_arm01_Layer_1
+  rotate: false
+  xy: 29, 1
+  size: 5, 11
+  orig: 5, 11
+  offset: 0, 0
+  index: -1
+p_zaba_content_DuhovaZaba_arm02_Layer_1
+  rotate: false
+  xy: 36, 1
+  size: 5, 11
+  orig: 5, 11
+  offset: 0, 0
+  index: -1
+p_zaba_content_DuhovaZaba_balonik_Layer1
+  rotate: false
+  xy: 43, 1
+  size: 13, 10
+  orig: 13, 10
+  offset: 0, 0
+  index: -1
+p_zaba_content_DuhovaZaba_armR02_Layer_1
+  rotate: false
+  xy: 43, 13
+  size: 9, 10
+  orig: 9, 10
+  offset: 0, 0
+  index: -1
+p_zaba_content_DuhovaZaba_mouthInside_Layer_1
+  rotate: false
+  xy: 1, 19
+  size: 15, 9
+  orig: 15, 9
+  offset: 0, 0
+  index: -1
+p_zaba_content_DuhovaZaba_armL02_Layer_1
+  rotate: false
+  xy: 54, 13
+  size: 8, 9
+  orig: 8, 9
+  offset: 0, 0
+  index: -1
+p_zaba_content_DuhovaZaba_legR02_Layer_1
+  rotate: false
+  xy: 29, 14
+  size: 11, 9
+  orig: 11, 9
+  offset: 0, 0
+  index: -1
+p_zaba_content_DuhovaZaba_hlava_p_zaba_papula
+  rotate: false
+  xy: 18, 25
+  size: 19, 8
+  orig: 19, 8
+  offset: 0, 0
+  index: -1
+p_zaba_content_DuhovaZaba_eye_lem
+  rotate: false
+  xy: 54, 24
+  size: 7, 7
+  orig: 7, 7
+  offset: 0, 0
+  index: -1
+p_zaba_content_DuhovaZaba_nohaL01_noha
+  rotate: false
+  xy: 1, 30
+  size: 14, 7
+  orig: 14, 7
+  offset: 0, 0
+  index: -1
+p_zaba_content_DuhovaZaba_mouthBTM_Layer_1
+  rotate: false
+  xy: 39, 33
+  size: 18, 7
+  orig: 18, 7
+  offset: 0, 0
+  index: -1
+DuhovaZaba_main_Layer_2
+  rotate: false
+  xy: 1, 42
+  size: 46, 7
+  orig: 46, 7
+  offset: 0, 0
+  index: -1
+p_zaba_content_DuhovaZaba_legL03_Layer_2
+  rotate: false
+  xy: 39, 25
+  size: 13, 6
+  orig: 13, 6
+  offset: 0, 0
+  index: -1
+p_zaba_content_DuhovaZaba_armR03_Layer_1copy
+  rotate: false
+  xy: 17, 35
+  size: 9, 5
+  orig: 9, 5
+  offset: 0, 0
+  index: -1
+p_zaba_content_DuhovaZaba_armL03_Layer_1copy
+  rotate: false
+  xy: 49, 42
+  size: 10, 4
+  orig: 10, 4
+  offset: 0, 0
+  index: -1
+

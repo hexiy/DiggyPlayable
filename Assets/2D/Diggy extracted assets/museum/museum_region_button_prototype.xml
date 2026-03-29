@@ -1,0 +1,16 @@
+<element
+         preferredWidth="190" preferredHeight="150"
+         pivotAlign="MIDDLE_LEFT" anchorAlign="MIDDLE_LEFT">
+
+    <element name="region_icon" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"
+             preferredHeight.selected="150" preferredWidth.selected="150" />
+
+    <element name="region_name" model="#region_name#" skin="@typeface_31_white_center_middle"
+             visible="false"
+             visible.selected="true"
+             preferredWidth="300" preferredHeight="50"
+             anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER"
+             flushBatch="true" />
+    />
+
+</element>

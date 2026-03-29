@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:2577e04dc2a6236898647a0fed20eaa1:a9a430a73ddf6801855bebc2fd00b923:e6451a9864160408b1a323d2ea11efb5$ -->
+<TextureAtlas imagePath="camp_atlantis.png" width="512" height="1024">
+    <SubTexture name="camp_atlantis_caravan" x="326" y="535" width="158" height="140"/>
+    <SubTexture name="camp_atlantis_god_bg" x="164" y="619" width="89" height="89"/>
+    <SubTexture name="camp_atlantis_kitchen" x="1" y="602" width="159" height="142"/>
+    <SubTexture name="camp_atlantis_lift" x="190" y="420" width="132" height="195"/>
+    <SubTexture name="camp_atlantis_metalurg" x="337" y="373" width="159" height="158"/>
+    <SubTexture name="camp_atlantis_museum" x="1" y="420" width="185" height="178"/>
+    <SubTexture name="camp_oracle" x="337" y="1" width="167" height="179" frameX="-13" frameY="0" frameWidth="180" frameHeight="179"/>
+    <SubTexture name="elevator" x="337" y="184" width="166" height="185"/>
+    <SubTexture name="pet_house_camp" x="1" y="1" width="332" height="415"/>
+</TextureAtlas>

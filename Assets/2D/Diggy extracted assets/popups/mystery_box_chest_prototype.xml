@@ -1,0 +1,20 @@
+<element preferredWidth="544" preferredHeight="1044" anchorX="-257">
+    <element name="chestInfoWrapper" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+        <element name="chestLabel" skin="@popup_large_white" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="-485"/>
+        <element name="chestSpine" preferredWidth="452" preferredHeight="447" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"/>
+        <element name="chestSpineListener" skin="@dev" preferredWidth="452" preferredHeight="447" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" mouseUp="onChestInfoMouseUp_handler">
+            <element name="chestInfo" skin="@otaznik" anchorAlign="MIDDLE_RIGHT" pivotAlign="MIDDLE_RIGHT" anchorY="-50" flushBatch="true"/>
+        </element>
+    </element>
+    <element preferredWidth="544" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+        <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" name="chestPriceLabel" anchorY="250">
+            <p:layout><horizontal gap="20"/></p:layout>
+            <element name="chestPrice" anchorY="20" skin="@popup_large_white"/>
+            <element name="chestGem" skin="@shop_price_gem"/>
+        </element>
+        <element name="chestPriceFree" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="20" skin="@popup_large_white"/>
+    </element>
+    <element name="chestButton" skin="@button_red_01" skin.pressed="@button_red_02" preferredWidth="585" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER">
+        <element name="chestButtonLabel" skin="@popup_xlarge_white" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="34"/>
+    </element>
+</element>

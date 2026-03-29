@@ -1,0 +1,48 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:717429f03b1f394fda71d9f317ce02b8:e8c70ace87576dc453e15f5f7dbff76f:fa79aa060d11e5bf7fae85b2bbe71809$
+#
+:format=40300
+:texture=pets_unity.png
+:size=2048x2048
+:pivotpoints=enabled
+:borders=enabled
+:alphahandling=ClearTransparentPixels
+
+ico_active_pet;157;3;77;75; 0.5;0.5; 0;0;0;0
+ico_B;1818;1513;192;192; 0.5;0.5; 0;0;0;0
+pets_base;1172;1098;318;106; 0.5;0.5; 0;0;0;0
+pets_base_faded;1172;990;318;106; 0.5;0.5; 0;0;0;0
+pets_beam;2;291;525;386; 0.5;0.5; 0;0;0;0
+pets_board_background;1551;500;346;152; 0.5;0.5; 90;90;70;10
+pets_board_clipboard;1899;592;135;135; 0.5;0.5; 60;60;60;60
+pets_board_line;1813;1251;3;795; 0.5;0.5; 0;0;0;0
+pets_board_pb_fill_brown;888;215;36;54; 0.5;0.5; 17;17;26;26
+pets_board_scrap;1172;1206;133;135; 0.5;0.5; 30;30;20;40
+pets_bowl_empty;1813;1038;226;211; 0.5;0.5; 0;0;0;0
+pets_bowl_fill;2;26;153;52; 0.5;0.5; 0;0;0;0
+pets_cookie;1818;1356;155;155; 0.5;0.5; 0;0;0;0
+pets_den_cell_background;1785;79;225;419; 0.5;0.5; 60;60;30;70
+pets_den_title_roof;2;80;469;209; 0.5;0.5; 200;200;0;0
+pets_helmet;1307;1228;170;113; 0.5;0.5; 0;0;0;0
+pets_pethouse;529;271;400;406; 0.5;0.5; 0;0;0;0
+pets_pethouse_background;1551;966;5;1080; 0.5;0.5; 2;2;2;2
+pets_photo_background;1172;1783;263;263; 0.5;0.5; 0;0;0;0
+pets_photo_background_full;1172;1519;263;262; 0.5;0.5; 0;0;0;0
+pets_pickaxe;1807;729;200;239; 0.5;0.5; 0;0;0;0
+pets_picture_left;1519;31;264;406; 0.5;0.5; 0;0;0;0
+pets_picture_right;1551;654;254;310; 0.5;0.5; 0;0;0;0
+pets_pillow;473;33;413;236; 0.5;0.5; 0;0;0;0
+pets_plant_groud;1112;439;437;529; 0.5;0.5; 0;0;0;0
+pets_plant_hanged;1818;1707;149;339; 0.5;0.5; 0;0;0;0
+pets_screen_background;2;970;1168;1076; 0.5;0.5; 0;0;0;0
+pets_screen_background_fixer;1807;970;4;1076; 0.5;0.5; 1;1;0;0
+pets_screen_side;473;288;3;1; 0.5;0.5; 0;0;0;0
+pets_stairs;2;679;1108;289; 0.5;0.5; 0;0;0;0
+pets_table;1055;57;462;380; 0.5;0.5; 0;0;0;0
+pets_tablet;1172;1343;262;174; 0.5;0.5; 0;0;0;0
+pets_wooden_post;931;137;122;540; 0.5;0.5; 0;0;0;0

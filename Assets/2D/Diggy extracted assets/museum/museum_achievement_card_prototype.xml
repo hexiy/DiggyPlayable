@@ -1,0 +1,13 @@
+<element preferredWidth="424" preferredHeight="404" anchorY="48" mouseUp="onCardMouseUp_handler">
+    <element name="background" skin="@museum_achiev_bg" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER"/>
+    <element name="progressBar" anchorAlign="BOTTOM_LEFT" pivotAlign="BOTTOM_LEFT" anchorX="100" anchorY="-12" preferredWidth="224" preferredHeight="42">
+        <element skin="@museum_achiev_progress" anchorLeft="0" anchorRight="1"/>
+    </element>
+    <element name="goblet" skin="@museum_achiev1">
+        <element name="level" skin="@museum_title_font" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="294" flushBatch="true"/>
+        <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="64" preferredWidth="152" preferredHeight="152">
+            <element name="image" skin="@asset" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+        </element>
+    </element>
+    <element name="rewardNote" skin="@museum_reward" pivotAlign="BOTTOM_CENTER" anchorAlign="TOP_CENTER" anchorY="60"/>
+</element>

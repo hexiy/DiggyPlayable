@@ -1,0 +1,25 @@
+<element name="black_screen" skin="@shade_black" anchorTop="0" anchorBottom="1">
+    <element name="popup_body" preferredWidth="960" preferredHeight="1300" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true">
+        <element name="popup_bg" skin="@preloader_middle_popup_BG" preferredWidth="960" preferredHeight="1300" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+            <element name="pupup_body_holder" preferredHeight="1300" preferredWidth="960" anchorX="-10">
+                <!-- Popup header -->
+                <element name="popup_header_text" skin="@bold_40_brown_af_middle_center" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="50" preferredHeight="170" preferredWidth="880" flushBatch="true"/>
+                <!-- Skin preview -->
+                <element name="popup_skin" preferredWidth="462" preferredHeight="660" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="190" anchorX="0"/>
+                <!-- Popup body text -->
+                <element name="popup_text_holder" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="840" preferredHeight="200" preferredWidth="940">
+                    <element name="popup_text" skin="@bold_27_brown_af_middle_center" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredHeight="200" preferredWidth="880" flushBatch="true"/>
+                </element>
+
+                <!-- Yes/No buttons -->
+                <element name="popup_yes_btn" visible="true" skin="@preloader_button_green_01" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="378" preferredHeight="132" anchorY="1040" anchorX="-225">
+                    <element name="popup_yes_btn_lbl" skin="@bold_27_white_af_middle_center" anchorAlign="MIDDLE_CENTER" mouseChildren="false" mouseEnabled="false" pivotAlign="MIDDLE_CENTER" flushBatch="true" anchorY="8" preferredHeight="110" preferredWidth="340" anchorX="-10"/>
+                </element>
+
+                <element name="popup_no_btn" visible="true" skin="@preloader_button_red_01" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="378" preferredHeight="132" anchorY="1040" anchorX="225">
+                    <element name="popup_no_btn_lbl" skin="@bold_27_white_af_middle_center" anchorAlign="MIDDLE_CENTER" mouseChildren="false" mouseEnabled="false" pivotAlign="MIDDLE_CENTER" flushBatch="true" anchorY="8" preferredHeight="110" preferredWidth="340" anchorX="-10"/>
+                </element>
+            </element>
+        </element>
+    </element>
+</element>

@@ -1,0 +1,56 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:7e7dc4d5d65ccd361708301068d6386a:efa30059c46c4f13fba3092cc5c7b923:78bd29d4fceaccb1567e6b570fde0253$
+#
+:format=40300
+:texture=hud2_unity.png
+:size=1024x1024
+:pivotpoints=enabled
+:borders=enabled
+:alphahandling=ClearTransparentPixels
+
+battery_closed;66;349;200;200; 0.5;0.5; 0;0;0;0
+bg_deal_brown;737;392;52;194; 0.5;0.5; 24;24;30;30
+bottom_back_icon;592;588;200;124; 0.5;0.5; 0;0;0;0
+bottom_btn_basic;606;862;292;160; 0.5;0.5; 0;0;0;0
+bottom_btn_basic_pressed;606;714;292;146; 0.5;0.5; 0;0;0;0
+bottom_camp_icon;403;363;130;102; 0.5;0.5; 0;0;0;0
+bottom_city_bg;64;551;176;180; 0.5;0.5; 0;0;0;0
+bottom_city_bg_3slice;2;541;60;481; 0.5;0.5; 0;0;0;0
+bottom_city_frame_2;66;119;60;26; 0.5;0.5; 0;0;0;0
+bottom_city_frame_4;2;117;30;422; 0.5;0.5; 0;0;0;0
+bottom_city_frame_6;34;117;30;422; 0.5;0.5; 0;0;0;0
+bottom_city_frame_8;255;769;60;33; 0.5;0.5; 0;0;0;0
+bottom_city_icon;2;4;116;111; 0.5;0.5; 0;0;0;0
+bottom_map_icon;268;371;82;89; 0.5;0.5; 0;0;0;0
+bottom_mine_icon;592;489;143;97; 0.5;0.5; 0;0;0;0
+bottom_quests_icon;120;6;104;111; 0.5;0.5; 0;0;0;0
+bottom_shop_icon;900;920;116;102; 0.5;0.5; 0;0;0;0
+bottom_storage_icon;268;462;84;93; 0.5;0.5; 0;0;0;0
+btn_dropright;794;625;100;87; 0.5;0.5; 26;72;26;52
+claim_reward_shine;242;557;181;177; 0.5;0.5; 0;0;0;0
+coffee_table;64;733;145;289; 0.5;0.5; 0;0;0;0
+dialog_arrow;211;736;42;66; 0.5;0.5; 0;0;0;0
+dialog_body;900;686;100;100; 0.5;0.5; 39;38;28;50
+dialog_header;366;445;35;110; 0.5;0.5; 16;16;28;27
+diggy_indicator;404;736;84;84; 0.5;0.5; 0;0;0;0
+hand;900;788;110;130; 0.5;0.5; 0;0;0;0
+hand_l;560;377;130;110; 0.5;0.5; 0;0;0;0
+ico_blueprint;425;571;165;163; 0.5;0.5; 0;0;0;0
+ico_broom;490;739;82;81; 0.5;0.5; 0;0;0;0
+ico_gamepad;794;527;96;96; 0.5;0.5; 0;0;0;0
+ico_tools;791;429;96;96; 0.5;0.5; 0;0;0;0
+ico_transform;791;331;96;96; 0.5;0.5; 0;0;0;0
+icon_buy_all_deal;892;441;130;130; 0.5;0.5; 0;0;0;0
+icon_day_pack;226;7;138;138; 0.5;0.5; 0;0;0;0
+paper;896;573;96;111; 0.5;0.5; 24;24;28;28
+pixel_id_icon;211;804;191;218; 0.5;0.5; 0;0;0;0
+tile_finder_activate;889;337;133;102; 0.5;0.5; 0;0;0;0
+tile_finder_charging;889;233;133;102; 0.5;0.5; 0;0;0;0
+tile_finder_recharge;425;467;133;102; 0.5;0.5; 0;0;0;0
+video_chest_closed;66;147;200;200; 0.5;0.5; 0;0;0;0
+video_chest_open;404;822;200;200; 0.5;0.5; 0;0;0;0

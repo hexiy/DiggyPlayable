@@ -1,0 +1,203 @@
+
+namornik_GR.png
+size: 128,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+namornik_GR_content_hlava_namornik_GR_tieňpodhlavou
+  rotate: false
+  xy: 1, 1
+  size: 24, 41
+  orig: 24, 41
+  offset: 0, 0
+  index: -1
+namornik_GR_content_hlava_namornik_GR_uši
+  rotate: false
+  xy: 27, 1
+  size: 32, 30
+  orig: 32, 30
+  offset: 0, 0
+  index: -1
+namornik_GR_content_ciapka_namornik_GR_Layer4
+  rotate: false
+  xy: 61, 1
+  size: 36, 20
+  orig: 36, 20
+  offset: 0, 0
+  index: -1
+namornik_GR_content_telo_namornik_GR_Layer1
+  rotate: false
+  xy: 99, 1
+  size: 17, 20
+  orig: 17, 20
+  offset: 0, 0
+  index: -1
+namornik_GR_content_ruka2_namornik_GR_ruka
+  rotate: false
+  xy: 118, 1
+  size: 9, 20
+  orig: 9, 20
+  offset: 0, 0
+  index: -1
+namornik_GR_content_noha1_namornik_GR_Layer1
+  rotate: false
+  xy: 61, 23
+  size: 7, 11
+  orig: 7, 11
+  offset: 0, 0
+  index: -1
+namornik_GR_content_oko1_namornik_GR_Layer1
+  rotate: false
+  xy: 70, 23
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+namornik_GR_content_usmev_namornik_GR_Layer1
+  rotate: false
+  xy: 80, 23
+  size: 9, 5
+  orig: 9, 5
+  offset: 0, 0
+  index: -1
+namornik_GR_main_tieň
+  rotate: false
+  xy: 80, 30
+  size: 41, 5
+  orig: 41, 5
+  offset: 0, 0
+  index: -1
+namornik_GR_content_kvapka_namornik_GR_Layer1
+  rotate: false
+  xy: 91, 23
+  size: 5, 5
+  orig: 5, 5
+  offset: 0, 0
+  index: -1
+namornik_GR_content_zrenicka_namornik_GR_Layer2
+  rotate: false
+  xy: 98, 23
+  size: 4, 3
+  orig: 4, 3
+  offset: 0, 0
+  index: -1
+namornik_GR_content_voda_namornik_GR_Layer1_006
+  rotate: false
+  xy: 104, 23
+  size: 18, 3
+  orig: 18, 3
+  offset: 0, 0
+  index: -1
+namornik_GR_content_voda_namornik_GR_Layer1_007
+  rotate: false
+  xy: 27, 33
+  size: 18, 3
+  orig: 18, 3
+  offset: 0, 0
+  index: -1
+namornik_GR_content_voda_namornik_GR_Layer1
+  rotate: false
+  xy: 47, 36
+  size: 18, 3
+  orig: 18, 3
+  offset: 0, 0
+  index: -1
+namornik_GR_content_voda_namornik_GR_Layer1_008
+  rotate: false
+  xy: 67, 37
+  size: 18, 3
+  orig: 18, 3
+  offset: 0, 0
+  index: -1
+namornik_GR_content_voda_namornik_GR_Layer1_009
+  rotate: false
+  xy: 87, 37
+  size: 18, 3
+  orig: 18, 3
+  offset: 0, 0
+  index: -1
+namornik_GR_content_oko1_namornik_GR_Layer5
+  rotate: false
+  xy: 123, 28
+  size: 4, 3
+  orig: 4, 3
+  offset: 0, 0
+  index: -1
+namornik_GR_content_voda_namornik_GR_Layer1_003
+  rotate: false
+  xy: 107, 37
+  size: 18, 3
+  orig: 18, 3
+  offset: 0, 0
+  index: -1
+namornik_GR_content_voda_namornik_GR_Layer1_004
+  rotate: false
+  xy: 27, 38
+  size: 18, 3
+  orig: 18, 3
+  offset: 0, 0
+  index: -1
+namornik_GR_content_voda_namornik_GR_Layer1_012
+  rotate: false
+  xy: 47, 41
+  size: 18, 3
+  orig: 18, 3
+  offset: 0, 0
+  index: -1
+namornik_GR_content_voda_namornik_GR_Layer1_005
+  rotate: false
+  xy: 67, 42
+  size: 18, 3
+  orig: 18, 3
+  offset: 0, 0
+  index: -1
+namornik_GR_content_voda_namornik_GR_Layer1_001
+  rotate: false
+  xy: 87, 42
+  size: 18, 3
+  orig: 18, 3
+  offset: 0, 0
+  index: -1
+namornik_GR_content_voda_namornik_GR_Layer1_002
+  rotate: false
+  xy: 107, 42
+  size: 18, 3
+  orig: 18, 3
+  offset: 0, 0
+  index: -1
+namornik_GR_content_voda_namornik_GR_Layer1_010
+  rotate: false
+  xy: 27, 43
+  size: 18, 3
+  orig: 18, 3
+  offset: 0, 0
+  index: -1
+namornik_GR_content_voda_namornik_GR_Layer1_011
+  rotate: false
+  xy: 1, 44
+  size: 18, 3
+  orig: 18, 3
+  offset: 0, 0
+  index: -1
+namornik_GR_content_voda_namornik_GR_Layer1_014
+  rotate: false
+  xy: 47, 46
+  size: 18, 3
+  orig: 18, 3
+  offset: 0, 0
+  index: -1
+namornik_GR_content_voda_namornik_GR_Layer1_013
+  rotate: false
+  xy: 67, 47
+  size: 18, 3
+  orig: 18, 3
+  offset: 0, 0
+  index: -1
+namornik_GR_content_usta_namornik_GR_Layer1
+  rotate: false
+  xy: 87, 47
+  size: 9, 2
+  orig: 9, 2
+  offset: 0, 0
+  index: -1
+

@@ -1,0 +1,21 @@
+<!--	UI SKIN DEFINITIONS FILE 	-->
+<data>
+    <fontSkin id="camp_atlantis_brown" font="@oswald_bold" autoSize="true" color="0x8f9690" fontScale="1"/>
+
+
+    <textureSkin id="camp_bg" texture="@camp_bg_atlantis" scaleX="2" scaleY="2"/>
+    <textureSkin id="elevator" texture="@elevator" scaleX="2" scaleY="2"/>
+    <textureSkin id="camp_atlantis_dirt" texture="@camp_atlantis_dirt" tiled="true" scaleX="2" scaleY="2"/>
+    <textureSkin id="camp_atlantis_god_bg" texture="@camp_atlantis_god_bg" scaleX="2" scaleY="2"/>
+    <textureSkin id="camp_atlantis_lift" texture="@camp_atlantis_lift" scaleX="2" scaleY="2"/>
+
+    <textureSkin id="camp_atlantis_caravan" texture="@camp_atlantis_caravan" scaleX="2" scaleY="2"/>
+    <textureSkin id="camp_atlantis_kitchen" texture="@camp_atlantis_kitchen" scaleX="2" scaleY="2"/>
+    <textureSkin id="camp_atlantis_metalurg" texture="@camp_atlantis_metalurg" scaleX="2" scaleY="2"/>
+    <textureSkin id="camp_atlantis_museum" texture="@camp_atlantis_museum" scaleX="2" scaleY="2"/>
+    <textureSkin id="camp_oracle" texture="@camp_oracle" scaleX="2" scaleY="2"/>
+    <textureSkin id="camp_balloon_atlantis" texture="@camp_balloon_atlantis" scaleX="1" scaleY="1"/>
+    <textureSkin id="pet_house_camp" texture="@pet_house_camp" scaleX="1" scaleY="1"/>
+
+
+</data>

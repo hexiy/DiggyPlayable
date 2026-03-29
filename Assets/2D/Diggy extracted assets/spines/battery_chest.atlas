@@ -1,0 +1,69 @@
+
+battery_chest.png
+size: 590,155
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Battery_bottom
+  rotate: false
+  xy: 308, 65
+  size: 134, 88
+  orig: 134, 88
+  offset: 0, 0
+  index: -1
+Battery_top
+  rotate: false
+  xy: 444, 55
+  size: 142, 37
+  orig: 142, 37
+  offset: 0, 0
+  index: -1
+Efekt
+  rotate: false
+  xy: 2, 3
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+Efekt2
+  rotate: false
+  xy: 308, 2
+  size: 131, 61
+  orig: 131, 61
+  offset: 0, 0
+  index: -1
+Glow
+  rotate: false
+  xy: 154, 9
+  size: 152, 144
+  orig: 152, 144
+  offset: 0, 0
+  index: -1
+Inside_glow
+  rotate: false
+  xy: 444, 94
+  size: 144, 59
+  orig: 144, 59
+  offset: 0, 0
+  index: -1
+Shine
+  rotate: true
+  xy: 441, 31
+  size: 22, 137
+  orig: 22, 137
+  offset: 0, 0
+  index: -1
+Tien
+  rotate: false
+  xy: 441, 8
+  size: 128, 8
+  orig: 128, 8
+  offset: 0, 0
+  index: -1
+Vnutro
+  rotate: false
+  xy: 441, 18
+  size: 126, 11
+  orig: 126, 11
+  offset: 0, 0
+  index: -1

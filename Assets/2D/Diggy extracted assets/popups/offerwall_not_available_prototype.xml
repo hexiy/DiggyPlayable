@@ -1,0 +1,19 @@
+<element name="black_screen" skin="@black" anchorTop="0" anchorBottom="1">
+    <element name="popup_body" preferredWidth="800" preferredHeight="800" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+
+        <!-- pozadie popupu -->
+        <element skin="@bg_brown" preferredWidth="800" preferredHeight="800" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+
+        <element preferredWidth="800" preferredHeight="800" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+            <element skin="@middle_popup" preferredWidth="800" preferredHeight="800" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="15" anchorY="15"/>
+            <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="0">
+                <element name="text" skin="@popup_medium_brown_autosize_off" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="200" preferredWidth="800" preferredHeight="250" model="#GUI3448" />
+            </element>
+
+            <element name="btn_ok" skin="@btn_center1" skin.pressed="@btn_center2" anchorY="-90" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER">
+                <element name="btn_ok_text" skin="@oswald_bold_85_basic_drevo1" anchorY="8" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"  model="#GUI0098" />
+            </element>
+
+        </element>
+    </element>
+</element>

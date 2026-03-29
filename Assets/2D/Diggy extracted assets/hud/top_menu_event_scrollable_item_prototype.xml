@@ -1,0 +1,9 @@
+<element name="top_menu_event_holder" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="170" preferredHeight="170"
+         preferredWidth.single="175" preferredHeight.single="175" mouseUp="onEventClicked_handler">
+    <element name="top_menu_event_border" visible="false" visible.single="true" skin="@event_icon_border" anchorLeft="0" anchorTop="0" anchorRight="1" anchorBottom="1" flushBatch="true" />
+    <element name="top_menu_event_asset" skin="@asset"
+             anchorLeft="0.06" anchorTop="0.06" anchorRight="0.94" anchorBottom="0.87"
+             mouseChildren="false"/>
+    <element name="top_menu_event_timestamp" skin="@typeface_36_white_center_middle" preferredHeight="60" preferredWidth="170" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" flushBatch="true" anchorY="-5" mouseChildren="false"/>
+    <element name="top_menu_event_id"/>
+</element>

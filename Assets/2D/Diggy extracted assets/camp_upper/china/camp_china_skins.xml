@@ -1,0 +1,21 @@
+<!--	UI SKIN DEFINITIONS FILE 	-->
+<data>
+    <fontSkin id="camp_china_brown" font="@oswald_bold" autoSize="true" color="0xa18581" fontScale="1"/>
+
+
+    <textureSkin id="camp_bg" texture="@camp_bg_china" scaleX="2" scaleY="2"/>
+    <textureSkin id="elevator" texture="@elevator" scaleX="2" scaleY="2"/>
+    <textureSkin id="camp_china_dirt" texture="@camp_china_dirt" tiled="true" scaleX="2" scaleY="2"/>
+    <textureSkin id="camp_china_god_bg" texture="@camp_china_god_bg" scaleX="2" scaleY="2"/>
+
+    <textureSkin id="camp_china_caravan" texture="@camp_china_caravan" scaleX="2" scaleY="2"/>
+    <textureSkin id="camp_china_kitchen" texture="@camp_china_kitchen" scaleX="2" scaleY="2"/>
+    <textureSkin id="camp_china_metalurg" texture="@camp_china_metalurg" scaleX="2" scaleY="2"/>
+    <textureSkin id="camp_china_museum" texture="@camp_china_museum" scaleX="2" scaleY="2"/>
+    <textureSkin id="camp_oracle" texture="@camp_oracle" scaleX="2" scaleY="2"/>
+    <textureSkin id="camp_balloon_china" texture="@camp_balloon_china" scaleX="1" scaleY="1"/>
+    <textureSkin id="camp_china_lift" texture="@camp_china_lift" scaleX="2" scaleY="2"/>
+    <textureSkin id="pet_house_camp" texture="@pet_house_camp" scaleX="1" scaleY="1"/>
+
+
+</data>

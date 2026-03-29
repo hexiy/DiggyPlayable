@@ -1,0 +1,29 @@
+<element preferredHeight="610" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">    
+    <element name="language_top_holder" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"
+             anchorY="-500" anchorX="0">
+
+        <!-- LANGUAGES BACKGROUND -->
+        <element name="language_holder_bg" skin="@solid_black" preferredHeight="500"
+                 anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="0"/>
+        <!-- LANGUAGES HOLDER -->
+        <element name="language_holder" flushBatch="true" anchorY="40" anchorX="40"
+                 preferredWidth="2000" preferredHeight="500" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"/>
+
+        <!-- SHOW/HIDE BUTTON -->
+        <element skin="@preloader_black_bg" name="current_language_button"
+                 anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="490" anchorX="0" flushBatch="true">
+            <!-- ARROW TOP -->
+            <element skin="@login_hide_top" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"
+                     visible.showing="true" visible.shown="true" visible.hidden="false" visible.hiding="false"/>
+            <!-- HOLDER WITH CURRENT LANGUAGE FLAG and TEXT "SELECT LANGUAGE" -->
+            <element anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" name="current_language"
+                     preferredWidth="400" preferredHeight="84" anchorY="10" anchorX="0"
+                     visible.showing="false" visible.shown="false" visible.hidden="true" visible.hiding="true"/>
+            <element skin="@invisible" name="show_hide_btn_hitarea" preferredWidth="550" preferredHeight="104"
+                     anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+        </element>
+
+        <element name="login_grey_area" skin="@shade_black" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT"
+                 preferredWidth="5000" preferredHeight="5000" visible="false"/>
+    </element>
+</element>

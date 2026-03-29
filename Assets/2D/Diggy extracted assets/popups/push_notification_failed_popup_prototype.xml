@@ -1,0 +1,15 @@
+<element name="black_screen" skin="@black" anchorTop="0" anchorBottom="1" mouseUp="okMouseUp_handler">
+    <element preferredWidth="1000" preferredHeight="520" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+        <element name="popup_body" skin="@middle_popup" anchorLeft="0" anchorTop="0" anchorBottom="1" anchorRight="1"/>
+
+        <element skin="@info" anchorX="-64" anchorY="-64" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT"/>
+
+        <element model="#DANT18" skin="@oswald_bold_85_autosize_off_center" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"
+                 anchorY="15" anchorX="-15" preferredWidth="840" preferredHeight="310"/>
+
+        <element name="btn_yes" skin="@btn_center1" skin.pressed="@btn_center2" preferredWidth="378" preferredHeight="132"
+                     anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorX="-15" anchorY="330">
+            <element model="#GUI0098" skin="@oswald_bold_85_basic_drevo1" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="8"/>
+        </element>
+    </element>
+</element>

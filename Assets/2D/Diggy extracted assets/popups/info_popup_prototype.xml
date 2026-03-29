@@ -1,0 +1,26 @@
+<element name="black_screen" skin="@black" anchorTop="0" anchorBottom="1" mouseUp="backMouseUp_handler">
+    <element name="popup_body" preferredWidth="1400" preferredHeight="1120" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"
+             preferredWidth.smaller="1100" preferredHeight.smaller="600">
+
+        <!-- pozadie popupu -->
+        <element skin="@bg_brown" skin.smaller="@invisible" preferredWidth="1400" preferredHeight="1120" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"
+                 preferredWidth.smaller="1100" preferredHeight.smaller="600"/>
+
+        <element preferredWidth="1400" preferredHeight="1120" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" name="content_holder"
+                 preferredWidth.smaller="1100" preferredHeight.smaller="600">
+            <element skin="@middle_popup" preferredWidth="1330" preferredHeight="1040" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="15" anchorY="15"
+                     preferredWidth.smaller="1030" preferredHeight.smaller="520"/>
+            <!-- TITLE -->
+            <element name="info_popup_title" skin="@oswald_70_dbrown_at" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="90" anchorY.smaller="-30"/>
+            <!-- TEXT -->
+            <element name="info_popup_text" skin="@oswald_54_dbrown_center_middle" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="-20" preferredWidth="1200" preferredHeight="700"
+                     preferredWidth.smaller="900" preferredHeight.smaller="300"/>
+            <!-- BACK BUTTON -->
+            <element anchorY="-90" anchorY.smaller="0" preferredWidth="440" preferredHeight="142" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER">
+                <element name="info_popup_back_btn" skin="@btn_center1" skin.pressed="@btn_center2" preferredWidth="440" preferredHeight="142" mouseChildren="false">
+                    <element skin="@storage_icon_back" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-10"/>
+                </element>
+            </element>
+        </element>
+    </element>
+</element>

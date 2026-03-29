@@ -1,0 +1,22 @@
+<element name="black_screen" skin="@solid_black" anchorTop="0" anchorBottom="1" mouseUp="backMouseUp_handler">
+    <element name="popup_body" preferredWidth="1690" preferredHeight="930" anchorY="0" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+
+
+        <!-- background -->
+        <element skin="@popup_bg" preferredWidth="1647" preferredHeight="838"/>
+
+        <element anchorTop="0" anchorBottom="1" anchorLeft="0" anchorRight="1">
+            <!-- TITULOK YOUR PERSONAL DATA AND GAME PROGRESS WILL BE DELETED IN: -->
+            <element name="txt_title" skin="@typeface_48_white_center_bottom" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="180" model="#GUI3689" preferredWidth="1600" preferredHeight="120"/>
+            <!-- TEXT 1 %s DAYS -->
+            <element name="txt1" skin="@typeface_48_white_center_top" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="330" preferredWidth="1200" preferredHeight="250"/>
+            <!-- TEXT 2 KEEP YOUR ACCOUNT IF YOU WISH TO CONTINUE PLAYING -->
+            <element name="txt2" skin="@oswald_40_white_center_middle" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="370" model="#GUI3690" preferredWidth="1200" preferredHeight="250"/>
+
+            <!-- BUTTON KEEP ACCOUNT -->
+            <element name="btn_keep_acc" skin="@btn_blue_narrow_big" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-160" anchorX="0" preferredWidth="600" preferredHeight="150">
+                <element name="txt_keep_acc" skin="@typeface_48_white_center_middle" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="10" model="#GUI3691" preferredWidth="570" preferredHeight="120"/>
+            </element>
+        </element>
+    </element>
+</element>

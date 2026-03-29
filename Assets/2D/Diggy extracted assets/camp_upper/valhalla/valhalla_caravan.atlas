@@ -1,0 +1,105 @@
+
+valhalla_caravan.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+CONTENT_poziarny_yak_content_yak_content_idle_yak_hlava_idle_Layer11
+  rotate: false
+  xy: 1, 1
+  size: 165, 183
+  orig: 165, 183
+  offset: 0, 0
+  index: -1
+CONTENT_poziarny_yak_content_yak_content_idle_yak_telo_idle_telo1
+  rotate: false
+  xy: 168, 1
+  size: 203, 172
+  orig: 203, 172
+  offset: 0, 0
+  index: -1
+CONTENT_poziarny_yak_content_yak_content_idle_yak_chomut_idle_Layer2
+  rotate: false
+  xy: 373, 1
+  size: 86, 168
+  orig: 86, 168
+  offset: 0, 0
+  index: -1
+CONTENT_poziarny_yak_content_yak_content_idle_yak_hlava_idle_krk_tienik
+  rotate: false
+  xy: 373, 171
+  size: 79, 127
+  orig: 79, 127
+  offset: 0, 0
+  index: -1
+CONTENT_poziarny_yak_content_yak_content_idle_yak_hlava_idle_rohy
+  rotate: false
+  xy: 1, 186
+  size: 210, 115
+  orig: 210, 115
+  offset: 0, 0
+  index: -1
+hamka_Layer1
+  rotate: false
+  xy: 213, 175
+  size: 64, 76
+  orig: 64, 76
+  offset: 0, 0
+  index: -1
+CONTENT_poziarny_yak_content_yak_content_idle_yak_vlasy_idle_Layer4
+  rotate: false
+  xy: 213, 253
+  size: 94, 70
+  orig: 94, 70
+  offset: 0, 0
+  index: -1
+CONTENT_poziarny_yak_content_yak_content_idle_yak_vlasy_mid_idle_Layer1
+  rotate: false
+  xy: 309, 300
+  size: 94, 64
+  orig: 94, 64
+  offset: 0, 0
+  index: -1
+CONTENT_poziarny_yak_content_yak_content_idle_yak_vlasy_bottom_idle_Layer1
+  rotate: false
+  xy: 279, 175
+  size: 90, 55
+  orig: 90, 55
+  offset: 0, 0
+  index: -1
+CONTENT_poziarny_yak_content_yak_content_idle_yak_kopyto_front_idle_Layer1
+  rotate: false
+  xy: 461, 1
+  size: 39, 47
+  orig: 39, 47
+  offset: 0, 0
+  index: -1
+CONTENT_poziarny_yak_content_yak_content_idle_yak_obr_idle_Layer1
+  rotate: false
+  xy: 461, 50
+  size: 40, 32
+  orig: 40, 32
+  offset: 0, 0
+  index: -1
+CONTENT_poziarny_yak_content_yak_content_idle_yak_kopyto_idle_Layer1
+  rotate: false
+  xy: 461, 84
+  size: 42, 30
+  orig: 42, 30
+  offset: 0, 0
+  index: -1
+CONTENT_poziarny_yak_content_yak_main_idle_tienik
+  rotate: false
+  xy: 1, 366
+  size: 347, 30
+  orig: 347, 30
+  offset: 0, 0
+  index: -1
+CONTENT_poziarny_yak_content_yak_content_idle_yak_hlava_idle_nos2
+  rotate: false
+  xy: 461, 116
+  size: 39, 21
+  orig: 39, 21
+  offset: 0, 0
+  index: -1
+

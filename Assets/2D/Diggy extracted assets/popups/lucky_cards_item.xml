@@ -1,0 +1,36 @@
+<element preferredWidth="200" preferredHeight="200">
+
+	<!-- CHEST GLOW -->
+	<element anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="0" anchorY="0" preferredWidth="400" preferredHeight="400">
+		<element name="achievement_glow" skin="@botton_round_glow" color="0xDC8E0D" alpha="0.5" visible="false"
+				 anchorTop="0" anchorBottom="1" anchorLeft="0" anchorRight="1" flushBatch="true"/>
+	</element>
+
+	<element name="spine_holder" skin="@asset" flushBatch="true" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+	<element skin="@invisible" preferredWidth="200" preferredHeight="200"/>
+	<!-- ENERGY REWARD -->
+	<element preferredWidth="125" preferredHeight="90" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"
+			 visible="false" visible.energy="true" anchorY="-5">
+		<p:layout><horizontal gap="5"/></p:layout>
+		<!-- ICON -->
+		<element anchorY="-1" preferredWidth="58" preferredHeight="70" visible="true" visible.front="true" visible.back="false">
+			<element name="energy_icon" skin="@ico_energy" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+		</element>
+		<!-- AMOUNT -->
+		<element name="text" skin="@popup_normal_brown" anchorY="2" visible="true" visible.front="true" visible.back="false"/>
+	</element>
+	<!-- CUSTOM REWARD -->
+	<element preferredWidth="125" preferredHeight="90" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"
+			 visible="false" visible.custom_reward="true" anchorY="-5">
+		<p:layout><horizontal gap="5"/></p:layout>
+		<!-- ICON WITH SHADOW -->
+		<element preferredWidth="90" preferredHeight="90" visible.front="true" visible.back="false" anchorY="-1">
+			<!-- shadow -->
+			<element name="custom_icon_shadow" skin="@asset" visible="true" anchorX="-5" anchorY="5" color="0x000000"/>
+			<!-- icon -->
+			<element name="custom_icon" skin="@asset" visible="true"/>
+		</element>
+		<!-- AMOUNT -->
+		<element name="text_custom_reward" skin="@popup_normal_brown" anchorY="15" visible="true" visible.front="true" visible.back="false"/>
+	</element>
+</element>

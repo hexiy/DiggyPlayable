@@ -1,0 +1,44 @@
+<element anchorLeft="0" anchorTop="0" anchorBottom="1" anchorRight="1">
+
+    <element name="video_button" skin="@btn_orange_narrow" anchorLeft="0" anchorTop="0" anchorBottom="1" anchorRight="1"
+             flushBatch="true" mouseChildren="false">
+
+        <element name="holder"
+                 anchorX="37"
+                 anchorX.offAds="0"
+                 anchorY="6">
+            <p:layout>
+                <horizontal gap="10"/>
+            </p:layout>
+
+            <!--CAMERA ICON-->
+            <element name="camera_icon_holder"
+                     visible="true"
+                     visible.offAds="false"
+                     preferredWidth="84"
+                     preferredHeight="61"
+                     anchorY="54"
+                     anchorAlign="MIDDLE_LEFT"
+                     pivotAlign="MIDDLE_LEFT">
+
+                <element name="icon_ad"
+                         skin="@icon_ad"
+                         anchorLeft="0"
+                         anchorRight="1"
+                         anchorTop="0"
+                         anchorBottom="1"/>
+
+            </element>
+
+            <!--TEXT-->
+            <element name="show_video_btn_txt"
+                     skin="@typeface_48_white_left_middle"
+                     anchorAlign="MIDDLE_CENTER"
+                     pivotAlign="MIDDLE_CENTER"
+                     anchorY="60"
+                     preferredWidth="210"
+                     preferredHeight="130"/>
+        </element>
+    </element>
+
+</element>

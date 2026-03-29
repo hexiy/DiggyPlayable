@@ -1,0 +1,27 @@
+<element name="dailyTasksButton" preferredWidth="152" preferredHeight="174">
+
+	<element name="btn" skin="@btn_round_brown" preferredWidth="152" preferredHeight="174" mouseChildren="false">
+
+		<element name="dailyTasksIcon" skin="@icon_daily_tasks"
+				 anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="-30" anchorX="0"
+				 preferredWidth="120" preferredHeight="120"/>
+
+		<!--PROGRESS BAR-->
+		<element name="progress_bar_holder" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="167" preferredHeight="51" anchorX="0" anchorY="45" >
+			<element name="progress_blackBg" skin="@event_pass_button_xp_bg" preferredWidth="167" preferredHeight="51" anchorX="1" anchorY="0" flushBatch="true"/>
+			<element name="progress" skin="@progress_bar_gray" preferredWidth="155" preferredHeight="41" anchorX="6" anchorY="4" flushBatch="true"/>
+		</element>
+
+		<element name="text" skin="@typeface_31_white_center_middle" visible="false" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="49" preferredWidth="185" preferredHeight="60" flushBatch="true"/>
+
+		<element name="claimNotification" skin="@event_pass_badge" anchorAlign="TOP_RIGHT" pivotAlign="MIDDLE_CENTER" preferredWidth="48" preferredHeight="48"
+				 anchorX="-15" anchorY="25" flushBatch="true">
+			<element model="!" skin="@typeface_36_white_center_middle" pivotAlign="MIDDLE_CENTER" anchorAlign="MIDDLE_CENTER" flushBatch="true" preferredHeight="55" preferredWidth="105" anchorY="5"/>
+		</element>
+
+		<!-- CHECK MARK -->
+		<element name="checkMark" skin="@ico_check_mark" visible="false" anchorX="20" anchorY="-50" anchorAlign="BOTTOM_RIGHT" pivotAlign="BOTTOM_RIGHT"/>
+
+	</element>
+
+</element>

@@ -1,0 +1,70 @@
+<element name="black_screen" skin="@black" anchorTop="0" anchorBottom="1" mouseUp="backMouseUp_handler">
+    <element name="popup_body" preferredWidth="1060" preferredHeight="1100" anchorX="-20" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" mouseUp="buttonRestored_handler">
+
+        <element skin="@bg_brown" preferredWidth="1060" preferredHeight="1100" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+        <element skin="@middle_popup" preferredWidth="1020" preferredHeight="1070" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="15" anchorY="20"/>
+        <element name="btn_cancel" skin="@production_cancel_icon" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" />
+
+        <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="1060" anchorY="65">
+
+            <!-- ikonka diggyho bez energie -->
+            <element name="diggy_icon" skin="@out_of_green_ring" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="-20" preferredWidth="450" preferredHeight="192"/>
+
+            <!-- LINE -->
+            <element anchorLeft=".5" anchorRight=".5" anchorY="165" skin="@popup_line1" pivotAlign="TOP_CENTER"/>
+            <element anchorLeft=".5" anchorRight=".5" anchorY="250" skin="@popup_line2" pivotAlign="TOP_CENTER"/>
+
+            <!-- titulok out of energy -->
+            <element name="popupStaticHeader" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="190" skin="@popup_normal_brown"/>
+
+            <element name="desc" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="290" skin="@popup_medium_brown_ml" preferredWidth="880" preferredHeight="400"/>
+
+            <!-- btn -->
+            <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="850">
+
+                <element name="rewardImage" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+
+                <!-- btn shop -->
+                <!--
+                <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorX="-450">
+                    <element skin="@btn_center1" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="438" preferredHeight="140" visible="true" mouseDown="buttonPushed_handler" mouseUp="onShopMouseUp_handler">
+                        <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="22" preferredHeight="110" preferredWidth="120">
+                            <element skin="@bottom_shop_icon" visible="true" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+                        </element>
+                    </element>
+                </element>
+                -->
+
+                <!-- btn 2x green ring -->
+                <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorX="-245">
+                    <element name="text2x" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="-320" skin="@popup_normal_brown"/>
+                    <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" name="iconRing2x" skin="@asset" anchorY="-270"/>
+                    <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" name="buttonRing2x" skin="@button_green_01" skin.down="@button_green_02" preferredWidth="440" preferredHeight="142" skin.inactive="@shop_btn_inactive" anchorY="0" anchorY.down="7" mouseUp="onBuyRings2x_handler" mouseDown="onBuyDown_handler" mouseOut="extrasBuyOut_handler">
+                        <element preferredWidth="200" preferredHeight="160" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="7">
+                            <p:layout><horizontal gap="10"/></p:layout>
+                            <element name="buttonIcon" skin="@shop_gem_icon1" skin.inactive="@shop_buy_icon_inactive" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="-15"/>
+                            <element name="buttonLabel" skin="@shop_buy_button_gem_font1" skin.inactive="@shop_buy_button_inactive_font" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" />
+                        </element>
+                    </element>
+                </element>
+
+                <!-- btn 10x green ring -->
+                <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorX="245">
+                    <element name="text10x" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="-320" skin="@popup_normal_brown"/>
+                    <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" name="iconRing10x" skin="@asset" anchorY="-270"/>
+                    <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" name="buttonRing10x" skin="@button_green_01" skin.down="@button_green_02" preferredWidth="440" preferredHeight="142" skin.inactive="@shop_btn_inactive" anchorY="0" anchorY.down="7" mouseUp="onBuyRings10x_handler" mouseDown="onBuyDown_handler" mouseOut="extrasBuyOut_handler">
+                        <element preferredWidth="200" preferredHeight="160" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="7">
+                            <p:layout><horizontal gap="10"/></p:layout>
+                            <element name="buttonIcon" skin="@shop_gem_icon1" skin.inactive="@shop_buy_icon_inactive" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="-15"/>
+                            <element name="buttonLabel" skin="@shop_buy_button_gem_font1" skin.inactive="@shop_buy_button_inactive_font" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" />
+                        </element>
+                    </element>
+                </element>
+
+            </element>
+
+        </element>
+
+
+    </element>
+</element>

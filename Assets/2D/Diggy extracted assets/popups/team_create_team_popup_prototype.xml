@@ -1,0 +1,52 @@
+<element name="black_screen" skin="@shade_black" anchorTop="0" anchorBottom="1" mouseUp="backMouseUp_handler">
+    <element name="popup_bg" skin="@small_popup_bg" anchorLeft="0.05" anchorRight="0.95" anchorTop="0.2" anchorBottom="0.8">
+        <element skin="@small_popup_bg_divider" anchorY="65" anchorLeft="0" anchorRight="1"/>
+        <element name="popup_title" skin="@team_header_font" model="#GUI3234" model.isEditing="#GUI3464" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="10" preferredHeight="150" preferredWidth="900" flushBatch="true"/>
+        <element name="team_create_popup_left_part" anchorLeft="0.05" anchorRight="0.25" anchorY="100" preferredHeight="500">
+            <element name="team_detail_logo_holder" skin="@black_bg" preferredWidth="360" preferredHeight="360" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+                <element name="team_detail_logo" skin="@asset" preferredWidth="330" preferredHeight="330" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+                <element name="create_player_logo_change_btn" skin="@btn_blue" preferredWidth="360" preferredHeight="170" anchorY="325" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" mouseChildren="false">
+                    <element name="create_player_logo_change_btn_label" skin="@team_body_font" model="#GUI3235" anchorY="5" anchorX="15" preferredWidth="330" preferredHeight="150" flushBatch="true"/>
+                </element>
+            </element>
+        </element>
+        <element name="team_create_popup_right_part" anchorLeft="0.27" anchorRight="0.95" anchorY="100" preferredHeight="500">
+            <element name="team_create_popup_team_name_holder" preferredHeight="150" preferredWidth="1300" skin="@brown_bg">
+                <element name="team_create_popup_team_name_ti_holder" preferredWidth="1300" preferredHeight="90" anchorX="-60" anchorY="60"/>
+                <element name="team_create_popup_team_name_header" skin="@team_header_font_darker_left" preferredHeight="120" preferredWidth="350" anchorX="20" model="#GUI3227" flushBatch="true"/>
+                <element name="team_create_popup_team_name" preferredHeight="90" preferredWidth="1200" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" anchorX="20" anchorY="60" flushBatch="true"/>
+            </element>
+            <element name="team_create_popup_team_desc_holder" anchorY="165" preferredHeight="335" preferredWidth="1300" skin="@brown_bg">
+                <element name="team_create_popup_team_desc_ti_holder" preferredWidth="1300" preferredHeight="280" anchorX="-60" anchorY="60"/>
+                <element name="team_create_popup_team_desc_header" skin="@team_header_font_darker_left" preferredHeight="120" preferredWidth="350" anchorX="20" model="#GUI3228" flushBatch="true"/>
+                <element name="team_create_popup_team_desc" preferredHeight="280" preferredWidth="1200" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" anchorX="20" anchorY="60" flushBatch="true"/>
+            </element>
+        </element>
+        <element name="team_create_popup_bottom_part" anchorLeft="0.05" anchorRight="0.95" preferredHeight="165" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER">
+            <element name="team_create_team_popup_type_holder" anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT" anchorX="250" preferredWidth="500" preferredHeight="300">
+                <element name="team_create_team_popup_type_holder_lbl" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="340" preferredHeight="120" skin="@team_header_font" model="#GUI3229" flushBatch="true"/>
+                <element name="team_create_team_popup_type_arrow_l" anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT" anchorX="-30" preferredWidth="120" preferredHeight="140" skin="@arrow_left"/>
+                <element name="team_create_team_popup_type_arrow_r" anchorAlign="MIDDLE_RIGHT" pivotAlign="MIDDLE_RIGHT" anchorX="30" preferredWidth="120" preferredHeight="140" skin="@arrow_right"/>
+                <element name="team_create_team_popup_type_bg" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredHeight="130" preferredWidth="330" skin="@brown_bg">
+                    <element name="team_create_team_popup_type_lbl" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" skin="@oswald_bold_85_basic_drevo1" flushBatch="true"/>
+                </element>
+            </element>
+            <element name="team_create_team_popup_min_lvl_holder" anchorAlign="MIDDLE_RIGHT" pivotAlign="MIDDLE_RIGHT" anchorX="-250" preferredWidth="500" preferredHeight="300">
+                <element name="team_create_team_popup_lvl_holder_lbl" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="340" preferredHeight="120" skin="@team_header_font" model="#GUI3232" flushBatch="true"/>
+                <element name="team_create_team_popup_lvl_arrow_l" anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT" anchorX="-30" preferredWidth="120" preferredHeight="140" skin="@arrow_left"/>
+                <element name="team_create_team_popup_lvl_arrow_r" anchorAlign="MIDDLE_RIGHT" pivotAlign="MIDDLE_RIGHT" anchorX="30" preferredWidth="120" preferredHeight="140" skin="@arrow_right"/>
+                <element name="team_create_team_popup_lvl_bg" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredHeight="130" preferredWidth="330" skin="@brown_bg">
+                    <element name="team_create_team_popup_lvl_lbl" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" skin="@oswald_bold_85_basic_drevo1" model="20" flushBatch="true"/>
+                </element>
+            </element>
+            <element name="team_create_team_popup_btn" skin="@btn_green_01" anchorX="0" anchorY="240" preferredWidth="600" preferredHeight="200" mouseChildren="false" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER">
+                <element name="team_create_team_popup_btn_label" skin="@team_body_font" preferredHeight="90" preferredWidth="580" model="#GUI3234" model.isEditing="#GUI3237" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true" anchorY="-50" anchorY.isEditing="0"/>
+                <element name="team_create_team_popup_btn_material_holder" visible="true" visible.isEditing="false" preferredWidth="600" preferredHeight="100" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-20">
+                    <element name="team_create_team_popup_btn_material_asset" skin="@top_coin" preferredHeight="80" preferredWidth="80" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="-55" anchorY="-5"/>
+                    <element name="team_create_team_popup_btn_material_amount" skin="@team_body_font" preferredHeight="90" preferredWidth="490" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true" anchorX="55"/>
+                </element>
+            </element>
+        </element>
+        <element name="btn_close" skin="@preloader_production_cancel_icon" visible="true" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" anchorX="25" anchorY="-25"/>
+    </element>
+</element>

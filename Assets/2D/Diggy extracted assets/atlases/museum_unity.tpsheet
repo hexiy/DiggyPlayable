@@ -1,0 +1,36 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:666de9d555d7ce5c5caa880984ee045b:7175030dc24f892ab7f9c9d3372aa2e1:f47e05aa5dce865e9cdf744760f4b4d5$
+#
+:format=40300
+:texture=museum_unity.png
+:size=1024x1024
+:pivotpoints=disabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+book;4;237;323;399; 0.5;0.5; 0;0;0;0
+book_description;4;132;115;96; 0.5;0.5; 0;0;0;0
+book_holder;336;788;422;139; 0.5;0.5; 0;0;0;0
+book_pages;691;269;21;378; 0.5;0.5; 0;0;0;0
+museum_achiev1;782;599;212;202; 0.5;0.5; 0;0;0;0
+museum_achiev2;781;810;218;210; 0.5;0.5; 0;0;0;0
+museum_achiev_bg;4;809;175;33; 0.5;0.5; 0;0;0;0
+museum_achiev_progress;767;864;2;21; 0.5;0.5; 0;0;0;0
+museum_bg;1008;645;4;375; 0.5;0.5; 0;0;0;0
+museum_bg_shadow;767;894;4;33; 0.5;0.5; 0;0;0;0
+museum_decoration_finished;721;494;209;96; 0.5;0.5; 0;0;0;0
+museum_decoration_finished2;131;652;121;127; 0.5;0.5; 0;0;0;0
+museum_decoration_progress;721;389;209;96; 0.5;0.5; 0;0;0;0
+museum_get_reward_icon;4;27;110;96; 0.5;0.5; 0;0;0;0
+museum_popup_border1;261;656;512;123; 0.5;0.5; 0;0;0;0
+museum_popup_border2;123;60;510;63; 0.5;0.5; 0;0;0;0
+museum_reward;4;649;118;130; 0.5;0.5; 0;0;0;0
+museum_shelf;4;936;768;33; 0.5;0.5; 0;0;0;0
+museum_tab;4;851;309;76; 0.5;0.5; 0;0;0;0
+museum_tab2;336;563;346;84; 0.5;0.5; 0;0;0;0
+museum_top_border;4;978;768;42; 0.5;0.5; 0;0;0;0

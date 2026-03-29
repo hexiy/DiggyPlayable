@@ -1,0 +1,14 @@
+---
+o:go_5077130799139421182
+s|name|CampScreenPrefab
+o:rt_1062795748088341562
+f|anchorMaxX|1
+f|anchorMaxY|1
+o:hx_8341130354148241053|CampScreenBehaviour
+---
+o:go_6433135921925937352
+p:go_5077130799139421182
+s|name|Content
+o:rt_4215187561275413775
+f|anchorMaxX|1
+f|anchorMaxY|1

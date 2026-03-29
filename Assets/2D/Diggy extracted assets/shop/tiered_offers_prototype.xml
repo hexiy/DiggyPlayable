@@ -1,0 +1,21 @@
+<element anchorLeft="0" anchorRight="1" anchorBottom="1" anchorTop="0">
+
+	<element name="shop_bg" skin="@shop_bg" anchorBottom="1" anchorTop="0"/>
+	<element name="listBackground" anchorY="335" preferredHeight="1200"  skin="@shop_mid_bg" mouseDown="scrollMouseDown_handler"/>
+	<element name="list" anchorY="375" mouseDown="scrollMouseDown_handler"/>
+	<element name="shop_border_top" anchorY="315" skin="@shop_border"/>
+	<element name="shop_border_bottom" anchorY="1325" skin="@shop_border"/>
+	<element name="tiered_screen_title" anchorY="162" skin="@oswald_bold_big_white" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"  />
+	<element name="tiered_screen_desc" anchorY="230" skin="@oswald_bold_85_white" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredHeight = "200" preferredWidth="700" />
+
+	<element name="noItemsText" anchorY="770" skin="@oswald_bold_white" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"/>
+	<element name="loading" anchorY="770" skin="@oswald_bold_white" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" visible.na="false" visible.loading="true"/>
+	<element name="offer_not_available" anchorY="770" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" visible.loading="false">
+		<element name="offer_not_available_1" skin="@oswald_bold_white" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"/>
+		<element name="offer_not_available_2" anchorY="60" skin="@oswald_bold_white" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"/>
+	</element>
+    <element name="btn_back" anchorAlign="BOTTOM_LEFT" pivotAlign="BOTTOM_LEFT" skin="@bottom_btn_basic" skin.pressed="@bottom_btn_basic_pressed">
+		<element anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" skin="@bottom_back_icon"/>
+	</element>
+
+</element>

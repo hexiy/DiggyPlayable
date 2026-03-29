@@ -1,0 +1,16 @@
+<element name="black_screen" skin="@black" anchorTop="0" anchorBottom="1" mouseUp="backMouseUp_handler">
+    <element name="popup_body" skin="@middle_popup_half" preferredWidth="760" preferredHeight="800" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+        <element name="text" skin="@shop_item_name_font" preferredWidth="700" preferredHeight="300" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="100"/>
+
+        <!-- FB ICON -->
+        <element name="fbButton" skin="@hud_fb_icon" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="300"/>
+
+        <element name="btn_ok" skin="@btn_center1" skin.pressed="@btn_center2" anchorY="-200" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER">
+            <element name="btn_ok_text" skin="@oswald_bold_85_basic_drevo1" anchorY="8" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+        </element>
+
+        <element name="btn_cancel" skin="@btn_center1" skin.pressed="@btn_center2" anchorY="-70" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER">
+            <element name="btn_cancel_text" skin="@oswald_bold_85_basic_drevo1" anchorY="8" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+        </element>
+    </element>
+</element>

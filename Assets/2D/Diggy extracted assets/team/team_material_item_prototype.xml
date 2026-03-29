@@ -1,0 +1,4 @@
+<element preferredHeight="250" preferredWidth="250" anchorY="0" anchorX="0" pivotAlign="TOP_LEFT" anchorAlign="TOP_LEFT" mouseDown="onTeamHelp_handler">
+            <element name="team_material_asset" preferredHeight="155" preferredWidth="155" anchorY="15" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" skin="@asset"/>
+            <element name="team_material_amount" preferredHeight="100" preferredWidth="320" skin="@team_help_font" model="0" anchorY="60" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" flushBatch="true"/>
+</element>

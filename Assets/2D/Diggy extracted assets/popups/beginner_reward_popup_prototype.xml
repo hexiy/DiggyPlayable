@@ -1,0 +1,27 @@
+<element name="black_screen" skin="@black" anchorTop="0" anchorBottom="1" mouseUp="backMouseUp_handler">
+    <element name="popup_body" skin="@middle_popup_half" preferredWidth="1650" preferredHeight="885" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="-25">
+
+        <element name="title" skin="@map_manager_detail_name_bg" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="1670" anchorY="-10" anchorX="-20" preferredHeight="120">
+            <element name="title_text" skin="@oswald_bold_85_basic_drevo1_big" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="15"/>
+        </element>
+        <element name="btn_cancel" skin="@production_cancel_icon" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" anchorX="-20"/>
+
+        <element anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" anchorY="420" preferredWidth="380" preferredHeight="290">
+            <element skin="@popup_label" preferredWidth="350" preferredHeight="310" anchorX="5"/>
+            <element skin="@popup_plus" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="-20" />
+            <element name="last_text" skin="@oswald_bold_75_autosize_false_halign" preferredWidth="300" preferredHeight="200" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="85"/>
+        </element>
+
+        <element name="rewards_container" preferredWidth="1550" preferredHeight="800" anchorX="70" anchorY="160">
+        </element>
+
+        <element name="btn_ok" skin="@button_green_01" skin.pressed="@button_green_02" anchorY="-170" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" preferredWidth="440" preferredHeight="142" mouseChildren="false">
+            <element name="btn_ok_text" skin="@oswald_46_white_at" anchorY="8" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+        </element>
+        <element name="btn_cancel2" skin="@btn_center1" skin.pressed="@btn_center2" anchorY="-170" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" mouseChildren="false">
+            <element name="btn_cancel2_text" skin="@oswald_bold_85_basic_drevo1" anchorY="8" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+        </element>
+        <element skin="@line1" preferredWidth="1400" anchorX="0" anchorY="-130" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" />
+        <element name="footer_text" skin="@oswald_bold_75" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-50"/>
+    </element>
+</element>

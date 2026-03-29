@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:f167c5791aadbfa55d1c8f69485512bb:17cc52e9ae6e2081fc1be0060ee34cb8:66edf723ffd43670c7bd6e23c1ca792f$ -->
+<TextureAtlas imagePath="camp_mars.png" width="512" height="1024">
+    <SubTexture name="camp_greece_caravan" x="1" y="420" width="204" height="207"/>
+    <SubTexture name="camp_greece_god_bg" x="209" y="420" width="89" height="89"/>
+    <SubTexture name="camp_greece_kitchen" x="337" y="184" width="161" height="139"/>
+    <SubTexture name="camp_greece_lift" x="337" y="406" width="127" height="195" frameX="-2" frameY="0" frameWidth="130" frameHeight="195"/>
+    <SubTexture name="camp_greece_metalurg" x="209" y="605" width="183" height="213"/>
+    <SubTexture name="camp_greece_museum" x="1" y="631" width="183" height="129"/>
+    <SubTexture name="camp_oracle" x="337" y="1" width="167" height="179" frameX="-13" frameY="0" frameWidth="180" frameHeight="179"/>
+    <SubTexture name="elevator" x="337" y="327" width="128" height="75" frameX="-1" frameY="-1" frameWidth="130" frameHeight="76"/>
+    <SubTexture name="pet_house_camp" x="1" y="1" width="332" height="415"/>
+</TextureAtlas>

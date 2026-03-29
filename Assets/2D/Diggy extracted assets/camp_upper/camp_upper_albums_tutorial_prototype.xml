@@ -1,0 +1,15 @@
+    <element skin="@invisible"
+             anchorTop="0" anchorBottom="1" anchorLeft="0" anchorRight="1" mouseUp="addonMuseumMouseDown_handler" flushBatch="true">
+
+        <element anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="880" preferredHeight="350" anchorX="350" anchorY="-100" >
+            <element skin="@popup_bg_tutorial" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="880" preferredHeight="350" />
+
+            <element anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" anchorX="-140" anchorY="-45" preferredWidth="250" preferredHeight="278">
+                <element name="tutorial_character" skin="@asset" anchorLeft="0" anchorTop="0" anchorRight="1" anchorBottom="1"/>
+            </element>
+
+            <element name="albumTutorialText" anchorX="20" skin="@oswald_62_white_left_middle" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" model="#GUI4000"
+                     preferredWidth="700" preferredHeight="320" flushBatch="true"/>
+        </element>
+
+    </element>

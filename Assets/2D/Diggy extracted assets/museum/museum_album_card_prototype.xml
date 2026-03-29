@@ -1,0 +1,26 @@
+<element name="card" preferredWidth="683" preferredHeight="969" skin="@black" mouseUp="onCardMouseUp_handler">
+    <element name="title" skin="@museum_title_white_autosize" preferredWidth="500" preferredHeight="120" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"  anchorX="0" anchorY="80" />
+    <!-- museum_title_white -->
+
+    <element skin="@book_holder"  preferredWidth="633" preferredHeight="208" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-20">
+        <element name="crafting_time_holder" anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT" anchorX="70" anchorY="15">
+            <element skin="@production_time_icon" anchorX="45" anchorY="-5"/>
+            <element name="remaining_time_text" skin="@museum_desc_white" preferredWidth="610" preferredHeight="140"
+                     anchorX="-30" anchorY="-30" model="00:00:00" flushBatch="true" />
+        </element>
+        <element anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT"  anchorY="-15">
+            <element name="ended" visible="true" skin="@museum_desc_white" anchorX="95"
+                     preferredWidth="450" preferredHeight="140" anchorY="0" flushBatch="true" />
+        </element>
+    </element>
+
+    <element skin="@bg_black_edge" preferredWidth="582" preferredHeight="700" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="50">
+        <element name="book" skin="@book"  preferredWidth="323" preferredHeight="399" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER"/>
+        <element skin="@book_description"  preferredWidth="115" preferredHeight="96" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="-55"/>
+        <element skin="@book_pages"  preferredWidth="21" preferredHeight="378" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="203"  anchorY="75"/>
+
+        <element name="completed" skin="@album_completed_stamp"  preferredWidth="158" preferredHeight="162" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" anchorX="64" anchorY="147" flushBatch="true"/>
+    </element>
+
+    <element name="rewardNote" visible="false" skin="@museum_reward" pivotAlign="BOTTOM_CENTER" anchorAlign="TOP_CENTER" anchorY="180"/>
+</element>

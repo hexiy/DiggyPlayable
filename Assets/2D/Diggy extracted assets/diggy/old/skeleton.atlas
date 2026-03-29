@@ -1,0 +1,118 @@
+
+skeleton.png
+size: 2048,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Images/Diggy_120/Brada
+  rotate: false
+  xy: 2, 2
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+Images/Diggy_120/Layer-1
+  rotate: false
+  xy: 124, 2
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+Images/Diggy_120/Noha
+  rotate: false
+  xy: 246, 2
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+Images/Diggy_120/Nos
+  rotate: false
+  xy: 368, 2
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+Images/Diggy_120/Okooo
+  rotate: false
+  xy: 490, 2
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+Images/Diggy_120/Prilba_silt
+  rotate: false
+  xy: 612, 2
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+Images/Diggy_120/Prilba_svetlo
+  rotate: false
+  xy: 734, 2
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+Images/Diggy_120/Prilba_svetlo_back
+  rotate: false
+  xy: 856, 2
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+Images/Diggy_120/Ruka
+  rotate: false
+  xy: 978, 2
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+Images/Diggy_120/Telo1-copy
+  rotate: false
+  xy: 1100, 2
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+Images/Diggy_120/Tvar
+  rotate: false
+  xy: 1222, 2
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+Images/Diggy_120/Ucho
+  rotate: false
+  xy: 1344, 2
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+Images/Diggy_120/Usmev
+  rotate: false
+  xy: 1466, 2
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+Images/Diggy_120/Vlasy
+  rotate: false
+  xy: 1588, 2
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+Images/Diggy_120/Vlasy_bok
+  rotate: false
+  xy: 1710, 2
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+Images/Diggy_120/Zrenicka
+  rotate: false
+  xy: 1832, 2
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1

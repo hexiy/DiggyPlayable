@@ -1,0 +1,217 @@
+<element name="black_screen" skin="@black" anchorTop="0" anchorBottom="1" mouseUp="backMouseUp_handler">
+    <element name="popup_body" skin="@middle_popup_half" preferredWidth="1200" preferredHeight="1230" anchorAlign="MIDDLE_CENTER"
+             pivotAlign="MIDDLE_CENTER" anchorX="-25" anchorX.isOfferWall="105">
+
+        <element anchorTop="0" anchorBottom="1" anchorLeft="0" anchorRight="1">
+            <!-- CHEST CONTENT - at different holder to not overwrite states of its cards on popup state change -->
+            <element name="chest_content_holder" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="140" preferredWidth="680" anchorX="-18">
+                <element name="reward_elem_holder" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" anchorY="-50"/>
+            </element>
+        </element>
+
+        <!-- HOLDER for setting states of popup-->
+        <element name="state_holder" anchorTop="0" anchorBottom="1" anchorLeft="0" anchorRight="1">
+
+            <!-- TITLE -->
+            <element skin="@map_manager_detail_name_bg_half" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"
+                     preferredWidth="1320" preferredHeight="120" anchorY="-70" anchorX="-20">
+                <element model="#GUI3120" skin="@oswald_bold_85_basic_drevo1_big"
+                         anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="15" flushBatch="true"/>
+            </element>
+
+            <!-- SHUFFLE button -->
+            <element visible="false" visible.cards_ready_to_shuffle="true" visible.shuffling="false"
+                     anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"
+                     preferredWidth="340" preferredHeight="142" anchorY="800" anchorX="-15">
+                <element name="btn_shuffle" skin="@button_green_01" skin.pressed="@button_green_02"
+                         preferredWidth="340" preferredHeight="142" mouseChildren="false">
+                    <element name="btn_shuffle_txt" model="#GUI3147" skin="@oswald_43_white_at" anchorY="8"
+                             anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true"/>
+                </element>
+            </element>
+
+            <!-- VIDEO BUTTON-->
+            <element name="videoButtonHolder" visible="false" visible.video_ready="true" visible.video_cooldown="true" preferredWidth="360" preferredHeight="130"
+                     skin="@invisible" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="800" anchorX="0"
+                     mouseEnabled="true" mouseEnabled.video_in_progress="false" mouseEnabled.video_cooldown="false" flushBatch="true"/>
+            <element name="video_unavailable_holder" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorX="-360" anchorY="720"/>
+
+            <!-- HOURGLASS - waiting for video response -->
+            <element name="sand_glass" skin="@sand_glass" visible="false" visible.videoInProgress="true" visible.videoNotInProgress="false"
+                     anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="0" anchorY="-100"
+                     preferredWidth="128" preferredHeight="234"/>
+
+            <!-- LINE SEPARATOR -->
+            <element skin="@line2" preferredWidth="1000" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-260"/>
+
+            <!-- CHEST TITLE -->
+            <element model="#GUI3123" skin="@oswald_S_brown"
+                     anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-180" anchorX="-100"
+                     visible="true" visible.chest_full="false"/>
+            <!-- PROGRESS BAR -->
+            <element name="objectiveProgressBar" preferredWidth="700" preferredHeight="81" anchorY="-140" anchorX="-100"
+                     anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER"
+                     visible="true" visible.chest_full="false">
+                <element preferredWidth="684" preferredHeight="40" anchorX="8" anchorY="60">
+                    <element skin="@quests_progress_bg" anchorLeft="0" anchorRight="1"/>
+                    <element name="chest_progress_fill" skin="@quests_progress_fill"/>
+                    <element name="chest_progress_fraction" skin="@quest_fraction_font" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="7"/>
+                </element>
+                <element skin="@progress_bar" preferredWidth="700" preferredHeight="60" anchorY="50"/>
+                <element preferredWidth="684" preferredHeight="40" anchorX="8" anchorY="60">
+                </element>
+            </element>
+
+            <!-- INFO TEXT -->
+            <element skin="@oswald_M_brown_aoff"
+                     model.picking="#GUI3127"
+                     model.chest_full="#GUI3124"
+                     model.daily_limit_reached="#GUI3122"
+                     model.video_unavailable="#GUI3122"
+                     preferredWidth="900" preferredHeight="150"
+                     visible="false" visible.picking="true" visible.chest_full="true" visible.daily_limit_reached="true"
+                     visible.video_unavailable="true"
+                     anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-240"/>
+
+            <!-- CHEST WITH QUESTION MARK -->
+            <element anchorAlign="BOTTOM_RIGHT" pivotAlign="BOTTOM_RIGHT" anchorY="-80" anchorX="-100"
+                     skin="@video_chest_closed" flushBatch="true" name="chestButton" mouseChildren="false">
+                <element anchorAlign="BOTTOM_RIGHT" pivotAlign="BOTTOM_RIGHT" preferredWidth="80" preferredHeight="80"
+                         anchorX="30" anchorY="30" visible="true" visible.chest_full="false">
+                    <element anchorY="0" skin="@otaznik" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+                </element>
+            </element>
+            <!-- OPEN CHEST BUTTON -->
+            <element visible="false" visible.chest_full="true" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-80"
+                     preferredWidth="310" preferredHeight="142">
+                <element name="btn_open_chest" skin="@button_green_01" skin.pressed="@button_green_02"
+                         preferredWidth="310" preferredHeight="142" mouseChildren="false">
+                    <element name="btn_open_chest_txt" model="#GUI3126" skin="@shop_buy_button_gem_font1" anchorY="8"
+                             anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+                </element>
+            </element>
+            <!-- CHEST INFO TEXT -->
+            <element skin="@oswald_bold_70_basic_drevo2"
+                     model="#GUI3125"
+                     visible="true" visible.chest_full="false"
+                     anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-45" anchorX="-100"/>
+        </element>
+    </element>
+
+    <!-- XXXXXXXXXXXXXX OFFER WALL PART XXXXXXXXXXXXXX -->
+    <element name="offerWallBg" visible="false" visible.isOfferWall="true" flushBatch="true" skin="@middle_popup" preferredWidth="398" preferredHeight="860" anchorX="-700"
+             anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">>
+        <element name="offerWall" visible="false" visible.isOfferWall="true" preferredWidth="370" preferredHeight="830">
+            <element name="promotion_picture" visible="true" skin="@gem_popup_badge_sale" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" anchorY="-75" anchorX="-40" >
+                <element name="promotion_text" model="" skin="@oswald_bold_85_offerwall"
+                         anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="15" anchorX="-15" flushBatch="true"/>
+            </element>
+
+            <element preferredWidth="286" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="36">
+                <element name="offerWallTitle" skin="@oswald_L_blue" model="#GUI3346" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="286" preferredHeight="200"/>
+            </element>
+
+            <element name="offerWallDesc" skin="@oswald_S_blue" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="286" preferredHeight="300" anchorY="205"/>
+
+            <element name="gem_picture" skin="@gem_default_icon" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="480"/>
+
+            <element name="promotion_flag" skin="@popup_label_flag" visible="true" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="500" preferredWidth="416" preferredHeight="80">
+                <element name="offerWallPromotionText" skin="@oswald_XS_white" model=""  flushBatch="true" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="22"/>
+            </element>
+
+            <element name="offerWallEndHolder" anchorAlign="TOP_CENTER" visible="true" pivotAlign="TOP_CENTER" anchorY="595" preferredWidth="416" preferredHeight="80">
+                <element name="offerWallEnd" skin="@oswald_bold_75_center_red" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" />
+            </element>
+
+            <element name="btnOfferWall" skin="@button_blue_01" preferredWidth="304" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorX="10" anchorY="-50" mouseChildren="false">
+                <element name="btnBuyLabel" skin="@oswald_54_white_center_middle" model="#GUI3344"  flushBatch="true" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="40"
+                         preferredWidth="284" preferredHeight="70"/>
+            </element>
+
+            <!-- mizlo to zahadne, ked to bolo v buttone -->
+            <element name="promotion_notification" visible="false" visible.notification="true" preferredWidth="304" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorX="30" anchorY="-210">
+                <element preferredWidth="75" preferredHeight="75" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT"  anchorX="0" anchorY="0">
+                    <element name="questNote" skin="@bottom_quests_notification" flushBatch="true" anchorLeft="0" anchorTop="0" anchorBottom="1" anchorRight="1"/>
+                </element>
+                <element preferredWidth="106" preferredHeight="106" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" anchorX="15" anchorY="-15" >
+                    <element name="questNoteLight" skin="@bottom_quests_notification_highlight" flushBatch="true" anchorLeft="0" anchorTop="0" anchorBottom="1" anchorRight="1" />
+                </element>
+            </element>
+
+
+        </element>
+    </element>
+
+    <!-- XXXXXXXXXXXXXX SECOND TOP POPUP XXXXXXXXXXXXXX -->
+    <element name="black_screen2" skin="@black" anchorTop="0" anchorBottom="1" mouseUp="backMouseUp_handler"
+             visible="false" visible.additional_popup="true"
+             anchorLeft="0" anchorRight="1">
+        <element name="popup_body2" skin="@middle_popup_half" preferredWidth="900" preferredHeight="700" anchorAlign="MIDDLE_CENTER"
+                 pivotAlign="MIDDLE_CENTER" anchorX="-25" flushBatch="true">
+
+            <!-- POSSIBLE REWARDS -->
+            <element visible="false" visible.possible_rewards="true" visible.display_cards="false"
+                     anchorTop="0" anchorBottom="1" anchorLeft="0" anchorRight="1">
+                <!-- TXT -->
+                <element skin="@oswald_M_brown_aoff"
+                         model="#GUI3128"
+                         preferredWidth="900" preferredHeight="150"
+                         anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="50"/>
+
+                <!-- MATERIALS -->
+                <element name="possible_rewards_holder1" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="135">
+                    <p:layout><horizontal gap="0" /></p:layout>
+                </element>
+                <element name="possible_rewards_holder2" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="235">
+                    <p:layout><horizontal gap="0" /></p:layout>
+                </element>
+                <element skin="@oswald_S_brown" model="#GUI3129"
+                         anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="380"/>
+                <!-- COINS -->
+                <element anchorAlign="BOTTOM_LEFT" pivotAlign="BOTTOM_LEFT" preferredWidth="300" preferredHeight="300"
+                         anchorX="100" anchorY="50">
+                    <element name="coin_image" skin="@asset" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"/>
+                    <element skin="@oswald_S_brown" model="#GUI3148"
+                             anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="120"/>
+                </element>
+                <!-- EXP -->
+                <element anchorAlign="BOTTOM_RIGHT" pivotAlign="BOTTOM_RIGHT" preferredWidth="300" preferredHeight="300"
+                         anchorX="-100" anchorY="50">
+                    <element name="exp_image" skin="@asset" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"/>
+                    <element skin="@oswald_S_brown" model="#GUI0064"
+                             anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="120"/>
+                </element>
+            </element>
+            <!-- OPENING CHEST -->
+            <element visible="false" visible.opening_chest="true" visible.display_cards="false"
+                     anchorTop="0" anchorBottom="1" anchorLeft="0" anchorRight="1">
+                <!-- CHEST GLOW -->
+                <element anchorAlign="MIDDLE_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="190" preferredWidth="400" preferredHeight="400">
+                    <element name="achievement_glow" skin="@botton_round_glow" color="0xB4FF00" alpha="0.5" visible="false"
+                             anchorTop="0" anchorBottom="1" anchorLeft="0" anchorRight="1" flushBatch="true"/>
+                </element>
+                <!-- CHEST -->
+                <element name="chest" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="-18" anchorY.chest_opened="-34"
+                         skin="@video_chest_closed" skin.chest_opened="@video_chest_open" flushBatch="true" />
+            </element>
+            <!-- RECEIVED REWARDS -->
+            <element name="card_holder" visible="false" visible.display_cards="true"
+                     preferredWidth="660" preferredHeight="200" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="-80"/>
+            <!-- X BUTTON -->
+            <element visible="false" visible.possible_rewards="true"
+                     anchorTop="0" anchorBottom="1" anchorLeft="0" anchorRight="1">
+                <element name="btn_close_additional_popup" skin="@production_cancel_icon"
+                         anchorX="0" anchorY="0" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" />
+            </element>
+            <!-- CLAIM BUTTON -->
+            <element name="btn_claim" skin="@button_green_01" skin.pressed="@button_green_02"
+                     preferredWidth="310" preferredHeight="142" anchorY="190"
+                     anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" mouseChildren="false">
+                <element model="#GUI2129" skin="@shop_buy_button_gem_font1" anchorY="8" flushBatch="true"
+                         anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+            </element>
+        </element>
+    </element>
+    <!-- DOUBLE OFFER WALL PROMOTERS-->
+    <element name="double_offerwall_promoters" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+</element>

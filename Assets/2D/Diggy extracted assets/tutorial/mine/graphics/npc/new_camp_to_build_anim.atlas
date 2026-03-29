@@ -1,0 +1,56 @@
+
+new_camp_to_build_anim.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+new_camp_to_build_content_new_camp_to_build_dust_double_Layer_1
+  rotate: false
+  xy: 1, 1
+  size: 213, 141
+  orig: 213, 141
+  offset: 0, 0
+  index: -1
+new_camp_to_build_content_new_camp_to_build_sign_main_Layer_1
+  rotate: false
+  xy: 216, 1
+  size: 139, 131
+  orig: 139, 131
+  offset: 0, 0
+  index: -1
+new_camp_to_build_content_new_camp_to_build_dust_ball_Layer_1
+  rotate: false
+  xy: 357, 1
+  size: 101, 98
+  orig: 101, 98
+  offset: 0, 0
+  index: -1
+new_camp_to_build_content_new_camp_to_build_dust_oval_Layer_1
+  rotate: false
+  xy: 357, 101
+  size: 103, 85
+  orig: 103, 85
+  offset: 0, 0
+  index: -1
+new_camp_to_build_content_new_camp_to_build_spark_Layer_1
+  rotate: false
+  xy: 460, 1
+  size: 32, 33
+  orig: 32, 33
+  offset: 0, 0
+  index: -1
+new_camp_to_build_content_new_camp_to_build_hammer_Layer_1
+  rotate: false
+  xy: 494, 1
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+new_camp_to_build_content_new_camp_to_build_nail_Layer_1
+  rotate: false
+  xy: 504, 1
+  size: 3, 5
+  orig: 3, 5
+  offset: 0, 0
+  index: -1
+

@@ -1,0 +1,513 @@
+<element anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1">
+    <element anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1">
+        <element name="topShadow" preferredWidth="5000" preferredHeight="100" skin="@top_hud_bg" anchorX="0" anchorY="-15" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" mouseEnabled="false"/>
+        <!-- exp and energy -->
+
+        <element name="leftHud" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1">
+            <!-- Buttons at left side HUD are no longer in slots. They are positionen automatically below each other -->
+            <!-- TEAM -->
+
+            <element name="buttons_holder" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" anchorY="150" anchorX="54" anchorX.notch="124">
+
+                <element name="teamButton" skin="@btn_blue_narrow_big" pivotAlign="TOP_LEFT" anchorAlign="TOP_LEFT" preferredWidth="200" preferredHeight="153" mouseChildren="false">
+                    <element name="teamButton_logo" skin="@team_button" preferredWidth="98" preferredHeight="105" visible="true" pivotAlign="TOP_CENTER" anchorAlign="TOP_CENTER" anchorX="0" anchorY="-20"/>
+                    <element name="teamButton_label" skin="@typeface_36_white_center_middle" preferredWidth="210" preferredHeight="60" anchorY="30" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" model="#GUI3588" flushBatch="true"/>
+                </element>
+
+                <element name="pixelHubButton" skin="@invisible" anchorX="300" anchorY="80" pivotAlign="MIDDLE_CENTER" preferredWidth="160" preferredHeight="185" mouseChildren="false">
+                    <element name="buttonBg" skin="@btn_round_brown" preferredWidth="160" preferredHeight="185" pivotAlign="MIDDLE_CENTER" anchorAlign="MIDDLE_CENTER"/>
+                    <element name="pixelHubButtonIcon" skin="@btn_pixel_hub" pivotAlign="MIDDLE_CENTER" anchorAlign="MIDDLE_CENTER" anchorX="0" anchorY="-25"
+                             preferredWidth="131" preferredHeight="149" />
+
+                    <element name="pixelHubNotification" skin="@event_pass_badge" anchorAlign="TOP_RIGHT" pivotAlign="MIDDLE_CENTER" preferredWidth="48" preferredHeight="48"
+                             anchorX="-15" anchorY="25"  visible="false" flushBatch="true">
+                        <element name="pixelHubNotificationTxt" skin="@oswald_bold_60_basic_drevo1_autosize_false" pivotAlign="MIDDLE_CENTER" anchorAlign="MIDDLE_CENTER"
+                                 flushBatch="true" preferredHeight="55" preferredWidth="105" anchorY="5" model="!" visible="true"/>
+                    </element>
+                </element>
+
+            </element>
+
+            <!-- MULTI OFFERS-->
+            <element name="multiOffersHolder" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+
+        </element>
+
+
+        <element name="rightHud" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" anchorY="230">
+            <!--    SLOT 1  -->
+            <!-- EVENTS-->
+            <element name="eventsButton" skin="@btn_blue_narrow_big" preferredWidth="200" preferredHeight="153" pivotAlign="MIDDLE_CENTER" anchorAlign="MIDDLE_CENTER">
+                <element name="eventIcon" skin="@ico_events" pivotAlign="BOTTOM_CENTER" anchorAlign="MIDDLE_CENTER" anchorY="-4"/>
+                <element name="eventLabel" skin="@typeface_36_white_center_bottom" preferredWidth="210" preferredHeight="60" model="#GUI3619" flushBatch="true" anchorY="-40" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER"/>
+                <element name="eventsNumberHolder" skin="@bg_black" preferredHeight="60" preferredWidth="60" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" anchorY="8" anchorX="-30">
+                    <element name="eventNumber" skin="@typeface_36_white_center_middle" preferredWidth="60" preferredHeight="60" flushBatch="true"/>
+                </element>
+            </element>
+
+            <!-- Some Buttons at right side HUD are no longer in slots. They are positionen automatically below each other (event pass buttotn is always on slot 4) -->
+            <!-- GLOBAL CONTRACT -->
+            <element name="globalContractButton" skin="@btn_round_brown" anchorX="0" anchorY="200" pivotX=".5" pivotY=".5" preferredWidth="152" preferredHeight="174" visible="false">
+                <element name="timerText" skin="@typeface_36_white_center_middle" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="49" preferredWidth="160" preferredHeight="60" flushBatch="true"/>
+                <element name="globalContractIcon" skin="@asset" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="-30" flushBatch="true"/>
+                <element name="globalContractClick" skin="@invisible" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="160" preferredHeight="160" anchorY="-5"/>
+                <!--
+                <element name="globalContractNotification" visible="false" preferredWidth="75" preferredHeight="75" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT">
+                    <element skin="@bottom_quests_notification_highlight" anchorLeft="0" anchorTop="0" anchorBottom="1" anchorRight="1"/>
+                </element>
+                oswald_bold_60_basic_drevo1_autosize_false
+                -->
+                <element name="globalContractNotification" visible="false" skin="@event_pass_badge" anchorAlign="TOP_RIGHT" pivotAlign="MIDDLE_CENTER" preferredWidth="48" preferredHeight="48"
+                         anchorX="-15" anchorY="25">
+                    <element name="towerPassNotificationTxt" skin="@typeface_36_white_center_middle" pivotAlign="MIDDLE_CENTER" anchorAlign="MIDDLE_CENTER" flushBatch="true" preferredHeight="55" preferredWidth="105" anchorY="5" model="!"/>
+                </element>
+            </element>
+            <!-- FIND THE PAIR-->
+            <element name="findThePairButton" visible="false" skin="@btn_round_brown" preferredWidth="152" preferredHeight="174" anchorX="0" anchorY="200" pivotAlign="MIDDLE_CENTER" mouseChildren="false">
+                <element name="findThePairIcon" skin="@find_the_pair_icon" preferredWidth="120" preferredHeight="120" pivotAlign="MIDDLE_CENTER" anchorAlign="MIDDLE_CENTER" anchorY="-35"/>
+                <element name="timerText" skin="@typeface_36_white_center_middle" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="49" preferredWidth="160" preferredHeight="60" flushBatch="true"/>
+            </element>
+
+            <!-- TOWER -->
+            <element name="towerButton" visible="false" skin="@invisible" preferredWidth="160" preferredHeight="185" anchorX="0" anchorY="200" pivotAlign="MIDDLE_CENTER" mouseChildren="false">
+                <element name="buttonBg" skin="@btn_round_brown" preferredWidth="160" preferredHeight="185" pivotAlign="MIDDLE_CENTER" anchorAlign="MIDDLE_CENTER"/>
+                <element name="finishedButtonBg" skin="@btn_orange_narrow" visible="false" preferredWidth="185" preferredHeight="185" pivotAlign="MIDDLE_CENTER" anchorAlign="MIDDLE_CENTER"/>
+                <element name="towerIcon" skin="@ico_tower" preferredWidth="90" preferredHeight="134" pivotAlign="MIDDLE_CENTER" anchorAlign="MIDDLE_CENTER" anchorY="-35"/>
+
+                <element name="timerText" skin="@typeface_36_white_center_middle" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="50" preferredWidth="185" preferredHeight="60" flushBatch="true" />
+                <element name="tipHolder" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="-400" anchorY="50" preferredWidth="10" preferredHeight="10" />
+
+                <element name="towerPassNotification" skin="@event_pass_badge" anchorAlign="TOP_RIGHT" pivotAlign="MIDDLE_CENTER" preferredWidth="48" preferredHeight="48"
+                         anchorX="-15" anchorY="25">
+                    <element name="towerPassNotificationTxt" skin="@oswald_bold_60_basic_drevo1_autosize_false" pivotAlign="MIDDLE_CENTER" anchorAlign="MIDDLE_CENTER" flushBatch="true" preferredHeight="55" preferredWidth="105" anchorY="5"/>
+                </element>
+            </element>
+
+            <!-- SYSTEM EVENT -->
+            <element name="systemEventButton" visible="false" skin="@btn_round_brown" preferredWidth="160" preferredHeight="185" anchorX="0" anchorY="200" pivotAlign="MIDDLE_CENTER" mouseChildren="false">
+
+                <element name="systemEvent_inactive" skin="@asset" anchorX="10" anchorY="-40" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true" visible="false"/>
+
+                <element anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="-10" preferredWidth="120" preferredHeight="120" >
+                    <element name="systemEvent_reward" skin="@asset" anchorLeft="0" anchorTop="0" anchorRight="1" anchorBottom="1" flushBatch="true" visible="false"/>
+                </element>
+
+                <element name="systemEvent_reward_recurrent" anchorY="-10" skin="@free_story_gift" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="10" flushBatch="true" visible="false"/>
+
+                <element anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" anchorX="0" anchorY="0" preferredWidth="70" preferredHeight="70" >
+                    <element name="systemEvent_requirement" skin="@asset" anchorLeft="0" anchorTop="0" anchorRight="1" anchorBottom="1" flushBatch="true" />
+                </element>
+
+                <element name="timerText" skin="@typeface_36_white_center_middle" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="50" preferredWidth="185" preferredHeight="60" flushBatch="true" />
+                <element name="comingSoonText" skin="@typeface_36_white_center_middle" model="#GUI4903" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="50" preferredWidth="185" preferredHeight="60" flushBatch="true" />
+
+                <element name="systemEvent_progress_bar" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="130" preferredHeight="22" anchorX="0" anchorY="42">
+                    <element name="progress_blackBg" skin="@event_pass_button_xp_bg" preferredWidth="130" preferredHeight="22" anchorX="0" anchorY="0" flushBatch="true"/>
+                    <element name="systemEvent_progress" skin="@progress_bar_gray" preferredWidth="126" preferredHeight="18" anchorX="2" anchorY="2" flushBatch="true" color="0xCE4BFF"/>
+                </element>
+
+                <element name="claimNotification" skin="@event_pass_badge" anchorAlign="TOP_RIGHT" pivotAlign="MIDDLE_CENTER" preferredWidth="63" preferredHeight="63" anchorY="10" anchorX="-5" visible="false">
+                    <element name="claimLabel" skin="@typeface_36_white_center_middle" pivotAlign="MIDDLE_CENTER" anchorAlign="MIDDLE_CENTER" flushBatch="true" preferredHeight="55" preferredWidth="105" anchorY="5"/>
+                </element>
+
+                <element anchorAlign="MIDDLE_RIGHT" pivotAlign="TOP_LEFT" anchorX="-50" anchorY="-30" preferredWidth="60" preferredHeight="60" >
+                    <element name="systemEvent_cliamed" skin="@icon_check_green" anchorLeft="0" anchorTop="0" anchorRight="1" anchorBottom="1" flushBatch="true"/>
+                </element>
+
+            </element>
+
+            <!-- SLOT 4 -->
+            <!-- EVENT PASS -->
+            <element name="eventPassButton" skin="@btn_round_brown" anchorY="567" pivotX=".5" pivotY=".5" preferredWidth="152" preferredHeight="174" visible="false">
+                <element name="eventPassIcon" skin="@event_pass_button" skin.multipass="@ico_multipass"
+                         preferredWidth="128" preferredHeight="164"
+                         preferredWidth.multipass="122" preferredHeight.multipass="148" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"
+                         anchorY="-30" anchorY.multipass="-20"/>
+
+                <element visible="true" visible.multipass="false" anchorAlign="BOTTOM_LEFT" pivotAlign="BOTTOM_LEFT" name="eventPassXpBar_bg" skin="@event_pass_button_xp_bg" preferredWidth="128" preferredHeight="21" anchorX="12" anchorY="-24"/>
+                <element visible="true" visible.multipass="false" anchorAlign="BOTTOM_LEFT" pivotAlign="BOTTOM_LEFT" name="eventPassXpBar" skin="@event_pass_button_xp" preferredHeight="17" anchorX="14" anchorY="-26" preferredWidth="1"/>
+
+                <element name="eventPassNotification" skin="@event_pass_badge" anchorAlign="TOP_RIGHT" pivotAlign="MIDDLE_CENTER" preferredWidth="48" preferredHeight="48"
+                         anchorX="-15" anchorY="25">
+                    <element name="eventPassNotificationTxt" skin="@typeface_36_white_center_middle" pivotAlign="MIDDLE_CENTER" anchorAlign="MIDDLE_CENTER" flushBatch="true" preferredHeight="55" preferredWidth="105" anchorY="5"/>
+                </element>
+            </element>
+            <!-- SLOT 5 -->
+            <element name="flashAdButtonHolder" skin="@invisible" anchorX="0" anchorX.camp_upper="-200" pivotX=".5" pivotY=".5" preferredWidth="152" preferredHeight="174" mouseChildren="false">
+                <element skin="@btn_round_brown" anchorX="0" anchorY="0" pivotAlign="MIDDLE_CENTER" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+                <!-- HOLDER FOR PROGRESS "PARTS" -->
+                <element name="flashAdButtonProgressHolder" anchorY="-12" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="139" preferredHeight="139"/>
+                <element anchorAlign="MIDDLE_CENTER" anchorY="-12" pivotAlign="MIDDLE_CENTER" preferredWidth="137" preferredHeight="137">
+                    <element skin="@btn_round_brown_mid" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+                </element>
+                <element anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="98" preferredHeight="135">
+                    <element name="flashAdButtonIcon" anchorAlign="MIDDLE_CENTER" anchorY="0" pivotAlign="BOTTOM_CENTER"/>
+                </element>
+            </element>
+        </element>
+
+        <element name="top_left_part" pivotAlign="TOP_LEFT" anchorAlign="TOP_LEFT" anchorY="15">
+
+            <element name="storypass_wrapper" visible="false" preferredWidth="232"  pivotAlign="TOP_LEFT" anchorAlign="TOP_LEFT" anchorX="51" anchorY="100" >
+                <element name="progressBar_blackBg" skin="@bg_black" preferredWidth="230" preferredHeight="42" anchorY="28" anchorX="29" mouseUp="storyPassBarMouseUp_handler"/>
+                <element name="progressBar" skin="@top_bar_exp" preferredHeight="33" anchorX="31" anchorY="32" mouseUp="storyPassBarMouseUp_handler"/>
+                <element name="top_left_bg_01" skin="@top_left_alpha_bg" preferredHeight="50" preferredWidth="240" anchorY="24" anchorX="27" mouseUp="storyPassBarMouseUp_handler"/>
+                <element name="storyPassMaterialIcon" skin="@ico_story_pass" anchorX="-10" anchorY="12" flushBatch="true" mouseUp="storyPassBarMouseUp_handler" />
+
+                <element name="storypass_notification" skin="@event_pass_badge" anchorAlign="TOP_RIGHT" pivotAlign="MIDDLE_CENTER" preferredWidth="35" preferredHeight="35" anchorY="30" anchorX="30">
+                    <element name="storypass_notification_txt" skin="@oswald_bold_50_basic_drevo1_autosize_false" pivotAlign="MIDDLE_CENTER"
+                             anchorAlign="MIDDLE_CENTER" flushBatch="true" preferredHeight="55" preferredWidth="105" anchorY="3" anchorX="-2" model="12"/>
+                </element>
+
+            </element>
+
+            <element name="top_exp_energy_wrapper" >
+                <element name="top_exp_wrapper" anchorX="51" />
+                <element name="top_tower_energy_wrapper" anchorX="51" />
+                <element name="top_energy_wrapper" anchorX="361" />
+            </element>
+
+            <element name="pet_energy_wrapper"
+                     visible="false" preferredWidth="280"  pivotAlign="TOP_LEFT" anchorAlign="TOP_LEFT" anchorX="351" anchorY="100" mouseUp="petEnergyButton_handler">
+                <element name="blackBg" skin="@bg_black" preferredWidth="240" preferredHeight="42" anchorY="28" anchorX="29"/>
+                <element name="progressBar" skin="@top_bar_pet_energy" preferredHeight="33" anchorX="31" anchorY="32"/>
+                <element name="top_left_bg_01" skin="@top_left_alpha_bg" preferredHeight="50" preferredWidth="250" anchorY="24" anchorX="27"/>
+                <element name="icon" skin="@asset" anchorX="-10" anchorY="12" flushBatch="true" />
+                <element name="text" skin="@typeface_36_white_center_middle" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="32"
+                         anchorX="25" flushBatch="true" preferredHeight="50" preferredWidth="200"/>
+            </element>
+
+            <element name="special_energy_wrapper"
+                     visible="false" preferredWidth="382"  pivotAlign="TOP_LEFT" anchorAlign="TOP_LEFT" anchorX="351" anchorY="100" >
+
+                <element mouseUp="onSpecialEnergyButtonCLicked_handler" mouseEnabled="true" preferredWidth="382" preferredHeight="42" >
+                    <element name="blackBg" skin="@bg_black" preferredWidth="380" preferredHeight="42" anchorY="28" anchorX="29"/>
+                    <element name="progressBar" skin="@progress_bar_gray" preferredHeight="33" anchorX="31" anchorY="32"/>
+                    <element skin="@top_left_alpha_bg" preferredHeight="50" preferredWidth="390" anchorY="24" anchorX="27"/>
+                    <element name="icon" skin="@asset" anchorX="-10" anchorY="12" flushBatch="true" />
+                    <element name="text" skin="@typeface_36_white_center_middle" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="32"
+                             anchorX="25" flushBatch="true" preferredHeight="50" preferredWidth="350"/>
+                </element>
+
+                <element name="addSpecialEnergyButton" visible="true" skin="@invisible" anchorX="374" anchorY="20" preferredWidth="70" preferredHeight="80" mouseEnabled="true" flushBatch="true"
+                         mouseUp="onAddSpecialEnergyButtonCLicked_handler">
+                    <element skin="@btn_blue_narrow"  anchorX="0" anchorY="0" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"
+                             preferredWidth="70" preferredHeight="80" mouseEnabled="true" mouseChildren="false" flushBatch="true">
+                        <element skin="@icon_plus" anchorY="-13" flushBatch="true" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" mouseEnabled="false"/>
+                    </element>
+                </element>
+            </element>
+
+            <element name="petEnergyPopup" skin="@tooltip_body" visible="false" preferredWidth="550" preferredHeight="518" anchorX="350" anchorY="212">
+                <element name="petEnergyPopupHeight" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"  anchorX="0" anchorY="15">
+                    <element anchorY="0" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+                        <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="35" preferredWidth="450">
+                            <element name="petEnergyIconHolder" preferredWidth="60" preferredHeight="60" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="35">
+                                <element name="petEnergyIcon" skin="@ico_pet_energy" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1" flushBatch="true"/>
+                            </element>
+                            <element name="petEnergyStatusLabel" skin="@oswald_32_black_center_middle" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="35"
+                                     anchorX="25" preferredWidth="320" preferredHeight="50" model="" flushBatch="true"/>
+
+                        </element>
+                        <element name="petEnergyStatusValue" skin="@oswald_32_black_center_middle" anchorY="100" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"
+                                 preferredHeight="50" preferredWidth="440" flushBatch="true"/>
+
+                        <element name="treatPanel" >
+                            <element skin="@bg_black" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="155" anchorX="0" preferredHeight="3" preferredWidth="450"/>
+
+                            <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="160">
+                                <element preferredWidth="60" preferredHeight="60" anchorY="5" anchorX="-200">
+                                    <element name="petTreatIcon" skin="@ico_pet_cookie" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"
+                                              flushBatch="true"/>
+                                </element>
+                                <element name="petTreatLabel" skin="@oswald_32_black_left_middle" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="40" anchorX="25"
+                                         preferredWidth="305" preferredHeight="50" flushBatch="true" model="#GUI4102"/>
+                            </element>
+
+                            <element name="petEnergyHourValue" skin="@oswald_32_black_right_middle" anchorAlign="TOP_CENTER" pivotAlign="TOP_RIGHT" anchorX="-5" anchorY="224"
+                                     preferredHeight="50" preferredWidth="440" flushBatch="true"/>
+
+                            <element preferredWidth="40" preferredHeight="40" anchorX="6" anchorY="224">
+                                <element skin="@ico_pet_energy" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1" flushBatch="true"/>
+                            </element>
+                        </element>
+
+                        <element name="regenPanel" >
+                            <element skin="@bg_black" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="155" anchorX="0" preferredHeight="3" preferredWidth="450"/>
+
+                            <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="160">
+                                <element name="petRegenLabel" skin="@oswald_32_black_center_middle" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"
+                                         anchorY="40" anchorX="0"
+                                         preferredWidth="305" preferredHeight="50" flushBatch="true" model="#GUI4213"/>
+                            </element>
+
+                            <element name="regenPanelRow" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"
+                                     preferredWidth="435" preferredHeight="55" anchorY="244">
+                                <element name="petRegenValue" skin="@oswald_32_black_right_middle" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"
+                                         anchorX="0"
+                                         preferredHeight="50" preferredWidth="440" flushBatch="true"/>
+
+                                <element name="petRegenIco" preferredWidth="40" preferredHeight="40" anchorX="0" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+                                    <element skin="@ico_pet_energy" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1" flushBatch="true"/>
+                                </element>
+                            </element>
+                        </element>
+
+                        <element name="vitalityCountdown" >
+                            <element skin="@bg_black" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="275" anchorX="0" preferredHeight="3" preferredWidth="450"/>
+
+                            <element name="petVitalityTimeLabel" skin="@oswald_32_black_center_middle" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="290" preferredHeight="50" preferredWidth="440" flushBatch="true" model="#GUI4290"/>
+
+                            <element name="petVitalityTimeValue" skin="@oswald_32_black_center_middle" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="334" preferredHeight="50" preferredWidth="440" flushBatch="true" model="24:24:59"/>
+                        </element>
+
+                        <element name="bottomSection" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="280" anchorX="0">
+
+                            <element skin="@bg_black" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="0" anchorX="0" preferredHeight="3" preferredWidth="450"/>
+
+                            <element name="petMoreVitalityText" skin="@oswald_32_black_center_middle" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="25" preferredHeight="50" preferredWidth="440" flushBatch="true" model="#GUI4105"/>
+
+                            <!-- mouseDown="onPetShopClick_handler" -->
+                            <element name="petShopBtn" anchorY="185" preferredWidth="267" preferredHeight="100" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER">
+                                <element skin="@btn_blue_narrow" anchorLeft="0" anchorTop="0" anchorRight="1" anchorBottom="1" mouseEnabled="true" mouseChildren="false">
+
+                                    <element name="petShopBtnText" model="#GUI4071" skin="@typeface_48_white_center_middle" preferredWidth="210" preferredHeight="50" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="0" anchorY="-10" flushBatch="true" />
+                                </element>
+
+                            </element>
+
+                        </element>
+                    </element>
+
+
+
+                </element>
+                <element name="energyPopupArrow" skin="@tooltip_up" anchorX="110" anchorY="-32"/>
+            </element>
+
+            <element name="specialEnergyPopup" skin="@tooltip_body" visible="false" preferredWidth="550" preferredHeight="518" anchorX="350" anchorY="212">
+                <element name="popup_body" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorX="0" anchorY="15">
+                    <element anchorY="0" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+                        <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="450" anchorX="0" anchorY="25">
+                            <element name="iconHolder" preferredWidth="60" preferredHeight="60" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="25" anchorX="-30">
+                                <element name="icon" skin="@asset" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1" flushBatch="true"/>
+                            </element>
+                            <element name="statusLabel" skin="@oswald_43_black_center_middle" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="35"
+                                     anchorX="45" preferredWidth="320" preferredHeight="50" model="" flushBatch="true"/>
+
+                        </element>
+                        <element name="statusValue" skin="@oswald_43_black_center_middle" anchorY="100" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"
+                                 preferredHeight="50" preferredWidth="440" flushBatch="true"/>
+
+                        <element name="regenPanel" >
+                            <element skin="@bg_black" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="155" anchorX="0" preferredHeight="3" preferredWidth="450"/>
+
+                            <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="160">
+                                <element name="regenLabel" skin="@oswald_43_black_center_middle" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"
+                                         anchorY="40" anchorX="0"
+                                         preferredWidth="500" preferredHeight="50" flushBatch="true" model="#GUI4213"/>
+                            </element>
+
+                            <element name="regenPanelRow" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"
+                                     preferredWidth="435" preferredHeight="55" anchorY="244">
+                                <element name="regenValue" skin="@oswald_43_black_right_middle" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"
+                                         anchorX="-150" anchorY="10"
+                                         preferredHeight="50" preferredWidth="440" flushBatch="true"/>
+
+                                <element name="regenIconHolder" preferredWidth="57" preferredHeight="57" anchorX="150" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_RIGHT">
+                                    <element name="regenIcon" skin="@asset" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1" flushBatch="true"/>
+                                </element>
+                            </element>
+                        </element>
+
+                    </element>
+
+
+
+                </element>
+                <element name="energyPopupArrow" skin="@tooltip_up" anchorX="110" anchorY="-32"/>
+            </element>
+
+            <element name="expPopup" skin="@tooltip_body" visible="false" preferredWidth="542" preferredHeight="310" anchorX="90" anchorY="112">
+                <element name="expPopupBody" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" preferredWidth="472" preferredHeight="190" anchorX="0" anchorY="-70">
+                    <element name="expIconExpPopup" skin="@asset" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" anchorX="26" anchorY="4"/>
+                    <element name="expLabel" skin="@oswald_bold_42_align_center_top" anchorX="117" anchorY="23" preferredHeight="120" preferredWidth="335" flushBatch="true"/>
+                    <element skin="@bg_black" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="94" preferredHeight="5" preferredWidth="300"/>
+                    <element name="expValue" skin="@oswald_bold_42_align_center_top" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="128"  preferredHeight="120" preferredWidth="472" flushBatch="true"/>
+                </element>
+                <element name="expPopupArrow" skin="@tooltip_up" anchorX="100" anchorY="-32"/>
+            </element>
+
+            <element name="energyPopup" skin="@tooltip_body" visible="false" preferredWidth="542" preferredHeight="420" anchorX="250" anchorY="112">
+                <element name="energyPopupHeight" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="470" anchorX="0" anchorY="15">
+                    <element anchorY="0" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+                        <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="20">
+                            <!--                                <p:layout><horizontal gap="0" /></p:layout>-->
+                            <element name="energyIcon" skin="@asset" anchorY="0" anchorX="-180" flushBatch="true"/>
+                            <element name="energyStatusLabel" skin="@oswald_bold_42_align_center_top" anchorY="15" anchorX="-120" preferredHeight="120" preferredWidth="310" flushBatch="true"/>
+                        </element>
+                        <element name="energyStatusValue" skin="@oswald_bold_42_align_center_top" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="130" preferredHeight="120" preferredWidth="440" flushBatch="true"/>
+                        <element skin="@bg_black" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="197" anchorX="0" preferredHeight="5" preferredWidth="300"/>
+                        <element name="energyHourLabel" skin="@oswald_bold_42_align_center_top" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="221" preferredHeight="120" preferredWidth="440" flushBatch="true"/>
+                        <element name="energyHourValue" skin="@oswald_bold_42_align_center_top" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="288" preferredHeight="120" preferredWidth="440" flushBatch="true"/>
+                    </element>
+
+                    <element name="energyCountdown" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="357" visible="false">
+                        <element skin="@bg_black" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorX="0" preferredHeight="5" preferredWidth="300"/>
+                        <element name="energyTimeLabel" skin="@oswald_bold_42_align_center_top" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="28" preferredHeight="120" preferredWidth="440" flushBatch="true"/>
+                        <element name="energyTimeValue" skin="@oswald_bold_42_align_center_top" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="95" preferredHeight="120" preferredWidth="440" flushBatch="true"/>
+                    </element>
+
+                    <element name="speedupCtrl" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="512" visible="false">
+                        <element skin="@bg_black" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorX="0" preferredHeight="5" preferredWidth="300"/>
+                        <element name="speedupCtrlTimeLabel" skin="@oswald_bold_42_align_center_top" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="28" preferredHeight="120" preferredWidth="440" flushBatch="true"/>
+                        <element name="speedupCtrlValue" skin="@oswald_bold_42_align_center_top" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="95" preferredHeight="120" preferredWidth="440" flushBatch="true"/>
+                    </element>
+                </element>
+                <element name="energyPopupArrow" skin="@tooltip_up" anchorX="300" anchorY="-32"/>
+            </element>
+
+            <element name="towerEnergyPopup" skin="@tooltip_body" visible="false" preferredWidth="542" preferredHeight="420" anchorX="50" anchorY="112">
+                <element name="towerEnergyPopupHeight" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="470" anchorX="0" anchorY="15">
+                    <element anchorY="0" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+                        <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="20">
+                            <!--                                <p:layout><horizontal gap="0" /></p:layout>-->
+                            <element name="towerEnergyIcon" skin="@asset" anchorY="0" anchorX="-180" flushBatch="true"/>
+                            <element name="towerEnergyStatusLabel" skin="@oswald_bold_42_align_center_top" anchorY="15" anchorX="-120" preferredHeight="120" preferredWidth="310" flushBatch="true"/>
+                        </element>
+                        <element name="towerEnergyStatusValue" skin="@oswald_bold_42_align_center_top" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="130" preferredHeight="120" preferredWidth="440" flushBatch="true"/>
+                        <element skin="@bg_black" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="197" anchorX="0" preferredHeight="5" preferredWidth="300"/>
+                        <element name="towerEnergyHourLabel" skin="@oswald_bold_42_align_center_top" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="221" preferredHeight="120" preferredWidth="440" flushBatch="true"/>
+                        <element name="towerEnergyHourValue" skin="@oswald_bold_42_align_center_top" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="288" preferredHeight="120" preferredWidth="440" flushBatch="true"/>
+                    </element>
+
+                    <element name="towerEnergyCountdown" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="357" visible="false">
+                        <element skin="@bg_black" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorX="0" preferredHeight="5" preferredWidth="300"/>
+                        <element name="towerEnergyTimeLabel" skin="@oswald_bold_42_align_center_top" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="28" preferredHeight="120" preferredWidth="440" flushBatch="true"/>
+                        <element name="towerEnergyTimeValue" skin="@oswald_bold_42_align_center_top" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="95" preferredHeight="120" preferredWidth="440" flushBatch="true"/>
+                    </element>
+
+                </element>
+                <element name="energyPopupArrow" skin="@tooltip_up" anchorX="190" anchorY="-32"/>
+            </element>
+
+        </element>
+        <!-- location (outside of camp) and night-day switch (in camp) -->
+        <element name="top_middle_part" pivotAlign="TOP_CENTER" anchorAlign="TOP_CENTER" anchorX="0" anchorY="15">
+            <element name="top_loc_name_wrapper" preferredWidth="472" pivotAlign="TOP_CENTER" anchorAlign="TOP_CENTER"
+                     visible="true" visible.switch_visible="false">
+                <element name="top_mid_bg_02" preferredWidth="472" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" flushBatch="true"  mouseEnabled="false">
+                    <element name="top_mid_bg_click_wrapper" anchorX="0" preferredWidth="472" preferredHeight="100" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" mouseEnabled="false">
+                        <element name="locationLabel" skin="@oswald_40_white_center_top" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="30" preferredWidth="402" mouseEnabled="false"
+                                 preferredHeight="100" preferredHeight.newEventScreen="60"/>
+                    </element>
+                </element>
+                <element name="progressPopupButton" skin="@invisible" anchorX="0" preferredWidth="200" preferredHeight="100" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" />
+                <element name="progressPopup" skin="@tooltip_body" visible="false" preferredWidth="542" preferredHeight="400" preferredHeight.no_reward="225" anchorX="0" anchorY="152">
+                    <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="536" preferredHeight="350" preferredHeight.no_reward="225" anchorX="0" anchorY="-10">
+                        <element name="progressLabel" skin="@popup_font" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="63" flushBatch="true"/>
+                        <element name="progressValue" skin="@popup_font" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="130" flushBatch="true"/>
+                        <element preferredWidth="542" preferredHeight="400" visible="true" visible.no_reward="false">
+                            <element skin="@bg_black" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="197" preferredHeight="5" preferredWidth="300"/>
+                            <element name="expIconProgressPopup" skin="@asset" anchorX="156" anchorY="266" flushBatch="true"/>
+                            <element name="rewardLabel" skin="@popup_font" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="221" flushBatch="true"/>
+                            <element name="rewardValue" skin="@popup_font" anchorX="240" anchorY="288" flushBatch="true"/>
+                        </element>
+                    </element>
+                    <element name="progressPopupArrow" skin="@tooltip_up" anchorX="231" anchorY="-32"/>
+                </element>
+            </element>
+            <element name="top_daynight_switch_wrapper" skin="@invisible" pivotAlign="TOP_CENTER" anchorAlign="TOP_CENTER" preferredWidth="472" visible="false"
+                     preferredHeight.switch_visible="80" preferredWidth.switch_visible="200" visible.switch_visible="true"
+                     anchorY="18" mouseChildren="false">
+                <element name="background" skin="@bg_blue" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="80" preferredHeight="36" anchorY="-7"/>
+                <element skin="@top_left_alpha_bg" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="0" preferredWidth="90" preferredHeight="50"/>
+                <element name="campSwitchDot" skin="@btn_blue_narrow" anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT" anchorY="10" anchorX="34" preferredWidth="70" preferredHeight="80">
+                    <element name="campSwitchIcon" skin="@icon_day" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="-12"/>
+                </element>
+            </element>
+
+            <element name="top_tower_crowns_mine_wrapper" visible="false" pivotAlign="TOP_CENTER" anchorAlign="TOP_CENTER"
+                     preferredWidth="667" preferredHeight="90" anchorY="25" >
+                <element skin="@header_small_purple" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1" />
+                <element name="floorName" skin="@typeface_40_white_at" pivotAlign="MIDDLE_LEFT"
+                         anchorAlign="MIDDLE_LEFT" model="" anchorX="30" anchorY="5" preferredWidth="260" preferredHeight="60" flushBatch="true"/>
+
+                <element name="tower_crown1" skin="@tower_shieldEmpty" pivotAlign="MIDDLE_RIGHT" anchorAlign="MIDDLE_RIGHT" preferredWidth="91" preferredHeight="105" anchorX="-250" anchorY="18" flushBatch="true" />
+                <element name="tower_crown2" skin="@tower_shieldEmpty"  pivotAlign="MIDDLE_RIGHT" anchorAlign="MIDDLE_RIGHT" preferredWidth="91" preferredHeight="105" anchorX="-140" anchorY="18" flushBatch="true" />
+                <element name="tower_crown3" skin="@tower_shieldEmpty" pivotAlign="MIDDLE_RIGHT" anchorAlign="MIDDLE_RIGHT" preferredWidth="91" preferredHeight="105" anchorX="-30" anchorY="18" flushBatch="true" />
+            </element>
+
+            <element name="tower_crown_popup" skin="@tooltip_body" visible="false" pivotAlign="TOP_CENTER" anchorAlign="TOP_CENTER"
+                     preferredWidth="700" preferredHeight="180" anchorY="150">
+                <element name="tower_crown_label" skin="@oswald_bold_42_align_center_middle" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"
+                         anchorX="0" anchorY="0" preferredHeight="100" preferredWidth="600" flushBatch="true" model="You unlocked FLOOR 22!"/>
+            </element>
+        </element>
+        <!-- news, coins, gems and settings -->
+        <element name="top_right_part" pivotAlign="TOP_RIGHT" anchorAlign="TOP_RIGHT" anchorY="15">
+            <element name="top_news_wrapper" preferredWidth="90" preferredHeight="100" pivotAlign="TOP_RIGHT" anchorAlign="TOP_RIGHT" anchorX="-830">
+                <element name="news_button" skin="@btn_blue_narrow" flushBatch="true" anchorX="0" anchorY="20" preferredWidth="90" preferredHeight="80" mouseChildren="false">
+                    <element name="news_notification" skin="@event_pass_badge" anchorAlign="TOP_RIGHT" pivotAlign="MIDDLE_CENTER" preferredWidth="35" preferredHeight="35" anchorY="5" anchorX="-5">
+                        <element name="news_notification_txt" skin="@oswald_bold_50_basic_drevo1_autosize_false" pivotAlign="MIDDLE_CENTER"
+                                 anchorAlign="MIDDLE_CENTER" flushBatch="true" preferredHeight="55" preferredWidth="105" anchorY="3" anchorX="-2"/>
+                    </element>
+
+
+                    <element name="ico_news"  skin="@ico_news" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="0" anchorY="-12" flushBatch="true" />
+                </element>
+            </element>
+
+            <element name="top_coins_gems_wrapper" preferredWidth="734" pivotAlign="TOP_RIGHT" anchorAlign="TOP_RIGHT" visible="false">
+                <element name="top_coins_wrapper" anchorX="-60" />
+                <element name="top_pixel_coins_wrapper" anchorX="-60" />
+                <element name="top_gems_wrapper"  anchorX="342" />
+
+                <element name="top_tower_coins_wrapper" anchorX="-10" />
+                <element name="top_tower_crowns_wrapper" anchorX="372" />
+
+                <element preferredWidth="230" preferredHeight="80" anchorX="382" anchorY="65">
+                    <element name="gemSaleEventTimer" visible="false" skin="@camp_ui_switch_btn_switcher" color="0xFD0303" mouseUp="onGemSaleEventTimer"
+                             anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+
+                    <element name="gemSaleEventCountdown" visible="false" skin="@typeface_36_white_right_middle" preferredWidth="230" preferredHeight="80" anchorX="-38" anchorY="0"
+                             flushBatch="true" mouseEnabled="false"/>
+                </element>
+            </element>
+
+            <element name="top_settings_holder" preferredWidth="95" pivotAlign="TOP_RIGHT" anchorAlign="TOP_RIGHT" anchorY="24">
+                <element name="top_mid_bg_01" skin="@top_mid_bg_01" anchorX="0" preferredHeight="90" preferredWidth="72">
+
+                    <element name="settings_notification" skin="@event_pass_badge" anchorAlign="TOP_LEFT" pivotAlign="MIDDLE_CENTER" preferredWidth="35" preferredHeight="35" anchorY="5" anchorX="5">
+                        <element name="settings_notification_txt" skin="@typeface_32_white_center_middle" pivotAlign="MIDDLE_CENTER"
+                                 anchorAlign="MIDDLE_CENTER" flushBatch="true" preferredHeight="55" preferredWidth="105" anchorY="3"
+                                 model="!"/>
+                    </element>
+                </element>
+            </element>
+
+            <element name="coinPopup" skin="@tooltip_body" visible="false" preferredWidth="542" preferredHeight="250" anchorX="80" anchorY="112">
+                <element name="coinPopupBody" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="370" preferredHeight="206" anchorX="0" anchorY="0">
+                    <element name="coinLabel" skin="@oswald_bold_42_align_center_middle" anchorX="0" anchorY="-20" preferredHeight="250" preferredWidth="350" flushBatch="true"/>
+                </element>
+                <element name="coinPopupArrow" skin="@tooltip_up" anchorX="100" anchorY="-32"/>
+            </element>
+
+            <element name="gemsPopup" skin="@tooltip_body" visible="false" preferredWidth="542" preferredHeight="250" anchorX="300" anchorY="112" mouseUp="onGemsPopup">
+                <element name="gemsPopupBody" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="370" preferredHeight="206" anchorX="0" anchorY="0">
+                    <element name="gemsPopupLabel" skin="@oswald_bold_42_align_center_middle" anchorX="0" anchorY="-20" preferredHeight="250" preferredWidth="350" flushBatch="true"/>
+                </element>
+                <element name="gemsPopupArrow" skin="@tooltip_up" anchorX="300" anchorY="-32"/>
+            </element>
+
+            <element name="towerCoinTooltip" skin="@tooltip_body" visible="false" preferredWidth="542" preferredHeight="250" anchorX="380" anchorY="112">
+                <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="370" preferredHeight="206" anchorX="0" anchorY="0">
+                    <element skin="@oswald_bold_32_align_center_middle" model="#GUI3981" anchorX="15" anchorY="0" preferredHeight="250" preferredWidth="350" flushBatch="true"/>
+                </element>
+                <element skin="@tooltip_up" anchorX="240" anchorY="-32"/>
+            </element>
+        </element>
+    </element>
+
+    <element name="shade" skin="@shade_black" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="0" preferredHeight="2048" visible="false" flushBatch="true" mouseChildren="true" mouseEnabled="true"/>
+</element>

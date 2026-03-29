@@ -1,0 +1,18 @@
+<element name="team_message_body" preferredHeight="360" preferredWidth="2400" anchorY="-100" anchorX="50" pivotAlign="TOP_CENTER" anchorAlign="TOP_CENTER">
+    <!--  MESSAGE SENDER LOGO  -->
+    <element name="team_message_sender_logo_holder" skin="@black_bg" preferredWidth="250" preferredHeight="250" anchorY="25" visible="true" visible.my_message="false">
+        <element name="team_message_sender_logo" preferredWidth="235" preferredHeight="235" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" skin="@asset"/>
+    </element>
+    <!--  MESSAGE SENDER NAME  -->
+    <element name="team_message_sender_name" visible="true" anchorX="275" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" pivotAlign.my_message="TOP_RIGHT" anchorAlign.my_message="TOP_RIGHT" preferredWidth="1400" preferredHeight="80" skin="@team_chat_sender_font" skin.my_message="@team_chat_sender_my_message_font" flushBatch="true"/>
+
+    <!--    TIMESTAMP    -->
+    <element name="team_message_timestamp" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" preferredWidth="850" preferredHeight="80" skin="@team_chat_timestamp_font" skin.my_message="@team_chat_timestamp_my_message_font" flushBatch="true"/>
+
+    <element name="team_message_bg" skin="@dialog_brown" skin.my_message="@dialog_blue" preferredWidth="2125" preferredHeight="280" anchorX="275" anchorX.my_message="0" pivotAlign.my_message="BOTTOM_RIGHT" anchorAlign.my_message="BOTTOM_RIGHT" pivotAlign="BOTTOM_LEFT" anchorAlign="BOTTOM_LEFT">
+        <!--    MESSAGE HOLDER    -->
+        <element name="team_message_holder" visible="true">
+            <element name="team_message_txt" preferredWidth="2000" preferredHeight="250" anchorX="70" anchorY="20" pivotAlign="TOP_LEFT" anchorAlign="TOP_LEFT" skin="@team_chat_message_font" skin.my_message="@team_chat_my_message_font" flushBatch="true"/>
+        </element>
+    </element>
+</element>

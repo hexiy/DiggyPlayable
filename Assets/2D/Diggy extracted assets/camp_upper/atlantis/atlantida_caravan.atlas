@@ -1,0 +1,126 @@
+
+atlantida_caravan.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+krab_idle_content_ulita_krab_idle_Layer1
+  rotate: false
+  xy: 1, 1
+  size: 161, 154
+  orig: 161, 154
+  offset: 0, 0
+  index: -1
+krab_idle_content_telo_krab_idle_ruka2
+  rotate: false
+  xy: 164, 1
+  size: 157, 136
+  orig: 157, 136
+  offset: 0, 0
+  index: -1
+krab_idle_content_krab_idle_ulitaback
+  rotate: false
+  xy: 323, 1
+  size: 111, 96
+  orig: 111, 96
+  offset: 0, 0
+  index: -1
+Symbol3_Layer1
+  rotate: false
+  xy: 436, 1
+  size: 75, 93
+  orig: 75, 93
+  offset: 0, 0
+  index: -1
+Symbol1_Layer1
+  rotate: false
+  xy: 323, 99
+  size: 76, 73
+  orig: 76, 73
+  offset: 0, 0
+  index: -1
+krab_idle_content_krab_idle_nohy_krab
+  rotate: false
+  xy: 401, 99
+  size: 76, 63
+  orig: 76, 63
+  offset: 0, 0
+  index: -1
+krab_idle_content_krab_idle_nohyback
+  rotate: false
+  xy: 164, 139
+  size: 79, 63
+  orig: 79, 63
+  offset: 0, 0
+  index: -1
+krab_idle_content_oci_krab_idle_Layer6
+  rotate: false
+  xy: 245, 139
+  size: 62, 39
+  orig: 62, 39
+  offset: 0, 0
+  index: -1
+krab_idle_content_oko1_krab_idle_Layer1
+  rotate: false
+  xy: 1, 157
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+krab_idle_content_oci_krab_idle_tykadlo2
+  rotate: false
+  xy: 41, 157
+  size: 57, 38
+  orig: 57, 38
+  offset: 0, 0
+  index: -1
+bielko_Layer1
+  rotate: false
+  xy: 100, 157
+  size: 38, 33
+  orig: 38, 33
+  offset: 0, 0
+  index: -1
+Symbol2_Layer1
+  rotate: false
+  xy: 401, 164
+  size: 47, 26
+  orig: 47, 26
+  offset: 0, 0
+  index: -1
+krab_idle_content_oko2_krab_idle_Layer1
+  rotate: false
+  xy: 479, 96
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+bielko2_Layer1
+  rotate: false
+  xy: 479, 122
+  size: 24, 21
+  orig: 24, 21
+  offset: 0, 0
+  index: -1
+krab_idle_content_zrenica1_krab_idle_Layer1i
+  rotate: false
+  xy: 479, 145
+  size: 23, 20
+  orig: 23, 20
+  offset: 0, 0
+  index: -1
+krab_idle_content_krab_idle_Layer2
+  rotate: false
+  xy: 245, 192
+  size: 211, 17
+  orig: 211, 17
+  offset: 0, 0
+  index: -1
+krab_idle_content_zrenica1_krab_idle_Layer1
+  rotate: false
+  xy: 140, 157
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+

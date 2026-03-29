@@ -1,0 +1,37 @@
+<element name="black_screen" skin="@black" anchorTop="0" anchorBottom="1" mouseUp="backMouseUp_handler">
+
+    <element name="popup_body" preferredWidth="1000" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" mouseUp="buttonRestored_handler"
+             preferredHeight ="450" >
+        <element skin="@middle_popup" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+
+        <!-- CLOSE button-->
+        <element name="btn_cancel" skin="@production_cancel_icon" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" anchorX="-40"/>
+
+        <!-- Do you really want to change this task? -->
+        <element model="#GUI3517" skin="@oswald_40_white_center_top" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorX="0" anchorY="80" flushBatch="true"
+                 preferredWidth="800" preferredHeight="200"/>
+
+        <!-- GEM button-->
+        <element name="btn_gem" skin="@btn_green" preferredWidth="350" preferredHeight="170" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="-250" anchorY="40">
+            <element anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="-10" anchorY="-5">
+                <p:layout><horizontal gap="15"/></p:layout>
+                <element name="gem_text" skin="@oswald_54_black_at" anchorY="20" flushBatch="true"/>
+                <element name="gem_asset" skin="@asset" anchorY="0" flushBatch="true"/>
+            </element>
+        </element>
+
+        <!-- VIDEO button holder -->
+        <element name="videoButtonHolder"
+                 preferredWidth="360" preferredHeight="130" anchorX="250" anchorY="40"
+                 anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"
+                 mouseDown="showVideoPush_handler" mouseUp="showVideoUp_handler" flushBatch="true" />
+
+        <!-- HOURGLASS - waiting for video response -->
+        <element name="sand_glass" skin="@sand_glass" visible="false" visible.videoInProgress="true"
+                 anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="0" anchorY="0" preferredWidth="128" preferredHeight="234"/>
+
+        <!-- Video not available -->
+        <element model="#GUI3582" name="video_unavailable_text" skin="@oswald_27_black_center_bottom" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER"
+                 anchorX="0" anchorY="-40" flushBatch="true" preferredWidth="800" preferredHeight="100"/>
+    </element>
+</element>

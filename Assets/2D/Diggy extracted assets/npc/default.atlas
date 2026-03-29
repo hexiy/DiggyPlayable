@@ -1,0 +1,34 @@
+
+mumia.png
+size: 128,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hlava
+  rotate: false
+  xy: 86, 7
+  size: 40, 46
+  orig: 40, 46
+  offset: 0, 0
+  index: -1
+ruka
+  rotate: false
+  xy: 28, 16
+  size: 21, 18
+  orig: 21, 18
+  offset: 0, 0
+  index: -1
+telo
+  rotate: false
+  xy: 2, 2
+  size: 24, 32
+  orig: 24, 32
+  offset: 0, 0
+  index: -1
+tienik
+  rotate: false
+  xy: 2, 36
+  size: 82, 17
+  orig: 82, 17
+  offset: 0, 0
+  index: -1

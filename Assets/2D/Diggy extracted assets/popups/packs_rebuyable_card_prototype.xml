@@ -1,0 +1,34 @@
+<element skin="@middle_popup" preferredWidth="640" preferredHeight="890" anchorX="20" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+
+    <element skin="@pack_discount_50" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" anchorX="50" anchorY="-50" visible="true" visible.done="false"/>
+
+    <element name="pack_graphics" skin="@asset" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="70"/>
+
+    <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="600" preferredWidth="208" preferredHeight="160" visible="false" visible.done="true">
+        <element skin="@camp_ui_progress_bar_done" anchorTop="0" anchorBottom="1" anchorLeft="0" anchorRight="1"/>
+    </element>
+
+    <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="640" preferredHeight="990" anchorY="500" visible="true" visible.done="false">
+        <element skin="@popup_background_9slice" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="440" preferredHeight="230" anchorX="-15"/>
+        <element name="items" preferredWidth="380" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="30">
+            <p:layout><vertical useChildrenWidth="true" gap="30"/></p:layout>
+        </element>
+
+
+        <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="240" anchorX="-15">
+            <p:layout><horizontal/></p:layout>
+
+            <element name="pack_discount_wrapper" preferredWidth="300" preferredHeight="134">
+                <element name="packDiscount" skin="@oswald_bold" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="10"/>
+                <element name="price_crossed" skin="@pack_popup_price_crossed" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true"/>
+            </element>
+
+            <element preferredWidth="300" preferredHeight="134">
+                <element name="packPrice" skin="@oswald_bold" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="10"/>
+            </element>
+
+        </element>
+    </element>
+
+    <element skin="@production_start_icon" anchorAlign="MIDDLE_RIGHT" pivotAlign="MIDDLE_RIGHT" anchorX="40"/>
+</element>

@@ -1,0 +1,55 @@
+<element name="gui_tile_coutner_holder"
+         skin="@bg_edge_black_shade"
+         preferredWidth="460"
+         preferredWidth.default="460"
+         preferredWidth.tileFinder="730"
+         preferredHeight="180"
+         >
+
+    <element name="tooltip_clickable_area"
+             anchorX="70"
+             anchorX.default="70"
+             anchorX.tileFinder="330"
+             preferredWidth="380"
+             preferredHeight="180"
+             flushBatch="true">
+
+        <element name="count_holder"
+                anchorAlign="TOP_LEFT"
+                pivotAlign="TOP_LEFT"
+                anchorY="30"
+                preferredWidth="380"
+                preferredHeight="120"
+                flushBatch="true">
+
+            <p:layout>
+                <horizontal gap="6"/>
+            </p:layout>
+
+            <element name="count"
+                     anchorAlign="TOP_LEFT"
+                     pivotAlign="TOP_LEFT"
+                     anchorX="0"
+                     preferredWidth="380"
+                     preferredHeight="120"
+                     skin="@typeface_62_white_at"/>
+
+            <element name="image"
+                     skin="@chest_tile_counter"
+                     anchorAlign="TOP_LEFT"
+                     pivotAlign="TOP_LEFT"
+                     anchorX="0"
+                     preferredWidth="25"
+                     preferredHeight="25"/>
+        </element>
+
+        <element name="label"
+                 skin="@typeface_62_white_at"
+                 model="#GUI3618"
+                 anchorY="90"
+                 preferredWidth="380"
+                 preferredHeight="60"
+                 flushBatch="true"/>
+
+    </element>
+</element>

@@ -1,0 +1,59 @@
+<element name="black_screen" anchorTop="0" anchorBottom="1">
+	<!-- BACKGROUND -->
+	<element name="popup_body" skin="@preloader_login_screen_BG" skin.apple="@preloader_login_screen_BG_apple"
+			 preferredWidth="1320" preferredHeight="900" preferredHeight.apple="1050"
+			 anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="-25">
+		<!-- ARE YOU A NEW PLAYER? -->
+		<element name="new_player_txt" skin="@bold_40_black_at"
+				 anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="65"/>
+		<!-- PLAY BUTTON with text -->
+		<element skin="@preloader_play_btn" name="play_btn" mouseChildren="false"
+				 anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="165">
+			<element name="play_btn_txt" skin="@bold_64_dgreen_at"
+					 anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="20"/>
+		</element>
+
+		<!-- PLAYED BEFORE? -->
+		<element name="player_before_txt" skin="@bold_32_white_af_middle_center"
+				 preferredWidth="1200" preferredHeight="50"
+				 anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="65" anchorY.apple="-15"/>
+		<!-- LOG INTO YOUR ACCOUNT VIA: -->
+		<element name="login_via_txt" skin="@bold_30_white_at"
+				 anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="140" anchorY.apple="60"/>
+
+		<element visible="false" visible.apple="true" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="190">
+			<!-- BUTTON APPLE -->
+			<element skin="@preloader_apple_btn" skin.pressed="@preloader_apple_btn" name="apple_btn"
+					 anchorAlign="TOP_CENTER" pivotAlign="MIDDLE_CENTER"/>
+		</element>
+
+		<element anchorAlign="MIDDLE_CENTER" anchorY="270" anchorY.apple="370">
+			<!-- BUTTON FB -->
+			<element skin="@preloader_login_btn1" skin.pressed="@preloader_login_btn2" name="fb_btn"
+					 anchorAlign="TOP_CENTER" pivotAlign="MIDDLE_RIGHT" anchorX="-30" mouseChildren="false">
+				<element anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+					<p:layout><horizontal gap="30"/></p:layout>
+					<element preferredWidth="100" preferredHeight="98" anchorY="-5">
+						<element skin="@login_fb_icon" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+					</element>
+					<element name="fb_btn_txt" model="FACEBOOK" skin="@bold_32_white_at"
+							 anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="20"/>
+				</element>
+			</element>
+			<!-- BUTTON EMAIL -->
+			<element skin="@preloader_login_btn1" skin.pressed="@preloader_login_btn2" name="email_btn"
+					 anchorAlign="TOP_CENTER" pivotAlign="MIDDLE_LEFT" anchorX="30" mouseChildren="false">
+				<element anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+					<p:layout><horizontal gap="50"/></p:layout>
+					<element preferredWidth="124" preferredHeight="90">
+						<element skin="@login_mail_icon" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+					</element>
+					<element name="email_btn_txt" model="E-MAIL" skin="@bold_32_white_at"
+							 anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="20"/>
+				</element>
+			</element>
+		</element>
+	</element>
+	<element name="foreground_shade" skin="@shade_black"
+			 visible="false" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+</element>

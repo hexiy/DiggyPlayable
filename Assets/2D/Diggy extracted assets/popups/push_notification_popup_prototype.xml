@@ -1,0 +1,25 @@
+<element name="black_screen" skin="@black" anchorTop="0" anchorBottom="1" mouseUp="okMouseUp_handler">
+    <element preferredWidth="1100" preferredHeight="500" preferredHeight.display_not_again="610"  anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+        <element name="popup_body" skin="@middle_popup" anchorLeft="0" anchorTop="0" anchorBottom="1" anchorRight="1"/>
+        <element name="label" skin="@oswald_bold_85_autosize_off_center" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="15" anchorX="-15" preferredWidth="940" preferredHeight="300"/>
+
+        <element skin="@info" anchorX="-64" anchorY="-64" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT"/>
+
+        <element anchorX="-15" anchorY="300" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" visible="false" visible.display_not_again="true">
+            <p:layout><horizontal gap="30"/></p:layout>
+            <element name="checkbox" skin="@btn_checkbox" preferredWidth="72" preferredHeight="61" mouseChildren="false">
+                <element name="check" skin="@production_cancel_icon" anchorLeft="0" anchorTop="0" anchorBottom="1" anchorRight="1" visible="false"/>
+            </element>
+            <element name="display_not_again_txt" model="#GUI3103" skin="@oswald_bold_85_basic_drevo2" mouseUp="onNotAgainText_handler"/>
+        </element>
+        <element anchorX="-15" anchorY="300" anchorY.display_not_again="420" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+            <p:layout><horizontal gap="50"/></p:layout>
+            <element name="btn_no" skin="@button_red_01" skin.pressed="@button_red_02" preferredWidth="378" preferredHeight="132">
+                <element model="#GUI2858" skin="@oswald_bold_85_basic_drevo1" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="8"/>
+            </element>
+            <element name="btn_yes" skin="@button_green_01" skin.pressed="@button_green_02" preferredWidth="378" preferredHeight="132">
+                <element model="#GUI3102" skin="@oswald_bold_85_basic_drevo1" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="8"/>
+            </element>
+        </element>
+    </element>
+</element>

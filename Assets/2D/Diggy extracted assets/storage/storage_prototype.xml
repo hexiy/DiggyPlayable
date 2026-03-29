@@ -1,0 +1,60 @@
+<element anchorLeft="0" anchorRight="1" anchorBottom="1" anchorTop="0">
+	<element name="shop_bg" skin="@shop_bg" anchorBottom="1" anchorTop="0"/>
+	<element name="listBackground" anchorY="335" preferredHeight="1200"  skin="@shop_mid_bg" mouseDown="scrollMouseDown_handler"/>
+	<element name="list" anchorY="375" mouseDown="scrollMouseDown_handler"/>
+	<element name="shop_border_top" anchorY="315" skin="@shop_border"/>
+	<element name="shop_border_bottom" anchorY="1325" skin="@shop_border"/>
+
+	<element name="tabs" anchorY="263" anchorLeft=".5" anchorRight=".5" pivotAlign="TOP_CENTER">
+		<p:layout><horizontal gap="20"/></p:layout>
+		<element name="buildingTab" skin="@shop_tab_bg1">
+			<element skin="@shop_tab_equip" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER"
+					 anchorY.notSelected="-10" anchorY.selected="-80"/>
+			<element skin="@oswald_bold_85_basic_drevo1" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER"
+					 anchorY="-5" model="#MOB002" name="text" visible.selected="true" visible.notSelected="false"/>
+		</element>
+		<element name="usableTab" skin="@shop_tab_bg1">
+			<element skin="@shop_tab_usable" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER"
+					 anchorX="16" anchorY.notSelected="-10" anchorY.selected="-80"/>
+			<element skin="@oswald_bold_85_basic_drevo1" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER"
+					 anchorY="-5" model="#MOB003" name="text" visible.selected="true" visible.notSelected="false"/>
+		</element>
+		<element name="extrasTab" skin="@shop_tab_bg1">
+			<element skin="@shop_tab_extras" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER"
+					 anchorX="-72" anchorY.notSelected="-10" anchorY.selected="-80"/>
+			<element skin="@oswald_bold_85_basic_drevo1" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER"
+					 anchorY="-5" model="#MOB004" name="text" visible.selected="true" visible.notSelected="false"/>
+		</element>
+		<element name="materialTab" skin="@shop_tab_bg1">
+			<element skin="@storage_tab_materials" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER"
+					 anchorY.notSelected="-10" anchorY.selected="-80"/>
+			<element skin="@oswald_bold_85_basic_drevo1" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER"
+					 anchorY="-5" model="#MOB009" name="text" visible.selected="true" visible.notSelected="false"/>
+		</element>
+		<element name="questTab" skin="@shop_tab_bg1">
+			<element skin="@storage_tab_tokens" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER"
+					 anchorY.notSelected="-10" anchorY.selected="-80"/>
+			<element skin="@oswald_bold_85_basic_drevo1" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER"
+					 anchorY="-5" model="#MOB010" name="text" visible.selected="true" visible.notSelected="false"/>
+		</element>
+		<element name="skinsTab" skin="@shop_tab_bg1">
+			<element skin="@shop_tab_skin" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER"
+					 anchorY.notSelected="-10" anchorY.selected="-80"/>
+			<element skin="@oswald_bold_85_basic_drevo1" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER"
+					 anchorY="-5" model="#GUI3178" name="text" visible.selected="true" visible.notSelected="false"/>
+		</element>
+	</element>
+	<element name="noItemsText" visible="false" anchorY="770" skin="@oswald_bold_white" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"/>
+
+	<element name="lockedBg" skin="@black_70" anchorY="350" preferredHeight="985" anchorLeft="0" anchorRight="1" flushBatch="true" />
+	<element name="lockedText" anchorY="770" skin="@oswald_bold_white" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"/>
+
+	<element name="loading" anchorY="770" skin="@oswald_bold_white" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"/>
+    <element name="btn_back" anchorAlign="BOTTOM_LEFT" pivotAlign="BOTTOM_LEFT" skin="@bottom_btn_basic" skin.pressed="@bottom_btn_basic_pressed" mouseDown="backMouseDown_handler" mouseChildren="false">
+		<element anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" skin="@bottom_back_icon" name="bottom_back_icon"/>
+	</element>
+	<element name="btn_buildings_filter" anchorAlign="BOTTOM_RIGHT" pivotAlign="BOTTOM_RIGHT" skin="@bottom_btn_basic" skin.pressed="@bottom_btn_basic_pressed" mouseChildren="false">
+		<element name="filter_text"  model="#WGL111" skin="@oswald_bold_85_gem1_white_middle" anchorY="0" preferredWidth="504" preferredHeight="160" flushBatch="true"/>
+	</element>
+	<element name="buildings_filter_popup" skin="@shade_black" anchorTop="0" anchorBottom="1" anchorLeft="0" anchorRight="1" visible="false" mouseUp="buildingsFilterMouseUp_handler"/>
+</element>

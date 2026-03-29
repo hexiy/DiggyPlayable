@@ -1,0 +1,47 @@
+<data>
+    <!-- FONTS -->
+    <fontSkin id="museum_title_font" font="@oswald_bold" autoSize="true" color="0x19191a" fontScale="0.7"/>
+    <fontSkin id="museum_title_font_ml1" font="@oswald_bold" autoSize="false" wordWrap="true" hAlign="CENTER" vAlign="MIDDLE" color="0x2e2e2f" fontScale="0.7"/>
+    <fontSkin id="museum_title_font_ml2" font="@oswald_bold" autoSize="false" wordWrap="true" hAlign="CENTER" color="0x1f1f1f" fontScale="0.7"/>
+    <fontSkin id="museum_main_title_font" font="@oswald_bold" autoSize="true" color="0xd0d0d0" fontScale="0.85"/>
+    <fontSkin id="museum_title_font_comp" font="@oswald_bold" autoSize="true" color="0x343434" fontScale="0.75"/>
+    <fontSkin id="museum_title_font_popup" font="@oswald_bold" autoSize="true" color="0x2e2e2f" fontScale="1"/>
+    <fontSkin id="museum_bar_font_popup" font="@oswald_bold" autoSize="true" color="0x338c00" fontScale="0.7"/>
+    <fontSkin id="museum_desc_font" font="@oswald_bold" autoSize="false" wordWrap="true" hAlign="CENTER" color="0x3e3e3e" fontScale="0.75"/>
+    <fontSkin id="museum_desc_font_tablet" font="@oswald_bold" autoSize="false" wordWrap="true" vAlign="MIDDLE" hAlign="CENTER" color="0x3e3e3e" fontScale="1.0"/>
+    <fontSkin id="museum_large_white" font="@oswald_bold" autoSize="true" color="0xffffff" fontScale=".85"/>
+
+    <fontSkin id="museum_desc_white"   hAlign="CENTER"  vAlign="MIDDLE" font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="1.2" />
+    <fontSkin id="museum_title_white" font="@oswald_bold" autoSize="true" color="0xffffff" fontScale="1"/>
+
+    <fontSkin id="museum_title_white_autosize" font="@oswald_bold" autoSize="false" wordWrap="true" hAlign="CENTER" vAlign="MIDDLE" color="0xffffff" fontScale="1"/>
+
+    <fontSkin id="museum_small_ml_white" font="@oswald_bold" autoSize="false" wordWrap="true" hAlign="CENTER" color="0xffffff" fontScale=".6"/>
+
+    <!-- PACKS -->
+    <textureSkin id="museum_shelf" texture="@museum_shelf" scaleX="2.0" scaleY="2.0"/>
+    <textureSkin id="museum_achiev_bg" texture="@museum_achiev_bg" scaleX="2.0" scaleY="2.0"/>
+    <textureSkin id="museum_achiev_progress" texture="@museum_achiev_progress" scaleX="2.0" scaleY="2.0"/>
+    <textureSkin id="museum_achiev1" texture="@museum_achiev1" scaleX="2.0" scaleY="2.0"/>
+    <textureSkin id="museum_achiev2" texture="@museum_achiev2" scaleX="2.0" scaleY="2.0"/>
+    <textureSkin id="museum_bg" texture="@museum_bg" scaleX="2.0" scaleY="2.0"/>
+    <textureSkin id="museum_decoration_finished" texture="@museum_decoration_finished" sliceLeft="18" sliceRight="191" sliceTop="29" sliceBottom="75" scaleX="2.0" scaleY="2.0"/>
+    <textureSkin id="museum_decoration_finished2" texture="@museum_decoration_finished2" scaleX="2.0" scaleY="2.0"/>
+    <textureSkin id="museum_decoration_progress" texture="@museum_decoration_progress" sliceLeft="18" sliceRight="191" sliceTop="29" sliceBottom="75" scaleX="2.0" scaleY="2.0"/>
+    <textureSkin id="museum_reward" texture="@museum_reward"/> <!-- this graphics wasn't  halved-->
+    <textureSkin id="museum_tab" texture="@museum_tab" sliceLeft="41" sliceRight="238" sliceTop="31" sliceBottom="68" scaleX="1.5" scaleY="1.5"/>
+    <textureSkin id="museum_tab2" texture="@museum_tab2" scaleX="1.5" scaleY="1.5"/>
+    <textureSkin id="museum_top_border" texture="@museum_top_border" scaleX="2.0" scaleY="2.0"/>
+    <textureSkin id="museum_popup_border1" texture="@museum_popup_border1" scaleX="2.0" scaleY="2.0"/>
+    <textureSkin id="museum_popup_border2" texture="@museum_popup_border2" scaleX="2.0" scaleY="2.0"/>
+    <textureSkin id="museum_get_reward_icon" texture="@museum_get_reward_icon"/> <!-- this graphics wasn't  halved-->
+    <textureSkin id="museum_bg_shadow" texture="@museum_bg_shadow" sliceLeft="2" sliceRight="6"/>
+
+    <textureSkin id="book" texture="@book" scaleX="1.4" scaleY="1.4"/>
+    <textureSkin id="book_holder" texture="@book_holder" scaleX="1.1" scaleY="1.1"/>
+    <textureSkin id="book_description" texture="@book_description" scaleX="1.4" scaleY="1.4"/>
+    <textureSkin id="book_pages" texture="@book_pages" scaleX="1.4" scaleY="1.4"/>
+
+    <textureSkin id="album_completed_stamp" texture="@completed_stamp" scaleX="1.4" scaleY="1.4"/>
+
+</data>

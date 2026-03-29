@@ -1,0 +1,18 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:2c1e64dcca4bce54e46c1822de8e0f1e:9a1cf9a462cfa2af11ab5138bf4c5c1f:3bc510f11edec7ee9b3bb2b9e4692974$
+#
+:format=40300
+:texture=mystery_box_unity.png
+:size=512x1024
+:pivotpoints=enabled
+:borders=enabled
+:alphahandling=ClearTransparentPixels
+
+mystery_box_bg;1;107;248;916; 0.5;0.5; 110;110;0;0
+mystery_box_left_gold_deco;251;899;104;124; 0.5;0.5; 0;0;0;0
+mystery_box_right_gold_deco;357;899;104;124; 0.5;0.5; 0;0;0;0

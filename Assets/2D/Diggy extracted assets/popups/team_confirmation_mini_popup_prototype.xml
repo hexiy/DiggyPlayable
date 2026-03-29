@@ -1,0 +1,28 @@
+<element name="black_screen" skin="@shade_black" anchorTop="0" anchorBottom="1">
+    <element name="popup_body" preferredWidth="1224" preferredHeight="536" preferredHeight.notice="636" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true">
+        <element name="popup_bg" skin="@small_popup_bg" preferredWidth="1224" preferredHeight.notice="636" preferredHeight="536" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+            <element skin="@small_popup_bg_divider" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="110" preferredWidth="1224"/>
+            <element name="popup_header_text" skin="@team_header_font" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="22" preferredHeight="100" preferredWidth="1100" flushBatch="true"/>
+            <element name="popup_text_holder" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="152" preferredHeight="200" preferredWidth="1100">
+                <element name="popup_text" skin="@team_header_font_darker_biggest" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredHeight="200" preferredWidth="1100" flushBatch="true"/>
+            </element>
+
+            <element name="popup_ok_btn" visible="false" visible.singleBtn="true" skin="@btn_green_01" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" preferredWidth="450" preferredHeight="120" anchorY="-20" anchorY.notice="-120" mouseChildren="false">
+                <element name="popup_ok_btn_lbl" skin="@team_body_font_small" skin.is_gem_popup="@team_hint_white_font_mid_right" anchorAlign="MIDDLE_CENTER" mouseChildren="false" mouseEnabled="false" pivotAlign="MIDDLE_CENTER" preferredHeight="110" preferredWidth="430" preferredWidth.is_gem_popup="105" anchorX.is_gem_popup="-60" flushBatch="true" anchorY="-8"/>
+                <element name="popup_ok_btn_gem" skin="@gem_icon" anchorAlign="MIDDLE_RIGHT" pivotAlign="MIDDLE_RIGHT" mouseChildren="false" mouseEnabled="false" preferredHeight="80" preferredWidth="80" visible.is_gem_popup="true" visible="false" anchorX="-60" anchorY="-12"/>
+
+            </element>
+
+            <element name="popup_yes_btn" visible="true" visible.singleBtn="false" skin="@btn_green_01" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" preferredWidth="350" preferredHeight="120" anchorY="-20" anchorY.notice="-120" anchorX="-250" anchorX.switchButtons="250" mouseChildren="false">
+                <element name="popup_yes_btn_lbl" skin="@team_body_font_small" skin.is_gem_popup="@team_hint_white_font_mid_right" anchorAlign="MIDDLE_CENTER" mouseChildren="false" mouseEnabled="false" pivotAlign="MIDDLE_CENTER" preferredHeight="110" preferredWidth="430" preferredWidth.is_gem_popup="105" anchorX.is_gem_popup="-60" flushBatch="true" anchorY="-8"/>
+                <element name="popup_yes_btn_gem" skin="@gem_icon" anchorAlign="MIDDLE_RIGHT" pivotAlign="MIDDLE_RIGHT" mouseChildren="false" mouseEnabled="false" preferredHeight="40" preferredWidth="40" visible.is_gem_popup="true" visible="false" anchorX="-60" anchorY="-12"/>
+            </element>
+
+            <element name="popup_no_btn" visible="true" visible.singleBtn="false" skin="@btn_red" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" preferredWidth="350" preferredHeight="120" anchorY="-20" anchorY.notice="-120" anchorX="250" anchorX.switchButtons="-250" mouseChildren="false">
+                <element name="popup_no_btn_lbl" skin="@team_body_font_small" anchorAlign="MIDDLE_CENTER" mouseChildren="false" mouseEnabled="false" pivotAlign="MIDDLE_CENTER" preferredHeight="110" preferredWidth="330" flushBatch="true" anchorY="-8"/>
+            </element>
+
+            <element name="popup_notice_text" visible="false" visible.notice="true" skin="@team_notice_font" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-20" preferredHeight="60" preferredWidth="1100" flushBatch="true" model="#GUI3495"/>
+        </element>
+    </element>
+</element>

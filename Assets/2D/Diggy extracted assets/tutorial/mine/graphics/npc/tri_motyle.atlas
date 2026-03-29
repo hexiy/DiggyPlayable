@@ -1,0 +1,112 @@
+
+tri_motyle.png
+size: 64,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+motyle_content_motyl_ruzovy__content_motyl_ruzovy_telo_Layer1
+  rotate: false
+  xy: 1, 1
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+motyle_content_motyl_oranz_content_motyl_oranz_spodnekridla_motyl_oranz_spodneAcopy_Layer2
+  rotate: false
+  xy: 18, 1
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+motyle_content_motyl_ruzovy__content_motyl_ruzovy_vrchnekridla_motyl_ruzovy_kridlovrchneAcopy_Layer2
+  rotate: false
+  xy: 35, 1
+  size: 16, 15
+  orig: 16, 15
+  offset: 0, 0
+  index: -1
+motyle_content_motyl_ruzovy__content_motyl_ruzovy_spodnekridla_motyl_ruzovy_spodneAcopy_Layer2
+  rotate: false
+  xy: 18, 18
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+motyle_content_motyl_oranz_content_motyl_oranz_telo_Layer1
+  rotate: false
+  xy: 35, 18
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+motyle_content_motyl_oranz_content_motyl_oranz_vrchnekridla_motyl_oranz_kridlovrchneAcopy_Layer2
+  rotate: false
+  xy: 1, 19
+  size: 15, 14
+  orig: 15, 14
+  offset: 0, 0
+  index: -1
+motyle_content_motyl_modry_content_motyl_modry_telo_Layer1
+  rotate: false
+  xy: 1, 35
+  size: 13, 14
+  orig: 13, 14
+  offset: 0, 0
+  index: -1
+motyle_content_motyl_modry_content_motyl_modry_vrchnekridla_motyl_modry_kridlovrchneAcopy_Layer2
+  rotate: false
+  xy: 16, 35
+  size: 14, 13
+  orig: 14, 13
+  offset: 0, 0
+  index: -1
+motyle_content_motyl_modry_content_motyl_modry_spodnekridla_motyl_modry_spodneAcopy_Layer2
+  rotate: false
+  xy: 32, 35
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+motyle_content_motyl_ruzovy__content_motyl_ruzovy_vrchnekridla_motyl_ruzovy_kridlovrchneBcopy_Layer2
+  rotate: false
+  xy: 47, 35
+  size: 12, 11
+  orig: 12, 11
+  offset: 0, 0
+  index: -1
+motyle_content_motyl_ruzovy__content_motyl_ruzovy_spodnekridla_motyl_ruzovy_spodneBcopy_Layer2
+  rotate: false
+  xy: 52, 18
+  size: 11, 10
+  orig: 11, 10
+  offset: 0, 0
+  index: -1
+motyle_content_motyl_oranz_content_motyl_oranz_vrchnekridla_motyl_oranz_kridlovrchneBcopy_Layer2
+  rotate: false
+  xy: 47, 48
+  size: 12, 10
+  orig: 12, 10
+  offset: 0, 0
+  index: -1
+motyle_content_motyl_oranz_content_motyl_oranz_spodnekridla_motyl_oranz_spodneBcopy_Layer2
+  rotate: false
+  xy: 16, 50
+  size: 11, 10
+  orig: 11, 10
+  offset: 0, 0
+  index: -1
+motyle_content_motyl_modry_content_motyl_modry_spodnekridla_motyl_modry_spodneBcopy_Layer2
+  rotate: false
+  xy: 53, 1
+  size: 10, 9
+  orig: 10, 9
+  offset: 0, 0
+  index: -1
+motyle_content_motyl_modry_content_motyl_modry_vrchnekridla_motyl_modry_kridlovrchneBcopy_Layer2
+  rotate: false
+  xy: 29, 50
+  size: 11, 9
+  orig: 11, 9
+  offset: 0, 0
+  index: -1
+

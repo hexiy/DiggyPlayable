@@ -1,0 +1,231 @@
+
+china_karavana.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ruka_Layer1
+  rotate: false
+  xy: 1, 1
+  size: 53, 105
+  orig: 53, 105
+  offset: 0, 0
+  index: -1
+panda_karavana_telo
+  rotate: false
+  xy: 56, 1
+  size: 103, 102
+  orig: 103, 102
+  offset: 0, 0
+  index: -1
+hlava_Layer1
+  rotate: false
+  xy: 56, 105
+  size: 101, 90
+  orig: 101, 90
+  offset: 0, 0
+  index: -1
+hlava_Layer6
+  rotate: false
+  xy: 161, 1
+  size: 86, 69
+  orig: 86, 69
+  offset: 0, 0
+  index: -1
+karavana_panda_panda_start_content_panda_start_bambus_Layer3
+  rotate: false
+  xy: 161, 72
+  size: 24, 65
+  orig: 24, 65
+  offset: 0, 0
+  index: -1
+tienik_rastlinka_Layer1
+  rotate: false
+  xy: 187, 72
+  size: 19, 61
+  orig: 19, 61
+  offset: 0, 0
+  index: -1
+karavana_panda_panda_start_content_panda_start_bambus_Layer1
+  rotate: false
+  xy: 249, 1
+  size: 3, 59
+  orig: 3, 59
+  offset: 0, 0
+  index: -1
+ramenocopy_Layer2
+  rotate: false
+  xy: 208, 72
+  size: 34, 54
+  orig: 34, 54
+  offset: 0, 0
+  index: -1
+laketcopy2_Layer4
+  rotate: false
+  xy: 1, 108
+  size: 22, 50
+  orig: 22, 50
+  offset: 0, 0
+  index: -1
+laketcopy2_Layer1
+  rotate: false
+  xy: 25, 108
+  size: 24, 48
+  orig: 24, 48
+  offset: 0, 0
+  index: -1
+papula_Layer7
+  rotate: false
+  xy: 208, 128
+  size: 22, 41
+  orig: 22, 41
+  offset: 0, 0
+  index: -1
+papula_Layer1
+  rotate: false
+  xy: 159, 139
+  size: 42, 41
+  orig: 42, 41
+  offset: 0, 0
+  index: -1
+koleno_Layer1
+  rotate: false
+  xy: 1, 160
+  size: 30, 38
+  orig: 30, 38
+  offset: 0, 0
+  index: -1
+nozka_Layer1
+  rotate: false
+  xy: 203, 171
+  size: 27, 36
+  orig: 27, 36
+  offset: 0, 0
+  index: -1
+ucho_Layer1
+  rotate: false
+  xy: 159, 182
+  size: 31, 31
+  orig: 31, 31
+  offset: 0, 0
+  index: -1
+oci_Layer2
+  rotate: false
+  xy: 33, 197
+  size: 72, 29
+  orig: 72, 29
+  offset: 0, 0
+  index: -1
+panda_karavana_main_Layer2
+  rotate: false
+  xy: 107, 215
+  size: 90, 29
+  orig: 90, 29
+  offset: 0, 0
+  index: -1
+laketcopy2_Layer2
+  rotate: false
+  xy: 1, 200
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+karavana_panda_panda_start_content_panda_start_bambus_Layer2
+  rotate: false
+  xy: 249, 62
+  size: 3, 28
+  orig: 3, 28
+  offset: 0, 0
+  index: -1
+oko_Layer2
+  rotate: false
+  xy: 232, 128
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+vlasok_Layer1
+  rotate: false
+  xy: 232, 149
+  size: 13, 17
+  orig: 13, 17
+  offset: 0, 0
+  index: -1
+papula_Layer9
+  rotate: false
+  xy: 199, 209
+  size: 25, 17
+  orig: 25, 17
+  offset: 0, 0
+  index: -1
+karavana_panda_panda_start_content_panda_start_bambus_list_Layer1iii
+  rotate: false
+  xy: 244, 92
+  size: 8, 16
+  orig: 8, 16
+  offset: 0, 0
+  index: -1
+karavana_panda_panda_start_content_panda_start_bambus_list_Layer1
+  rotate: false
+  xy: 244, 110
+  size: 7, 14
+  orig: 7, 14
+  offset: 0, 0
+  index: -1
+zrenicka_Layer1
+  rotate: false
+  xy: 33, 158
+  size: 12, 12
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+papula_Layer6
+  rotate: false
+  xy: 232, 168
+  size: 15, 11
+  orig: 15, 11
+  offset: 0, 0
+  index: -1
+papula_Layer3
+  rotate: false
+  xy: 33, 172
+  size: 15, 11
+  orig: 15, 11
+  offset: 0, 0
+  index: -1
+karavana_panda_panda_start_content_panda_start_bambus_list_Layer1ii
+  rotate: false
+  xy: 247, 149
+  size: 6, 11
+  orig: 6, 11
+  offset: 0, 0
+  index: -1
+karavana_panda_panda_start_content_panda_start_bambus_list_Layer1i
+  rotate: false
+  xy: 47, 158
+  size: 6, 11
+  orig: 6, 11
+  offset: 0, 0
+  index: -1
+papulka_Layer1
+  rotate: false
+  xy: 107, 197
+  size: 27, 9
+  orig: 27, 9
+  offset: 0, 0
+  index: -1
+nosik_Layer1
+  rotate: false
+  xy: 232, 181
+  size: 20, 8
+  orig: 20, 8
+  offset: 0, 0
+  index: -1
+papula_Layer5
+  rotate: false
+  xy: 33, 185
+  size: 13, 6
+  orig: 13, 6
+  offset: 0, 0
+  index: -1
+

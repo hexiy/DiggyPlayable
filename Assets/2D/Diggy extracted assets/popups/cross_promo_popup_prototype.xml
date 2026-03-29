@@ -1,0 +1,24 @@
+<element name="black_screen" skin="@black" anchorTop="0" anchorBottom="1">
+
+<element preferredWidth="1170" preferredHeight="970" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" skin="@bg_brown">
+
+    <element skin="@middle_popup" preferredWidth="1050" preferredHeight="890" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="15" anchorY="15"/>
+
+    <element name="title_bg" skin="@map_manager_detail_name_bg" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="20">
+        <element name="title_text" skin="@oswald_bold_85_basic_drevo1_big" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="10"/>
+    </element>
+
+    <element name="btn_close" skin="@production_cancel_icon" anchorX="-10" anchorY="15" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" />
+
+    <element name="desc_text" skin="@popup_small_brown_autosize_off_valign" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="90" preferredWidth="900" preferredHeight="400"/>
+    <element name="image" skin="@asset" anchorX="-15" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="65"/>
+    
+    <element name="btn_play" skin="@button_green_01" skin.pressed="@button_green_02" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-130" mouseUp="getFreeCancel_handler" preferredWidth="440" preferredHeight="142">
+        <element name="btn_play_text" skin="@oswald_bold_85_basic_drevo1" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="5"/>
+    </element>
+
+    <element name="rewardImage" skin="@gem_received_gem_small" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorX="370" anchorY="-60"/>
+    <element name="reward_text" skin="@popup_normal_brown_autosize_false" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="290" preferredWidth="900" preferredHeight="400"/>
+    
+</element>
+</element>

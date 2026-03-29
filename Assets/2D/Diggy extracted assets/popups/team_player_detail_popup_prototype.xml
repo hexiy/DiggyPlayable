@@ -1,0 +1,77 @@
+<element name="black_screen" skin="@shade_black" anchorTop="0" anchorBottom="1" mouseUp="backMouseUp_handler">
+    <element name="popup_body" preferredWidth="1224" preferredHeight="836" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true">
+        <element name="popup_bg" skin="@small_popup_bg" preferredWidth="1224" preferredHeight="736" preferredHeight.larger_height="886">
+            <element skin="@small_popup_bg_divider" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="110" preferredWidth="1224"/>
+            <element name="popup_title" skin="@team_header_font" model="#GUI3461" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="30" preferredHeight="150" preferredWidth="800" flushBatch="true"/>
+
+            <element name="team_player_detail_top_part" preferredWidth="900" preferredHeight="300" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="140" anchorX="62">
+                <element name="team_player_detail_logo_holder" skin="@black_bg" preferredWidth="300" preferredHeight="300">
+                    <element name="team_player_detail_logo" skin="@asset" preferredWidth="270" preferredHeight="270" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+                    <element name="team_player_edit_logo_button" skin="@btn_blue" preferredWidth="330" preferredHeight="120" anchorY="280" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" mouseChildren="false">
+                        <element name="team_player_edit_logo_button_label" skin="@team_body_font" model="#GUI3237" anchorY="5" anchorX="5" preferredWidth="320" preferredHeight="120" flushBatch="true"/>
+                    </element>
+                </element>
+                <element name="team_player_detail_name" preferredWidth="480" visible="true" visible.is_editing="false" preferredHeight="80" skin="@team_title_hint_left_font" flushBatch="true" anchorX="325"/>
+                <element name="team_player_detail_name_editing_holder" visible="false" visible.is_editing="true" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" preferredHeight="85" preferredWidth="490" skin="@black_bg" anchorX="325">
+                    <element name="team_player_detail_name_editing" preferredWidth="480" preferredHeight="80" skin="@team_title_hint_left_white_font" flushBatch="true" anchorX="3"/>
+                </element>
+                <element name="team_player_detail_name_change_btn" preferredWidth="105" preferredHeight="96" skin="@btn_blue" anchorX="835" anchorY="6">
+                    <element name="team_player_detail_name_change_icon" preferredWidth="73" preferredHeight="66" skin="@icon_edit" skin.waiting_for_server="@icon_timer" pivotAlign="MIDDLE_CENTER" anchorAlign="MIDDLE_CENTER" anchorY="-6"/>
+                </element>
+                <element name="team_player_detail_name_change_confirm_btn" preferredWidth="105" preferredHeight="96" skin="@btn_blue" anchorX="835" anchorY="6" mouseChildren="false">
+                    <element name="team_player_detail_name_change_confirm_icon" preferredWidth="73" preferredHeight="66" skin="@icon_check" pivotAlign="MIDDLE_CENTER" anchorAlign="MIDDLE_CENTER" anchorY="-6"/>
+                </element>
+
+                <!--Last activity-->
+                <element name="team_player_detail_last_activity"
+                         preferredWidth="480"
+                         visible="true"
+                         preferredHeight="50"
+                         skin="@team_hint_font_left"
+                         flushBatch="true"
+                         anchorX="340"
+                         anchorY="50"/>
+
+                <element name="team_player_detail_team_logo_holder" visible.no_team="false" skin="@black_bg" preferredWidth="100" preferredHeight="110" anchorX="325" anchorY="100">
+                    <element name="team_player_detail_team_logo" skin="@asset" preferredWidth="80" preferredHeight="80" anchorY="-5" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+                </element>
+                <element name="team_player_detail_team_name" visible.no_team="false" preferredHeight="100" preferredWidth="540" skin="@team_hint_font_left" flushBatch="true" anchorY="120" anchorX="435"/>
+                <element name="team_player_detail_no_team_info" visible.no_team="true" visible="false" model="#GUI3349" preferredHeight="100" preferredWidth="540" skin="@team_hint_font_left" flushBatch="true" anchorY="120" anchorX="325"/>
+                <element name="team_player_detail_level_lbl" model="#GUI0002" preferredHeight="100" preferredWidth="650" skin="@team_hint_font_left" flushBatch="true" anchorY="220" anchorX="325"/>
+                <element name="team_player_detail_level" preferredHeight="100" preferredWidth="650" skin="@team_title_hint_left_font" flushBatch="true" anchorY="280" anchorX="325"/>
+
+            </element>
+
+            <element name="team_player_detail_bottom_part" preferredWidth="900" preferredHeight="400" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="560" anchorX="112">
+                <element name="team_player_detail_score_lbl" model="#GUI3353" preferredHeight="100" preferredWidth="600" anchorY="0" skin="@team_hint_font_left"/>
+                <element name="team_player_detail_score" preferredHeight="100" preferredWidth="500" anchorY="0" skin="@team_hint_white_font_right"/>
+                <element name="team_player_detail_team_score_lbl" visible.no_team="false" model="#GUI3244" preferredHeight="100" preferredWidth="600" anchorY="70" skin="@team_hint_font_left"/>
+                <element name="team_player_detail_team_score" visible.no_team="false" preferredHeight="100" preferredWidth="500" anchorY="70" skin="@team_hint_white_font_right"/>
+                <element name="team_player_detail_score_info_holder" preferredWidth="70" preferredHeight="70" anchorY="25" anchorY.no_team="0" anchorX="520">
+                    <element name="team_player_detail_score_info" skin="@info" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+                </element>
+
+                <element name="info_bubble" anchorX="585" preferredWidth="400" preferredHeight="250" visible="false">
+                    <element skin="@quests_talker_bubble_02" anchorY="35"/>
+                    <element name="quests_talker_bubble" skin="@quests_talker_bubble_01" preferredWidth="700" preferredHeight="800" anchorY="-435" anchorX="75" flushBatch="true">
+                        <element name="info_bubble_text_header" skin="@team_info_wrap_bigger" preferredWidth="650" preferredHeight="200" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="-35"/>
+                        <element name="info_bubble_text_1" skin="@team_info_wrap" preferredWidth="650" preferredHeight="110" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="95"/>
+                        <element name="info_bubble_text_2" skin="@team_info_wrap" preferredWidth="650" preferredHeight="110" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="210"/>
+                        <element name="info_bubble_text_3" skin="@team_info_wrap" preferredWidth="650" preferredHeight="110" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="325"/>
+                        <element name="info_bubble_text_4" skin="@team_info_wrap" preferredWidth="650" preferredHeight="110" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="440"/>
+                        <element name="info_bubble_text_5" skin="@team_info_wrap" preferredWidth="650" preferredHeight="110" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="555"/>
+                        <element name="info_bubble_text_6" skin="@team_info_wrap" preferredWidth="650" preferredHeight="110" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="670"/>
+                    </element>
+                </element>
+
+            </element>
+            <element name="team_player_detail_invite_btn" skin="@btn_green" preferredWidth="330" preferredHeight="120" anchorY="730" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" mouseChildren="false">
+                <element name="team_player_detail_invite_btn_label" skin="@team_body_font" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" model="#GUI0099" anchorY="-8" anchorX="0" preferredWidth="315" preferredHeight="110" flushBatch="true"/>
+            </element>
+            <element name="team_player_detail_cancel_invite_btn" skin="@btn_red" preferredWidth="330" preferredHeight="120" anchorY="730" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" mouseChildren="false">
+                <element name="team_player_detail_cancel_invite_btn_label" skin="@team_body_font" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" model="#GUI3524" anchorY="-8" anchorX="0" preferredWidth="315" preferredHeight="110" flushBatch="true"/>
+            </element>
+        </element>
+        <element name="btn_close" skin="@preloader_production_cancel_icon" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" anchorX="25" anchorY="-25"/>
+    </element>
+</element>

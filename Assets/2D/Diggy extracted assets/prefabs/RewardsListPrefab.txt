@@ -1,0 +1,14 @@
+---
+o:go_7929598135813126551
+s|name|RewardsListPrefab
+o:rt_7426690099668101129
+f|offsetMinX|-415
+f|offsetMinY|-280
+f|offsetMaxX|415
+f|pivotY|1
+o:hlg_5244117040077989121
+f|spacing|20
+d|childAlignment|MiddleCenter
+b|childForceExpandHeight|true
+o:hx_8226544348229202564|RewardsListBehaviour
+p|RewardPrefab|RewardPrefab

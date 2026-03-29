@@ -1,0 +1,1093 @@
+<!--	UI SKIN DEFINITIONS FILE 	-->
+<data>
+
+    <!-- OUTLINE FONT -->
+    <!-- AUTOSIZE -->
+	<!-- packs -->
+	
+    <fontSkin id="outline_230_system_left_middle" 	font="@diggy_outline" autoSize="true" color="0x4ECF10" fontScale="2.125" />
+    <fontSkin id="outline_183_system_left_middle" 	font="@diggy_outline" autoSize="true" color="0x4ECF10" fontScale="1.69" />
+    <fontSkin id="outline_132_system_left_middle" 	font="@diggy_outline" autoSize="true" color="0x4ECF10" fontScale="1.225" />
+
+	<fontSkin id="outline_230_gem_left_middle" 		font="@diggy_outline" autoSize="true" color="0x039D03" fontScale="2.125" />
+	<fontSkin id="outline_150_gem_left_middle" 		font="@diggy_outline" autoSize="true" color="0x039D03" fontScale="1.4" />
+	<fontSkin id="outline_110_gem_left_middle" 		font="@diggy_outline" autoSize="true" color="0x039D03" fontScale="1.02" />
+
+    <fontSkin id="outline_230_material_left_middle"	font="@diggy_outline" autoSize="true" color="0xFFFFFF" fontScale="2.215" />
+    <fontSkin id="outline_154_material_left_middle"	font="@diggy_outline" autoSize="true" color="0xFFFFFF" fontScale="1.43" />
+    <fontSkin id="outline_116_material_left_middle"	font="@diggy_outline" autoSize="true" color="0xFFFFFF" fontScale="1.08" />
+
+    <!--	TYPE FACE FONT	-->
+    <!--	AUTOSIZE	-->
+    <fontSkin id="typeface_216_white_at"    font="@diggy_typeface" autoSize="true" color="0xFFFFFF" fontScale="4.0"/>
+    <fontSkin id="typeface_162_white_at"    font="@diggy_typeface" autoSize="true" color="0xFFFFFF" fontScale="3.0"/>
+    <fontSkin id="typeface_108_white_at"    font="@diggy_typeface" autoSize="true" color="0xFFFFFF" fontScale="2.0"/>
+    <fontSkin id="typeface_70_white_at"     font="@diggy_typeface" autoSize="true" color="0xFFFFFF" fontScale="1.3"/>
+    <fontSkin id="typeface_62_white_at"     font="@diggy_typeface" autoSize="true" color="0xFFFFFF" fontScale="1.2"/>
+    <fontSkin id="typeface_54_white_at"     font="@diggy_typeface" autoSize="true" color="0xFFFFFF" fontScale="1.0"/>
+    <fontSkin id="typeface_54_gem_at"       font="@diggy_typeface" autoSize="true" color="0x118742" fontScale="1.0"/>
+    <fontSkin id="typeface_46_white_at"     font="@diggy_typeface" autoSize="true" color="0xFFFFFF" fontScale="1.0"/>
+    <fontSkin id="typeface_43_white_at"     font="@diggy_typeface" autoSize="true" color="0xFFFFFF" fontScale="0.8"/>
+    <fontSkin id="typeface_36_white_at"     font="@diggy_typeface" autoSize="true" color="0xFFFFFF" fontScale="0.7"/>
+    <fontSkin id="typeface_26_white_at"     font="@diggy_typeface" autoSize="true" color="0xFFFFFF" fontScale="0.5"/>
+    <fontSkin id="typeface_40_white_at"     font="@diggy_typeface" autoSize="true" color="0xFFFFFF" fontScale="0.75"/>
+    <fontSkin id="typeface_36_white_center_middle_as"  hAlign="CENTER" vAlign="MIDDLE" font="@diggy_typeface" autoSize="true" color="0xFFFFFF" fontScale="0.7" />
+
+    <!--	AUTOSIZE FALSE	-->
+    <fontSkin id="typeface_162_white_center_middle"  hAlign="CENTER" vAlign="MIDDLE" font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="3.0" />
+    <fontSkin id="typeface_105_white_center_middle"  hAlign="CENTER" vAlign="MIDDLE" font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="1.95" />
+
+    <fontSkin id="typeface_108_white_center_middle"  hAlign="CENTER" vAlign="MIDDLE" font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="2.0" />
+    <fontSkin id="typeface_92_white_center_middle"  hAlign="CENTER" vAlign="MIDDLE" font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="1.7" />
+    <fontSkin id="typeface_88_white_center_middle"  hAlign="CENTER" vAlign="MIDDLE" font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="1.63" />
+    <fontSkin id="typeface_74_white_center_middle"  hAlign="CENTER" vAlign="MIDDLE" font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="1.4" />
+    <fontSkin id="typeface_70_white_center_middle"  hAlign="CENTER" vAlign="MIDDLE" font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="1.3" />
+    <fontSkin id="typeface_70_white_left_middle"  	hAlign="LEFT" 	vAlign="MIDDLE" font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="1.3" />
+    <fontSkin id="typeface_65_white_center_middle"  hAlign="CENTER" vAlign="MIDDLE" font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="1.2"/>
+	<fontSkin id="typeface_60_white_center_middle"  hAlign="CENTER" vAlign="MIDDLE" font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="1.1"/>
+    <fontSkin id="typeface_60_brown_center_middle"  hAlign="CENTER" vAlign="MIDDLE" font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xEEB57A" fontScale="1.1" />
+    <fontSkin id="typeface_54_white_center_middle"  hAlign="CENTER" vAlign="MIDDLE" font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="1.0" />
+
+    <fontSkin id="typeface_74_white_right_middle"  	hAlign="RIGHT" vAlign="MIDDLE" font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="1.4" />
+    <fontSkin id="typeface_70_yellow_center_middle" hAlign="CENTER" vAlign="MIDDLE" font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xFFFC00" fontScale="1.3"/>
+	<fontSkin id="typeface_58_white_right_middle"   hAlign="RIGHT"   vAlign="MIDDLE" font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="1.07"/>
+	<fontSkin id="typeface_56_white_right_middle"   hAlign="RIGHT"   vAlign="MIDDLE" font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="1.04"/>
+    <fontSkin id="typeface_54_dbrown_center_middle" hAlign="CENTER" vAlign="MIDDLE" font="@diggy_typeface" autoSize="false" wordWrap="true" color="0x412d0f" fontScale="1.0" />
+    <fontSkin id="typeface_54_white_center_bottom"  hAlign="CENTER" vAlign="BOTTOM" font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="1.0"/>
+    <fontSkin id="typeface_54_white_center_top"     hAlign="CENTER" vAlign="TOP"    font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="1.0"/>
+    <fontSkin id="typeface_54_white_left_top"       hAlign="LEFT"   vAlign="TOP"    font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="1.0"/>
+    <fontSkin id="typeface_54_white_left_middle"    hAlign="LEFT"   vAlign="MIDDLE" font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="1.0"/>
+    <fontSkin id="typeface_54_white_right_middle"   hAlign="RIGHT"   vAlign="MIDDLE" font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="1.0"/>
+    <fontSkin id="typeface_50_white_left_middle"    hAlign="LEFT"   vAlign="MIDDLE" font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="0.93"/>
+    <fontSkin id="typeface_50_white_right_middle"   hAlign="RIGHT"  vAlign="MIDDLE" font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="0.93"/>
+    <fontSkin id="typeface_50_white_center_middle"  hAlign="CENTER" vAlign="MIDDLE" font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="0.93"/>
+    <fontSkin id="typeface_48_white_center_top"     hAlign="CENTER" vAlign="TOP"    font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="0.9" />
+    <fontSkin id="typeface_48_white_center_bottom"  hAlign="CENTER" vAlign="BOTTOM" font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="0.9" />
+    <fontSkin id="typeface_48_white_center_middle"  hAlign="CENTER" vAlign="MIDDLE" font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="0.9" />
+    <fontSkin id="typeface_48_white_left_middle"    hAlign="LEFT"   vAlign="MIDDLE" font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="0.9" />
+    <fontSkin id="typeface_48_white_right_middle"   hAlign="RIGHT"  vAlign="MIDDLE" font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="0.9" />
+    <fontSkin id="typeface_46_brown_center_middle"  hAlign="CENTER" vAlign="MIDDLE" font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xEEB57A" fontScale="0.86" />
+    <fontSkin id="typeface_43_lbrown_right_middle"  hAlign="RIGHT"  vAlign="MIDDLE" font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xEEB57A" fontScale="0.8" />
+    <fontSkin id="typeface_43_brown_left_middle"    hAlign="LEFT"   vAlign="MIDDLE" font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xEEB57A" fontScale="0.8" />
+    <fontSkin id="typeface_43_lbrown_left_middle"   hAlign="LEFT"   vAlign="MIDDLE" font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xF1D9C1" fontScale="0.8" />
+    <fontSkin id="typeface_43_white_center_bottom"  hAlign="CENTER" vAlign="BOTTOM" font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="0.8" />
+    <fontSkin id="typeface_43_white_center_middle"  hAlign="CENTER" vAlign="MIDDLE" font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="0.8" />
+    <fontSkin id="typeface_40_white_center_bottom"  hAlign="CENTER" vAlign="BOTTOM" font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="0.75" />
+    <fontSkin id="typeface_40_white_right_middle"   hAlign="RIGHT"  vAlign="MIDDLE" font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="0.75" />
+    <fontSkin id="typeface_36_white_center_middle"  hAlign="CENTER" vAlign="MIDDLE" font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="0.7" />
+    <fontSkin id="typeface_36_white_center_bottom"  hAlign="CENTER" vAlign="BOTTOM" font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="0.7" />
+    <fontSkin id="typeface_36_white_right_middle"   hAlign="RIGHT"  vAlign="MIDDLE" font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="0.7" />
+    <fontSkin id="typeface_36_white_left_top"       hAlign="LEFT"   vAlign="TOP"    font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="0.7" />
+    <fontSkin id="typeface_36_gold_center_middle"   hAlign="CENTER" vAlign="MIDDLE" font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xDEC15D" fontScale="0.7" />
+    <fontSkin id="typeface_36_brown_center_bottom"  hAlign="CENTER" vAlign="BOTTOM" font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xEEB57A" fontScale="0.7" />
+    <fontSkin id="typeface_36_lbrown_center_bottom" hAlign="CENTER" vAlign="BOTTOM" font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xF1D9C1" fontScale="0.7"/>
+    <fontSkin id="typeface_32_white_center_middle"  hAlign="CENTER" vAlign="MIDDLE" font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="0.6" />
+    <fontSkin id="typeface_32_white_left_middle"    hAlign="LEFT"   vAlign="MIDDLE" font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="0.6" />
+    <fontSkin id="typeface_31_white_center_middle"  hAlign="CENTER" vAlign="MIDDLE" font="@diggy_typeface" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="0.6" />
+
+    <!-- OSWALD_BOLD AUTO SIZE-->
+    <fontSkin id="oswald_70_dbrown_at" font="@oswald_bold" autoSize="true" color="0x412d0f" fontScale="1.3"/>
+    <fontSkin id="oswald_54_black_at" font="@oswald_bold" autoSize="true" color="0x000000" fontScale="1.0"/>
+    <fontSkin id="oswald_54_white_at" font="@oswald_bold" autoSize="true" color="0xFFFFFF" fontScale="1.0"/>
+    <fontSkin id="oswald_54_brown_at" font="@oswald_bold" autoSize="true" color="0x47361c" fontScale="1.0"/>
+    <fontSkin id="oswald_48_black_at" font="@oswald_bold" autoSize="true" color="0x000000" fontScale="0.9"/>
+    <fontSkin id="oswald_46_white_at" font="@oswald_bold" autoSize="true" color="0xFFFFFF" fontScale=".85"/>
+    <fontSkin id="oswald_46_brown_at" font="@oswald_bold" autoSize="true" color="0x47361c" fontScale=".85"/>
+    <fontSkin id="oswald_43_white_at" font="@oswald_bold" autoSize="true" color="0xFFFFFF" fontScale=".8"/>
+    <fontSkin id="oswald_40_white_at" font="@oswald_bold" autoSize="true" color="0xFFFFFF" fontScale=".74"/>
+
+    <fontSkin id="popup_small_brown_reward" font="@oswald_bold" autoSize="false" wordWrap="true" hAlign="CENTER" vAlign="BOTTOM" color="0x412d0f" fontScale=".6" />
+
+    <!-- OSWALD_BOLD NOT AUTO SIZE-->
+    <fontSkin id="oswald_108_white_center_middle" hAlign="CENTER" vAlign="MIDDLE" font="@oswald_bold" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="2.0"/>
+    <fontSkin id="oswald_86_white_center_middle" hAlign="CENTER" vAlign="MIDDLE" font="@oswald_bold" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="1.6"/>
+    <fontSkin id="oswald_81_white_left_top"    	 hAlign="LEFT" 	 vAlign="TOP"    font="@oswald_bold" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="1.5"/>
+    <fontSkin id="oswald_62_white_left_middle" hAlign="LEFT" vAlign="MIDDLE" font="@oswald_bold" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="1.2"/>
+    <fontSkin id="oswald_54_white_left_top"	     hAlign="LEFT" 	 vAlign="TOP"    font="@oswald_bold" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="1.0"/>
+    <fontSkin id="oswald_54_black_center_top"    hAlign="CENTER" vAlign="TOP"    font="@oswald_bold" autoSize="false" wordWrap="true" color="0x000000" fontScale="1.0"/>
+    <fontSkin id="oswald_54_black_left_middle"   hAlign="LEFT"   vAlign="MIDDLE" font="@oswald_bold" autoSize="false" wordWrap="true" color="0x000000" fontScale="1.0"/>
+    <fontSkin id="oswald_54_white_center_top"    hAlign="CENTER" vAlign="TOP"    font="@oswald_bold" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="1.0"/>
+    <fontSkin id="oswald_54_white_center_middle" hAlign="CENTER" vAlign="MIDDLE" font="@oswald_bold" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="1.0"/>
+
+    <fontSkin id="oswald_54_dbrown_center_middle" hAlign="CENTER" vAlign="MIDDLE" font="@oswald_bold" autoSize="false" wordWrap="true" color="0x412d0f" fontScale="1.0"/>
+    <fontSkin id="oswald_50_white_center_middle" hAlign="CENTER" vAlign="MIDDLE" font="@oswald_bold" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="0.93"/>
+    <fontSkin id="oswald_50_white_left_middle" 	 hAlign="LEFT" 	 vAlign="MIDDLE" font="@oswald_bold" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="0.93"/>
+    <fontSkin id="oswald_48_top_left_black"      hAlign="LEFT"   vAlign="TOP"    font="@oswald_bold" autoSize="false" wordWrap="true" color="0x000000" fontScale="0.9"/>
+    <fontSkin id="oswald_48_white_center_middle" hAlign="CENTER" vAlign="MIDDLE" font="@oswald_bold" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="0.9" />
+    <fontSkin id="oswald_46_purple_left_top"     hAlign="LEFT" 	 vAlign="TOP"    font="@oswald_bold" autoSize="false" wordWrap="true" color="0xE0A9FF" fontScale="0.85"/>
+    <fontSkin id="oswald_46_gem_left_middle"     hAlign="LEFT"   vAlign="MIDDLE" font="@oswald_bold" autoSize="false" wordWrap="true" color="0x30FF00" fontScale="0.85" />
+    <fontSkin id="oswald_46_dark_gem_left_middle" hAlign="LEFT"   vAlign="MIDDLE" font="@oswald_bold" autoSize="false" wordWrap="true" color="0x118742" fontScale="0.85" />
+    <fontSkin id="oswald_43_lbrown_left_middle"  hAlign="LEFT"   vAlign="MIDDLE" font="@oswald_bold" autoSize="false" wordWrap="true" color="0xF1D9C1" fontScale="0.8" />
+    <fontSkin id="oswald_43_brown_left_middle"   hAlign="LEFT"   vAlign="MIDDLE" font="@oswald_bold" autoSize="false" wordWrap="true" color="0xEEB57A" fontScale="0.8" />
+    <fontSkin id="oswald_43_brown_center_middle" hAlign="LEFT"   vAlign="MIDDLE" font="@oswald_bold" autoSize="false" wordWrap="true" color="0xEEB57A" fontScale="0.8" />
+    <fontSkin id="oswald_43_black_center_middle" hAlign="CENTER"   vAlign="MIDDLE" font="@oswald_bold" autoSize="false" wordWrap="true" color="0x000000" fontScale="0.8" />
+    <fontSkin id="oswald_43_black_right_middle"  hAlign="RIGHT"  vAlign="MIDDLE" font="@oswald_bold" autoSize="false" wordWrap="true" color="0x000000" fontScale="0.8"/>
+    <fontSkin id="oswald_40_dbrown_center_top"   hAlign="CENTER" vAlign="TOP"    font="@oswald_bold" autoSize="false" wordWrap="true" color="0x412d0f" fontScale=".74"/>
+    <fontSkin id="oswald_40_white_center_top"    hAlign="CENTER" vAlign="TOP"    font="@oswald_bold" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale=".74"/>
+    <fontSkin id="oswald_40_white_center_bottom" hAlign="CENTER" vAlign="BOTTOM" font="@oswald_bold" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale=".74"/>
+    <fontSkin id="oswald_40_black_center_top"    hAlign="CENTER" vAlign="TOP"    font="@oswald_bold" autoSize="false" wordWrap="true" color="0x000000" fontScale=".74"/>
+    <fontSkin id="oswald_40_white_center_middle" hAlign="CENTER" vAlign="MIDDLE" font="@oswald_bold" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale=".74"/>
+    <fontSkin id="oswald_40_white_left_middle"   hAlign="LEFT"   vAlign="MIDDLE" font="@oswald_bold" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale=".74"/>
+    <fontSkin id="oswald_40_white_left_top"      hAlign="LEFT"   vAlign="TOP"    font="@oswald_bold" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale=".74"/>
+    <fontSkin id="oswald_40_black_center_middle" hAlign="CENTER" vAlign="MIDDLE" font="@oswald_bold" autoSize="false" wordWrap="true" color="0x000000" fontScale="0.74"/>
+    <fontSkin id="oswald_40_brown_center_middle" hAlign="CENTER" vAlign="MIDDLE" font="@oswald_bold" autoSize="false" wordWrap="true" color="0x412d0d" fontScale="0.74"/>
+	<fontSkin id="oswald_32_top_left_black"      hAlign="LEFT"   vAlign="TOP"    font="@oswald_bold" autoSize="false" wordWrap="true" color="0x000000" fontScale="0.58"/>
+    <fontSkin id="oswald_32_black_center_middle" hAlign="CENTER" vAlign="MIDDLE"    font="@oswald_bold" autoSize="false" wordWrap="true" color="0x000000" fontScale="0.58"/>
+    <fontSkin id="oswald_32_black_left_middle"   hAlign="LEFT" vAlign="MIDDLE"    font="@oswald_bold" autoSize="false" wordWrap="true" color="0x000000" fontScale="0.58"/>
+    <fontSkin id="oswald_32_black_right_middle"  hAlign="RIGHT"  vAlign="MIDDLE" font="@oswald_bold" autoSize="false" wordWrap="true" color="0x000000" fontScale="0.58"/>
+    <fontSkin id="oswald_30_white_center_middle" hAlign="CENTER" vAlign="MIDDLE" font="@oswald_bold" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="0.55"/>
+    <fontSkin id="oswald_30_white_center_top"    hAlign="CENTER" vAlign="TOP"    font="@oswald_bold" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="0.55"/>
+    <fontSkin id="oswald_30_dbrown_center_top"   hAlign="CENTER" vAlign="TOP"    font="@oswald_bold" autoSize="false" wordWrap="true" color="0x412d0f" fontScale=".55"/>
+    <fontSkin id="oswald_30_white_left_middle"   hAlign="LEFT" vAlign="MIDDLE"   font="@oswald_bold" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale=".55"/>
+    <fontSkin id="oswald_27_black_center_bottom" hAlign="CENTER" vAlign="BOTTOM" font="@oswald_bold" autoSize="false" wordWrap="true" color="0x000000" fontScale=".5"/>
+
+    <!--	FONTS 	-->
+	<fontSkin font="@oswald_bold" autoSize="true"  color="0xFFFFFF" fontScale="0.65" id="oswald_bold_65_basic"/>
+    <fontSkin font="@oswald_bold" autoSize="true"  color="0xFFFFFF" fontScale="0.85" id="oswald_bold_85_basic_drevo1"/>
+    <fontSkin font="@oswald_bold" autoSize="true"  color="0xFFFFFF" fontScale="0.60" id="oswald_bold_85_basic_drevo1_small"/>
+    <fontSkin font="@oswald_bold" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="0.85" vAlign="MIDDLE" hAlign="RIGHT" id="oswald_bold_85_basic_drevo1_autosize_false"/>
+    <fontSkin font="@oswald_bold" autoSize="true"  color="0xFFFFFF" fontScale="1.00" id="oswald_bold_85_basic_drevo1_big"/>
+    <fontSkin font="@oswald_bold" autoSize="true"  color="0xFFFFFF" fontScale="1.00" id="oswald_bold_85_offerwall" rotation="-0.349"/>
+
+    <fontSkin font="@oswald_bold" autoSize="true"  color="0x47361c" fontScale="0.85" id="oswald_bold_85_basic_drevo2"/>
+    <fontSkin font="@oswald_bold" autoSize="true"  color="0xFFFFFF" fontScale="0.75" id="oswald_bold_75_basic_drevo1"/>
+    <fontSkin font="@oswald_bold" autoSize="true"  color="0xFFFFFF" fontScale="0.70" id="oswald_bold_70_basic_drevo1"/>
+    <fontSkin font="@oswald_bold" autoSize="false" wordWrap="true"  color="0xFFFFFF" fontScale="0.70" vAlign="MIDDLE" hAlign="CENTER" id="oswald_bold_70_basic_drevo1_autosize_false"/>
+    <fontSkin font="@oswald_bold" autoSize="false" wordWrap="true"  color="0xFFFFFF" fontScale="0.60" vAlign="MIDDLE" hAlign="CENTER" id="oswald_bold_60_basic_drevo1_autosize_false"/>
+    <fontSkin font="@oswald_bold" autoSize="false" wordWrap="true"  color="0xFFFFFF" fontScale="0.50" vAlign="MIDDLE" hAlign="CENTER" id="oswald_bold_50_basic_drevo1_autosize_false"/>
+    <fontSkin font="@oswald_bold" autoSize="true"  color="0x47361c" fontScale="0.70" id="oswald_bold_70_basic_drevo2"/>
+    <fontSkin font="@oswald_bold" autoSize="true"  color="0xFFFFFF" fontScale="0.50" id="oswald_bold_50_basic_drevo1"/>
+    <fontSkin font="@oswald_bold" autoSize="true"  color="0x47361c" fontScale="0.50" id="oswald_bold_50_basic_drevo2"/>
+    <fontSkin font="@oswald_bold" autoSize="true"  color="0xFFFFFF" fontScale="0.40" id="oswald_bold_40_basic_drevo1"/>
+
+    <fontSkin font="@oswald_bold" autoSize="false" wordWrap="true" vAlign="MIDDLE" hAlign="CENTER" color="0xFFFFFF" fontScale="0.50" id="oswald_bold_50_basic_drevo1_af"/>
+    <fontSkin font="@oswald_bold" autoSize="false" wordWrap="true" vAlign="MIDDLE" hAlign="CENTER" color="0xFFFFFF" fontScale="0.70" id="oswald_bold_70_basic_drevo1_af"/>
+    <fontSkin font="@oswald_bold" autoSize="false" wordWrap="true" vAlign="MIDDLE" hAlign="CENTER" color="0xFFFFFF" fontScale="0.75" id="oswald_bold_75_basic_drevo1_af"/>
+    <fontSkin font="@oswald_bold" autoSize="false" wordWrap="true" vAlign="MIDDLE" hAlign="CENTER" color="0x2A6666" fontScale="1" id="oswald_bold_1_lblue_af"/>
+    <fontSkin font="@oswald_bold" autoSize="false" wordWrap="true" vAlign="MIDDLE" hAlign="CENTER" color="0x47361c" fontScale="0.85" id="oswald_bold_85_basic_drevo2_af"/>
+
+    <fontSkin font="@oswald_bold" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="0.85" id="oswald_bold_85_basic_drevo1_af" vAlign="MIDDLE" hAlign="CENTER"/>
+    <fontSkin font="@oswald_bold" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="0.75" id="oswald_bold_75_basic_drevo1_af" vAlign="MIDDLE" hAlign="CENTER"/>
+    <fontSkin font="@oswald_bold" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="0.65" id="oswald_bold_65_basic_drevo1_af" vAlign="MIDDLE" hAlign="CENTER"/>
+
+    <fontSkin font="@oswald_bold" autoSize="true" color="0x412d0d" fontScale="1.75" id="oswald_XL_brown"/>
+    <fontSkin font="@oswald_bold" autoSize="true" color="0x412d0d" fontScale="1.25" id="oswald_L_brown"/>
+    <fontSkin font="@oswald_bold" autoSize="true" color="0x412d0d" fontScale="1.00" id="oswald_M_brown"/>
+    <fontSkin font="@oswald_bold" autoSize="true" color="0x412d0d" fontScale="0.85" id="oswald_S_brown"/>
+	<fontSkin font="@oswald_bold" autoSize="true" color="0x412d0d" fontScale="0.65" id="oswald_65_brown"/>
+
+    <fontSkin font="@oswald_bold" autoSize="false" hAlign="CENTER" vAlign="MIDDLE" wordWrap="true" color="0x412d0d" fontScale="1.25" id="oswald_L_brown_af_center_middle"/>
+    <fontSkin font="@oswald_bold" autoSize="false" hAlign="CENTER" vAlign="MIDDLE" wordWrap="true" color="0x412d0d" fontScale="1.00" id="oswald_M_brown_af_center_middle"/>
+    <fontSkin font="@oswald_bold" autoSize="false" hAlign="CENTER" vAlign="MIDDLE" wordWrap="true" color="0x412d0d" fontScale="0.85" id="oswald_S_brown_af_center_middle"/>
+    <fontSkin font="@oswald_bold" autoSize="false" hAlign="CENTER" vAlign="MIDDLE" wordWrap="true" color="0x412d0d" fontScale="0.60" id="oswald_60_brown_af_center_middle"/>
+
+    <fontSkin font="@oswald_bold" autoSize="false" wordWrap="true" color="0x412d0d" fontScale="1.00" hAlign="CENTER" id="oswald_M_brown_aoff"/>
+	<fontSkin font="@oswald_bold" autoSize="false" wordWrap="true" color="0x412d0d" fontScale="0.65" hAlign="CENTER" id="oswald_65_brown_aoff"/>
+
+    <fontSkin font="@oswald_bold" autoSize="false" wordWrap="true" color="0x335A97" fontScale="1" hAlign="CENTER" id="oswald_L_blue"/>
+    <fontSkin font="@oswald_bold" autoSize="false" wordWrap="true" color="0x335A97" fontScale="0.75" hAlign="CENTER" id="oswald_S_blue"/>
+    <fontSkin font="@oswald_bold" autoSize="true" red="1" green="0" blue="0" fontScale=".75" id="oswald_bold_75_center_red"/>
+
+    <fontSkin font="@oswald_bold" autoSize="true" color="0x754706" fontScale="1" id="oswald_M_light_brown"/>
+
+    <fontSkin font="@oswald_bold" autoSize="true" color="0xDEC15D" fontScale="1" id="oswald_M_gold"/>
+    <fontSkin font="@oswald_bold" autoSize="true" color="0xDEC15D" fontScale="0.65" id="oswald_65_gold"/>
+
+    <fontSkin id="map_badge_progress_font" font="@oswald_bold" autoSize="true" color="0x715030" fontScale=".8"/>
+
+    <fontSkin font="@oswald_bold" autoSize="true" color="0x70F870" fontScale="0.6" id="oswald_bold_60_green"/>
+    <fontSkin font="@oswald_bold" autoSize="true" fontScale="0.6" id="oswald_bold_60_white"/>
+
+    <fontSkin font="@oswald_bold" autoSize="true" fontScale="1" id="oswald_bold_white"/>
+    <fontSkin font="@oswald_bold" autoSize="true" fontScale=".65" id="oswald_bold_65_white"/>
+    <fontSkin font="@oswald_bold" autoSize="true" fontScale=".85" id="oswald_bold_85_white"/>
+    <fontSkin font="@oswald_bold" autoSize="true" fontScale="1.2" id="oswald_bold_big_white"/>
+    <fontSkin font="@oswald_bold" autoSize="true" color="0xffffff" fontScale="0.75" id="oswald_XS_white"/>
+    <fontSkin font="@oswald_bold" autoSize="true" color="0xa99e77" fontScale=".85" id="oswald_bold_85_inactive"/>
+
+    <fontSkin font="@oswald_bold" autoSize="true"  color="0x5b1910" fontScale=".85" id="oswald_bold_85_basic1"/>
+    <fontSkin font="@oswald_bold" autoSize="false" wordWrap="true" color="0x5b1910" fontScale=".85" hAlign="RIGHT" id="oswald_bold_85_basic1_auto_false_right"/>
+
+    <fontSkin font="@oswald_bold" autoSize="true" color="0xcc321f" fontScale=".85" id="oswald_bold_85_basic2"/>
+    <fontSkin font="@oswald_bold" autoSize="true" red="0" green="0" blue="0" fontScale="1" id="oswald_bold"/>
+    <fontSkin font="@oswald_bold" autoSize="true" red="0" green="0" blue="0" fontScale="0.65" id="oswald_bold_65"/>
+    <fontSkin font="@oswald_bold" autoSize="true" red="0" green="0" blue="0" fontScale="1.2" id="oswald_bold_big"/>
+
+    <fontSkin font="@oswald_bold" autoSize="false" wordWrap="true" color="0xff0000" fontScale="1.2" vAlign="TOP" hAlign="LEFT" id="oswald_bold_top_left_black_autosize"/>
+
+    <fontSkin font="@oswald_bold" autoSize="false" wordWrap="true" red="0" green="0" blue="0" fontScale="1.2" hAlign="CENTER" id="oswald_bold_120_autosize_off"/>
+    <fontSkin font="@oswald_bold" autoSize="false" wordWrap="true" red="0" green="0" blue="0" fontScale="1" hAlign="CENTER" id="oswald_bold_autosize_off"/>
+    <fontSkin font="@oswald_bold" autoSize="true"  red="0" green="0" blue="0" fontScale=".85" id="oswald_bold_85"/>
+    <fontSkin font="@oswald_bold" autoSize="false" wordWrap="true" red="0" green="0" blue="0" fontScale=".85" hAlign="CENTER" vAlign="MIDDLE" id="oswald_bold_85_autosize_off_center"/>
+    <fontSkin font="@oswald_bold" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale=".85" hAlign="CENTER" vAlign="MIDDLE" id="oswald_bold_85_autosize_off_center_white"/>
+    <fontSkin font="@oswald_bold" autoSize="true" red="0" green="0" blue="0" fontScale=".75" id="oswald_bold_75"/>
+    <fontSkin font="@oswald_bold" autoSize="true" red="1" green="0" blue="0" fontScale=".85" id="oswald_bold_85_red"/>
+    <fontSkin font="@oswald_bold" autoSize="true" red="0" green="0" blue="0" fontScale=".5" id="oswald_bold_50"/>
+    <fontSkin font="@oswald_bold" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="0.85" id="oswald_bold_85_autosize_false_mid" hAlign="CENTER" vAlign="MIDDLE"/>
+    <fontSkin font="@oswald_bold" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="0.85" id="oswald_bold_85_autosize_false"/>
+    <fontSkin font="@oswald_bold" autoSize="false" wordWrap="true" color="0x000000" fontScale="0.85" hAlign="CENTER" id="oswald_bold_85_autosize_false_halign_black"/>
+    <fontSkin font="@oswald_bold" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="0.75" hAlign="CENTER" id="oswald_bold_75_autosize_false_halign"/>
+    <fontSkin font="@oswald_bold" autoSize="false" wordWrap="true" color="0x000000" fontScale="0.75" hAlign="CENTER" id="oswald_bold_75_autosize_false_halign_black"/>
+    <fontSkin font="@oswald_bold" autoSize="false" wordWrap="true" color="0x000000" fontScale="0.75" hAlign="LEFT" id="oswald_bold_75_autosize_false_left_black"/>
+    <fontSkin font="@oswald_bold" autoSize="false" wordWrap="true" color="0x000000" fontScale="0.70" vAlign="TOP" hAlign="LEFT" id="oswald_bold_70_top_left_black"/>
+    <fontSkin font="@oswald_bold" autoSize="false" wordWrap="true" color="0x000000" fontScale="0.70" vAlign="TOP" hAlign="CENTER" id="oswald_bold_70_top_center_black"/>
+    <fontSkin font="@oswald_bold" autoSize="false" wordWrap="true" color="0x000000" fontScale="0.60" vAlign="TOP" hAlign="LEFT" id="oswald_bold_60_top_left_black"/>
+    <fontSkin font="@oswald_bold" autoSize="false" wordWrap="true" color="0x000000" fontScale="0.48" hAlign="CENTER" id="oswald_bold_48_autosize_false_halign_black"/>
+    <fontSkin font="@oswald_bold" autoSize="false" wordWrap="true" color="0x000000" fontScale="0.48" hAlign="LEFT" id="oswald_bold_48_autosize_false_left_black"/>
+
+    <fontSkin font="@oswald_bold" autoSize="true" color="0x118742" fontScale="1" id="oswald_bold_85_gem1"/>
+    <fontSkin font="@oswald_bold" autoSize="false" wordWrap="true" hAlign="CENTER" color="0xffffff" fontScale="1" id="oswald_bold_85_gem1_white"/>
+    <fontSkin font="@oswald_bold" autoSize="false" wordWrap="true" hAlign="CENTER" vAlign="MIDDLE" color="0xffffff" fontScale="0.85" id="oswald_bold_85_gem1_white_middle"/>
+    <fontSkin font="@oswald_bold" autoSize="true" color="0x118742" fontScale=".85" id="oswald_bold_85_gem2"/>
+    <fontSkin font="@oswald_bold" autoSize="true" color="0x118742" fontScale=".85" id="buy_button_gem_font1"/>
+
+    <fontSkin font="@oswald_bold" autoSize="true" color="0x118742" fontScale=".7" id="buy_button_gem_font1_small_darkgreen"/>
+    <fontSkin font="@oswald_bold" autoSize="true" color="0x30FF00" fontScale=".7" id="buy_button_gem_font1_small_lightgreen"/>
+    <fontSkin font="@oswald_bold" autoSize="true" color="0x118742" fontScale=".5" id="buy_button_gem_font1_smaller_darkgreen"/>
+    <fontSkin font="@oswald_bold" autoSize="true" color="0x30FF00" fontScale=".5" id="buy_button_gem_font1_smaller_lightgreen"/>
+
+    <fontSkin font="@oswald_bold" autoSize="false" wordWrap="true" color="0xffffff" hAlign="CENTER" vAlign="MIDDLE" fontScale=".65" id="show_video_button_af"/>
+    <fontSkin font="@oswald_bold" autoSize="false" wordWrap="true" color="0x118742" hAlign="CENTER" fontScale="1" id="oswald_bold_M_gem1_aoff"/>
+
+    <fontSkin font="@font" autoSize="true" fontScale="0.7" id="font"/>
+    <!-- STORAGE FONTS -->
+    <fontSkin font="@oswald_bold" autoSize="false" wordWrap="true" color="0x0" fontScale=".6" hAlign="CENTER" id="storage_material_info_font"/>
+    <fontSkin font="@oswald_bold" autoSize="false" wordWrap="true" color="0x0" fontScale=".75" hAlign="CENTER" id="storage_material_info_font_mobile"/>
+
+    <!-- TOP MENU FONTS -->
+    <fontSkin id="top_menu_lvl_font" font="@oswald_bold" autoSize="true" color="0x7b490f" fontScale="1" hAlign="CENTER"/>
+    <fontSkin font="@oswald_bold" autoSize="true" color="0xe2ff88" fontScale=".75" id="top_menu_energy_font"/>
+    <fontSkin font="@oswald_bold" autoSize="true" color="0x3c2f1b" fontScale=".85" id="popup_font"/>
+    <fontSkin font="@oswald_bold" autoSize="false" wordWrap="true" color="0x3c2f1b" fontScale=".75" hAlign="CENTER" id="popup_font_ml"/>
+
+    <!-- DIALOG FONTS -->
+    <fontSkin font="@oswald_bold" autoSize="true" color="0x323232" hAlign="CENTER" fontScale=".6" id="dialog_font"/>
+    <fontSkin font="@oswald_bold" autoSize="false" wordWrap="true" color="0x323232" hAlign="CENTER" vAlign="MIDDLE" fontScale="1.2" id="speaker_hint_font"/>
+
+    <fontSkin id="oswald_bold_42_align_right_middle"    font="@oswald_bold" autoSize="false" wordWrap="true" color="0x000000" hAlign="RIGHT" vAlign="MIDDLE" fontScale=".8"/>
+    <fontSkin id="oswald_bold_42_align_center_top"      font="@oswald_bold" autoSize="false" wordWrap="true" color="0x000000" hAlign="CENTER" vAlign="TOP" fontScale="0.8"/>
+    <fontSkin id="oswald_bold_42_align_center_middle"   font="@oswald_bold" autoSize="false" wordWrap="true" color="0x000000" hAlign="CENTER" vAlign="MIDDLE" fontScale="0.8"/>
+    <fontSkin id="oswald_bold_42_align_left_top"        font="@oswald_bold" autoSize="false" wordWrap="true" color="0x000000" hAlign="LEFT" vAlign="TOP" fontScale="0.8"/>
+    <fontSkin id="oswald_bold_42_align_left_middle"     font="@oswald_bold" autoSize="false" wordWrap="true" color="0x000000" hAlign="LEFT" vAlign="MIDDLE" fontScale="0.8"/>
+    <fontSkin id="oswald_bold_42_align_center_top_white" font="@oswald_bold" autoSize="false" wordWrap="true" color="0xFFFFFF" hAlign="CENTER" vAlign="TOP" fontScale="0.8"/>
+    <fontSkin id="oswald_bold_42_align_center_bottom"   font="@oswald_bold" autoSize="false" wordWrap="true" color="0x000000" hAlign="CENTER" vAlign="BOTTOM" fontScale="0.7"/>
+
+    <fontSkin id="oswald_bold_32_align_right_middle" font="@oswald_bold" autoSize="false" wordWrap="true" color="0x000000" hAlign="RIGHT" vAlign="MIDDLE" fontScale=".6"/>
+    <fontSkin id="oswald_bold_32_align_center_top" font="@oswald_bold" autoSize="false" wordWrap="true" color="0x000000" hAlign="CENTER" vAlign="TOP" fontScale="0.6"/>
+    <fontSkin id="oswald_bold_32_align_center_middle" font="@oswald_bold" autoSize="false" wordWrap="true" color="0x000000" hAlign="CENTER" vAlign="MIDDLE" fontScale="0.6"/>
+    <fontSkin id="oswald_bold_26_align_center_middle" font="@oswald_bold" autoSize="false" wordWrap="true" color="0x000000" hAlign="CENTER" vAlign="MIDDLE" fontScale=".5"/>
+    <fontSkin id="oswald_bold_26_align_center_middle_white" font="@oswald_bold" autoSize="false" wordWrap="true" color="0xFFFFFF" hAlign="CENTER" vAlign="MIDDLE" fontScale=".5"/>
+
+    <!-- EVENTPASS -->
+    <fontSkin id="eventpass_hint_header_font" font="@oswald_bold" autoSize="false" wordWrap="true" hAlign="CENTER" color="0xFFFFFF" fontScale="1"/>
+    <fontSkin id="eventpass_milestone_font" font="@oswald_bold" autoSize="false" wordWrap="true" hAlign="CENTER" vAlign="MIDDLE" color="0xFFFFFF" fontScale="0.85"/>
+    <fontSkin id="eventpass_milestone_font_shadow" font="@oswald_bold" autoSize="false" wordWrap="true" hAlign="CENTER" vAlign="MIDDLE" color="0x000000" fontScale="0.85"/>
+    <fontSkin id="eventpass_item_smaller_font" font="@oswald_bold" autoSize="false" wordWrap="true" hAlign="CENTER" vAlign="TOP" color="0xFFFFFF" fontScale="0.65"/>
+    <fontSkin id="eventpass_item_smaller_font_shadow" font="@oswald_bold" autoSize="false" wordWrap="true" hAlign="CENTER" vAlign="TOP" color="0x000000" fontScale="0.65"/>
+    <fontSkin id="eventpass_chest_info_title_font" font="@oswald_bold" autoSize="false" wordWrap="true" hAlign="CENTER" color="0xFFFFFF" fontScale="1.2"/>
+
+
+    <textureSkin id="quests_city_icon_arrow" texture="@quests_city_icon_arrow"/>
+
+    <!-- 	TOP MENU 	-->
+    <textureSkin texture="@top_bar_energy" id="top_bar_energy"/>
+    <textureSkin texture="@top_bar_exp" id="top_bar_exp"/>
+    <textureSkin texture="@top_btn_lvl" id="top_btn_lvl"/>
+    <textureSkin texture="@top_mid" id="top_mid"/>
+    <textureSkin texture="@top_left_bg" id="top_left_bg" sliceLeft="20" sliceRight="23" sliceTop="25" sliceBottom="27"/>
+    <textureSkin texture="@top_left_alpha_bg" id="top_left_alpha_bg" sliceLeft="20" sliceRight="23" sliceTop="25" sliceBottom="27"/>
+    <textureSkin texture="@top_btn_blue" id="top_btn_blue" sliceLeft="25" sliceRight="27" sliceTop="28" sliceBottom="36"/>
+    <textureSkin texture="@top_mid_bg_01" id="top_mid_bg_01"/>
+    <textureSkin texture="@top_mid_bg_02" id="top_mid_bg_02"/>
+    <textureSkin texture="@top_right_bg" id="top_right_bg"/>
+    <textureSkin texture="@top_bar_setinggs" id="top_bar_setinggs"/>
+    <textureSkin texture="@top_coin" id="top_coin"/>
+    <textureSkin texture="@top_pixel_coin" id="top_pixel_coin"/>
+    <textureSkin texture="@tooltip_body" id="tooltip_body" sliceTop="40" sliceBottom="42" sliceLeft="37" sliceRight="52"/>
+    <textureSkin texture="@tooltip_down" id="tooltip_down"/>
+    <textureSkin texture="@tooltip_up" id="tooltip_up"/>
+    <textureSkin texture="@tooltip_right" id="tooltip_right"/>
+    <textureSkin texture="@tooltip_left" id="tooltip_left"/>
+    <textureSkin texture="@icon_plus" id="icon_plus"/>
+    <textureSkin texture="@icon_plus" id="icon_plus_s150" scaleX="1.5" scaleY="1.5"/>
+    <textureSkin texture="@icon_day" id="icon_day"/>
+    <textureSkin texture="@icon_night" id="icon_night"/>
+    <textureSkin texture="@dropdown_arrow_up" id="arrow_left_white" scaleX="0.62" scaleY="1.1" rotation="-1.571"/>
+    <textureSkin texture="@dropdown_arrow_up" id="arrow_right_white" scaleX="0.62" scaleY="1.1" rotation="1.571"/>
+    <textureSkin texture="@dropdown_arrow_up" id="dropdown_arrow_up"/>
+    <textureSkin texture="@dropdown_arrow_down" id="dropdown_arrow_down"/>
+    <textureSkin texture="@btn_round_brown" id="btn_round_brown"/>
+    <textureSkin texture="@icon_offer" id="icon_offer"/>
+    <textureSkin texture="@icon_pack" id="icon_pack" scaleX="1.16" scaleY="1.16"/>
+    <textureSkin texture="@icon_pack_2" id="icon_pack_2" scaleX="1.16" scaleY="1.16"/>
+    <textureSkin texture="@icon_pack_3" id="icon_pack_3" scaleX="1.16" scaleY="1.16"/>
+    <textureSkin texture="@icon_buy_all_deal" id="icon_buy_all_deal"/>
+    <textureSkin texture="@icon_day_pack" id="icon_day_pack"/>
+    <textureSkin texture="@icon_notification" id="icon_notification"/>
+    <textureSkin texture="@icon_daily_tasks" id="icon_daily_tasks"/>
+    <textureSkin texture="@ico_events" id="ico_events"/>
+    <textureSkin texture="@ico_gem" id="ico_gem"/>
+    <textureSkin texture="@btn_dropdown" id="btn_dropdown" sliceLeft="23" sliceRight="25" sliceTop="65" sliceBottom="106"/>
+    <textureSkin texture="@btn_dropright" id="btn_dropright" sliceLeft="23" sliceRight="28" sliceTop="23" sliceBottom="37"/>
+    <textureSkin texture="@arrow" id="dropright_arrow_left"/>
+    <textureSkin texture="@gradient_white" id="gradient_white_right" sliceLeft="1" sliceRight="3" sliceTop="0" sliceBottom="100" rotation="1.57"/>
+    <textureSkin texture="@bg_edge_black" id="bg_edge_black_shade" sliceLeft="21" sliceRight="23" sliceTop="19" sliceBottom="21" alpha="0.7"/>
+    <textureSkin texture="@bg_edge_black" id="bg_edge_black_shade_50" sliceLeft="21" sliceRight="23" sliceTop="19" sliceBottom="21" alpha="0.5"/>
+    <textureSkin texture="@bg_edge_black" id="bg_edge_black" sliceLeft="21" sliceRight="23" sliceTop="19" sliceBottom="21"/>
+    <textureSkin texture="@find_the_pair_icon" id="find_the_pair_icon" scaleX="0.9" scaleY="0.9"/>
+    <textureSkin id="top_hud_bg" texture="@top_hud_bg" sliceLeft="1" sliceRight="3"/>
+    <textureSkin id="bottom_hud_bg" texture="@bottom_hud_bg" sliceLeft="1" sliceRight="3"/>
+    <textureSkin id="bg_blue" texture="@bg_blue" sliceLeft="1" sliceRight="3" sliceTop="1" sliceBottom="3"/>
+    <textureSkin id="bg_black" texture="@bg_black" sliceLeft="1" sliceRight="3" sliceTop="1" sliceBottom="3"/>
+    <textureSkin id="bg_black_edge" texture="@bg_black_edge" sliceLeft="16" sliceTop="16" sliceRight="26"  sliceBottom="23" alpha="0.2"/>
+    <textureSkin id="bg_black_tutorial" texture="@bg_black" sliceLeft="1" sliceRight="3" sliceTop="1" sliceBottom="3" alpha="0.8"/>
+    <textureSkin id="speaker_tutorial_professor2" texture="@speaker_tutorial_professor2"/>
+    <textureSkin texture="@calendar_icon" id="calendar_icon"/>
+
+    <textureSkin texture="@btn_round_brown_mid" id="btn_round_brown_mid"/>
+    <textureSkin texture="@flash_ad_progress_slice" id="flash_ad_progress_slice" scaleX="1.25" scaleY="1.25"/>
+
+    <!-- 	BOTTOM MENU 	-->
+    <textureSkin texture="@bottom_btn_basic" id="bottom_btn_basic"/>
+    <textureSkin texture="@bottom_btn_basic_pressed" id="bottom_btn_basic_pressed"/>
+    <textureSkin texture="@bottom_camp_icon" id="bottom_camp_icon"/>
+    <textureSkin texture="@bottom_city_icon" id="bottom_city_icon"/>
+
+    <textureSkin texture="@bottom_map_icon" id="bottom_map_icon"/>
+    <textureSkin texture="@bottom_map_icon_pressed" id="bottom_map_icon_pressed"/>
+    <textureSkin texture="@bottom_mine_icon" id="bottom_mine_icon"/>
+    <textureSkin texture="@bottom_mine_icon_pressed" id="bottom_mine_icon_pressed"/>
+    <textureSkin texture="@bottom_quests_icon" id="bottom_quests_icon"/>
+    <textureSkin texture="@bottom_quests_icon_pressed" id="bottom_quests_icon_pressed"/>
+    <textureSkin texture="@bottom_shop_icon" id="bottom_shop_icon"/>
+    <textureSkin texture="@bottom_shop_icon_pressed" id="bottom_shop_icon_pressed"/>
+    <textureSkin texture="@bottom_storage_icon" id="bottom_storage_icon"/>
+    <textureSkin texture="@bottom_storage_icon_pressed" id="bottom_storage_icon_pressed"/>
+    <textureSkin texture="@bottom_back_icon" id="bottom_back_icon"/>
+
+    <textureSkin texture="@panel_white" id="panel_white" sliceLeft="62" sliceRight="165" sliceTop="40" sliceBottom="55"/>
+    <textureSkin texture="@panel_white_solid" id="panel_white_solid" sliceLeft="45" sliceRight="63" sliceTop="45" sliceBottom="53"/>
+    <textureSkin texture="@battery_closed" id="battery_closed" scaleX="1.8" scaleY="1.8"/>
+    <textureSkin texture="@video_chest_open" id="video_chest_open" scaleX="1.8" scaleY="1.8"/>
+    <textureSkin texture="@video_chest_closed" id="video_chest_closed" scaleX="1.8" scaleY="1.8"/>
+
+    <textureSkin texture="@bottom_quests_notification" id="bottom_quests_notification"/>
+    <textureSkin texture="@bottom_quests_notification_big" id="bottom_quests_notification_big"/>
+    <textureSkin texture="@bottom_quests_notification_highlight" id="bottom_quests_notification_highlight"/>
+
+    <textureSkin texture="@bottom_city_bg_3slice" id="bottom_city_bg_3slice" sliceLeft="10" sliceRight="28" scaleX="0.6" scaleY="0.6"/>
+    <textureSkin texture="@bottom_city_frame_2" id="bottom_city_frame_2" sliceLeft="27" sliceRight="34"/>
+    <textureSkin texture="@bottom_city_frame_8" id="bottom_city_frame_8" sliceLeft="27" sliceRight="34"/>
+    <textureSkin texture="@bottom_city_frame_4" id="bottom_city_frame_4" scaleX="0.55" scaleY="0.55"/>
+    <textureSkin texture="@bottom_city_frame_6" id="bottom_city_frame_6" scaleX="0.55" scaleY="0.55"/>
+    <textureSkin texture="@bottom_city_bg" id="bottom_city_bg"/>
+
+
+    <textureSkin texture="@popup_background_9slice" id="popup_background_9slice" sliceLeft="4" sliceRight="12" sliceTop="4" sliceBottom="12"/>
+
+    <textureSkin texture="@btn_option_brown"  id="btn_option_brown"  sliceLeft="13" sliceRight="21" sliceTop="11" sliceBottom="19"/>
+    <textureSkin texture="@btn_option_green"  id="btn_option_green"  sliceLeft="13" sliceRight="23" sliceTop="11" sliceBottom="22"/>
+    <textureSkin texture="@btn_option_yellow" id="btn_option_yellow" sliceLeft="11" sliceRight="18" sliceTop="10" sliceBottom="20"/>
+    <textureSkin texture="@btn_checkbox"      id="btn_checkbox"      sliceLeft="11" sliceRight="21" sliceTop="11" sliceBottom="21"/>
+
+    <textureSkin texture="@notif_bg" id="notif_bg" sliceLeft="57" sliceRight="61" sliceTop="63" sliceBottom="67"/>
+    <textureSkin texture="@notif_production" id="notif_production"/>
+    <textureSkin texture="@notif_reward" id="notif_reward"/>
+    <textureSkin texture="@ico_energy" id="ico_energy"/>
+    <textureSkin texture="@museum_particle" id="museum_particle"/>
+    <textureSkin texture="@iskra_mobily" id="iskra_mobily"/>
+    <textureSkin texture="@kruh_mobily" id="kruh_mobily"/>
+    <textureSkin texture="@particla_mobily_g" id="particla_mobily_g"/>
+    <textureSkin texture="@particla_mobily_b" id="particla_mobily_b"/>
+    <textureSkin texture="@particla_mobily" id="particla_mobily"/>
+    <textureSkin texture="@particla2_mobily" id="particla2_mobily"/>
+    <textureSkin texture="@hviezda_ohnostroj" id="hviezda_ohnostroj"/>
+    <textureSkin texture="@hviezda_zlta" id="hviezda_zlta"/>
+    <textureSkin texture="@bg_gradient_l" id="bg_gradient_l" sliceTop="2" sliceBottom="4"/>
+    <textureSkin texture="@bg_gradient_r" id="bg_gradient_r" sliceTop="2" sliceBottom="4"/>
+
+    <textureSkin texture="@line1" id="line1"/>
+    <textureSkin texture="@line2" id="line2"/>
+
+    <textureSkin id="hud_dialog_bg" texture="@hud_dialog_bg" sliceLeft="44" sliceRight="48" sliceTop="44" sliceBottom="48"/>
+
+    <textureSkin texture="@middle_popup_blue" id="middle_popup_blue" sliceLeft="20" sliceRight="40" sliceTop="22" sliceBottom="722"/>
+
+    <textureSkin texture="@middle_popup" id="middle_popup" sliceLeft="20" sliceRight="40" sliceTop="22" sliceBottom="722"/>
+    <textureSkin texture="@middle_popup" id="middle_popup_65" sliceLeft="20" sliceRight="40" sliceTop="22" sliceBottom="722" scaleX="0.65" scaleY="0.65"/>
+    <textureSkin texture="@middle_popup" id="middle_popup_alpha" sliceLeft="20" sliceRight="40" sliceTop="22" sliceBottom="722" alpha="0.5"/>
+    <textureSkin texture="@middle_popup_half" id="middle_popup_half" sliceLeft="21" sliceRight="41" sliceTop="11" sliceBottom="361"/>
+
+    <textureSkin texture="@middle_popup_dark" id="middle_popup_dark"  sliceLeft="20" sliceRight="40" sliceTop="22" sliceBottom="722"/>
+    <textureSkin texture="@activate_slot_ribbon" id="activate_slot_ribbon"  scaleX="2.5" scaleY="2.5"/>
+    <textureSkin texture="@activate_slot_gradient" id="activate_slot_gradient"  scaleX="2.0" scaleY="2.0"/>
+    <textureSkin texture="@activate_slot_gradient_circle" id="activate_slot_gradient_circle"  scaleX="3.0" scaleY="3.0"/>
+
+    <textureSkin texture="@bg_brown" id="bg_brown"      sliceLeft="20" sliceRight="27" sliceTop="25" sliceBottom="830"/>
+    <textureSkin texture="@bg_brown" id="bg_brown_half" sliceLeft="10" sliceRight="13" sliceTop="12" sliceBottom="415" scaleX="0.5" scaleY="0.5"/>
+
+    <textureSkin texture="@btn_center1" id="btn_center1"/>
+    <textureSkin texture="@btn_center1" id="btn_center1_trislice" sliceLeft="19" sliceRight="108"/>
+    <textureSkin texture="@btn_center2" id="btn_center2"/>
+    <textureSkin texture="@btn_center2" id="btn_center_3slice" sliceLeft="30" sliceRight="340"/>
+	<textureSkin texture="@btn_center2" id="btn_center_3slice_65" sliceLeft="30" sliceRight="340" scaleX="0.65" scaleY="0.65"/>
+    <textureSkin texture="@btn_basic_inactive" id="btn_basic_inactive"/>
+    <textureSkin texture="@gem_icon" id="gem_icon"/>
+    <textureSkin texture="@card_amount_bg" id="card_amount_bg"/>
+    <textureSkin texture="@restart_icon" id="restart_icon"/>
+
+    <textureSkin texture="@info" id="info"/>
+    <textureSkin texture="@info" id="info_small" scaleX="0.6" scaleY="0.6"/>
+    <textureSkin texture="@DA_logo" id="DA_logo"/>
+    <textureSkin texture="@gem_received_gem_small" id="gem_received_gem_small" scaleX="1.5" scaleY="1.5"/>
+    <textureSkin texture="@50x" id="50x"/>
+    <textureSkin texture="@child" id="child"/>
+    <textureSkin texture="@star" id="star"/>
+    <textureSkin texture="@star_smal" id="star_smal"/>
+    <textureSkin texture="@otaznik" id="otaznik"/>
+    <textureSkin texture="@otaznik" id="otaznik_small" scaleX="0.75" scaleY="0.75"/>
+
+    <textureSkin texture="@ico_multipass" id="ico_multipass"/>
+    <textureSkin texture="@event_pass_button" id="event_pass_button"/>
+    <textureSkin texture="@event_pass_badge" id="event_pass_badge"/>
+    <textureSkin texture="@event_pass_button_xp" id="event_pass_button_xp" sliceLeft="8" sliceRight="12"/>
+    <textureSkin texture="@event_pass_button_xp_bg" id="event_pass_button_xp_bg" sliceLeft="8" sliceRight="12"/>
+    <textureSkin texture="@event_pass_xp_icon" id="event_pass_xp_icon"/>
+    <textureSkin texture="@event_pass_endless_reward_premium_bg" id="event_pass_endless_reward_premium_bg" sliceLeft="38" sliceRight="106" sliceTop="26" sliceBottom="54" scaleX="1" scaleY="1"/>
+    <textureSkin texture="@event_pass_endless_reward_default_bg" id="event_pass_endless_reward_default_bg" sliceLeft="38" sliceRight="106" sliceTop="26" sliceBottom="54" scaleX="2" scaleY="2"/>
+    <textureSkin texture="@event_pass_endless_bar" id="event_pass_endless_bar" sliceLeft="10" sliceRight="14"/>
+    <textureSkin texture="@event_pass_premium_bg" id="event_pass_premium_bg"/>
+    <textureSkin texture="@team_button" id="team_button"/>
+    <textureSkin texture="@ico_check_mark" id="ico_check_mark"/>
+
+    <textureSkin texture="@progress_bar_gray" id="progress_bar_gray" scaleY="0.5"/>
+
+    <textureSkin texture="@g2d_black" id="invisible" alpha="0"/>
+    <textureSkin texture="@g2d_black" id="black" alpha=".3"/>
+    <textureSkin texture="@g2d_black" id="shade_black" alpha=".6"/>
+    <textureSkin texture="@g2d_black" id="black_70" alpha=".7"/>
+    <textureSkin texture="@g2d_black" id="dark_shade_black" alpha=".9"/>
+    <textureSkin texture="@g2d_black" id="solid_black"/>
+    <textureSkin texture="@g2d_white" id="solid_white"/>
+    <textureSkin texture="@g2d_anthracite" id="solid_anthracite"/>
+    <textureSkin texture="@g2d_anthracite" id="shade_anthracite" alpha=".5"/>
+    <textureSkin texture="@dev" id="dev" />
+
+    <textureSkin id="hud_regen" texture="@hud_regen"/>
+    <textureSkin id="hud_storage" texture="@hud_storage"/>
+    <textureSkin id="hud_regen_60" texture="@hud_regen" scaleX="0.6" scaleY="0.6"/>
+    <textureSkin id="hud_storage_60" texture="@hud_storage" scaleX="0.6" scaleY="0.6"/>
+
+    <textureSkin id="laser_yellow_corner" texture="@laser_yellow_corner"/>
+    <textureSkin id="laser_yellow_end" texture="@laser_yellow_end"/>
+    <textureSkin id="laser_yellow_simple" texture="@laser_yellow_simple"/>
+    <textureSkin id="laser_yellow_start" texture="@laser_yellow_start"/>
+    <textureSkin id="drag_rotateLeftTop" texture="@drag_rotateLeftTop"/>
+    <textureSkin id="drag_rotateLeftSide" texture="@drag_rotateLeftSide"/>
+    <textureSkin id="drag_rotateRightBottom" texture="@drag_rotateRightBottom"/>
+    <textureSkin id="drag_rotateRightSide" texture="@drag_rotateRightSide"/>
+
+    <!-- EVENTY -->
+    <fontSkin id="map_countdown_font" font="@oswald_bold" autoSize="true" color="0x985B15" fontScale="0.9"/>
+    <textureSkin id="map_manager_detail_icon_duration" texture="@map_manager_detail_icon_duration"/>
+    <textureSkin id="map_manager_detail_name_bg" texture="@map_manager_detail_name_bg"/>
+    <textureSkin id="map_manager_detail_name_bg_half" texture="@map_manager_detail_name_bg" scaleX="0.5" scaleY="0.5"/>
+    <textureSkin id="progress_bg" texture="@progress_bg"/>
+    <textureSkin id="progress_fill" texture="@progress_fill"/>
+    <textureSkin id="progress_bar" texture="@progress_bar" sliceLeft="20" sliceRight="40"/>
+    <textureSkin id="new_event_flag" texture="@new_event_flag"/>
+
+    <textureSkin id="special_week_discount_50" texture="@special_week_discount_50"/>
+    <textureSkin id="special_week_discount_30" texture="@special_week_discount_30"/>
+    <textureSkin id="special_week_x2" texture="@special_week_x2" scaleX="0.5" scaleY="0.5"/>
+    <textureSkin id="special_week_x2_double" texture="@special_week_x2"/>
+    <textureSkin id="special_week_1_plus_1" texture="@special_week_1_plus_1"/>
+    <textureSkin id="pack_discount_50" texture="@pack_discount_50"/>
+
+    <!--
+    ================================================================================================================
+    SHOP
+    ================================================================================================================
+    -->
+
+
+    <!-- FONTS -->
+    <fontSkin id="shop_extras_text_font" font="@oswald_bold" autoSize="false" wordWrap="true" color="0x000000" fontScale=".75" hAlign="CENTER"/>
+    <fontSkin id="shop_extras_text_font_mobile" font="@oswald_bold" autoSize="false" wordWrap="true" color="0x000000" fontScale="0.9" hAlign="CENTER"/>
+    <fontSkin id="shop_countdown_font" font="@oswald_bold" autoSize="true" color="0xFFFFFF" fontScale="1" hAlign="LEFT"/>
+    <fontSkin id="shop_countdown_font_brown" font="@oswald_bold" autoSize="true" color="0x5A3A11" fontScale="1" hAlign="LEFT"/>
+    <fontSkin id="shop_lock_font" font="@oswald_bold" autoSize="false" wordWrap="true" color="0x000000" fontScale=".85" hAlign="CENTER"/>
+
+    <fontSkin id="shop_buy_button_gem_font1" font="@oswald_bold" autoSize="true" color="0x118742" fontScale=".85"/>
+    <fontSkin id="shop_buy_button_gem_font1_small" font="@oswald_bold" autoSize="true" color="0x118742" fontScale=".6"/>
+
+    <fontSkin id="shop_buy_button_blue_font" font="@oswald_bold" autoSize="true" color="0x231489" fontScale=".85"/>
+    <fontSkin id="shop_buy_button_blue_font_small" font="@oswald_bold" autoSize="true" color="0x231489" fontScale=".6"/>
+
+    <fontSkin id="shop_buy_button_gem_font2" font="@oswald_bold" autoSize="true" color="0x118742" fontScale=".85"/>
+    <fontSkin id="shop_buy_button_gem_font2_small" font="@oswald_bold" autoSize="true" color="0x118742" fontScale=".6"/>
+    <fontSkin id="shop_buy_button_basic_font2" font="@oswald_bold" autoSize="true" color="0x47361c" fontScale=".85"/>
+    <fontSkin id="shop_buy_button_basic_font2_small" font="@oswald_bold" autoSize="true" color="0x47361c" fontScale=".6"/>
+    <fontSkin id="shop_buy_button_inactive_font" font="@oswald_bold" autoSize="true" color="0xa99e77" fontScale=".85"/>
+    <fontSkin id="shop_buy_button_inactive_font_small" font="@oswald_bold" autoSize="true" color="0xa99e77" fontScale=".6"/>
+    <fontSkin id="shop_limit_font" font="@oswald_bold" autoSize="true" fontScale=".85" color="0x000000" />
+    <fontSkin id="shop_price_font_small" font="@oswald_bold" autoSize="true" red="0" green="0" blue="0" fontScale=".60"/>
+    <fontSkin id="shop_price_font" font="@oswald_bold" autoSize="true" red="0" green="0" blue="0" fontScale=".85"/>
+    <fontSkin id="shop_price_have_font" font="@oswald_bold" autoSize="true" red="1" green="0" blue="0" fontScale=".85"/>
+    <fontSkin id="shop_price_have_font_small" font="@oswald_bold" autoSize="true" red="1" green="0" blue="0" fontScale=".60"/>
+    <fontSkin id="shop_price_font_mobile" font="@oswald_bold" autoSize="true" red="0" green="0" blue="0" fontScale="1"/>
+    <fontSkin id="shop_price_have_font_mobile" font="@oswald_bold" autoSize="true" red="1" green="0" blue="0" fontScale="1"/>
+    <fontSkin id="shop_item_name_font" font="@oswald_bold" autoSize="false" wordWrap="true" red="0" green="0" blue="0" fontScale=".85" hAlign="CENTER"/>
+    <fontSkin id="shop_item_name_font_small" font="@oswald_bold" autoSize="false" wordWrap="true" red="0" green="0" blue="0" fontScale=".65" hAlign="CENTER"/>
+    <fontSkin id="shop_item_name_font_smallest" font="@oswald_bold" autoSize="false" wordWrap="true" red="0" green="0" blue="0" fontScale=".55" hAlign="CENTER"/>
+    <fontSkin id="shop_item_name_font_mobile" font="@oswald_bold" autoSize="false" wordWrap="true" red="0" green="0" blue="0" fontScale="1" hAlign="CENTER"/>
+    <fontSkin id="shop_energy_font" font="@oswald_bold" autoSize="true" red="0" green="0" blue="0" fontScale="1"/>
+    <fontSkin id="shop_energy_font_small" font="@oswald_bold" autoSize="true" red="0" green="0" blue="0" fontScale="0.7"/>
+    <fontSkin id="shop_extras_text_font_middle" font="@oswald_bold" autoSize="false" wordWrap="true" color="0x000000" fontScale=".75" hAlign="CENTER" vAlign="MIDDLE" />
+    <fontSkin id="shop_extras_text_font_middle_small" font="@oswald_bold" autoSize="false" wordWrap="true" color="0x000000" fontScale=".60" hAlign="CENTER" vAlign="MIDDLE" />
+    <fontSkin id="shop_extras_text_font_left" font="@oswald_bold" autoSize="false" wordWrap="true" color="0x000000" fontScale=".75" hAlign="LEFT" vAlign="MIDDLE" />
+    <fontSkin id="shop_effect_level_font" font="@oswald_bold" autoSize="false" wordWrap="true" red="0" green="0" blue="0" fontScale="1.2" hAlign="CENTER"/>
+    <fontSkin id="shop_effect_upgrade_level_font" font="@oswald_bold" autoSize="false" wordWrap="true" red="0" green="0" blue="0" fontScale=".82" hAlign="CENTER"/>
+    <fontSkin id="shop_extras_tester_font" font="@oswald_bold" autoSize="false" wordWrap="true" red="1" green="0" blue="0" fontScale=".85" hAlign="CENTER"/>
+
+    <!--	SHOP 	-->
+    <textureSkin id="shop_mid_bg" texture="@shop_mid_bg" sliceLeft="1" sliceRight="-1"/>
+    <textureSkin id="shop_filter_on" texture="@shop_filter_on"/>
+    <textureSkin id="shop_btn_basic1" texture="@shop_btn_basic1"/>
+    <textureSkin id="shop_btn_basic2" texture="@shop_btn_basic2"/>
+    <textureSkin id="shop_bg" sliceLeft="1" sliceRight="-1" texture="@shop_bg"/>
+    <textureSkin id="shop_bg_small" scaleY="0.4" texture="@shop_bg"/>
+    <textureSkin id="shop_filter_off" texture="@shop_filter_off"/>
+    <textureSkin id="shop_btn_gem" texture="@shop_btn_gem"/>
+    <textureSkin id="shop_tab_bg1" texture="@shop_tab_bg1"/>
+    <textureSkin id="shop_tab_bg2" texture="@shop_tab_bg2"/>
+    <textureSkin id="shop_filter_size2" texture="@shop_filter_size2"/>
+    <textureSkin id="shop_filter_size3" texture="@shop_filter_size3"/>
+    <textureSkin id="shop_filter_size4" texture="@shop_filter_size4"/>
+    <textureSkin id="shop_equip_ph2" texture="@shop_equip_ph2"/>
+    <textureSkin id="shop_equip_ph2_small" texture="@shop_equip_ph2" scaleX="0.69" scaleY="0.69"/>
+    <textureSkin id="shop_equip_ph3" texture="@shop_equip_ph3"/>
+    <textureSkin id="shop_equip_ph3_small" texture="@shop_equip_ph3" scaleX="0.69" scaleY="0.69"/>
+    <textureSkin id="shop_equip_ph4" texture="@shop_equip_ph4"/>
+    <textureSkin id="shop_equip_ph4_small" texture="@shop_equip_ph4" scaleX="0.69" scaleY="0.69"/>
+    <textureSkin id="shop_tab_equip" texture="@shop_tab_equip"/>
+    <textureSkin id="shop_tab_extras" texture="@shop_tab_extras"/>
+    <textureSkin id="shop_tab_so" texture="@shop_tab_so"/>
+    <textureSkin id="shop_tab_new" texture="@shop_tab_new"/>
+    <textureSkin id="shop_tab_usable" texture="@shop_tab_usable"/>
+    <textureSkin id="shop_tab_skin" texture="@shop_tab_skin"/>
+    <textureSkin id="shop_line1" texture="@shop_line1"/>
+    <textureSkin id="shop_line1_small" texture="@shop_line1" scaleX="0.75"/>
+    <textureSkin id="shop_line2" texture="@shop_line2"/>
+    <textureSkin id="shop_line3" texture="@shop_line1" scaleX="0.75" rotation="1.57"/>
+    <textureSkin id="shop_card_locked" texture="@shop_card_locked" scaleX="2" scaleY="2"/>
+    <textureSkin id="shop_price_gem" texture="@shop_price_gem"/>
+    <textureSkin id="shop_filter_usable_eat" texture="@shop_filter_usable_eat"/>
+    <textureSkin id="shop_filter_usable_store" texture="@shop_filter_usable_store"/>
+    <textureSkin id="shop_card_limit" texture="@shop_card_limit"/>
+    <textureSkin id="shop_card_region_event" texture="@shop_card_region_event"/>
+    <textureSkin id="shop_limit_reached" texture="@shop_limit_reached" scaleX="1.5" scaleY="1.5"/>
+    <textureSkin id="shop_limit_reached_small" texture="@shop_limit_reached" scaleX="1" scaleY="1"/>
+    <textureSkin id="shop_gem_icon1" texture="@shop_gem_icon"/>
+    <textureSkin id="shop_gem_icon2" texture="@shop_gem_icon"/>
+    <textureSkin id="shop_btn_inactive" texture="@shop_btn_inactive"/>
+    <textureSkin id="shop_buy_icon_inactive" texture="@shop_buy_icon_inactive"/>
+    <textureSkin id="shop_border" texture="@shop_border"/>
+    <textureSkin id="shop_buy_icon_drevo2" texture="@shop_buy_icon_drevo"/>
+    <textureSkin id="shop_buy_icon_drevo_white" texture="@shop_buy_icon_drevo_white"/>
+    <textureSkin id="shop_event_bg" texture="@shop_event_bg"/>
+    <textureSkin id="shop_event_bg_small" texture="@shop_event_bg" scaleX="0.75" scaleY="0.75" />
+    <textureSkin id="shop_new" texture="@shop_new"/>
+    <textureSkin id="shop_no_limit" texture="@shop_no_limit"/>
+    <textureSkin id="shop_parameter_limit" texture="@shop_parameter_limit"/>
+    <textureSkin id="shop_parameter_limit_01" texture="@shop_parameter_limit_01" sliceLeft="22" sliceRight="29"/>
+	<textureSkin id="shop_parameter_limit_01_65" texture="@shop_parameter_limit_01" sliceLeft="22" sliceRight="29" scaleX="0.65" scaleY="0.65"/>
+    <textureSkin id="shop_effect_upgrade" texture="@production_start_icon" scaleX=".8" scaleY=".8" />
+    <textureSkin id="minus_20_percent" texture="@minus_20_percent"/>
+    <!-- duplicite popup_restart_icon to one in popup_skins because one in popup_skins had problem with displaying of greyscale at production and displaying speedup popup -->
+    <textureSkin id="popup_restart_icon2" texture="@popup_restart_icon"/>
+
+    <textureSkin id="shop_tab_extras_big" texture="@shop_tab_extras" scaleX="1.5" scaleY="1.5"/>
+
+
+    <textureSkin id="btn_blue" texture="@btn_blue"  sliceLeft="57" sliceRight="59" sliceTop="54" sliceBottom="56"/>
+    <textureSkin texture="@button_cancel" id="button_cancel"/>
+    <textureSkin texture="@notify_circle" id="notify_circle"/>
+    <textureSkin texture="@confirm_icon" id="icon_confirm"/>
+    <textureSkin texture="@icon_edit" id="icon_edit"/>
+    <textureSkin texture="@icon_timer" id="icon_timer"/>
+    <textureSkin texture="@icon_check" id="icon_check"/>
+    <textureSkin texture="@icon_check_green" id="icon_check_green"/>
+    <textureSkin texture="@icon_double_video" id="icon_double_video"/>
+
+    <textureSkin id="btn_pink" texture="@btn_pink"  sliceLeft="57" sliceRight="59" sliceTop="54" sliceBottom="56"/>
+    <textureSkin id="l_arrow" texture="@l_arrow"/>
+    <textureSkin id="r_arrow" texture="@r_arrow"/>
+
+    <textureSkin id="region_badge_1" texture="@region_badge_1"/>
+    <textureSkin id="region_badge_2" texture="@region_badge_2"/>
+    <textureSkin id="region_badge_3" texture="@region_badge_3"/>
+    <textureSkin id="region_badge_4" texture="@region_badge_4"/>
+    <textureSkin id="region_badge_5" texture="@region_badge_5"/>
+    <textureSkin id="region_badge_6" texture="@region_badge_6"/>
+    <textureSkin id="region_badge_7" texture="@region_badge_7"/>
+    <textureSkin id="region_badge_8" texture="@region_badge_8"/>
+    <textureSkin id="region_badge_9" texture="@region_badge_9"/>
+
+    <textureSkin id="region_badge_99" texture="@region_badge_99"/>
+    <!--- ADD MORE REGIONS BADGES WHEN NEEDED-->
+
+
+    <!--
+    ================================================================================================================
+    STORAGE
+    ================================================================================================================
+    -->
+
+
+    <textureSkin id="storage_card_half" texture="@storage_card_half"/>
+    <textureSkin id="storage_tab_materials" texture="@storage_tab_materials"/>
+    <textureSkin id="storage_tab_tokens" texture="@storage_tab_tokens"/>
+    <textureSkin id="storage_icon_time" texture="@storage_icon_time"/>
+    <textureSkin id="storage_icon_back" texture="@storage_icon_back"/>
+
+
+
+    <!--
+    ================================================================================================================
+    QUEST
+    ================================================================================================================
+    -->
+
+
+    <!--QUEST FONTS -->
+    <fontSkin font="@oswald_bold" autoSize="false" wordWrap="true" color="0x2c1f12" fontScale=".70" id="quest_text_font"/>
+    <fontSkin font="@oswald_bold" autoSize="false" wordWrap="true" color="0x2c1f12" fontScale=".9" id="quest_text_font_mobile"/>
+    <fontSkin font="@oswald_bold" autoSize="false" wordWrap="true" color="0x2c1f12" fontScale=".70" id="quest_hint_font" vAlign="MIDDLE"/>
+    <fontSkin font="@oswald_bold" autoSize="false" wordWrap="true" color="0x2c1f12" fontScale=".9" id="quest_hint_font_mobile" vAlign="MIDDLE"/>
+    <fontSkin font="@oswald_bold" autoSize="true" color="0x0" fontScale=".75" id="quest_objective_font"/>
+    <fontSkin font="@oswald_bold" autoSize="true" color="0x0" fontScale=".95" id="quest_objective_font_mobile"/>
+    <fontSkin font="@oswald_bold" autoSize="true" color="0x265b07" fontScale=".75" id="quest_fraction_font"/>
+
+    <!-- QUESTS -->
+    <textureSkin id="quests_name_tab" texture="@quests_name_tab"/>
+    <textureSkin id="quests_list_border" texture="@quests_list_border"/>
+    <textureSkin id="quests_list_shadow_top" texture="@quests_list_shadow_top"/>
+    <textureSkin id="quests_list_pic_border" texture="@quests_list_pic_border"/>
+    <textureSkin id="quests_list_pic_selected" texture="@quests_list_pic_selected"/>
+    <textureSkin id="quests_progress_bg" texture="@quests_progress_bg"/>
+    <textureSkin id="quests_progress_fill" texture="@quests_progress_fill"/>
+    <textureSkin id="quests_bulb" texture="@quests_bulb"/>
+    <textureSkin id="quests_talker_chuck" texture="@quests_talker_chuck"/>
+    <textureSkin id="quests_talker_linda" texture="@quests_talker_linda"/>
+    <textureSkin id="quests_talker_profesor" texture="@quests_talker_profesor"/>
+    <textureSkin id="speech_bubble_highlight" texture="@speech_bubble_highlight"/>
+
+    <textureSkin id="production_card_amount_bg" texture="@production_card_amount_bg"/>
+    <textureSkin id="production_destination_card_locked" texture="@production_destination_card_locked"/>
+    <textureSkin id="production_time_icon" texture="@production_time_icon"/>
+    <textureSkin id="production_btn_left1" texture="@production_btn_left1"/>
+    <textureSkin id="production_btn_right1" texture="@production_btn_right1"/>
+    <textureSkin id="production_btn_left2" texture="@production_btn_left2"/>
+    <textureSkin id="production_btn_right2" texture="@production_btn_right2"/>
+    <textureSkin id="production_cancel_icon" texture="@production_cancel_icon"/>
+    <textureSkin id="production_start_icon" texture="@production_start_icon"/>
+    <textureSkin id="production_speed_up_icon" texture="@production_speed_up_icon"/>
+    <textureSkin id="production_tabulka_1a1" texture="@tabulka-1a1" scaleX="1.7" scaleY="1.7"/>
+
+    <fontSkin id="camp_ui_progress_bar_font" font="@oswald_bold" autoSize="true" color="0x266f09" fontScale=".8"/>
+    <fontSkin id="camp_ui_progress_bar_font_terra" font="@oswald_bold" autoSize="true" color="0x000000" fontScale=".8"/>
+
+    <textureSkin id="camp_ui_elevator_btn" texture="@camp_ui_elevator_btn"/>
+    <textureSkin id="camp_ui_pack_btn" texture="@camp_ui_pack_btn"/>
+    <textureSkin id="camp_ui_progress_bar_bg" texture="@camp_ui_progress_bar_bg"/>
+    <textureSkin id="camp_ui_progress_bar_done" texture="@camp_ui_progress_bar_done" />
+    <textureSkin id="camp_ui_progress_bar_fill" texture="@camp_ui_progress_bar_fill"/>
+    <textureSkin id="camp_ui_progress_bar_outline" texture="@camp_ui_progress_bar_outline"/>
+    <textureSkin id="free_story_gift" texture="@free_story_gift"/>
+    <textureSkin id="free_story_gift_big" texture="@free_story_gift" scaleX="1.8" scaleY="1.8"/>
+    <textureSkin id="camp_ui_switch_btn_bg" texture="@camp_ui_switch_btn_bg"/>
+    <textureSkin id="camp_ui_switch_btn_switcher" texture="@camp_ui_switch_btn_switcher" sliceLeft="60" sliceRight="100"/>
+    <textureSkin id="ico_lock" texture="@ico_lock"/>
+
+
+    <textureSkin id="tutorial_background_3slice" texture="@tutorial_background_3slice" sliceTop="36" sliceBottom="70"/>
+    <textureSkin id="tutorial_dialog_bg" texture="@tutorial_dialog_bg" sliceLeft="44" sliceRight="48" sliceTop="44" sliceBottom="48"/>
+    <textureSkin id="hand" texture="@hand"/>
+    <textureSkin id="hand_l" texture="@hand_l"/>
+
+    <textureSkin id="sand_glass" texture="@sand_glass"/>
+    <textureSkin id="sand_glass_65" texture="@sand_glass" scaleX="0.65" scaleY="0.65"/>
+
+    <textureSkin id="popup_plus" texture="@popup_plus"/>
+    <textureSkin id="popup_label" texture="@popup_label" sliceLeft="9" sliceRight="13"/>
+    <textureSkin id="enter_mine_rfr_pic" texture="@enter_mine_rfr_pic"/>
+    <textureSkin id="botton_round_glow" texture="@botton_round_glow"/>
+    <textureSkin id="botton_round_01" texture="@botton_round_01"/>
+
+    <!-- obsolete, use icon_ad -->
+    <textureSkin id="camera" texture="@camera"/>
+
+    <textureSkin id="icon_ad" texture="@icon_ad"/>
+    <textureSkin id="quests_talker_bubble_01" texture="@quests_talker_bubble_01" sliceLeft="30" sliceRight="55" sliceTop="30" sliceBottom="50"/>
+	<textureSkin id="quests_talker_bubble_01_65" texture="@quests_talker_bubble_01" sliceLeft="30" sliceRight="55" sliceTop="30" sliceBottom="50" scaleX="0.65" scaleY="0.65"/>
+    <textureSkin id="quests_talker_bubble_02" texture="@quests_talker_bubble_02"/>
+    <textureSkin id="quests_talker_bubble_03" texture="@quests_talker_bubble_03"/>
+    <textureSkin id="hud_fb_icon" texture="@hud_fb_icon"/>
+    <textureSkin id="hud_twitter_icon" texture="@hud_twitter_icon"/>
+
+    <textureSkin id="button_red_01" texture="@button_red_01" sliceLeft="60" sliceRight="70"/>
+    <textureSkin id="button_red_02" texture="@button_red_02" sliceLeft="60" sliceRight="70"/>
+    <textureSkin id="button_green_01" texture="@button_green_01" sliceLeft="60" sliceRight="70"/>
+    <textureSkin id="button_green_01_65" texture="@button_green_01" sliceLeft="60" sliceRight="70" scaleX="0.65" scaleY="0.65"/>
+    <textureSkin id="button_green_02" texture="@button_green_02" sliceLeft="60" sliceRight="70"/>
+    <textureSkin id="button_green_02_65" texture="@button_green_02" sliceLeft="60" sliceRight="70" scaleX="0.65" scaleY="0.65"/>
+    <textureSkin id="button_brown_01" texture="@button_brown_01" sliceLeft="60" sliceRight="70"/>
+    <textureSkin id="button_brown_02" texture="@button_brown_02" sliceLeft="60" sliceRight="70"/>
+    <textureSkin id="button_blue_01" texture="@button_blue_01" sliceLeft="60" sliceRight="70"/>
+    <textureSkin id="9slice_exchange_bg" texture="@9slice_exchange_bg" sliceLeft="25" sliceRight="35" sliceTop="20" sliceBottom="30"/>
+
+    <textureSkin id="gem_popup_card_amount_bg" texture="@gem_popup_card_amount_bg" sliceLeft="165" sliceRight="175"/>
+	<textureSkin id="gem_popup_card_amount_bg_65" texture="@gem_popup_card_amount_bg" sliceLeft="165" sliceRight="175" scaleX="0.65" scaleY="0.65"/>
+    <textureSkin id="popup_label_flag" texture="@popup_label_flag" sliceLeft="47" sliceRight="49"/>
+    <textureSkin id="popup_label_flag_65" texture="@popup_label_flag" sliceLeft="47" sliceRight="49" scaleX="0.65" scaleY="0.65"/>
+    <textureSkin id="gem_default_icon" texture="@gem_default_icon"/>
+
+    <textureSkin id="pack_popup_equip_ph2" texture="@pack_popup_equip_ph2"/>
+    <textureSkin id="pack_popup_equip_ph2_65" texture="@pack_popup_equip_ph2" scaleX="0.65" scaleY="0.65"/>
+    <textureSkin id="pack_popup_equip_ph3" texture="@pack_popup_equip_ph3"/>
+    <textureSkin id="pack_popup_equip_ph3_65" texture="@pack_popup_equip_ph3" scaleX="0.65" scaleY="0.65"/>
+    <textureSkin id="pack_popup_equip_ph4" texture="@pack_popup_equip_ph4"/>
+    <textureSkin id="pack_popup_equip_ph4_65" texture="@pack_popup_equip_ph4" scaleX="0.65" scaleY="0.65"/>
+	
+    <textureSkin id="pack_popup_price_crossed" texture="@pack_popup_price_crossed"/>
+    <textureSkin id="pack_popup_price_crossed_65" texture="@pack_popup_price_crossed" scaleX="0.65" scaleY="0.65"/>
+
+    <textureSkin id="bg_treasure_parts" texture="@bg_treasure_parts" sliceLeft="9" sliceRight="12" sliceTop="9" sliceBottom="12"/>
+
+    <textureSkin id="out_of_green_ring" texture="@out_of_green_ring"/>
+    <textureSkin id="desktop_popup_podklad_tabulka" texture="@desktop_popup_podklad_tabulka" sliceLeft="14" sliceRight="18" sliceTop="14" sliceBottom="18"/>
+
+    <textureSkin id="loading_big" texture="@loading_big"/>
+    <textureSkin id="loading_progress" texture="@loading_progress"/>
+
+    <!--
+    ================================================================================================================
+    TILE FINDER
+    ================================================================================================================
+    -->
+
+    <textureSkin id="tile_finder_activate" texture="@tile_finder_activate"/>
+    <textureSkin id="tile_finder_charging" texture="@tile_finder_charging"/>
+    <textureSkin id="tile_finder_recharge" texture="@tile_finder_recharge"/>
+
+    <!--
+    ================================================================================================================
+    WEBGL-LIKE GRAPHICS
+    ================================================================================================================
+    -->
+
+    <textureSkin id="blue_bg" texture="@blue_bg" sliceLeft="13" sliceRight="18" sliceTop="12" sliceBottom="19" scaleY="2" scaleX="2"/>
+    <textureSkin id="orange_bg" texture="@orange_bg" sliceLeft="15" sliceRight="20" sliceTop="13" sliceBottom="20" scaleY="2" scaleX="2"/>
+    <textureSkin id="black_bg_shadow" texture="@black_bg_shadow" sliceLeft="15" sliceRight="19" sliceTop="11" sliceBottom="22"/>
+    <textureSkin id="slot_bg" texture="@slot_bg" sliceLeft="14" sliceRight="17" sliceTop="12" sliceBottom="15"/>
+    <textureSkin id="brown_bg" texture="@brown_bg" sliceLeft="14" sliceRight="20" sliceTop="9" sliceBottom="24" scaleX="2" scaleY="2"/>
+    <textureSkin id="green_bg" texture="@green_bg" sliceLeft="14" sliceRight="20" sliceTop="9" sliceBottom="24" scaleX="2" scaleY="2"/>
+    <textureSkin id="black_bg" texture="@black_bg" sliceLeft="13" sliceRight="23" sliceTop="15" sliceBottom="26" scaleX="2" scaleY="2"/>
+
+    <textureSkin id="white_bg" texture="@white_bg" sliceLeft="13" sliceRight="23" sliceTop="15" sliceBottom="26" scaleX="2" scaleY="2"/>
+    <textureSkin id="white_bg_no_shadow" texture="@white_bg_no_shadow" sliceLeft="13" sliceRight="25" sliceTop="15" sliceBottom="33" scaleX="2" scaleY="2"/>
+    <textureSkin id="yellow_bg" texture="@white_bg" sliceLeft="13" sliceRight="23" sliceTop="15" sliceBottom="26" scaleX="2" scaleY="2" color="0xEECB55"/>
+
+    <textureSkin id="white_frame" texture="@white_frame" sliceLeft="13" sliceRight="24" sliceTop="13" sliceBottom="27" scaleX="2" scaleY="2"/>
+    <textureSkin id="white_frame_a06" texture="@white_frame" sliceLeft="13" sliceRight="24" sliceTop="13" sliceBottom="27" scaleX="2" scaleY="2" alpha="0.6"/>
+    <textureSkin id="red_frame" texture="@white_frame" color="0xBC0C00"  sliceLeft="13" sliceRight="24" sliceTop="13" sliceBottom="27" scaleX="2" scaleY="2" alpha="0.6"/>
+    <textureSkin id="gold_frame" texture="@gold_frame" sliceLeft="13" sliceRight="24" sliceTop="13" sliceBottom="27" scaleX="2" scaleY="2"/>
+    <textureSkin id="green_frame" texture="@green_frame" sliceLeft="30" sliceRight="34" sliceTop="30" sliceBottom="40"/>
+    <textureSkin id="light_blue_bg" texture="@light_blue_bg" sliceLeft="23" sliceRight="30" sliceTop="19" sliceBottom="21" scaleX="2" scaleY="2"/>
+    <textureSkin id="light_blue_frame" texture="@light_blue_frame" sliceLeft="25" sliceRight="30" sliceTop="22" sliceBottom="25" scaleX="2" scaleY="2"/>
+    <textureSkin id="tiny_clock_logo" texture="@tiny_clock_logo"/>
+    <textureSkin id="purple_bg" texture="@purple_bg" sliceLeft="18" sliceRight="21" sliceTop="17" sliceBottom="29" scaleX="2" scaleY="2"/>
+    <textureSkin id="purple_shine_bg" texture="@purple_shine_bg" sliceLeft="18" sliceRight="21" sliceTop="19" sliceBottom="24" scaleX="2" scaleY="2"/>
+    <textureSkin id="grey_txt_bg" texture="@grey_txt_bg" sliceLeft="9" sliceRight="20" sliceTop="9" sliceBottom="17"/>
+    <textureSkin id="dark_txt_bg" texture="@dark_txt_bg" sliceLeft="7" sliceRight="16" sliceTop="7" sliceBottom="15"/>
+    <textureSkin id="dark_txt_bg_big" texture="@dark_txt_bg" sliceLeft="7" sliceRight="16" sliceTop="7" sliceBottom="15" scaleX="2" scaleY="2"/>
+    <textureSkin id="brown_shadow_txt_bg" texture="@brown_shadow_txt_bg" sliceLeft="12" sliceRight="23" sliceTop="11" sliceBottom="23"/>
+    <textureSkin id="brown_txt_bg" texture="@brown_txt_bg" sliceLeft="12" sliceRight="23" sliceTop="12" sliceBottom="22"/>
+    <textureSkin id="dark_left_bg" texture="@dark_left_bg" sliceLeft="24" sliceRight="31" sliceTop="13" sliceBottom="15"/>
+    <textureSkin id="btn_green_01" texture="@btn_green" sliceLeft="57" sliceRight="59" sliceTop="54" sliceBottom="56"/>
+    <textureSkin id="btn_green_02" texture="@btn_green_pushed" sliceLeft="57" sliceRight="59" sliceTop="54" sliceBottom="56"/>
+    <textureSkin id="btn_gems_01" texture="@btn_gems" sliceLeft="57" sliceRight="59" sliceTop="54" sliceBottom="56"/>
+    <textureSkin id="btn_gems_02" texture="@btn_gems_pushed" sliceLeft="57" sliceRight="59" sliceTop="54" sliceBottom="56"/>
+    <textureSkin id="rotating_shine" texture="@rotating_shine"/>
+    <textureSkin id="screen_bg" texture="@screen_bg" sliceLeft="1" sliceRight="3"/>
+    <textureSkin id="screen_bg_shelf" texture="@screen_bg_shelf" sliceLeft="1" sliceRight="3" scaleY="2"/>
+    <textureSkin id="small_popup_bg" texture="@small_popup_bg" sliceLeft="70" sliceRight="73" sliceTop="80" sliceBottom="83"/>
+    <textureSkin id="small_popup_bg_divider" texture="@small_popup_bg_divider" sliceLeft="65" sliceRight="67"/>
+    <textureSkin id="arrow_left" texture="@arrow_left"/>
+    <textureSkin id="arrow_right" texture="@arrow_right"/>
+    <textureSkin id="search_btn" texture="@search_btn"/>
+    <textureSkin id="btn_red" texture="@btn_red"  sliceLeft="57" sliceRight="59" sliceTop="54" sliceBottom="56"/>
+    <textureSkin id="btn_disabled" texture="@btn_disabled"  sliceLeft="57" sliceRight="59" sliceTop="54" sliceBottom="56"/>
+
+    <textureSkin id="dialog_yellow" texture="@dialog_white" sliceLeft="27" sliceRight="35" sliceTop="20" sliceBottom="23" scaleX="2" scaleY="2" color="0xEECB55"/>
+    <textureSkin id="dialog_yellow_border" texture="@dialog_white_border" sliceLeft="27" sliceRight="35" sliceTop="20" sliceBottom="23" scaleX="2" scaleY="2" color="0xEECB55"/>
+
+    <textureSkin id="dialog_brown" texture="@dialog_brown" sliceLeft="27" sliceRight="35" sliceTop="20" sliceBottom="23" scaleX="2" scaleY="2"/>
+    <textureSkin id="dialog_blue" texture="@dialog_blue" sliceLeft="14" sliceRight="20" sliceTop="20" sliceBottom="23" scaleX="2" scaleY="2"/>
+    <textureSkin id="diggy_image_bg" texture="@diggy_image_bg"/>
+    <textureSkin id="diggy_image" texture="@diggy_image"/>
+    <textureSkin id="diggy_indicator" texture="@diggy_indicator"/>
+    <textureSkin id="icon_crown" texture="@icon_crown"/>
+    <textureSkin id="white_circle_bg" texture="@white_circle_bg"/>
+    <textureSkin id="white_circle_outline_100" texture="@white_circle_outline_100"/>
+    <textureSkin id="red_circle_bg_small" texture="@white_circle_bg" color="0xBC0C00" scaleX="0.65" scaleY="0.65"/>
+
+    <textureSkin id="no_interstitials" texture="@ico_no_ads_tv"/>
+    <textureSkin id="no_interstitials_button" texture="@ico_no_ads_tv" scaleX="1.15" scaleY="1.15"/>
+    <textureSkin id="no_interstitials_50" texture="@ico_no_ads_tv" scaleX="0.5" scaleY="0.5"/>
+    <textureSkin id="no_interstitials_40" texture="@ico_no_ads_tv" scaleX="0.4" scaleY="0.4"/>
+
+    <textureSkin id="new_screen_bg" texture="@new_screen_bg" sliceLeft="1" sliceRight="2"/>
+    <textureSkin id="new_screen_bg_light" texture="@new_screen_bg_light" sliceLeft="1" sliceRight="2"/>
+    <textureSkin id="new_screen_bg_dark_header" texture="@new_screen_bg_dark_header" sliceLeft="1" sliceRight="2"/>
+    <textureSkin id="new_tab_bg" texture="@new_tab_bg" sliceLeft="1" sliceRight="3"/>
+    <textureSkin id="new_tab" texture="@new_tab" sliceLeft="35" sliceRight="45" />
+    <textureSkin id="new_tab_selected" texture="@new_tab_selected" sliceLeft="38" sliceRight="42" />
+
+    <!-- MAP REWORK - badges -->
+    <textureSkin id="map_rework_quest_icon_disabled" texture="@map_rework_quest_icon_disabled"/>
+    <textureSkin id="map_rework_quest_icon" texture="@map_rework_quest_icon"/>
+    <textureSkin id="map_rework_achievement_icon_disabled" texture="@map_rework_achievement_icon_disabled"/>
+    <textureSkin id="map_rework_achievement_icon" texture="@map_rework_achievement_icon"/>
+    <textureSkin id="map_rework_artifact_icon_disabled" texture="@map_rework_artifact_icon_disabled"/>
+    <textureSkin id="map_rework_artifact_icon" texture="@map_rework_artifact_icon"/>
+    <textureSkin id="shop_card_small" texture="@shop_card_small" sliceLeft="28" sliceTop="15" sliceRight="47" sliceBottom="114"/>
+    <textureSkin id="white_card_gradient" texture="@white_card_gradient" sliceLeft="32" sliceRight="36"/>
+    <textureSkin id="vintage_event_icon_background" texture="@vintage_event_icon_background"/>
+
+    <!-- Blue prgoress bar (daily tasks) -->
+    <textureSkin id="progress_bar_small_arrow"           texture="@progress_bar_small_arrow" />
+    <textureSkin id="progress_bar_small_arrow_blue_fill" texture="@progress_bar_small_arrow_blue_fill"/>
+    <textureSkin id="progress_bar_small_bg"              texture="@progress_bar_small_bg" sliceLeft="22" sliceRight="29" />
+    <textureSkin id="progress_bar_small_blue_fill"       texture="@progress_bar_small_blue_fill" sliceLeft="17" sliceRight="25" />
+
+    <textureSkin id="icon_close" texture="@icon_close"/>
+    <textureSkin id="icon_close_75" texture="@icon_close" scaleX="0.75" scaleY="0.75"/>
+    <textureSkin id="icon_close_150" texture="@icon_close" scaleX="1.5" scaleY="1.5"/>
+    <textureSkin id="btn_blue_narrow" texture="@btn_blue_narrow_small" sliceLeft="23" sliceTop="33" sliceRight="25" sliceBottom="37"/>
+    <textureSkin id="btn_blue_narrow_s150" texture="@btn_blue_narrow_small" sliceLeft="23" sliceTop="33" sliceRight="25" sliceBottom="37" scaleX="1.5" scaleY="1.5"/>
+    <textureSkin id="btn_blue_narrow_150" texture="@btn_blue_narrow" sliceLeft="23" sliceTop="25" sliceRight="25" sliceBottom="81" scaleX="1.5" scaleY="1.5"/>
+    <textureSkin id="btn_blue_narrow_big" texture="@btn_blue_narrow" sliceLeft="24" sliceTop="55" sliceRight="25" sliceBottom="80"/>
+
+    <textureSkin id="btn_purple_narrow_big" texture="@btn_purple_narrow" sliceLeft="61" sliceTop="41" sliceRight="66" sliceBottom="66"/>
+
+    <textureSkin id="btn_reward" texture="@btn_reward" sliceLeft="21" sliceTop="12" sliceRight="27" sliceBottom="116" />
+    <textureSkin id="btn_orange_narrow" texture="@btn_orange_narrow" sliceLeft="23" sliceTop="24" sliceRight="25" sliceBottom="82" />
+    <textureSkin id="btn_orange_narrow_big" texture="@btn_orange_narrow" sliceLeft="24" sliceTop="55" sliceRight="25" sliceBottom="80" />
+    <textureSkin id="btn_green_narrow" texture="@btn_green_narrow" sliceLeft="23" sliceTop="24" sliceRight="25" sliceBottom="82" />
+    <textureSkin id="btn_green_narrow_big" texture="@btn_green_narrow" sliceLeft="24" sliceTop="55" sliceRight="25" sliceBottom="80" />
+    <textureSkin id="hint_icon" texture="@hint_icon" scaleX="0.5" scaleY="0.5"/>
+    <textureSkin id="quest_objective_white" texture="@quest_objective_white" color="0x00cbff" sliceLeft="28" sliceTop="12" sliceRight="31" sliceBottom="133"/>
+    <textureSkin id="btn_orange_narrow_upscaled" texture="@btn_orange_narrow" sliceLeft="23" sliceTop="24" sliceRight="25" sliceBottom="82"  scaleX="1.8" scaleY="1.8"/>
+    <textureSkin id="btn_orange_narrow_150" texture="@btn_orange_narrow" sliceLeft="23" sliceTop="25" sliceRight="25" sliceBottom="81" scaleX="1.5" scaleY="1.5"/>
+    <textureSkin id="btn_blue_narrow_upscaled" texture="@btn_blue_narrow" sliceLeft="24" sliceTop="55" sliceRight="25" sliceBottom="80" scaleX="1.8" scaleY="1.8"/>
+
+    <textureSkin id="quest_step_active" texture="@quest_step_active"/>
+    <textureSkin id="quest_step_inactive" texture="@quest_step_active" color="0x777777"/>
+    <textureSkin id="quest_step_bg" texture="@quest_step_bg"/>
+    <textureSkin id="quest_step_done" texture="@quest_step_done"/>
+    <textureSkin id="progress_bar_bg_red" texture="@progress_bar_bg_red" sliceLeft="3" sliceTop="53" sliceRight="106" sliceBottom="56"/>
+    <textureSkin id="progress_bar_bg_blue" texture="@progress_bar_bg_blue" sliceLeft="3" sliceTop="53" sliceRight="106" sliceBottom="56"/>
+    <textureSkin id="progress_bar_fill_gold" texture="@progress_bar_fill_gold" sliceLeft="0" sliceTop="14" sliceRight="43" sliceBottom="16"/>
+
+    <textureSkin id="quest_body_blue" texture="@quest_body_blue_BG" sliceLeft="38" sliceTop="27" sliceRight="45" sliceBottom="220"/>
+    <textureSkin id="quest_body_green" texture="@quest_body_green_BG" sliceLeft="38" sliceTop="27" sliceRight="45" sliceBottom="220"/>
+    <textureSkin id="quest_body_brown" texture="@quest_body_brown_BG" sliceLeft="38" sliceTop="27" sliceRight="45" sliceBottom="220"/>
+    <textureSkin id="quest_body_brown2_small" texture="@quest_body_brown2_BG" scaleY="0.5" sliceLeft="38" sliceRight="45"/>
+
+    <textureSkin id="quest_body_header_blue" texture="@quest_body_blue_side"    sliceLeft="30" sliceTop="27" sliceRight="35" sliceBottom="220"/>
+    <textureSkin id="quest_body_header_brown" texture="@quest_body_brown_side"  sliceLeft="30" sliceTop="27" sliceRight="35" sliceBottom="220"/>
+    <textureSkin id="quest_body_header_green" texture="@quest_body_green_side"  sliceLeft="30" sliceTop="27" sliceRight="35" sliceBottom="220"/>
+
+    <textureSkin id="quest_body_inactive" texture="@quest_body_inactive"  sliceLeft="23" sliceTop="28" sliceRight="35" sliceBottom="215"/>
+    <textureSkin id="quest_body_inactive_yellow" texture="@quest_body_inactive_yellow"  sliceLeft="23" sliceTop="28" sliceRight="35" sliceBottom="215"/>
+
+    <textureSkin id="quest_body_header_brown2_small" texture="@quest_body_brown2_side"  scaleY="0.5" sliceLeft="30" sliceRight="35"/>
+
+    <textureSkin id="quest_objective_blue" texture="@quest_objective_blue" sliceLeft="28" sliceTop="12" sliceRight="31" sliceBottom="133"/>
+    <textureSkin id="quest_objective_brown" texture="@quest_objective_brown" sliceLeft="28" sliceTop="12" sliceRight="31" sliceBottom="133"/>
+    <textureSkin id="quest_objective_green" texture="@quest_objective_brown" sliceLeft="28" sliceTop="12" sliceRight="31" sliceBottom="133"/>
+
+    <textureSkin id="talk_bubble_icon" texture="@talk_bubble_icon"/>
+    <textureSkin id="event_quest_group_bg" texture="@event_quest_group_bg"/>
+    <textureSkin id="event_icon_border" texture="@event_icon_border"/>
+    <textureSkin id="letter_icon" texture="@letter_icon"/>
+    <textureSkin id="ico_survey" texture="@ico_survey"/>
+    <textureSkin id="pixel_id_icon" texture="@pixel_id_icon"/>
+
+    <textureSkin id="popup_header_blue" texture="@popup_header_blue" sliceLeft="20" sliceTop="50" sliceRight="24" sliceBottom="53"/>
+    <textureSkin id="popup_bg" texture="@popup_bg" sliceLeft="29" sliceTop="3" sliceRight="36" sliceBottom="375"/>
+    <textureSkin id="popup_bg_tutorial" texture="@popup_bg" sliceLeft="29" sliceTop="3" sliceRight="36" sliceBottom="375" scaleY="0.75" scaleX="0.75"/>
+    <textureSkin id="popup_bg_75" texture="@popup_bg" sliceLeft="29" sliceTop="3" sliceRight="36" sliceBottom="375" scaleX="0.75" scaleY="0.75"/>
+    <textureSkin id="popup_bg_dark" texture="@popup_bg" sliceLeft="29" sliceTop="3" sliceRight="36" sliceBottom="375" color="0xa69a8c"/>
+
+    <textureSkin id="small_region_badge_1" texture="@small_region_badge_1"/>
+    <textureSkin id="small_region_badge_2" texture="@small_region_badge_2"/>
+    <textureSkin id="small_region_badge_3" texture="@small_region_badge_3"/>
+    <textureSkin id="small_region_badge_4" texture="@small_region_badge_4"/>
+    <textureSkin id="small_region_badge_5" texture="@small_region_badge_5"/>
+    <textureSkin id="small_region_badge_6" texture="@small_region_badge_6"/>
+    <textureSkin id="small_region_badge_7" texture="@small_region_badge_7"/>
+    <textureSkin id="small_region_badge_8" texture="@small_region_badge_8"/>
+    <textureSkin id="small_region_badge_8" texture="@small_region_badge_9"/>
+
+    <!--- ADD MORE REGIONS BADGES WHEN NEEDED-->
+    <textureSkin id="claim_reward_shine" texture="@claim_reward_shine"/>
+    <textureSkin id="claim_reward_shine_big" texture="@claim_reward_shine" scaleX="3" scaleY="3"/>
+
+    <textureSkin id="slider_bar" texture="@slider_bar" sliceLeft="8" sliceRight="10"/>
+    <textureSkin id="slider_bar_vertical" texture="@slider_bar_vertical" sliceTop="8" sliceBottom="10"/>
+
+    <!--  EVENT PASS  -->
+    <textureSkin id="purple_epass_bg" texture="@purple_epass_bg" sliceLeft="110" sliceRight="111" sliceTop="32" sliceBottom="33" scaleX="1" scaleY="1"/>
+    <textureSkin id="event_pass_xp_bg" texture="@event_pass_xp_bg" sliceLeft="8" sliceRight="12"/>
+    <textureSkin id="event_pass_lock" texture="@event_pass_lock"/>
+    <textureSkin id="bonus_speed" texture="@bonus_speed"/>
+    <textureSkin id="icon_pass_perks_videoadds" texture="@icon_pass_perks_videoadds"/>
+    <textureSkin id="event_pass_progress_pointer" texture="@event_pass_progress_pointer"/>
+    <textureSkin id="event_pass_ticket" texture="@event_pass_ticket"/>
+    <textureSkin id="event_pass_xp" texture="@event_pass_xp" sliceLeft="2" sliceRight="3"/>
+    <textureSkin id="event_pass_xp_milestone" texture="@event_pass_xp_milestone"/>
+    <textureSkin id="event_pass_xp_milestone_reached" texture="@event_pass_xp_milestone_reached"/>
+    <textureSkin id="event_pass_xp_milestone_reached_end" texture="@event_pass_xp_milestone_reached_end"/>
+    <textureSkin id="event_pass_xp_start" texture="@event_pass_xp_start"/>
+    <textureSkin id="event_pass_chest" texture="@event_pass_chest" scaleX="1.8" scaleY="1.8"/>
+
+    <!--  CRAFTING EVENT   -->
+    <textureSkin id="screen_upper_tab" texture="@screen_upper_tab" scaleX="2" scaleY="2"/>
+    <textureSkin id="screen_upper_tab_not_selected" texture="@screen_upper_tab_not_selected" sliceLeft="39" sliceRight="41" />
+    <textureSkin id="crafting_event_craft_slot_bg" texture="@crafting_event_craft_slot_bg" sliceLeft="5" sliceRight="55" sliceTop="27" sliceBottom="40"/>
+
+    <!--  TEAM CHEST   -->
+    <textureSkin id="blue_ribbon_bcg_new" texture="@blue_ribbon_bcg_new" sliceTop="8" sliceBottom="15"/>
+    <textureSkin id="blue_ribbon_strip_new" texture="@blue_ribbon_strip_new" sliceTop="11" sliceBottom="16"/>
+
+    <!--    REGION BADGES  -->
+    <textureSkin id="region_1_badge" texture="@region_1_badge" />
+    <textureSkin id="region_2_badge" texture="@region_2_badge" />
+    <textureSkin id="region_3_badge" texture="@region_3_badge" />
+    <textureSkin id="region_4_badge" texture="@region_4_badge" />
+    <textureSkin id="region_5_badge" texture="@region_5_badge" />
+    <textureSkin id="region_6_badge" texture="@region_6_badge" />
+    <textureSkin id="region_7_badge" texture="@region_7_badge" />
+    <textureSkin id="region_8_badge" texture="@region_8_badge" />
+    <textureSkin id="region_9_badge" texture="@region_9_badge" />
+
+    <textureSkin id="event_badge" texture="@event_badge" />
+    <textureSkin id="caravan_ticket_badge" texture="@caravan_ticket_badge" />
+
+    <!-- OUT OF ENERGY POPUP -->
+    <textureSkin id="popup_header_green_extra" texture="@popup_header_green_extra" sliceLeft="43" sliceRight="47" sliceTop="105" sliceBottom="108" scaleX="1" scaleY="1" />
+    <textureSkin id="popup_bg" texture="@popup_bg" sliceLeft="30" sliceRight="34" scaleX="1.5" scaleY="1.5" />
+    <textureSkin id="popup_bg_green" texture="@popup_bg_green" sliceLeft="30" sliceRight="34" scaleX="1.5" scaleY="1.5" />
+    <textureSkin id="popup_bg_light" texture="@popup_bg_light" sliceLeft="31" sliceRight="33" sliceTop="195" sliceBottom="205"/>
+    <textureSkin id="ico_sale" texture="@ico_sale" />
+    <textureSkin id="gui_popup_oracle" texture="@gui_popup_oracle"/>
+
+    <fontSkin id="map_location_locked_text_font" hAlign="CENTER" vAlign="MIDDLE" font="@oswald_bold" autoSize="false" color="0x323232" wordWrap="true" fontScale=".6"/>
+    <fontSkin id="map_location_name_font" font="@oswald_bold" autoSize="true" color="0x323232" hAlign="CENTER" fontScale=".6"/>
+    <fontSkin id="map_location_name_font_mobile" font="@oswald_bold" autoSize="true" color="0x323232" hAlign="CENTER" fontScale=".8"/>
+    <fontSkin id="map_location_info_font" font="@oswald_bold" autoSize="true" color="0x323232" hAlign="CENTER" fontScale=".5"/>
+    <fontSkin id="map_location_info_font_mobile" font="@oswald_bold" autoSize="true" color="0x323232" hAlign="CENTER" fontScale=".7"/>
+
+    <textureSkin id="map_path1" texture="@map_path1" rotation="-0.314"/>
+    <textureSkin id="map_path2" texture="@map_path2" rotation="0.314"/>
+    <textureSkin id="map_path_side" texture="@map_path_side"/>
+    <textureSkin id="map_location_new" texture="@map_location_new"/>
+    <textureSkin id="map_location_locked" texture="@map_location_locked"/>
+    <textureSkin id="map_location_done" texture="@map_location_done"/>
+    <textureSkin id="map_location_name_bg" texture="@map_location_name_bg" sliceLeft="44" sliceRight="48" sliceTop="44" sliceBottom="48"/>
+    <textureSkin id="map_location_name_bg_done" texture="@map_location_name_bg_done" sliceLeft="44" sliceRight="48" sliceTop="44" sliceBottom="48"/>
+
+    <!-- NEWS SYSTEM -->
+    <textureSkin id="popup_bg_sliced" texture="@popup_bg_sliced" sliceLeft="27" sliceRight="33" sliceTop="34" sliceBottom="37" scaleX="1" scaleY="1" />
+    <textureSkin id="newspaper" texture="@newspaper" sliceLeft="29" sliceRight="30" sliceTop="113" sliceBottom="115" />
+    <textureSkin id="popup_bg_sliced_notch" texture="@popup_bg_sliced_notch" sliceLeft="2" sliceRight="5" />
+    <textureSkin id="shadow" texture="@shadow" sliceLeft="53" sliceRight="56" sliceTop="60" sliceBottom="63" />
+    <textureSkin id="quest_body_orange" texture="@quest_body_orange_BG" scaleY="0.5" sliceLeft="38" sliceRight="45"/>
+    <textureSkin id="ribbon_red" texture="@ribbon_red" />
+    <textureSkin id="ico_news" texture="@ico_news" />
+    <textureSkin id="quest_body_brown2_opacity" texture="@quest_body_brown2_BG" scaleY="0.5" sliceLeft="38" sliceRight="45" color="0xD0D0D0"/>
+
+    <fontSkin id="oswald_bold_26_brown_right_middle" font="@oswald_bold" autoSize="false" wordWrap="true" color="0x493720" hAlign="RIGHT" vAlign="MIDDLE" fontScale=".5"/>
+    <fontSkin id="oswald_bold_26_khaki_right_middle" font="@oswald_bold" autoSize="false" wordWrap="true" color="0xEEB57A" hAlign="RIGHT" vAlign="MIDDLE" fontScale=".5"/>
+
+    <!-- TOWER -->
+    <textureSkin id="ico_energy_tower" texture="@ico_energy_tower" />
+    <textureSkin id="ico_tower" texture="@ico_tower" />
+    <textureSkin id="ico_crown" texture="@ico_crown" />
+    <textureSkin id="top_bar_tower_energy" texture="@top_bar_tower_energy" />
+    <textureSkin id="ico_tower_pass" texture="@ico_tower_pass" />
+    <textureSkin id="towerpass_bar_fill" texture="@towerpass_bar_fill" sliceLeft="19" sliceRight="22" />
+    <textureSkin id="header_small_purple" texture="@header_small_purple" sliceLeft="22" sliceRight="26"/>
+    <textureSkin id="tower_shieldEmpty" texture="@tower_shieldEmpty" />
+    <textureSkin id="tower_shieldFull" texture="@tower_shieldFull" />
+    <textureSkin id="tower_header_badge_bg" texture="@tower_header_badge_bg" />
+    <textureSkin id="ico_coins" texture="@ico_coins" />
+    <textureSkin id="ico_gems" texture="@ico_gems" />
+    <textureSkin id="ico_tower_energy_capacity" texture="@ico_tower_energy_capacity" />
+    <textureSkin id="ico_tower_energy_regen" texture="@ico_tower_energy_regen" />
+    <textureSkin id="ico_leaderboard" texture="@ico_leaderboard" />
+
+    <textureSkin id="regpass_blue_card" texture="@regpass_blue_card" />
+    <textureSkin id="regpass_brown_card" texture="@regpass_brown_card" />
+    <textureSkin id="regpass_purple_card" texture="@regpass_purple_card" />
+    <textureSkin id="regpass_purpledark_card" texture="@regpass_purpledark_card" />
+
+    <!-- SHOP -->
+    <textureSkin id="shop_card_brown" texture="shop_card_brown" sliceLeft="32" sliceRight="45" />
+    <textureSkin id="shop_card_blue" texture="shop_card_blue" sliceLeft="32" sliceRight="45" />
+    <textureSkin id="shop_card_green" texture="shop_card_green" sliceLeft="32" sliceRight="45" />
+    <textureSkin id="shop_card_yellow" texture="shop_card_yellow" sliceLeft="32" sliceRight="45" />
+    <textureSkin id="shop_card_purple" texture="shop_card_purple" sliceLeft="32" sliceRight="45" sliceTop="240" sliceBottom="250" />
+
+    <!-- STORYPASS -->
+    <textureSkin id="ico_story_pass" texture="@ico_story_pass" />
+    <textureSkin id="ico_story_pass_camp" texture="@ico_story_pass" scaleX="1.44" scaleY="1.44"/>
+
+    <!-- BUILDER EVENT -->
+    <textureSkin id="hud_icon_builder_event" texture="@hud_icon_builder_event" />
+
+    <textureSkin id="gem_popup_badge_sale" texture="@gem_popup_badge_sale" />
+
+    <!-- PETS -->
+    <textureSkin id="ico_pet_energy" texture="@ico_pet_energy" />
+    <textureSkin id="top_bar_pet_energy" texture="@top_bar_pet_energy" />
+    <textureSkin id="ico_pet_cookie" texture="@ico_pet_cookie" />
+
+    <!-- OFF ADS -->
+    <textureSkin id="ico_noad" texture="@ico_noad" scaleX="1.2" scaleY="1.2" />
+
+    <!-- PRODUCTION -->
+    <fontSkin id="production_title_font" font="@oswald_bold" autoSize="true" color="0x47311a" fontScale="1" />
+    <fontSkin id="production_title_font_small" font="@oswald_bold" autoSize="true" color="0x47311a" fontScale="0.8" />
+    <fontSkin id="production_title_red_font" font="@oswald_bold" autoSize="true" red="1" green="0" blue="0" fontScale="1" />
+    <fontSkin id="production_material_font" font="@oswald_bold" autoSize="false" wordWrap="true" color="0x47311a" fontScale=".75" hAlign="CENTER" />
+    <fontSkin id="production_count_font" font="@oswald_bold" autoSize="true" color="0x4b4118" fontScale="1" />
+    <fontSkin id="production_locktext_font" font="@oswald_bold" autoSize="false" wordWrap="true" color="0x47311a" fontScale=".65" hAlign="CENTER" />
+
+    <textureSkin id="production_kitchen_buy" texture="@production_kitchen_buy" scaleX="2" scaleY="2"/>
+    <textureSkin id="production_kitchen_idle" texture="@production_kitchen_idle" scaleX="2" scaleY="2"/>
+    <textureSkin id="production_metalurg_buy" texture="@production_metalurg_buy" scaleX="2" scaleY="2"/>
+    <textureSkin id="production_metalurg_idle" texture="@production_metalurg_idle" scaleX="2" scaleY="2"/>
+
+    <!-- Tiles to dig -->
+    <textureSkin id="exp_small" texture="@exp_small" scaleX="1" scaleY="1" />
+    <textureSkin id="chest_tile_counter" texture="@chest_tile_counter" scaleX="1" scaleY="1" />
+
+    <textureSkin id="dialog_body" texture="@dialog_body"  sliceTop="40" sliceBottom="42" sliceLeft="37" sliceRight="52"/>
+
+    <textureSkin id="pixel_id_coin" texture="@pixel_id_coin"/>
+    <textureSkin id="btn_pixel_hub" texture="@btn_pixel_hub"/>
+</data>

@@ -1,0 +1,342 @@
+
+stvornohy.png
+size: 528,270
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: false
+  xy: 257, 171
+  size: 112, 98
+  orig: 112, 98
+  offset: 0, 0
+  index: -1
+Body_accessory
+  rotate: false
+  xy: 126, 29
+  size: 69, 55
+  orig: 69, 55
+  offset: 0, 0
+  index: -1
+Body_accessory_epic
+  rotate: true
+  xy: 208, 91
+  size: 69, 55
+  orig: 69, 55
+  offset: 0, 0
+  index: -1
+Body_epic
+  rotate: false
+  xy: 370, 171
+  size: 112, 98
+  orig: 112, 98
+  offset: 0, 0
+  index: -1
+Ear_back
+  rotate: false
+  xy: 432, 94
+  size: 31, 30
+  orig: 31, 30
+  offset: 0, 0
+  index: -1
+Ear_back_epic
+  rotate: false
+  xy: 490, 49
+  size: 31, 30
+  orig: 31, 30
+  offset: 0, 0
+  index: -1
+Ear_front
+  rotate: false
+  xy: 316, 23
+  size: 31, 30
+  orig: 31, 30
+  offset: 0, 0
+  index: -1
+Ear_front_epic
+  rotate: false
+  xy: 375, 21
+  size: 31, 30
+  orig: 31, 30
+  offset: 0, 0
+  index: -1
+Eyebrows_left
+  rotate: true
+  xy: 426, 50
+  size: 43, 28
+  orig: 43, 28
+  offset: 0, 0
+  index: -1
+Eyebrows_left_epic
+  rotate: false
+  xy: 464, 109
+  size: 43, 28
+  orig: 43, 28
+  offset: 0, 0
+  index: -1
+Eyebrows_right
+  rotate: false
+  xy: 381, 94
+  size: 50, 30
+  orig: 50, 30
+  offset: 0, 0
+  index: -1
+Eyebrows_right_epic
+  rotate: false
+  xy: 324, 57
+  size: 50, 30
+  orig: 50, 30
+  offset: 0, 0
+  index: -1
+Eyes_1
+  rotate: false
+  xy: 454, 138
+  size: 59, 32
+  orig: 59, 32
+  offset: 0, 0
+  index: -1
+Eyes_1_epic
+  rotate: false
+  xy: 196, 35
+  size: 59, 32
+  orig: 59, 32
+  offset: 0, 0
+  index: -1
+Eyes_2
+  rotate: false
+  xy: 382, 125
+  size: 59, 22
+  orig: 59, 22
+  offset: 0, 0
+  index: -1
+Eyes_2_epic
+  rotate: false
+  xy: 264, 54
+  size: 59, 22
+  orig: 59, 22
+  offset: 0, 0
+  index: -1
+Eyes_3
+  rotate: false
+  xy: 264, 77
+  size: 59, 29
+  orig: 59, 29
+  offset: 0, 0
+  index: -1
+Eyes_3_epic
+  rotate: false
+  xy: 256, 24
+  size: 59, 29
+  orig: 59, 29
+  offset: 0, 0
+  index: -1
+Head_accessory
+  rotate: false
+  xy: 264, 130
+  size: 58, 40
+  orig: 58, 40
+  offset: 0, 0
+  index: -1
+Head_accessory_epic
+  rotate: false
+  xy: 323, 130
+  size: 58, 40
+  orig: 58, 40
+  offset: 0, 0
+  index: -1
+Head_back
+  rotate: false
+  xy: 1, 30
+  size: 124, 108
+  orig: 124, 108
+  offset: 0, 0
+  index: -1
+Head_front
+  rotate: false
+  xy: 1, 30
+  size: 124, 108
+  orig: 124, 108
+  offset: 0, 0
+  index: -1
+Head_back_epic
+  rotate: false
+  xy: 132, 161
+  size: 124, 108
+  orig: 124, 108
+  offset: 0, 0
+  index: -1
+Head_front_epic
+  rotate: false
+  xy: 132, 161
+  size: 124, 108
+  orig: 124, 108
+  offset: 0, 0
+  index: -1
+Leg_back_1
+  rotate: false
+  xy: 425, 20
+  size: 26, 29
+  orig: 26, 29
+  offset: 0, 0
+  index: -1
+Leg_back_1_epic
+  rotate: false
+  xy: 452, 20
+  size: 26, 29
+  orig: 26, 29
+  offset: 0, 0
+  index: -1
+Leg_back_2
+  rotate: false
+  xy: 169, 1
+  size: 24, 27
+  orig: 24, 27
+  offset: 0, 0
+  index: -1
+Leg_back_2_epic
+  rotate: true
+  xy: 500, 84
+  size: 24, 27
+  orig: 24, 27
+  offset: 0, 0
+  index: -1
+Leg_front_1
+  rotate: true
+  xy: 250, 1
+  size: 22, 26
+  orig: 22, 26
+  offset: 0, 0
+  index: -1
+Leg_front_1_epic
+  rotate: true
+  xy: 277, 1
+  size: 22, 26
+  orig: 22, 26
+  offset: 0, 0
+  index: -1
+Leg_front_2
+  rotate: true
+  xy: 140, 1
+  size: 27, 28
+  orig: 27, 28
+  offset: 0, 0
+  index: -1
+Leg_front_2_epic
+  rotate: true
+  xy: 479, 22
+  size: 26, 29
+  orig: 26, 29
+  offset: 0, 0
+  index: -1
+Mouth_1
+  rotate: true
+  xy: 407, 20
+  size: 31, 17
+  orig: 31, 17
+  offset: 0, 0
+  index: -1
+Mouth_2
+  rotate: false
+  xy: 455, 51
+  size: 34, 28
+  orig: 34, 28
+  offset: 0, 0
+  index: -1
+Mouth_3
+  rotate: false
+  xy: 464, 80
+  size: 35, 28
+  orig: 35, 28
+  offset: 0, 0
+  index: -1
+Mouth_4
+  rotate: true
+  xy: 348, 23
+  size: 33, 26
+  orig: 33, 26
+  offset: 0, 0
+  index: -1
+Mouth_5
+  rotate: false
+  xy: 102, 1
+  size: 37, 27
+  orig: 37, 27
+  offset: 0, 0
+  index: -1
+Nose
+  rotate: true
+  xy: 508, 113
+  size: 24, 19
+  orig: 24, 19
+  offset: 0, 0
+  index: -1
+Packa
+  rotate: false
+  xy: 132, 85
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+Tail
+  rotate: false
+  xy: 336, 88
+  size: 44, 41
+  orig: 44, 41
+  offset: 0, 0
+  index: -1
+Tail_epic
+  rotate: false
+  xy: 381, 52
+  size: 44, 41
+  orig: 44, 41
+  offset: 0, 0
+  index: -1
+Upgrade_glow
+  rotate: false
+  xy: 483, 171
+  size: 36, 98
+  orig: 36, 98
+  offset: 0, 0
+  index: -1
+Upgrade_glow_bubble
+  rotate: false
+  xy: 1, 139
+  size: 130, 130
+  orig: 130, 130
+  offset: 0, 0
+  index: -1
+Upgrade_vejar
+  rotate: true
+  xy: 1, 6
+  size: 23, 100
+  orig: 23, 100
+  offset: 0, 0
+  index: -1
+Whiskers_left
+  rotate: false
+  xy: 208, 68
+  size: 55, 22
+  orig: 55, 22
+  offset: 0, 0
+  index: -1
+Whiskers_left_epic
+  rotate: false
+  xy: 194, 1
+  size: 55, 22
+  orig: 55, 22
+  offset: 0, 0
+  index: -1
+Whiskers_right
+  rotate: false
+  xy: 264, 107
+  size: 71, 22
+  orig: 71, 22
+  offset: 0, 0
+  index: -1
+Whiskers_right_epic
+  rotate: false
+  xy: 382, 148
+  size: 71, 22
+  orig: 71, 22
+  offset: 0, 0
+  index: -1

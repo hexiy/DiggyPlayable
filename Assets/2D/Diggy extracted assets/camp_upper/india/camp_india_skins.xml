@@ -1,0 +1,20 @@
+<!--	UI SKIN DEFINITIONS FILE 	-->
+<data>
+    <fontSkin id="camp_greece_brown" font="@oswald_bold" autoSize="true" color="0x418bae" fontScale=".8"/>
+
+
+    <textureSkin id="camp_bg" texture="@camp_bg_india" scaleX="1" scaleY="1"/>
+    <textureSkin id="elevator" texture="@elevator" scaleX="2" scaleY="2"/>
+    <textureSkin id="camp_india_dirt" texture="@camp_india_dirt" tiled="true" scaleX="2" scaleY="2"/>
+    <textureSkin id="camp_greece_god_bg" texture="@camp_greece_god_bg" scaleX="2" scaleY="2"/>
+    <textureSkin id="camp_india_lift" texture="@camp_india_lift" scaleX="2" scaleY="2"/>
+    
+    <textureSkin id="camp_india_caravan" texture="@camp_india_caravan" scaleX="2" scaleY="2"/>
+    <textureSkin id="camp_india_kitchen" texture="@camp_india_kitchen" scaleX="2" scaleY="2"/>
+    <textureSkin id="camp_india_metalurg" texture="@camp_india_metalurg" scaleX="2" scaleY="2"/>
+    <textureSkin id="camp_india_museum" texture="@camp_india_museum" scaleX="2" scaleY="2"/>
+    <textureSkin id="camp_oracle" texture="@camp_oracle" scaleX="2" scaleY="2"/>
+    <textureSkin id="camp_balloon_india" texture="@camp_balloon_india" scaleX="1" scaleY="1"/>
+    <textureSkin id="pet_house_camp" texture="@pet_house_camp" scaleX="1" scaleY="1"/>
+
+</data>

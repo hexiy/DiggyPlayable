@@ -1,0 +1,43 @@
+<element anchorTop="0.2" anchorBottom="1" anchorLeft="0" anchorRight="1">
+    <element name="leaderboard_left_part_holder" anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT" anchorX="150" anchorX.notch="250" preferredWidth="550">
+
+        <element name="top_teams_region_select_holder" skin="@black_bg" anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT" preferredHeight="400" preferredWidth="550" anchorY="-300" anchorX="0">
+            <element name="top_teams_region_select_selected" visible="false" visible.teams_world_selected="true" visible.teams_local_selected="true" skin="@brown_bg" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredHeight="375" preferredWidth="525"/>
+            <element name="top_teams_region_select_lbl_bg" skin="@crafting_event_craft_slot_bg" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="525" preferredHeight="85" anchorY="15">
+                <element name="top_teams_region_select_lbl" skin="@oswald_bold_85_basic_drevo1" model="#GUI3245" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true" />
+            </element>
+            <element name="top_teams_region_select_badges_holder" preferredWidth="450" preferredHeight="300" pivotAlign="TOP_CENTER" anchorAlign="TOP_CENTER" anchorY="120">
+                <element name="top_teams_region_select_badge_world_bg" preferredHeight="200" preferredWidth="200" pivotAlign="MIDDLE_LEFT" anchorAlign="MIDDLE_LEFT" skin="@white_circle_bg"  visible="false" visible.teams_world_selected="true"/>
+                <element name="top_teams_region_select_badge_world" preferredHeight="160" preferredWidth="160" pivotAlign="MIDDLE_LEFT" anchorAlign="MIDDLE_LEFT" skin="@asset" anchorX="20"/>
+
+                <element name="top_teams_region_select_badge_local_bg" preferredHeight="200" preferredWidth="200" pivotAlign="MIDDLE_RIGHT" anchorAlign="MIDDLE_RIGHT" skin="@white_circle_bg" visible="false" visible.teams_local_selected="true"/>
+                <element name="top_teams_region_select_badge_local" preferredHeight="160" preferredWidth="160" pivotAlign="MIDDLE_RIGHT" anchorAlign="MIDDLE_RIGHT" skin="@asset" anchorX="-20"/>
+            </element>
+        </element>
+        <element name="top_members_region_select_holder" skin="@black_bg" anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT" preferredHeight="400" preferredWidth="550" anchorY="200" anchorX="0">
+            <element name="top_members_region_select_selected" visible="false" visible.members_local_selected="true" visible.members_world_selected="true" skin="@brown_bg" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredHeight="375" preferredWidth="525"/>
+            <element name="top_members_region_select_lbl_bg" skin="@crafting_event_craft_slot_bg" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="525" preferredHeight="85" anchorY="15">
+                <element name="top_members_region_select_lbl" skin="@oswald_bold_85_basic_drevo1" model="#GUI3248" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true" />
+            </element>
+            <element name="top_members_region_select_badges_holder" preferredWidth="450" preferredHeight="300" pivotAlign="TOP_CENTER" anchorAlign="TOP_CENTER" anchorY="120">
+                <element name="top_members_region_select_badge_world_bg" preferredHeight="200" preferredWidth="200" pivotAlign="MIDDLE_LEFT" anchorAlign="MIDDLE_LEFT" skin="@white_circle_bg" visible="false" visible.members_world_selected="true"/>
+                <element name="top_members_region_select_badge_world" preferredHeight="160" preferredWidth="160" pivotAlign="MIDDLE_LEFT" anchorAlign="MIDDLE_LEFT" skin="@asset" anchorX="20"/>
+
+                <element name="top_members_region_select_badge_local_bg" preferredHeight="200" preferredWidth="200" pivotAlign="MIDDLE_RIGHT" anchorAlign="MIDDLE_RIGHT" skin="@white_circle_bg" visible="false" visible.members_local_selected="true"/>
+                <element name="top_members_region_select_badge_local" preferredHeight="160" preferredWidth="160" pivotAlign="MIDDLE_RIGHT" anchorAlign="MIDDLE_RIGHT" skin="@asset" anchorX="-20"/>
+            </element>
+        </element>
+
+    </element>
+    <element name="team_leaderboard_scrollable_part_holder" skin="@black_bg" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" preferredWidth="2300" preferredHeight="946">
+        <element name="team_leaderboard_scrollable_mask_wrapper" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="2300" preferredHeight="946">
+            <element name="team_leaderboard_scrollable_holder" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="2300" preferredHeight="946"/>
+        </element>
+        <element name="team_leaderboard_player_element_holder" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" preferredWidth="2300" preferredHeight="946">
+            <element name="team_leaderboard_player_team_world_element" anchorX="-25" anchorY="180" preferredWidth="2300" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" preferredHeight="180" visible="false" visible.members_local_selected="false" visible.members_world_selected="false" visible.teams_local_selected="false" visible.teams_world_selected="true"/>
+            <element name="team_leaderboard_player_team_local_element" anchorX="-25" anchorY="180" preferredWidth="2300" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" preferredHeight="180" visible="false" visible.members_local_selected="false" visible.members_world_selected="false" visible.teams_local_selected="true" visible.teams_world_selected="false"/>
+            <element name="team_leaderboard_player_world_element" anchorX="-25" anchorY="180" preferredWidth="2300" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" preferredHeight="180" visible="false" visible.members_local_selected="false" visible.members_world_selected="true" visible.teams_local_selected="false" visible.teams_world_selected="false"/>
+            <element name="team_leaderboard_player_local_element" anchorX="-25" anchorY="180" preferredWidth="2300" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" preferredHeight="180" visible="false" visible.members_local_selected="true" visible.members_world_selected="false" visible.teams_local_selected="false" visible.teams_world_selected="false"/>
+        </element>
+    </element>
+</element>

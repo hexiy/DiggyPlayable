@@ -1,0 +1,98 @@
+
+mars_caravan.png
+size: 128,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Karavana_MARS_hlava_tycka_Layer_3
+  rotate: false
+  xy: 1, 1
+  size: 23, 37
+  orig: 23, 37
+  offset: 0, 0
+  index: -1
+Karavana_MARS_sudok_Layer_1
+  rotate: false
+  xy: 26, 1
+  size: 20, 28
+  orig: 20, 28
+  offset: 0, 0
+  index: -1
+Karavana_MARS_satelit_tanier_Layer_1
+  rotate: false
+  xy: 48, 1
+  size: 16, 24
+  orig: 16, 24
+  offset: 0, 0
+  index: -1
+Karavana_MARS_podvozok_Layer_1
+  rotate: false
+  xy: 66, 1
+  size: 47, 23
+  orig: 47, 23
+  offset: 0, 0
+  index: -1
+Karavana_MARS_efekt_kruh_Layer_1
+  rotate: false
+  xy: 66, 26
+  size: 23, 23
+  orig: 23, 23
+  offset: 0, 0
+  index: -1
+Karavana_MARS_kolesa
+  rotate: false
+  xy: 1, 40
+  size: 47, 23
+  orig: 47, 23
+  offset: 0, 0
+  index: -1
+Karavana_MARS_rameno3_Klepeto1
+  rotate: false
+  xy: 115, 1
+  size: 7, 23
+  orig: 7, 23
+  offset: 0, 0
+  index: -1
+Karavana_MARS_rameno2_Layer_1
+  rotate: false
+  xy: 91, 26
+  size: 14, 19
+  orig: 14, 19
+  offset: 0, 0
+  index: -1
+Karavana_MARS_satelit_Layer_1
+  rotate: false
+  xy: 107, 26
+  size: 4, 17
+  orig: 4, 17
+  offset: 0, 0
+  index: -1
+Karavana_MARS_sudok_otvor_Layer_1
+  rotate: false
+  xy: 113, 26
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+Karavana_MARS_rameno1_Layer_1
+  rotate: false
+  xy: 48, 27
+  size: 16, 8
+  orig: 16, 8
+  offset: 0, 0
+  index: -1
+Karavana_MARS_kamen_Layer_1
+  rotate: false
+  xy: 26, 31
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+Karavana_MARS_sudok_poklop_Layer_1
+  rotate: false
+  xy: 50, 37
+  size: 13, 6
+  orig: 13, 6
+  offset: 0, 0
+  index: -1
+

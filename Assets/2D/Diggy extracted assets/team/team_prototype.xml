@@ -1,0 +1,41 @@
+<element anchorTop="0" anchorBottom="1" anchorLeft="0" anchorRight="1">
+    <element name="team_screen_bg" skin="@screen_bg" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+        <element name="team_screen_bg_shelf_top" skin="@screen_bg_shelf" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="4000" anchorY="140"/>
+        <element name="team_screen_bg_shelf_bot" skin="@screen_bg_shelf" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" preferredWidth="4000" anchorY="90"/>
+
+    <!--  TOP TABS  -->
+    <element name="team_tabs_holder" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1" visible="false" visible.tabs="true">
+        <element name="team_top_tabs" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" visible="true" visible.create_player="false">
+            <element name="team_top_tab_chat" skin="@screen_upper_tab_not_selected" visible="false" visible.in_team="true" skin.tab_chat="@screen_upper_tab" anchorY="83" anchorY.tab_chat="77" anchorX="-640" preferredWidth="450" preferredHeight.tab_chat="230" preferredHeight="130" mouseChildren="false">
+                <element name="team_top_tab_chat_label" skin="@team_body_font" model="#GUI3222" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true" preferredWidth="430" preferredHeight="100"/>
+            </element>
+            <element name="team_top_tab_my" skin="@screen_upper_tab_not_selected" skin.tab_my_team="@screen_upper_tab" anchorY="83" anchorY.tab_my_team="77" anchorX="-200" preferredWidth="450" preferredHeight.tab_my_team="230" preferredHeight="130" mouseChildren="false">
+                <element name="team_top_tab_my_label" skin="@team_body_font" model="#GUI3223" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true" preferredWidth="430" preferredHeight="100"/>
+            </element>
+            <element name="team_top_tab_join" skin="@screen_upper_tab_not_selected" visible="true" visible.in_team="false" skin.tab_join="@screen_upper_tab" anchorY="83" anchorY.tab_join="77" anchorX="-640" preferredWidth="450" preferredHeight.tab_join="230" preferredHeight="130" mouseChildren="false">
+                <element name="team_top_tab_join_label" skin="@team_body_font" model="#GUI3221" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true" preferredWidth="430" preferredHeight="100"/>
+                <element name="team_top_tab_join_invites_holder" mouseChildren="false" skin="@notify_circle" visible="false" visible.has_invites="true" preferredHeight="60" preferredWidth="60" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" anchorX="-9">
+                    <element name="team_top_tab_join_invites_label" model="0" skin="@team_body_font_smaller_mc" preferredWidth="300" preferredHeight="60" flushBatch="true" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="-3"/>
+                </element>
+            </element>
+            <element name="team_top_tab_leaderboard" skin="@screen_upper_tab_not_selected" skin.tab_leaderboard="@screen_upper_tab" anchorY="83" anchorY.tab_leaderboard="77" anchorX="240" preferredWidth="450" preferredHeight.tab_leaderboard="230" preferredHeight="130" mouseChildren="false">
+                <element name="team_top_tab_leaderboard_label" skin="@team_body_font" model="#GUI3224" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true" preferredWidth="430" preferredHeight="100"/>
+            </element>
+        </element>
+<!--  CREATE PLAYER  -->
+        <element name="team_tab_create_player_holder" visible="false" visible.create_player="true" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+<!--    JOIN TEAM    -->
+        <element name="team_tab_join_holder" visible="false" visible.tab_join="true" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+<!--    MY TEAM    -->
+        <element name="team_tab_my_holder" visible="false" visible.tab_my_team="true" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+<!--    CHAT    -->
+        <element name="team_tab_chat_holder" visible="false" visible.tab_chat="true" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+<!--    LEADERBOARD    -->
+        <element name="team_tab_leaderboard_holder" visible="false" visible.tab_leaderboard="true" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+    </element>
+
+    <element name="btn_back" visible="true" anchorAlign="BOTTOM_LEFT" pivotAlign="BOTTOM_LEFT" preferredWidth="450" preferredHeight="132"
+             skin="@bottom_btn_basic" skin.pressed="@bottom_btn_basic_pressed" mouseChildren="false">
+        <element anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" skin="@bottom_back_icon"/>
+    </element>
+</element>

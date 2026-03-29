@@ -1,0 +1,285 @@
+<city id="4" name="greece" url="graphics/cities/greece/" width="2050" offsetX="30" offsetY="150" rows="8" cols="50" path="0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,1,1,1,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,1,1,0,1,1,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,1,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,1,1,1,0,1,1,0,0,0,0,1,0,1,1,1,1,1,1,1,0,1,1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,1,0,1,1,1,0,0,1,0,0,0,0,0,0,0,0,1,0,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1">	
+<element orderId="0" texture="nebo" x="1557" y="236" scaleX="97.44" scaleY="1" />
+<element orderId="1" texture="slnko" x="1375" y="164" scaleX="1.52" scaleY="1.52" />
+<element orderId="2" texture="oblak" x="2035" y="243" scaleX="0.45" scaleY="0.47" />
+<element orderId="3" texture="oblak" x="1636" y="376" scaleX="0.45" scaleY="0.47" />
+<element orderId="4" texture="kopec" x="1596" y="269" scaleX="-0.73" scaleY="1.01" />
+<element orderId="5" texture="kopec" x="2123" y="202" scaleX="0.73" scaleY="1.01" />
+<element orderId="6" texture="more" x="1447" y="496" scaleX="362.15" scaleY="0.4" />
+<element orderId="7" texture="more textura" x="515" y="454" scaleX="2.24" scaleY="3.03" />
+<element orderId="8" texture="more textura" x="1628" y="454" scaleX="2.24" scaleY="3.03" />
+<element orderId="9" texture="more textura" x="2340" y="446" scaleX="2.24" scaleY="3.03" />
+<element orderId="10" texture="more lesk slnka" x="1378" y="400" scaleX="1" scaleY="1" />
+<element orderId="11" texture="oblak" x="2639" y="357" scaleX="0.45" scaleY="0.69" />
+<element orderId="12" texture="oblak" x="18" y="360" scaleX="0.31" scaleY="0.55" />
+<element orderId="13" texture="oblak" x="916" y="353" scaleX="0.36" scaleY="0.55" />
+<element orderId="14" texture="gradient horizont" x="1447" y="345" scaleX="732.79" scaleY="0.76" />
+<element orderId="15" texture="trava" x="1575" y="671" scaleX="98.56" scaleY="0.57" />
+<element orderId="16" texture="kopec" x="2331" y="376" scaleX="0.33" scaleY="0.51" />
+<element orderId="17" texture="kopec" x="1854" y="376" scaleX="-0.33" scaleY="0.51" />
+<element orderId="18" texture="oblak" x="1915" y="379" scaleX="0.45" scaleY="0.47" />
+<element orderId="19" texture="oblak" x="1915" y="379" scaleX="-0.45" scaleY="0.13" />
+<element orderId="20" texture="kopec" x="1626" y="408" scaleX="-0.45" scaleY="0.51" />
+<element orderId="21" texture="kopec" x="2658" y="372" scaleX="0.3" scaleY="0.51" />
+<element orderId="22" texture="kopec" x="2222" y="322" scaleX="-0.3" scaleY="0.51" />
+<element orderId="23" texture="oblak" x="2698" y="346" scaleX="0.25" scaleY="0.38" />
+<element orderId="24" texture="kopec" x="2374" y="515" scaleX="-0.45" scaleY="0.51" />
+<element orderId="25" texture="kopec" x="3020" y="437" scaleX="0.89" scaleY="1.01" />
+<element orderId="26" texture="olymp" x="1952" y="249" scaleX="1" scaleY="1" />
+<element orderId="27" texture="oblak" x="1949" y="476" scaleX="0.45" scaleY="0.47" />
+<element orderId="28" texture="oblak" x="2404" y="377" scaleX="0.45" scaleY="0.34" />
+<element orderId="29" texture="utes" x="1050" y="306" scaleX="-0.9" scaleY="0.9" />
+<element orderId="30" texture="oblak" x="2404" y="377" scaleX="-0.45" scaleY="0.34" />
+<element orderId="31" texture="trava" x="1435" y="520" scaleX="90.34" scaleY="0.18" />
+<element orderId="32" texture="kopec" x="1272" y="475" scaleX="0.45" scaleY="0.51" />
+<element orderId="33" texture="kopec" x="2213" y="422" scaleX="0.9" scaleY="1.01" />
+<element orderId="34" texture="kopec" x="1552" y="423" scaleX="-0.93" scaleY="1.01" />
+<element orderId="35" texture="kopec" x="162" y="506" scaleX="-0.9" scaleY="1.01" />
+<element orderId="36" texture="chodnik" x="1600" y="622" scaleX="233.82" scaleY="0.49" />
+<element orderId="37" texture="chodnik" x="1555" y="566" scaleX="77.95" scaleY="0.13" />
+<element orderId="38" texture="stena murik" x="1569" y="583" scaleX="205.96" scaleY="0.07" />
+<element orderId="39" texture="stena murik" x="760" y="440" scaleX="62.38" scaleY="0.22" />
+<element orderId="40" texture="stena murik" x="767" y="321" scaleX="62.38" scaleY="0.22" />
+<element orderId="41" texture="stena murik" x="762" y="560" scaleX="63.78" scaleY="0.22" />
+<element orderId="42" texture="amfiteater" x="1962" y="479" scaleX="1" scaleY="1" />
+<element orderId="43" texture="amfiteater" x="1753" y="479" scaleX="-1" scaleY="1" />
+<element orderId="44" texture="popinava rastlina" x="2017" y="447" scaleX="-0.5" scaleY="0.52" />
+<element orderId="45" texture="gradient univerzal" x="2060" y="433" scaleX="0.36" scaleY="0.59" />
+<element orderId="46" texture="gradient univerzal" x="1671" y="466" scaleX="0.26" scaleY="0.47" />
+<element orderId="47" texture="gradient univerzal" x="1569" y="549" scaleX="0.13" scaleY="0.03" />
+<element orderId="48" texture="gradient univerzal" x="1656" y="554" scaleX="0.13" scaleY="0.03" />
+<element orderId="49" texture="gradient univerzal" x="1287" y="546" scaleX="0.13" scaleY="0.03" />
+<element orderId="50" texture="utes" x="2281" y="431" scaleX="1" scaleY="1" />
+<element orderId="51" texture="jaskyna" x="2316" y="534" scaleX="0.45" scaleY="0.45" />
+<element orderId="52" texture="strom4" x="1173" y="423" scaleX="0.31" scaleY="0.31" />
+<element orderId="53" texture="strom4" x="1161" y="501" scaleX="0.37" scaleY="0.37" />
+<element orderId="54" texture="strom4" x="1171" y="250" scaleX="0.31" scaleY="0.31" />
+<element orderId="55" texture="strom4" x="324" y="511" scaleX="-0.28" scaleY="0.28" />
+<element orderId="56" texture="strom4" x="340" y="546" scaleX="-0.28" scaleY="0.28" />
+<element orderId="57" texture="strom1" x="1260" y="494" scaleX="0.4" scaleY="0.4" />
+<element orderId="58" texture="strom1" x="1544" y="496" scaleX="0.4" scaleY="0.4" />
+<element orderId="59" texture="strom2" x="244" y="528" scaleX="0.29" scaleY="0.23" />
+<element orderId="60" texture="strom3" x="1117" y="142" scaleX="0.35" scaleY="0.35" />
+<element orderId="61" texture="strom3" x="403" y="307" scaleX="0.35" scaleY="0.35" />
+<element orderId="62" texture="strom3" x="849" y="116" scaleX="0.35" scaleY="0.35" />
+<element orderId="63" texture="strom3" x="220" y="368" scaleX="0.35" scaleY="0.35" />
+<element orderId="64" texture="popinava rastlina" x="2461" y="342" scaleX="0.45" scaleY="0.45" />
+<element orderId="65" texture="popinava rastlina" x="2495" y="469" scaleX="-0.5" scaleY="0.5" />
+<element orderId="66" texture="popinava rastlina" x="2483" y="548" scaleX="0.5" scaleY="0.5" />
+<element orderId="67" texture="krik" x="690" y="173" scaleX="0.4" scaleY="0.4" />
+<element orderId="68" texture="krik" x="850" y="166" scaleX="-0.4" scaleY="0.31" />
+<element orderId="69" texture="krik" x="608" y="188" scaleX="0.4" scaleY="0.37" />
+<element orderId="70" texture="krik" x="489" y="133" scaleX="0.4" scaleY="0.27" />
+<element orderId="71" texture="chodnik" x="724" y="502" scaleX="40.75" scaleY="0.49" />
+<element orderId="72" texture="chodnik" x="715" y="382" scaleX="40.75" scaleY="0.49" />
+<element orderId="73" texture="chodnik" x="782" y="262" scaleX="40.75" scaleY="0.49" />
+<element orderId="74" texture="chodnik textura" x="1951" y="623" scaleX="0.48" scaleY="0.48" />
+<element orderId="75" texture="chodnik textura" x="1321" y="624" scaleX="0.69" scaleY="0.48" />
+<element orderId="76" texture="chodnik textura" x="673" y="624" scaleX="0.69" scaleY="0.48" />
+<element orderId="77" texture="chodnik textura" x="979" y="263" scaleX="-0.85" scaleY="0.48" />
+<element orderId="78" texture="chodnik textura" x="549" y="504" scaleX="0.69" scaleY="0.48" />
+<element orderId="79" texture="chodnik textura2" x="1710" y="623" scaleX="0.48" scaleY="0.48" />
+<element orderId="80" texture="chodnik textura2" x="2041" y="623" scaleX="-0.28" scaleY="0.48" />
+<element orderId="81" texture="chodnik textura2" x="869" y="624" scaleX="-0.53" scaleY="0.48" />
+<element orderId="82" texture="chodnik textura2" x="2740" y="624" scaleX="-0.47" scaleY="0.48" />
+<element orderId="83" texture="chodnik textura2" x="734" y="504" scaleX="0.48" scaleY="0.48" />
+<element orderId="84" texture="chodnik textura2" x="760" y="264" scaleX="0.48" scaleY="0.48" />
+<element orderId="85" texture="chodnik textura2" x="924" y="503" scaleX="0.48" scaleY="0.48" />
+<element orderId="86" texture="chodnik textura2" x="785" y="383" scaleX="-0.48" scaleY="0.48" />
+<element orderId="87" texture="chodnik textura3" x="1841" y="624" scaleX="0.48" scaleY="0.48" />
+<element orderId="88" texture="chodnik textura3" x="2259" y="625" scaleX="-0.79" scaleY="0.47" />
+<element orderId="89" texture="chodnik textura3" x="1480" y="625" scaleX="0.69" scaleY="0.48" />
+<element orderId="90" texture="chodnik textura3" x="1190" y="625" scaleX="0.48" scaleY="0.48" />
+<element orderId="91" texture="chodnik textura3" x="1036" y="625" scaleX="-0.72" scaleY="0.48" />
+<element orderId="92" texture="chodnik textura3" x="432" y="625" scaleX="0.8" scaleY="0.48" />
+<element orderId="93" texture="chodnik textura3" x="2962" y="625" scaleX="-0.79" scaleY="0.47" />
+<element orderId="94" texture="chodnik textura3" x="2553" y="625" scaleX="-0.73" scaleY="0.48" />
+<element orderId="95" texture="chodnik textura3" x="256" y="625" scaleX="-0.67" scaleY="0.48" />
+<element orderId="96" texture="chodnik textura3" x="606" y="383" scaleX="0.48" scaleY="0.48" />
+<element orderId="97" texture="chodnik textura3" x="600" y="262" scaleX="-0.48" scaleY="0.48" />
+<element orderId="98" texture="chodnik textura3" x="984" y="383" scaleX="-0.72" scaleY="0.48" />
+<element orderId="99" texture="tien pod schody" x="932" y="305" scaleX="0.25" scaleY="0.37" />
+<element orderId="100" texture="tien pod schody" x="992" y="426" scaleX="0.25" scaleY="0.37" />
+<element orderId="101" texture="tien pod schody" x="573" y="426" scaleX="0.25" scaleY="0.37" />
+<element orderId="102" texture="tien pod schody" x="814" y="555" scaleX="0.25" scaleY="0.41" />
+<element orderId="103" texture="tien pod schody" x="1892" y="550" scaleX="0.15" scaleY="0.16" />
+<element orderId="104" texture="tien pod schody" x="1891" y="425" scaleX="0.13" scaleY="0.1" />
+<element orderId="105" texture="tien pod schody" x="1891" y="463" scaleX="0.13" scaleY="0.12" />
+<element orderId="106" texture="tien pod schody" x="1891" y="396" scaleX="0.13" scaleY="0.1" />
+<element orderId="107" texture="tien pod schody" x="806" y="436" scaleX="0.33" scaleY="0.46" />
+<element orderId="108" texture="tien pod schody" x="493" y="449" scaleX="0.33" scaleY="0.51" />
+<element orderId="109" texture="tien pod schody" x="467" y="561" scaleX="0.33" scaleY="0.48" />
+<element orderId="110" texture="tien pod schody" x="537" y="318" scaleX="0.33" scaleY="0.51" />
+<element orderId="111" texture="tien pod schody" x="280" y="554" scaleX="0.25" scaleY="0.07" />
+<element orderId="112" texture="tien pod schody" x="1191" y="544" scaleX="0.25" scaleY="0.19" />
+<element orderId="113" texture="stena bok" x="927" y="188" scaleX="-0.57" scaleY="0.57" />
+<element orderId="114" texture="stena bok" x="730" y="202" scaleX="-0.53" scaleY="0.34" />
+<element orderId="115" texture="stena bok" x="1139" y="548" scaleX="0.57" scaleY="0.57" />
+<element orderId="116" texture="tien pod schody" x="702" y="197" scaleX="0.24" scaleY="0.3" />
+<element orderId="117" texture="tien pod schody" x="1135" y="546" scaleX="0.24" scaleY="0.56" />
+<element orderId="118" texture="stena obluk" x="655" y="188" scaleX="0.55" scaleY="0.55" />
+<element orderId="119" texture="stena obluk" x="302" y="556" scaleX="-0.55" scaleY="0.55" />
+<element orderId="120" texture="krik" x="929" y="220" scaleX="0.26" scaleY="0.17" />
+<element orderId="121" texture="krik" x="1499" y="496" scaleX="0.47" scaleY="0.35" />
+<element orderId="122" texture="krik" x="3009" y="530" scaleX="0.47" scaleY="0.38" />
+<element orderId="123" texture="stena murik" x="998" y="183" scaleX="12.11" scaleY="0.47" />
+<element orderId="124" texture="stena murik" x="794" y="172" scaleX="12.72" scaleY="0.47" />
+<element orderId="125" texture="stena murik" x="560" y="179" scaleX="11.44" scaleY="0.47" />
+<element orderId="126" texture="tien pod schody" x="614" y="191" scaleX="0.24" scaleY="0.47" />
+<element orderId="127" texture="dom kraj 1" x="850" y="162" scaleX="0.47" scaleY="0.47" />
+<element orderId="128" texture="dom kraj 1" x="726" y="162" scaleX="-0.47" scaleY="0.47" />
+<element orderId="129" texture="dom kraj 2" x="1050" y="174" scaleX="0.47" scaleY="0.47" />
+<element orderId="130" texture="dom kraj 2" x="937" y="175" scaleX="-0.47" scaleY="0.47" />
+<element orderId="131" texture="dom kraj 2" x="495" y="170" scaleX="-0.47" scaleY="0.47" />
+<element orderId="132" texture="dom kraj 2" x="611" y="170" scaleX="0.47" scaleY="0.47" />
+<element orderId="133" texture="dom strecha" x="993" y="84" scaleX="0.48" scaleY="0.48" />
+<element orderId="134" texture="dom strecha" x="788" y="80" scaleX="0.56" scaleY="0.34" />
+<element orderId="135" texture="dom strecha" x="552" y="79" scaleX="0.51" scaleY="0.46" />
+<element orderId="136" texture="okno 2" x="904" y="169" scaleX="0.4" scaleY="0.4" />
+<element orderId="137" texture="okno 2" x="963" y="140" scaleX="0.45" scaleY="0.45" />
+<element orderId="138" texture="okno 2" x="1022" y="140" scaleX="-0.45" scaleY="0.45" />
+<element orderId="139" texture="okno 2" x="516" y="145" scaleX="0.38" scaleY="0.45" />
+<element orderId="140" texture="okno 2" x="592" y="145" scaleX="-0.38" scaleY="0.45" />
+<element orderId="141" texture="okno" x="752" y="138" scaleX="0.35" scaleY="0.35" />
+<element orderId="142" texture="okno" x="822" y="137" scaleX="-0.35" scaleY="0.35" />
+<element orderId="143" texture="dvere" x="993" y="216" scaleX="0.34" scaleY="0.34" />
+<element orderId="144" texture="dvere" x="788" y="202" scaleX="0.32" scaleY="0.38" />
+<element orderId="145" texture="dvere" x="552" y="213" scaleX="-0.34" scaleY="0.34" />
+<element orderId="146" texture="strom2" x="423" y="133" scaleX="0.31" scaleY="0.31" />
+<element orderId="147" texture="strom2" x="1061" y="191" scaleX="0.29" scaleY="0.29" />
+<element orderId="148" texture="strom2" x="706" y="319" scaleX="0.29" scaleY="0.18" />
+<element orderId="149" texture="strom2" x="321" y="372" scaleX="0.29" scaleY="0.29" />
+<element orderId="150" texture="strom2" x="1640" y="449" scaleX="0.37" scaleY="0.37" />
+<element orderId="151" texture="strom3" x="1110" y="308" scaleX="0.37" scaleY="0.37" />
+<element orderId="152" texture="strom3" x="768" y="334" scaleX="0.37" scaleY="0.23" />
+<element orderId="153" texture="strom3" x="367" y="435" scaleX="0.37" scaleY="0.37" />
+<element orderId="154" texture="stena murik" x="1071" y="400" scaleX="12.25" scaleY="0.46" />
+<element orderId="155" texture="stena murik" x="753" y="423" scaleX="10.63" scaleY="0.44" />
+<element orderId="156" texture="stena murik" x="474" y="311" scaleX="11.81" scaleY="0.46" />
+<element orderId="157" texture="dvere" x="1065" y="439" scaleX="0.41" scaleY="0.41" />
+<element orderId="158" texture="dvere" x="748" y="453" scaleX="0.32" scaleY="0.38" />
+<element orderId="159" texture="dvere" x="470" y="340" scaleX="-0.39" scaleY="0.39" />
+<element orderId="160" texture="dom kraj 2" x="411" y="303" scaleX="-0.47" scaleY="0.47" />
+<element orderId="161" texture="dom kraj 2" x="532" y="303" scaleX="0.47" scaleY="0.47" />
+<element orderId="162" texture="dom kraj 2" x="802" y="415" scaleX="0.47" scaleY="0.44" />
+<element orderId="163" texture="dom kraj 2" x="693" y="414" scaleX="-0.47" scaleY="0.44" />
+<element orderId="164" texture="dom kraj 2" x="490" y="431" scaleX="0.47" scaleY="0.44" />
+<element orderId="165" texture="dom kraj 2" x="369" y="431" scaleX="-0.47" scaleY="0.44" />
+<element orderId="166" texture="dom kraj 1" x="1127" y="391" scaleX="0.47" scaleY="0.47" />
+<element orderId="167" texture="dom kraj 1" x="1003" y="391" scaleX="-0.47" scaleY="0.47" />
+<element orderId="168" texture="dom strecha" x="1064" y="301" scaleX="0.54" scaleY="0.54" />
+<element orderId="169" texture="dom strecha" x="747" y="333" scaleX="0.48" scaleY="0.52" />
+<element orderId="170" texture="dom strecha" x="472" y="214" scaleX="0.51" scaleY="0.46" />
+<element orderId="171" texture="okno" x="436" y="268" scaleX="0.35" scaleY="0.35" />
+<element orderId="172" texture="okno" x="506" y="267" scaleX="-0.35" scaleY="0.35" />
+<element orderId="173" texture="okno" x="1099" y="364" scaleX="-0.49" scaleY="0.37" />
+<element orderId="174" texture="okno" x="1035" y="365" scaleX="0.49" scaleY="0.37" />
+<element orderId="175" texture="okno 2" x="722" y="374" scaleX="0.47" scaleY="0.5" />
+<element orderId="176" texture="okno 2" x="773" y="374" scaleX="-0.47" scaleY="0.5" />
+<element orderId="177" texture="stena murik" x="1074" y="541" scaleX="13.06" scaleY="0.46" />
+<element orderId="178" texture="stena murik" x="432" y="441" scaleX="11.81" scaleY="0.44" />
+<element orderId="179" texture="strom1" x="463" y="461" scaleX="-0.29" scaleY="0.34" />
+<element orderId="180" texture="stena murik" x="402" y="550" scaleX="10.99" scaleY="0.46" />
+<element orderId="181" texture="dom kraj 2" x="1132" y="533" scaleX="0.47" scaleY="0.46" />
+<element orderId="182" texture="dom kraj 2" x="462" y="542" scaleX="0.47" scaleY="0.44" />
+<element orderId="183" texture="dom kraj 2" x="343" y="542" scaleX="-0.47" scaleY="0.44" />
+<element orderId="184" texture="dom kraj 2" x="1003" y="533" scaleX="-0.47" scaleY="0.46" />
+<element orderId="185" texture="dom strecha" x="430" y="354" scaleX="0.51" scaleY="0.46" />
+<element orderId="186" texture="dom strecha" x="1069" y="443" scaleX="0.58" scaleY="0.46" />
+<element orderId="187" texture="dom strecha" x="403" y="461" scaleX="0.51" scaleY="0.46" />
+<element orderId="188" texture="okno 2" x="405" y="395" scaleX="0.47" scaleY="0.5" />
+<element orderId="189" texture="okno 2" x="458" y="395" scaleX="-0.47" scaleY="0.5" />
+<element orderId="190" texture="dvere" x="1066" y="569" scaleX="0.41" scaleY="0.41" />
+<element orderId="191" texture="dvere" x="399" y="580" scaleX="0.39" scaleY="0.39" />
+<element orderId="192" texture="okno 2" x="372" y="507" scaleX="0.47" scaleY="0.5" />
+<element orderId="193" texture="okno 2" x="433" y="508" scaleX="-0.47" scaleY="0.5" />
+<element orderId="194" texture="okno 2" x="1104" y="493" scaleX="-0.43" scaleY="0.46" />
+<element orderId="195" texture="okno 2" x="1032" y="493" scaleX="0.43" scaleY="0.46" />
+<element orderId="196" texture="gradient chram" x="2726" y="445" scaleX="22.63" scaleY="0.47" />
+<element orderId="197" texture="stlp obluk" x="2522" y="467" scaleX="0.49" scaleY="0.49" />
+<element orderId="198" texture="stlp obluk" x="2925" y="464" scaleX="-0.49" scaleY="0.49" />
+<element orderId="199" texture="stlp rovny" x="2557" y="467" scaleX="0.49" scaleY="0.49" />
+<element orderId="200" texture="Symbol 4" x="2724" y="564" scaleX="0.6" scaleY="0.6" />
+<element orderId="201" texture="stlp rovny" x="2680" y="467" scaleX="0.49" scaleY="0.49" />
+<element orderId="202" texture="stlp rovny" x="2646" y="467" scaleX="-0.49" scaleY="0.49" />
+<element orderId="203" texture="stlp rovny" x="2773" y="464" scaleX="-0.49" scaleY="0.49" />
+<element orderId="204" texture="stlp rovny" x="2807" y="464" scaleX="0.49" scaleY="0.49" />
+<element orderId="205" texture="stlp rovny" x="2891" y="464" scaleX="-0.49" scaleY="0.49" />
+<element orderId="206" texture="timpanon" x="2561" y="207" scaleX="1" scaleY="1" />
+<element orderId="207" texture="timpanon" x="2892" y="207" scaleX="-1" scaleY="1" />
+<element orderId="208" texture="hlavica" x="2538" y="311" scaleX="0.46" scaleY="0.46" />
+<element orderId="209" texture="hlavica" x="2665" y="311" scaleX="0.46" scaleY="0.46" />
+<element orderId="210" texture="hlavica" x="2789" y="311" scaleX="0.46" scaleY="0.46" />
+<element orderId="211" texture="hlavica" x="2909" y="310" scaleX="0.46" scaleY="0.46" />
+<element orderId="212" texture="stlpik podporny" x="2836" y="447" scaleX="-0.56" scaleY="0.52" />
+<element orderId="213" texture="stlpik podporny" x="2976" y="471" scaleX="0.56" scaleY="0.61" />
+<element orderId="214" texture="stlpik podporny" x="2981" y="547" scaleX="0.56" scaleY="0.41" />
+<element orderId="215" texture="stlpik podporny" x="2619" y="443" scaleX="0.56" scaleY="0.52" />
+<element orderId="216" texture="stlpik podporny" x="2923" y="437" scaleX="0.56" scaleY="0.52" />
+<element orderId="217" texture="stlpik podporny" x="2507" y="555" scaleX="-0.56" scaleY="0.52" />
+<element orderId="218" texture="stlpik podporny" x="2512" y="450" scaleX="-0.56" scaleY="0.52" />
+<element orderId="219" texture="stlpik podporny" x="2641" y="545" scaleX="-0.56" scaleY="0.52" />
+<element orderId="220" texture="stlpik podporny" x="2862" y="545" scaleX="0.56" scaleY="0.52" />
+<element orderId="221" texture="Symbol 7" x="2715" y="504" scaleX="1" scaleY="1" />
+<element orderId="222" texture="gradient lesenie" x="2722" y="385" scaleX="14.31" scaleY="1" />
+<element orderId="223" texture="lesenie plosina" x="2555" y="508" scaleX="0.59" scaleY="0.68" />
+<element orderId="224" texture="lesenie plosina" x="2901" y="508" scaleX="-0.59" scaleY="0.68" />
+<element orderId="225" texture="lesenie plosina" x="2527" y="389" scaleX="0.6" scaleY="0.69" />
+<element orderId="226" texture="lesenie plosina" x="2913" y="389" scaleX="-0.6" scaleY="0.69" />
+<element orderId="227" texture="lesenie predel" x="2705" y="388" scaleX="0.68" scaleY="0.68" />
+<element orderId="228" texture="lesenie predel" x="2740" y="507" scaleX="-0.8" scaleY="0.68" />
+<element orderId="229" texture="tien rebrik" x="2244" y="422" scaleX="0.58" scaleY="0.66" />
+<element orderId="230" texture="tien rebrik" x="2210" y="344" scaleX="0.52" scaleY="0.64" />
+<element orderId="231" texture="tien rebrik" x="2207" y="422" scaleX="0.58" scaleY="0.66" />
+<element orderId="232" texture="tien rebrik" x="2239" y="341" scaleX="0.52" scaleY="0.64" />
+<element orderId="233" texture="tien rebrik" x="2118" y="453" scaleX="0.58" scaleY="0.66" />
+<element orderId="234" texture="tien rebrik" x="2094" y="453" scaleX="0.58" scaleY="0.66" />
+<element orderId="235" texture="tien rebrik" x="2125" y="608" scaleX="0.58" scaleY="0.66" />
+<element orderId="236" texture="tien rebrik" x="2086" y="608" scaleX="0.58" scaleY="0.66" />
+<element orderId="237" texture="tien rebrik" x="2954" y="608" scaleX="0.42" scaleY="0.47" />
+<element orderId="238" texture="tien rebrik" x="3040" y="612" scaleX="0.35" scaleY="0.45" />
+<element orderId="239" texture="tien rebrik" x="2604" y="365" scaleX="0.58" scaleY="0.66" />
+<element orderId="240" texture="tien rebrik" x="2567" y="365" scaleX="0.58" scaleY="0.66" />
+<element orderId="241" texture="tien rebrik" x="2814" y="389" scaleX="0.58" scaleY="0.66" />
+<element orderId="242" texture="tien rebrik" x="2841" y="388" scaleX="0.58" scaleY="0.66" />
+<element orderId="243" texture="tien rebrik" x="2808" y="491" scaleX="0.58" scaleY="0.66" />
+<element orderId="244" texture="tien rebrik" x="2845" y="491" scaleX="0.58" scaleY="0.66" />
+<element orderId="245" texture="tien rebrik" x="2693" y="511" scaleX="0.58" scaleY="0.66" />
+<element orderId="246" texture="tien rebrik" x="2720" y="511" scaleX="0.58" scaleY="0.66" />
+<element orderId="247" texture="tien rebrik" x="2688" y="610" scaleX="0.58" scaleY="0.66" />
+<element orderId="248" texture="tien rebrik" x="2725" y="610" scaleX="0.58" scaleY="0.66" />
+<element orderId="249" texture="tien rebrik" x="1279" y="604" scaleX="0.5" scaleY="0.66" />
+<element orderId="250" texture="tien rebrik" x="2571" y="273" scaleX="0.58" scaleY="0.66" />
+<element orderId="251" texture="tien rebrik" x="2598" y="274" scaleX="0.58" scaleY="0.66" />
+<element orderId="252" texture="schody" x="1858" y="554" scaleX="0.51" scaleY="0.53" />
+<element orderId="253" texture="schody" x="1858" y="430" scaleX="0.5" scaleY="0.53" />
+<element orderId="254" texture="schody" x="958" y="431" scaleX="0.51" scaleY="0.53" />
+<element orderId="255" texture="schody" x="898" y="311" scaleX="0.51" scaleY="0.53" />
+<element orderId="256" texture="schody" x="538" y="431" scaleX="0.51" scaleY="0.53" />
+<element orderId="257" texture="schody" x="778" y="557" scaleX="0.51" scaleY="0.58" />
+<element orderId="258" texture="rebrik dlhy" x="2097" y="530" scaleX="1.09" scaleY="1.09" />
+<element orderId="259" texture="rebrik kratky" x="2216" y="380" scaleX="1.16" scaleY="0.96" />
+<element orderId="260" texture="rebrik kratky" x="2818" y="446" scaleX="1.16" scaleY="1.06" />
+<element orderId="261" texture="rebrik kratky" x="2576" y="320" scaleX="1.16" scaleY="0.96" />
+<element orderId="262" texture="stlpik" x="3036" y="573" scaleX="0.39" scaleY="0.39" />
+<element orderId="263" texture="stlpik" x="2937" y="570" scaleX="-0.46" scaleY="0.46" />
+<element orderId="264" texture="stlpik" x="1277" y="561" scaleX="0.53" scaleY="0.47" />
+<element orderId="265" texture="plachta" x="2989" y="534" scaleX="0.32" scaleY="0.42" />
+<element orderId="266" texture="plachta" x="1208" y="521" scaleX="0.42" scaleY="0.42" />
+<element orderId="267" texture="Symbol 2" x="2983" y="593" scaleX="0.5" scaleY="0.5" />
+<element orderId="268" texture="Symbol 2" x="2593" y="590" scaleX="0.5" scaleY="0.5" />
+<element orderId="269" texture="Symbol 2" x="2731" y="471" scaleX="0.5" scaleY="0.5" />
+<element orderId="270" texture="Symbol 3" x="2503" y="363" scaleX="0.5" scaleY="0.5" />
+<element orderId="271" texture="Symbol 3" x="2851" y="597" scaleX="0.5" scaleY="0.5" />
+<element orderId="272" texture="Symbol 5" x="2832" y="368" scaleX="0.5" scaleY="0.5" />
+<element orderId="273" texture="Symbol 5" x="2875" y="255" scaleX="0.41" scaleY="0.41" />
+<element orderId="274" texture="Symbol 6" x="2870" y="371" scaleX="0.3" scaleY="0.3" />
+<element orderId="275" texture="Symbol 6" x="2669" y="372" scaleX="0.3" scaleY="0.3" />
+<element orderId="276" texture="Symbol 6" x="2583" y="495" scaleX="-0.5" scaleY="0.5" />
+<element orderId="277" texture="Symbol 5" x="2622" y="487" scaleX="0.5" scaleY="0.5" />
+<element orderId="278" texture="Symbol 6" x="2832" y="260" scaleX="0.5" scaleY="0.5" />
+<element orderId="279" texture="rebrik kratky" x="2698" y="564" scaleX="1.16" scaleY="1.01" />
+<element orderId="280" texture="Symbol 1" x="2729" y="354" scaleX="0.5" scaleY="0.5" />
+<element orderId="281" texture="Symbol 1" x="2926" y="475" scaleX="0.5" scaleY="0.5" />
+<element orderId="282" texture="chodnik textura3" x="27" y="626" scaleX="0.8" scaleY="0.48" />
+</city>

@@ -1,0 +1,9 @@
+<element preferredHeight="250" preferredWidth="250" anchorY="0" anchorX="0" pivotAlign="TOP_LEFT" anchorAlign="TOP_LEFT" mouseDown="onTeamLogo_handler">
+    <element name="team_logo_green_border" preferredHeight="240" preferredWidth="240" skin="@brown_bg" skin.selected="@green_frame" anchorY="0" anchorX="0" pivotAlign="MIDDLE_CENTER" anchorAlign="MIDDLE_CENTER" mouseChildren="false">
+        <element name="data_holder"/>
+<!--        <element  anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="240" preferredHeight="240"/>-->
+        <element name="team_logo_holder" preferredWidth="215" preferredHeight="215" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+            <element name="team_logo" preferredHeight="185" preferredWidth="185" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" skin="@asset"/>
+        </element>
+    </element>
+</element>

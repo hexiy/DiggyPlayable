@@ -1,0 +1,129 @@
+<element anchorTop="0" anchorBottom="1" anchorLeft="0" anchorRight="1">
+    <element name="museum_bg" skin="@museum_bg" preferredHeight="1500" anchorY="36" mouseDown="onMuseumBg"/>
+    <element name="museum_top_border" skin="@museum_top_border" anchorY="300"/>
+    <element name="tabs" visible="true" visible.detail="false" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+        <p:layout><horizontal/></p:layout>
+        <element preferredWidth="528" anchorX="256" anchorY="172" anchorY.achievements="162">
+            <element name="achievementsTab" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" skin="@museum_tab" preferredWidth="500" preferredHeight="175" mouseChildren="false">
+                <element name="achievementsTabTitle" flushBatch="true" skin="@museum_main_title_font" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="59"/>
+                <element name="achievementsTabNotification" visible="true" skin="@event_pass_badge" anchorAlign="TOP_RIGHT" pivotAlign="MIDDLE_CENTER" preferredWidth="63" preferredHeight="63" anchorY="10" anchorX="-5">
+                    <element name="achievementsTabNotificationTxt" skin="@typeface_36_white_center_middle" pivotAlign="MIDDLE_CENTER" anchorAlign="MIDDLE_CENTER" flushBatch="true" preferredHeight="55" preferredWidth="105" anchorY="5" model="!"/>
+                </element>
+            </element>
+            <element skin="@museum_tab2" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="107" visible="false" visible.achievements="true" mouseEnabled="false"/>
+        </element>
+        <element preferredWidth="528" anchorX="1125" anchorY="172" anchorY.treasures="162">
+            <element name="treasuresTab" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" skin="@museum_tab" preferredWidth="500" preferredHeight="175" mouseChildren="false">
+                <element name="treasuresTabTitle" flushBatch="true" skin="@museum_main_title_font" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="59"/>
+                <element name="treasuresTabNotification" visible="true" skin="@event_pass_badge" anchorAlign="TOP_RIGHT" pivotAlign="MIDDLE_CENTER" preferredWidth="63" preferredHeight="63" anchorY="10" anchorX="-5">
+                    <element name="treasuresTabNotificationTxt" skin="@typeface_36_white_center_middle" pivotAlign="MIDDLE_CENTER" anchorAlign="MIDDLE_CENTER" flushBatch="true" preferredHeight="55" preferredWidth="105" anchorY="5" model="!"/>
+                </element>
+            </element>
+            <element skin="@museum_tab2" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="107" visible="false" visible.treasures="true" mouseEnabled="false"/>
+        </element>
+
+        <element preferredWidth="528" anchorX="1125" anchorY="172" anchorY.tablets="162">
+            <element name="tabletTab" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" skin="@museum_tab" preferredWidth="500" preferredHeight="175" mouseChildren="false">
+                <element name="tabletTabTitle" flushBatch="true" skin="@museum_main_title_font" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="59"/>
+                <element name="tabletTabNotification" visible="true" skin="@event_pass_badge" anchorAlign="TOP_RIGHT" pivotAlign="MIDDLE_CENTER" preferredWidth="63" preferredHeight="63" anchorY="10" anchorX="-5">
+                    <element name="tabletTabNotificationTxt" skin="@typeface_36_white_center_middle" pivotAlign="MIDDLE_CENTER" anchorAlign="MIDDLE_CENTER" flushBatch="true" preferredHeight="55" preferredWidth="105" anchorY="5" model="!"/>
+                </element>
+            </element>
+            <element skin="@museum_tab2" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="107" visible="false" visible.tablets="true" mouseEnabled="false"/>
+        </element>
+
+        <element name="albumsTabHolder" preferredWidth="528" anchorX="1125" anchorY="172" anchorY.albums="162">
+            <element name="albumsTab" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" skin="@museum_tab" preferredWidth="500" preferredHeight="175" mouseChildren="false">
+                <element name="albumsTabTitle" flushBatch="true" skin="@museum_main_title_font" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="59"/>
+                <element name="albumsTabNotification" visible="true" skin="@event_pass_badge" anchorAlign="TOP_RIGHT" pivotAlign="MIDDLE_CENTER" preferredWidth="63" preferredHeight="63" anchorY="10" anchorX="-5">
+                    <element name="albumsTabNotificationTxt" skin="@typeface_36_white_center_middle" pivotAlign="MIDDLE_CENTER" anchorAlign="MIDDLE_CENTER" flushBatch="true" preferredHeight="55" preferredWidth="105" anchorY="5" model="!"/>
+                </element>
+            </element>
+            <element skin="@museum_tab2" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="107" visible="false" visible.albums="true" mouseEnabled="false"/>
+        </element>
+    </element>
+
+    <element skin="@museum_bg_shadow" anchorY="750" anchorLeft="0" anchorRight="1" visible="true" visible.tablets="false" visible.albums="false"/>
+    <element skin="@museum_bg_shadow" anchorY="1220" anchorLeft="0" anchorRight="1"/>
+    <element name="topScrollShelf" skin="@museum_shelf" anchorY="804" visible="true" visible.tablets="false" visible.albums="false"/>
+    <element name="bottomScrollShelf" skin="@museum_shelf" anchorY="1284"/>
+
+    <element name="scroll_offset">
+        <element name="topScroll" visible="true" visible.detail="false" anchorLeft="0" anchorRight="1" preferredHeight="500" anchorY="410">
+            <element name="shelf" anchorY="394">
+                <p:layout><horizontal/></p:layout>
+            </element>
+            <element name="listTop"/>
+        </element>
+        <element name="bottomScroll" visible="true" visible.detail="false" anchorLeft="0" anchorRight="1" preferredHeight="500" anchorY="890">
+            <element name="shelf" anchorY="394">
+                <p:layout><horizontal/></p:layout>
+            </element>
+            <element name="listBottom"/>
+        </element>
+    </element>
+
+    <element name="regions_holder" visible="true" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-100"/>
+
+    <element name="btn_back" anchorAlign="BOTTOM_LEFT" pivotAlign="BOTTOM_LEFT" skin="@bottom_btn_basic" skin.pressed="@bottom_btn_basic_pressed" mouseChildren="false" visible="true" >
+        <element anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" skin="@bottom_back_icon"/>
+    </element>
+
+    <element name="museum_albums_tutorial1" visible="false" skin="@bg_black_tutorial"
+            anchorTop="0" anchorBottom="1" anchorLeft="0" anchorRight="1" mouseDown="onMuseumTutorial" flushBatch="true">
+        <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" flushBatch="true" anchorTop="0" anchorBottom="1" anchorLeft="0" anchorRight="1">
+            <p:layout><horizontal/></p:layout>
+            <element preferredWidth="528" anchorX="256" anchorY="172" >
+            </element>
+            <element preferredWidth="528" anchorX="1125" anchorY="172" >
+            </element>
+            <element preferredWidth="528" anchorX="1125" anchorY="172" >
+            </element>
+
+            <element preferredWidth="528" anchorX="1125" anchorY="172" anchorY.albums="162">
+                <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" skin="@museum_tab" preferredWidth="500" preferredHeight="175" mouseChildren="false">
+                    <element name="albumsTabTitle2" skin="@museum_main_title_font" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="59"/>
+                </element>
+                <element skin="@museum_tab2" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="107" visible="false" visible.albums="true"/>
+            </element>
+
+        </element>
+
+        <element anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="880" preferredHeight="350" >
+            <element skin="@popup_bg_tutorial" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="880" preferredHeight="350" />
+
+            <element anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" anchorX="-140" anchorY="-45" preferredWidth="250" preferredHeight="278">
+                <element name="tutorial_character1" skin="@asset" anchorLeft="0" anchorTop="0" anchorRight="1" anchorBottom="1"/>
+            </element>
+
+            <element name="albumTutorialText1" skin="@oswald_62_white_left_middle" anchorX="20" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" model="#GUI4001"
+                     preferredWidth="700" preferredHeight="320" flushBatch="true"/>
+        </element>
+
+    </element>
+
+    <element name="museum_albums_tutorial2" visible="false" skin="@bg_black_tutorial"
+             anchorTop="0" anchorBottom="1" anchorLeft="0" anchorRight="1" mouseDown="onMuseumTutorial" flushBatch="true">
+
+        <element anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="880" preferredHeight="350" >
+            <element skin="@popup_bg_tutorial" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="880" preferredHeight="350" />
+
+            <element anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" anchorX="-140" anchorY="-45" preferredWidth="250" preferredHeight="278">
+                <element name="tutorial_character2" skin="@asset" anchorLeft="0" anchorTop="0" anchorRight="1" anchorBottom="1"/>
+            </element>
+
+            <element name="albumTutorialText2" skin="@oswald_62_white_left_middle" anchorX="20" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" model="#GUI4002"
+                     preferredWidth="700" preferredHeight="320" flushBatch="true"/>
+        </element>
+
+        <element name="scroll_tutorial_offset" >
+            <element anchorLeft="0" anchorRight="1" preferredHeight="500" anchorY="410">
+                <element anchorY="394">
+                    <p:layout><horizontal/></p:layout>
+                </element>
+                <element name="listTopTutorial" anchorX="54"/>
+            </element>
+        </element>
+
+    </element>
+</element>

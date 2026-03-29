@@ -1,0 +1,53 @@
+<element name="black_screen" skin="@shade_black" anchorTop="0" anchorBottom="1" mouseUp="backMouseUp_handler">
+    <element name="popup_body" preferredWidth="1230" preferredHeight="840" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+
+        <!-- POPUP BACKGROUND (brown) -->
+        <element skin="@popup_bg" preferredWidth="1200" preferredHeight="710" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+        <!-- BACKGROUND -->
+        <element name="content_holder" preferredWidth="1500" preferredHeight="800" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+
+        <!-- HEADER -->
+        <element name="quest_header" preferredWidth="1208" preferredHeight="156" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="20">
+            <element skin="@popup_header_blue" anchorLeft="0" anchorTop="0" anchorRight="1" anchorBottom="1" />
+
+            <!-- TITLES -->
+            <element model="#GUI3632" name="offerwall_title" skin="@typeface_74_white_center_middle" color="0x87E2FF" preferredWidth="1050" preferredHeight="60" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="22" flushBatch="true" />
+            <element model="#GUI3631" name="offerwall_subtitle" skin="@oswald_bold_75_autosize_false_halign" color="0x87E2FF" preferredWidth="1050" preferredHeight="50" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="80" flushBatch="true" />
+
+            <!-- X2 BADGE -->
+            <!--            <element skin="@special_week_x2" anchorX="-20" anchorY="0" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" flushBatch="true" />-->
+
+            <!-- X BUTTON -->
+            <element name="btn_cancel" skin="@production_cancel_icon" anchorX="20" anchorY="-20"
+                     anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" flushBatch="true" />
+        </element>
+
+        <!-- TITLE (START NOW AND EARN DOUBLE) -->
+        <element name="offerwall_text" skin="@oswald_50_white_center_middle" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"
+                 anchorY="-160" anchorX="0" preferredWidth="1400" preferredHeight="150" flushBatch="true"/>
+        <!-- GEM IMAGE -->
+        <element preferredWidth="200" preferredHeight="200" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true" anchorX="-100" anchorY="0">
+            <element name="gem_picture_shine" skin="@claim_reward_shine_big" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="80" anchorY="55"/>
+            <element name="gem_picture_ow" skin="@asset" preferredWidth="441" preferredHeight="255" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="80" anchorY="55"/>
+        </element>
+
+        <!-- BUTTON -->
+        <element name="btn_open_offerwall" skin="@btn_orange_narrow" preferredWidth="450" preferredHeight="130" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-120" >
+            <element name="offerwall_button_text" skin="@typeface_48_white_center_middle" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="-10" preferredWidth="420" preferredHeight="103"/>
+        </element>
+        <!-- CLOCK ICON -->
+        <element visible="false" visible.no_promotion="false" visible.promotion="true" anchorAlign="BOTTOM_LEFT" pivotAlign="BOTTOM_LEFT" anchorX="138" anchorY="-193"
+                 preferredWidth="114" preferredHeight="120">
+            <element skin="@map_manager_detail_icon_duration" anchorLeft="0" anchorTop="0" anchorRight="1" anchorBottom="1"/>
+        </element>
+
+        <!-- TIMER -->
+        <element name="offerwall_promotion_timer" visible="false" visible.no_promotion="false" visible.promotion="true" skin="@oswald_54_brown_at" preferredWidth="640" preferredHeight="80"
+                 anchorAlign="BOTTOM_LEFT" pivotAlign="BOTTOM_LEFT" anchorX="102" anchorY="-99"/>
+
+    </element>
+
+    <!-- DOUBLE OFFER WALL PROMOTERS-->
+    <element name="double_offerwall_promoters" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+
+</element>

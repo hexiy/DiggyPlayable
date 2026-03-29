@@ -1,0 +1,57 @@
+<element anchorTop="0" anchorBottom="1" anchorLeft="0" anchorRight="1" mouseUp="buttonMouseUp_handler"> <!-- skin="@production_bg" -->
+
+    <element name="shop_bg" skin="@shop_bg" anchorBottom="1" anchorTop="0"/>
+    <element name="production_bg_mid" skin="@shop_mid_bg" anchorY="335" preferredHeight="1200"/> 
+    <element name="header" skin="@asset" preferredWidth="1024" preferredHeight="124" anchorY="62" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+        <element anchorX="105" anchorY="62" preferredWidth="945" preferredHeight="146">
+            <element name="productionHintText" skin="@production_material_font" preferredWidth="945" preferredHeight="60" anchorY="52"/>
+        </element>
+        <element name="loading" skin="@loading_big" visible="false" preferredWidth="80" preferredHeight="80" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+    </element>
+
+    <element name="production_list" anchorY="325" preferredHeight="1024">
+        <element anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="1868" preferredHeight="1000" anchorY="18">
+            <element name="slot0" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" preferredWidth="629" preferredHeight="495">
+            </element>
+            <element name="slot1" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="629" preferredHeight="495">
+            </element>
+            <element name="slot2" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" preferredWidth="629" preferredHeight="495">
+            </element>
+            <element name="slot3" anchorAlign="BOTTOM_LEFT" pivotAlign="BOTTOM_LEFT" preferredWidth="629" preferredHeight="495">
+            </element>
+            <element name="slot4" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" preferredWidth="629" preferredHeight="495">
+            </element>
+            <element name="slot5" anchorAlign="BOTTOM_RIGHT" pivotAlign="BOTTOM_RIGHT" preferredWidth="629" preferredHeight="495">
+            </element>
+        </element>
+    </element>
+    <element name="production_border_top" skin="@shop_border" anchorY="308"/>
+    <element name="production_border_bottom" skin="@shop_border" anchorTop="1" anchorBottom="1" anchorY="-200"/>
+
+    <element name="banner_1a1" skin="@production_tabulka_1a1" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorX="450" anchorY="132" flushBatch="true"/>    
+
+    <element name="btn_back" anchorAlign="BOTTOM_LEFT" pivotAlign="BOTTOM_LEFT" skin="@bottom_btn_basic" skin.pressed="@bottom_btn_basic_pressed" mouseChildren="false">
+        <element anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" skin="@bottom_back_icon"/>
+    </element>
+
+    <element preferredWidth="584" preferredHeight="160" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorX="-280" anchorX.ipad="-175">
+        <element name="btn_collect_all" skin="@bottom_btn_basic" skin.pressed="@bottom_btn_basic_pressed">
+            <element preferredWidth="544" preferredHeight="160" anchorX="20">
+                <p:layout><horizontal gap="2"/></p:layout>
+                <element preferredWidth="104" preferredHeight="82" anchorY="40">
+                    <element skin="@shop_limit_reached" flushBatch="true" anchorTop="0" anchorBottom="1" anchorLeft="0" anchorRight="1"/>
+                </element>
+                <element name="collect_all_text" model="#WGL135" skin="@oswald_bold_85_gem1_white_middle" anchorY="0" preferredWidth="390" preferredHeight="160"/>
+            </element>
+        </element>
+    </element>
+    <element preferredWidth="584" preferredHeight="160" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorX="280" anchorX.ipad="385">
+        <element name="btn_restart_all" skin="@bottom_btn_basic" skin.pressed="@bottom_btn_basic_pressed">
+            <element preferredWidth="504" preferredHeight="160" anchorX="20">
+                <p:layout><horizontal gap="12"/></p:layout>
+                <element skin="@popup_restart_icon2" flushBatch="true" anchorY="40"/>
+                <element name="restart_all_text"  model="#WGL136" skin="@oswald_bold_85_gem1_white_middle" anchorY="0" preferredWidth="390" preferredHeight="160"/>
+            </element>
+        </element>
+    </element>
+</element>

@@ -1,0 +1,193 @@
+{
+  "ignores": [
+    "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs",
+    "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs",
+    "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs",
+    "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs",
+    "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Modules/AttachmentTools/AttachmentTools.cs",
+    "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/SkeletonExtensions.cs"
+  ],
+  "groups": [
+    [
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs"
+    ],
+    [
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleEPOOutline.cs"
+    ],
+    [
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs"
+    ],
+    [
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs"
+    ],
+    [
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs"
+    ],
+    [
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs"
+    ],
+    [
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs"
+    ],
+    [
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs"
+    ],
+    [
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Scripts/Diggy/DiggyAnimationController.cs"
+    ],
+    [
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Scripts/Diggy/DiggyController.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Scripts/Game/GameController.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Scripts/Game/GameEntry.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Scripts/Water Pipe Game/WaterPipeGameView.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Scripts/Water Pipe Game/WaterPipeGameController.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Scripts/Water Pipe Game/DrowningTimerUI.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Scripts/Water Pipe Game/WaterPipe.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Scripts/Water Pipe Game/PipeClickSensor.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Scripts/TreasureClickSensor.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Components/SkeletonAnimation.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Modules/Timeline/PlayableHandle Component/SkeletonAnimationPlayableHandle.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Modules/Timeline/PlayableHandle Component/SpinePlayableHandleBase.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-csharp/Event.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-csharp/Animation.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-csharp/AnimationState.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-csharp/Triangulator.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-csharp/SkeletonClipping.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Mesh Generation/SpineMesh.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Components/SkeletonRenderer.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Components/BoneFollower.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/SpineAttributes.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Asset Types/AnimationReferenceAsset.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/ISkeletonAnimation.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Components/PointFollower.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-csharp/Attachments/PointAttachment.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-csharp/Attachments/AtlasAttachmentLoader.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-csharp/SkeletonBinary.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Asset Types/SkeletonDataAsset.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Asset Types/EventDataReferenceAsset.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-csharp/EventData.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-csharp/SkeletonData.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-csharp/AnimationStateData.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Modules/SkeletonGraphic/SkeletonGraphic.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Modules/SkeletonGraphic/BoneFollowerGraphic.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-csharp/Bone.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-csharp/Attachments/RegionAttachment.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-csharp/Attachments/AttachmentLoader.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-csharp/SkeletonJson.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-csharp/Atlas.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Asset Types/AtlasAsset.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Modules/SlotBlendModes/SlotBlendModes.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-csharp/Slot.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-csharp/Attachments/VertexAttachment.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-csharp/Attachments/BoundingBoxAttachment.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-csharp/SkeletonBounds.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-csharp/ExposedList.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-csharp/IkConstraint.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-csharp/Skeleton.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-csharp/PathConstraint.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Modules/Ragdoll/SkeletonRagdoll.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Modules/Ragdoll/SkeletonRagdoll2D.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/SkeletonUtility/SkeletonUtilityBone.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Modules/SkeletonUtility Modules/SkeletonUtilityGroundConstraint.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/SkeletonUtility/SkeletonUtilityConstraint.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Modules/SkeletonUtility Modules/SkeletonUtilityEyeConstraint.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/SkeletonUtility/SkeletonUtility.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Modules/BoundingBoxFollower/BoundingBoxFollower.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-csharp/SlotData.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-csharp/Attachments/ClippingAttachment.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Asset Types/RegionlessAttachmentLoader.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-csharp/Skin.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Modules/AttachmentTools/AttachmentTools.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-csharp/Attachments/Attachment.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-csharp/Attachments/MeshAttachment.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/SkeletonExtensions.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-csharp/BoneData.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-csharp/IkConstraintData.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-csharp/PathConstraintData.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-csharp/TransformConstraint.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-csharp/IConstraint.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-csharp/IUpdatable.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-csharp/TransformConstraintData.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-csharp/MathUtils.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-csharp/Attachments/PathAttachment.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-csharp/BlendMode.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Components/SkeletonAnimator.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Modules/SkeletonUtility Modules/SkeletonUtilityKinematicShadow.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Modules/CustomMaterials/SkeletonRendererCustomMaterials.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Modules/SkeletonGraphic/SkeletonGraphicMirror.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Modules/SkeletonRenderSeparator/SkeletonPartsRenderer.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Modules/SkeletonRenderSeparator/SkeletonRenderSeparator.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-csharp/Json.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-csharp/Attachments/AttachmentType.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Mesh Generation/DoubleBuffered.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Modules/Ghost/SkeletonGhost.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Modules/Ghost/SkeletonGhostRenderer.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Modules/YieldInstructions/WaitForSpineEvent.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Modules/YieldInstructions/WaitForSpineAnimationComplete.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Modules/YieldInstructions/WaitForSpineTrackEntryEnd.cs"
+    ],
+    [
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Scripts/Game/GameInstaller.cs"
+    ],
+    [
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Scripts/Water Pipe Game/DrowningTimer.cs"
+    ],
+    [
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Mesh Generation/Unused/ArraysMeshGenerator.cs"
+    ],
+    [
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Mesh Generation/Unused/ArraysSimpleMeshGenerator.cs"
+    ],
+    [
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Mesh Generation/Unused/ArraysSubmeshedMeshGenerator.cs"
+    ],
+    [
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Mesh Generation/Unused/ArraysSubmeshSetMeshGenerator.cs"
+    ],
+    [
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Mesh Generation/Unused/DoubleBufferedMesh.cs"
+    ],
+    [
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Mesh Generation/Unused/ISimpleMeshGenerator.cs"
+    ],
+    [
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Mesh Generation/Unused/ISubmeshedMeshGenerator.cs"
+    ],
+    [
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Modules/Timeline/SpineAnimationState/SpineAnimationStateBehaviour.cs"
+    ],
+    [
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Modules/Timeline/SpineAnimationState/SpineAnimationStateClip.cs"
+    ],
+    [
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Modules/Timeline/SpineAnimationState/SpineAnimationStateMixerBehaviour.cs"
+    ],
+    [
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Modules/Timeline/SpineAnimationState/SpineAnimationStateTrack.cs"
+    ],
+    [
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Modules/Timeline/SpineSkeletonFlip/SpineSkeletonFlipBehaviour.cs"
+    ],
+    [
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Modules/Timeline/SpineSkeletonFlip/SpineSkeletonFlipClip.cs"
+    ],
+    [
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Modules/Timeline/SpineSkeletonFlip/SpineSkeletonFlipMixerBehaviour.cs"
+    ],
+    [
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Modules/Timeline/SpineSkeletonFlip/SpineSkeletonFlipTrack.cs"
+    ],
+    [
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Modules/TK2D/SpriteCollectionAttachmentLoader.cs"
+    ],
+    [
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/packages/Playworks 7.1.0/pipeline/templates/LunaCompiler/Scripts/Properties/AssemblyInfo.cs"
+    ],
+    [
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/packages/Playworks 7.1.0/pipeline/templates/LunaCompiler/Scripts/Sources/OtherDummyScript.cs"
+    ],
+    [
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/packages/Playworks 7.1.0/pipeline/templates/LunaCompiler/Scripts/obj/Debug/.NETFramework,Version=v4.7.AssemblyAttributes.cs"
+    ]
+  ]
+}

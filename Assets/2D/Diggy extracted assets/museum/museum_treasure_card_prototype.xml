@@ -1,0 +1,12 @@
+<element preferredWidth="384" preferredHeight="415" mouseUp="onCardMouseUp_handler">
+    <element skin="@museum_decoration_finished2" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" visible="false" visible.completed="true"/>
+    <element anchorLeft="0" anchorRight="1" anchorY="-10" anchorY.completed="15">
+        <element skin="@museum_decoration_progress" skin.completed="@museum_decoration_finished" anchorY="260" >
+            <element name="title" skin="@museum_title_font_ml2" skin.completed="@museum_title_font_ml1" preferredWidth="325" preferredHeight="118" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="66" anchorY.zero-completed="56" flushBatch="true"/>
+            <element name="amount" visible="false" skin="@museum_title_font" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="114"/>
+        </element>
+        <element name="image" skin="@asset" pivotAlign="BOTTOM_CENTER" anchorAlign="TOP_CENTER" anchorX="10" anchorY="282"/>
+        <element name="level" visible="false" skin="@museum_title_font" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="410"/>
+        <element name="rewardNote" skin="@museum_reward" pivotAlign="BOTTOM_CENTER" anchorAlign="TOP_CENTER" anchorX="10" anchorY="60" visible="true"/>
+    </element>
+</element>

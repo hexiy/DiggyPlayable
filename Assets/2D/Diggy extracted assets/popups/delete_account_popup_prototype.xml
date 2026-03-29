@@ -1,0 +1,104 @@
+<element name="black_screen" skin="@dark_shade_black" skin.cancelDeletion="@solid_black" anchorTop="0" anchorBottom="1" mouseUp="backMouseUp_handler">
+    <element name="popup_body" preferredWidth="1690" preferredHeight="930" anchorY="0" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+
+
+        <!-- background -->
+        <element skin="@popup_bg" preferredWidth="1647" preferredHeight="838"/>
+
+        <!-- STRANKA 1 - info -->
+        <element anchorTop="0" anchorBottom="1" anchorLeft="0" anchorRight="1" visible="false" visible.info="true" visible.reason="false" visible.confirm="false" visible.cancelDeletion="false">
+            <!-- TITULOK 1 DELETE YOUR PERSONAL DATA AND GAME PROGRESS -->
+            <element name="txt_title1" skin="@typeface_48_white_center_top" model="#GUI3674" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="30" preferredWidth="1200" preferredHeight="120"/>
+            <!-- TEXT 1 - 1 By deleting your personal data ... -->
+            <element name="txt11" skin="@oswald_40_white_center_middle" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="100" model="#GUI3675" preferredWidth="1400" preferredHeight="250"/>
+            <!-- TEXT 1 - 2 This data removal will delete ... -->
+            <element name="txt12" skin="@oswald_40_white_center_middle" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="370" model="#GUI3676" preferredWidth="1400" preferredHeight="250"/>
+            <!-- BUTTON CONTINUE 1 -->
+            <element name="btn_continue1" skin="@btn_orange_narrow" anchorAlign="BOTTOM_RIGHT" pivotAlign="BOTTOM_RIGHT" anchorY="-160" anchorX="-120" preferredWidth="400" preferredHeight="150">
+                <element name="txt_continue1" skin="@typeface_48_white_center_middle" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="10" model="#GUI3679" preferredWidth="370" preferredHeight="120"/>
+            </element>
+        </element>
+        <!-- STRANKA 2 - reason -->
+        <element anchorTop="0" anchorBottom="1" anchorLeft="0" anchorRight="1" visible="false" visible.info="false" visible.reason="true" visible.confirm="false" visible.cancelDeletion="false">
+            <!-- TITULOK 1 PLEASE TELL US WHY YOU WANT TO STOP PLAYING OUR GAME -->
+            <element name="txt_title2" skin="@typeface_48_white_center_top" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="30" model="#GUI3685" preferredWidth="1200" preferredHeight="160"/>
+            <!-- 4 options -->
+            <element name="reason_holder" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="-80" 
+                     preferredWidth="1497" preferredHeight="800">
+                  <p:layout><horizontal gap="27"/></p:layout>
+                  <!-- I DON'T AGREE WITH THE PRIVACY POLICY ANYMORE -->
+                  <element name="reason1_holder" preferredWidth="354" preferredHeight="392" skin="@popup_bg_dark">                     
+                     <element name="reason1_txt" skin="@oswald_30_white_center_middle" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="5" model="#GUI3681" preferredWidth="320" preferredHeight="290"/>
+                     <element name="reason1_checkbox_bg" skin="@dark_txt_bg_big" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-40" preferredWidth="61" preferredHeight="63">
+                        <element name="reason1_check" skin="@ico_check_mark" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="67" preferredHeight="55" visible="false"/>
+                     </element>
+                  </element>
+                  <!-- I DON'T LIKE THIS GAME ANYMORE -->
+                  <element name="reason2_holder" preferredWidth="354" preferredHeight="392" skin="@popup_bg_dark">                     
+                     <element name="reason2_txt" skin="@oswald_30_white_center_middle" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="5" model="#GUI3682" preferredWidth="320" preferredHeight="290"/>
+                     <element name="reason2_checkbox_bg" skin="@dark_txt_bg_big" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-40" preferredWidth="61" preferredHeight="63">
+                        <element name="reason2_check" skin="@ico_check_mark" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="67" preferredHeight="55" visible="false"/>
+                     </element>
+                  </element>
+                  <!-- GAME ISN'T WORKING PROPERLY - TECHNICAL ISSUES -->
+                  <element name="reason3_holder" preferredWidth="354" preferredHeight="392" skin="@popup_bg_dark">                     
+                     <element name="reason3_txt" skin="@oswald_30_white_center_middle" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="5" model="#GUI3683" preferredWidth="320" preferredHeight="290"/>
+                     <element name="reason3_checkbox_bg" skin="@dark_txt_bg_big" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-40" preferredWidth="61" preferredHeight="63">
+                        <element name="reason3_check" skin="@ico_check_mark" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="67" preferredHeight="55" visible="false"/>
+                     </element>
+                  </element>
+                  <!-- OTHER -->
+                  <element name="reason4_holder" preferredWidth="354" preferredHeight="392" skin="@popup_bg_dark">                     
+                     <element name="reason4_txt" skin="@oswald_30_white_center_middle" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="5" model="#GUI3684" preferredWidth="320" preferredHeight="290"/>
+                     <element name="reason4_checkbox_bg" skin="@dark_txt_bg_big" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-40" preferredWidth="61" preferredHeight="63">
+                        <element name="reason4_check" skin="@ico_check_mark" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="67" preferredHeight="55" visible="false"/>
+                     </element>
+                  </element>
+            </element>
+            
+            <!-- BUTTON BACK 2 -->
+            <element name="btn_back2" skin="@btn_blue_narrow_big" anchorAlign="BOTTOM_LEFT" pivotAlign="BOTTOM_LEFT" anchorY="-160" anchorX="80" preferredWidth="400" preferredHeight="150">
+                <element name="txt_back2" skin="@typeface_48_white_center_middle" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="10" model="#GUI3680" preferredWidth="370" preferredHeight="120"/>
+            </element>
+            <!-- BUTTON CONTINUE 2 -->
+            <element name="btn_continue2" skin="@btn_orange_narrow" anchorAlign="BOTTOM_RIGHT" pivotAlign="BOTTOM_RIGHT" anchorY="-160" anchorX="-120" preferredWidth="400" preferredHeight="150" flushBatch="true">
+                <element name="txt_continue2" skin="@typeface_48_white_center_middle" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="10" model="#GUI3679" preferredWidth="370" preferredHeight="120"/>
+            </element>
+        </element>
+        <!-- STRANKA 3 - confirm -->
+        <element anchorTop="0" anchorBottom="1" anchorLeft="0" anchorRight="1" visible="false" visible.info="false" visible.reason="false" visible.confirm="true" visible.cancelDeletion="false">
+            <!-- TITULOK 3 WE ARE SORRY TO SEE YOU GO! -->
+            <element name="txt_title3" skin="@typeface_48_white_center_top" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="30" model="#GUI3686" preferredWidth="1200" preferredHeight="120"/>
+            <!-- TEXT 3 BY DELETING YOUR PERSONAL DATA, YOU LOSE ACCESS TO THE CURRENT GAME PROGRESS AND ALL OF THE ITEMS YOU HAVE ACQUIRED WITHIN THAT PROGRESS. -->
+            <element name="txt3_ios" skin="@oswald_40_white_center_middle" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="100" model="#GUI3687" preferredWidth="1400" preferredHeight="300"/>
+
+            <element name="andr_holder" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="100" preferredWidth="1400" preferredHeight="600">
+                <!-- txt3_andr TO COMPLETE THE ACCOUNT DELETION PROCESS, PLEASE CLICK 'DELETE MY ACCOUNT' WITHIN THE APP, OR START THE DELETION PROCESS THROUGH OUR -->
+                <element name="txt3_andr" skin="@oswald_40_white_center_bottom" anchorAlign="MIDDLE_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="0" model="#GUI4288" preferredWidth="1400" preferredHeight="300"/>
+                <!-- SUPPORT SYSTEM LINK BUTTON -->
+                <element name="btn_link" skin="@invisible" anchorAlign="MIDDLE_CENTER" pivotAlign="TOP_CENTER" anchorY="-20" preferredWidth="800" preferredHeight="80">
+                    <!-- xt_btn_link SUPPORT SYSTEM -->
+                    <element name="txt_btn_link" skin="@oswald_40_white_center_top" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="20" model="#GUI4289" preferredWidth="500" preferredHeight="80"/>
+                    <element name="underline_txt_btn_link" skin="@solid_white" anchorAlign="BOTTOM_CENTER" pivotAlign="TOP_CENTER" anchorY="-14" preferredWidth="500" preferredHeight="4"/>
+                </element>
+            </element>
+
+            <!-- BUTTON BACK 3 -->
+            <element name="btn_back3" skin="@btn_blue_narrow_big" anchorAlign="BOTTOM_LEFT" pivotAlign="BOTTOM_LEFT" anchorY="-160" anchorX="80" preferredWidth="400" preferredHeight="150">
+                <element name="txt_back3" skin="@typeface_48_white_center_middle" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="10" model="#GUI3680" preferredWidth="370" preferredHeight="120"/>
+            </element>
+            <!-- BUTTON CONTINUE 3 -->
+            <element name="btn_continue3" skin="@btn_orange_narrow" anchorAlign="BOTTOM_RIGHT" pivotAlign="BOTTOM_RIGHT" anchorY="-160" anchorX="-120" preferredWidth="500" preferredHeight="150">
+                <element name="txt_continue3" skin="@typeface_48_white_center_middle" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="10" model="#GUI3688" preferredWidth="470" preferredHeight="120"/>
+            </element>
+         </element>
+
+         <!-- CLOSE BUTTON -->
+        <element anchorTop="0" anchorBottom="1" anchorLeft="0" anchorRight="1"
+                 visible="true" visible.info="true" visible.reason="true" visible.confirm="true" visible.cancelDeletion="false">
+            <element name="btn_back" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" preferredWidth="77" preferredHeight="97" anchorX="-94" anchorY="-32" mouseDown="goBack">
+               <element skin="@icon_close" anchorLeft="0" anchorTop="0" anchorRight="1" anchorBottom="1" />
+            </element>
+        </element>        
+    </element>
+</element>

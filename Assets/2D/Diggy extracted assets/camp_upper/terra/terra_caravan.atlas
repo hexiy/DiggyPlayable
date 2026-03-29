@@ -1,0 +1,77 @@
+
+Karavana_terra.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Jet_Layer_1
+  rotate: false
+  xy: 1, 1
+  size: 53, 64
+  orig: 53, 64
+  offset: 0, 0
+  index: -1
+Body_Layer_1
+  rotate: false
+  xy: 56, 1
+  size: 51, 44
+  orig: 51, 44
+  offset: 0, 0
+  index: -1
+Hole_efekt_Layer_1
+  rotate: false
+  xy: 56, 47
+  size: 26, 28
+  orig: 26, 28
+  offset: 0, 0
+  index: -1
+Box_alfa_anim_Layer_1
+  rotate: false
+  xy: 84, 47
+  size: 31, 26
+  orig: 31, 26
+  offset: 0, 0
+  index: -1
+Mriezka_Layer_1
+  rotate: false
+  xy: 1, 67
+  size: 31, 26
+  orig: 31, 26
+  offset: 0, 0
+  index: -1
+Engine_Engine
+  rotate: false
+  xy: 109, 1
+  size: 18, 23
+  orig: 18, 23
+  offset: 0, 0
+  index: -1
+Hand_Layer_1
+  rotate: false
+  xy: 109, 26
+  size: 18, 14
+  orig: 18, 14
+  offset: 0, 0
+  index: -1
+Arm_Layer_1
+  rotate: false
+  xy: 34, 67
+  size: 13, 11
+  orig: 13, 11
+  offset: 0, 0
+  index: -1
+Hole_Layer_1
+  rotate: false
+  xy: 49, 77
+  size: 60, 8
+  orig: 60, 8
+  offset: 0, 0
+  index: -1
+box_efekt_Layer_1
+  rotate: false
+  xy: 117, 42
+  size: 10, 8
+  orig: 10, 8
+  offset: 0, 0
+  index: -1
+

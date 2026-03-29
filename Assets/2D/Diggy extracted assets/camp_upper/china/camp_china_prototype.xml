@@ -1,0 +1,98 @@
+<element anchorTop="0" anchorBottom="1" anchorLeft="0" anchorRight="1" mouseUp="backgroundMouseUp_handler">
+    <element name="camp_dirt" skin="@camp_china_dirt" anchorY="1150">
+        <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorX="10" skin="@camp_china_lift" flushBatch="true"/>
+    </element>
+    <element name="background" skin="@camp_bg" anchorY="-190" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER"/>
+    <element anchorY="250" anchorLeft="0" anchorRight="1">
+        <element skin="@elevator" anchorY="700" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" flushBatch="true"/>
+        <element preferredWidth="332" preferredHeight="280" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="750">
+            <element name="elevator_button" skin="@camp_ui_elevator_btn" visible.default-enabled="true" visible.disabled="false" anchorX="106" anchorY="112" flushBatch="true">
+                <element name="debris_discount" preferredWidth="140" preferredHeight="140">
+                    <element name="debris_discount_badge" skin="@minus_20_percent" preferredWidth="115" preferredHeight="115" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+                    <element name="debris_discount_arrow" skin="@production_start_icon" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="32"/>
+                </element>
+            </element>
+        </element>
+
+        <!-- CARAVAN -->
+        <element name="caravan" anchorX="369" anchorY="922" visible="true">
+            <element name="caravanImage" skin="@camp_china_caravan" pivotAlign="BOTTOM_CENTER" mouseUp="addonCaravanMouseDown_handler" flushBatch="true" />
+            <element name="caravan_bar" visible="false" pivotAlign="TOP_RIGHT" anchorX="147" anchorY="-390" preferredWidth="310" preferredHeight="60" mouseUp="addonCaravanMouseDown_handler">
+                <element skin="@camp_ui_progress_bar_bg" preferredWidth="290" anchorX="10" anchorY="10"/>
+                <element name="caravan_bar_fill" skin="@camp_ui_progress_bar_fill" preferredWidth="0" preferredWidth.delivered="290" anchorX="10" anchorY="10"/>
+                <element visible="false" visible.delivering="true" name="caravan_time" skin="@camp_ui_progress_bar_font" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="10" model="00:00:00"/>
+                <element skin="@camp_ui_progress_bar_outline"/>
+                <element visible="false" visible.delivered="true" skin="@camp_ui_progress_bar_done" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+            </element>
+        </element>
+
+        <!-- MUSEUM -->
+        <element name="museum" skin="@camp_china_museum" anchorX="620" anchorY="400" visible="true" mouseUp="addonMuseumMouseDown_handler" flushBatch="true"  >
+            <element name="museumRewardNote" skin="@notif_bg" pivotAlign="BOTTOM_CENTER" anchorAlign="TOP_CENTER" anchorX="-15" anchorY="-30" visible="true">
+                <element skin="@notif_reward" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="20"/>
+            </element>
+        </element>
+
+        <!-- PET HOUSE -->
+        <element name="petHouse" anchorX="1530" anchorY="650" visible="false">
+            <element skin="@pet_house_camp" anchorX="0" anchorY="0" pivotAlign="BOTTOM_CENTER" mouseUp="addonPetHouseMouseDown_handler" flushBatch="true" >
+                <element name="petTreatRewardNote" skin="@notif_bg" pivotAlign="BOTTOM_CENTER" anchorAlign="TOP_CENTER" anchorY="-30" anchorX="0"
+                         visible="true">
+                    <element skin="@ico_pet_energy" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="20" flushBatch="true"/>
+                </element>
+            </element>
+        </element>
+
+        <!-- WHEEL OF FORTUNE -->
+        <element name="wof" skin="@camp_oracle" anchorX="1000" anchorY="350" visible="true" mouseUp="addonWofMouseDown_handler" flushBatch="true" >
+            <element name="wofRewardNote" skin="@notif_bg" pivotAlign="BOTTOM_CENTER" anchorAlign="TOP_CENTER" anchorY="-30" anchorX="-35"
+                     visible="true">
+                <element skin="@ico_energy" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="20"/>
+            </element>
+        </element>
+
+        <!-- KITCHEN -->
+        <element name="cooking" anchorX="1370" anchorY="822" visible="true">
+            <element name="cookingImage" skin="@camp_china_kitchen" pivotAlign="BOTTOM_CENTER" mouseUp="addonKitchenMouseDown_handler" flushBatch="true" />
+            <element name="cooking_bar" visible="false" pivotAlign="BOTTOM_CENTER" anchorX="-26" anchorY="-320" preferredWidth="310" preferredHeight="60" mouseUp="addonKitchenMouseDown_handler">
+                <element skin="@camp_ui_progress_bar_bg" preferredWidth="290" anchorX="10" anchorY="10"/>
+                <element name="cooking_bar_fill" skin="@camp_ui_progress_bar_fill" preferredWidth="0" preferredWidth.delivered="290" anchorX="10" anchorY="10"/>
+                <element visible="false" visible.delivering="true" name="cooking_time" skin="@camp_ui_progress_bar_font" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="10" model="00:00:00"/>
+                <element skin="@camp_ui_progress_bar_outline"/>
+                <element visible="false" visible.delivered="true" skin="@camp_ui_progress_bar_done" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+            </element>
+        </element>
+
+        <!-- METALURG -->
+        <element name="metalurg" anchorX="1680" anchorY="940" visible="true">
+            <element name="metalurgImage" skin="@camp_china_metalurg" pivotAlign="BOTTOM_CENTER" mouseUp="addonMetlaurgMouseDown_handler" flushBatch="true" />
+            <element name="metalurg_bar" visible="false" pivotAlign="BOTTOM_CENTER" anchorX="-26" anchorY="-380" preferredWidth="310" preferredHeight="60" mouseUp="addonMetlaurgMouseDown_handler">
+                <element skin="@camp_ui_progress_bar_bg" preferredWidth="290" anchorX="10" anchorY="10"/>
+                <element name="metalurg_bar_fill" skin="@camp_ui_progress_bar_fill" preferredWidth="0" preferredWidth.delivered="290" anchorX="10" anchorY="10"/>
+                <element visible="false" visible.delivering="true" name="metalurg_time" skin="@camp_ui_progress_bar_font" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="10" model="00:00:00"/>
+                <element skin="@camp_ui_progress_bar_outline"/>
+                <element visible="false" visible.delivered="true" skin="@camp_ui_progress_bar_done" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+            </element>
+        </element>
+
+        <!-- STORYPASS -->
+        <element name="storypass" anchorX="430" anchorY="-150" visible="true">
+            <element name="storypassImage" preferredWidth="324" preferredHeight="381" anchorX="40" anchorY="110">
+                <element name="storypassImageSkin" skin="@camp_balloon_china"  anchorLeft="0" anchorTop="0" anchorRight="1" anchorBottom="1"
+                         mouseUp="addonStoryPassMouseDown_handler" flushBatch="true" >
+                </element>
+            </element>
+            <element name="progress_bar" visible="false" pivotAlign="BOTTOM_CENTER" anchorX="210" anchorY="530" preferredWidth="445" preferredHeight="86" >
+                <element name="progressBar_blackBg" skin="@bg_black" preferredWidth="335" preferredHeight="60" anchorY="28" anchorX="29"/>
+                <element name="progressBar" skin="@top_bar_exp" preferredHeight="48" anchorX="31" anchorY="32" flushBatch="true"/>
+                <element skin="@top_left_alpha_bg" preferredHeight="72" preferredWidth="345" anchorY="24" anchorX="27" mouseUp="addonStoryPassMouseDown_handler"/>
+                <element skin="@ico_story_pass_camp" anchorX="-10" anchorY="12" flushBatch="true" mouseUp="addonStoryPassMouseDown_handler" />
+            </element>
+
+            <element name="storypass_notification" skin="@event_pass_badge" preferredWidth="60" preferredHeight="60" anchorY="445" anchorX="320">
+                <element name="storypass_notification_txt" skin="@oswald_bold_70_basic_drevo1_autosize_false" pivotAlign="MIDDLE_CENTER"
+                         anchorAlign="MIDDLE_CENTER" flushBatch="true" preferredHeight="80" preferredWidth="151" anchorY="3" anchorX="-2" model=""/>
+            </element>
+        </element>
+    </element>
+</element>

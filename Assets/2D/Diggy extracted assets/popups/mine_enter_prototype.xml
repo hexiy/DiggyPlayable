@@ -1,0 +1,57 @@
+<element name="black_screen" skin="@black" anchorTop="0" anchorBottom="1" mouseUp="backMouseUp_handler">
+    <element name="popup_body" preferredWidth="624" preferredHeight="678" preferredHeight.refreshable="830" preferredHeight.loot="954" anchorX="-20" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" mouseUp="buttonRestored_handler">
+        <element skin="@middle_popup" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+        <element preferredWidth="584" preferredHeight="678" preferredHeight.refreshable="830" preferredHeight.loot="954" anchorX="-20" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+            <element skin="@line1" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="256"/>
+            <element name="progressElement" preferredWidth="540" preferredHeight="70" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="374">
+                <element skin="@card_amount_bg" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+                <element skin="@map_location_done" visible="false" visible.refreshable="false" visible.loot_refreshable="false" visible.completed="true" anchorAlign="MIDDLE_RIGHT" pivotAlign="MIDDLE_RIGHT" anchorX="-12"/>
+                <element name="popupProgressText" visible="true" visible.refreshable="false" visible.loot_refreshable="false" skin="@popup_normal_brown" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="14"/>
+            </element>
+
+            <element name="popupImage" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="22" skin="@asset"/>
+            <element skin="@enter_mine_rfr_pic" visible="false" visible.refreshmine="true" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="8" flushBatch="true"/>
+
+            <element name="rewardArea" visible="false" visible.loot="true" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="694" preferredHeight="285" anchorY="484">
+                <element skin="@line1" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"/>
+                <element name="popupStaticLabel1" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="22" skin="@popup_normal_brown"/>
+                <element name="popupRewards_1_1" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorX="-55" anchorY="78"/>
+                <element name="popupRewards_2_1" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorX="-180" anchorY="78"/>
+                <element name="popupRewards_2_2" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorX="80" anchorY="78"/>
+            </element>
+
+            <element name="popupStaticHeader" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="210" skin="@popup_normal_brown"/>
+            <element name="popupText" skin="@popup_normal_brown" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="292" />
+            <element name="popupTimer" visible="false" visible.refreshable="true" visible.loot_refreshable="true" skin="@popup_normal_brown" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="388"/>
+
+            <!-- ENTER BUTTON -->
+            <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="496" anchorY.loot="762" preferredWidth="438" preferredHeight="140" >
+                <element name="enterButton" skin="@btn_center1" skin.pressed="@btn_center2" preferredWidth="438" preferredHeight="140" mouseChildren="false" flushBatch="true">
+                    <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="42" preferredHeight="75" preferredWidth="154">
+                        <element skin="@popup_mine_icon" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+                    </element>
+                </element>
+            </element>
+            <!-- SPEEDUP BUTTON (refresh mine under cooldown) -->
+            <element name="gemButton" skin="@button_green_01" skin.pressed="@button_green_02" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="496" anchorY.loot="762" preferredWidth="440" preferredHeight="142" mouseChildren="false" flushBatch="true">
+                <element preferredWidth="428" preferredHeight="116" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="26">
+                    <element preferredWidth="106" anchorY="25" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT">
+                        <element name="popupText4" skin="@buy_button_gem_font1" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT"/>
+                    </element>
+                    <element skin="@gem_icon" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorX="-50" anchorY="-10"/>
+                    <element name="popupText5" skin="@oswald_46_dark_gem_left_middle"
+                             preferredWidth="220" preferredHeight="70" anchorY="-10" anchorX="0"
+                             anchorAlign="MIDDLE_RIGHT" pivotAlign="MIDDLE_RIGHT"/>
+                </element>
+            </element>
+            <!-- CLOSE BUTTON (refresh mine under cooldown) -->
+            <element name="closeButton" skin="@btn_center1" skin.pressed="@btn_center2" anchorY="-40" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" preferredWidth="438" preferredHeight="140" mouseChildren="false">
+                <element preferredWidth="428" preferredHeight="116" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="26">
+                    <element preferredWidth="438" preferredHeight="140" anchorY="18" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT">
+                        <element model="#MOB103" skin="@oswald_bold_85_basic_drevo1" anchorY="-30" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+                    </element>
+                </element>
+            </element>
+        </element>
+    </element>
+</element>

@@ -1,0 +1,13 @@
+<element anchorTop="0.25" anchorBottom="0.95" anchorLeft="0" anchorRight="1">
+    <element name="team_join_scrollable_part_holder" skin="@black_bg" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" preferredWidth="2300" preferredHeight="846">
+        <element name="team_join_scrollable_mask_wrapper" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="2300" preferredHeight="846">
+            <element name="team_join_scrollable_holder" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="2300" preferredHeight="846"/>
+        </element>
+        <element name="team_join_no_search_results_found" skin="@team_premium_btn_font" visible="false" visible.no_results="true" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="1000" preferredHeight="460" model="#GUI3376" flushBatch="true"/>
+    </element>
+    <element name="team_join_search_holder" skin="@brown_bg" pivotAlign="TOP_RIGHT" anchorAlign="TOP_RIGHT" anchorY="-110" anchorX="-200" preferredHeight="100" preferredWidth="1000">
+        <element name="team_join_search_txt" anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT" flushBatch="true" anchorX="15" anchorY="-5" preferredWidth="800" preferredHeight="100"/>
+        <element name="team_join_search_btn" skin="@search_btn" anchorAlign="MIDDLE_RIGHT" pivotAlign="MIDDLE_RIGHT" preferredWidth="50" preferredHeight="100"/>
+        <element name="team_join_search_cancel_btn" skin="@preloader_production_cancel_icon" visible="true" anchorX="-130" anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT" preferredHeight="100" preferredWidth="100"/>
+    </element>
+</element>

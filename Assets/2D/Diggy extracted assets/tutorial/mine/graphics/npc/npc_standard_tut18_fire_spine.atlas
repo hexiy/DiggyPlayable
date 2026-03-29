@@ -1,0 +1,28 @@
+
+npc_standard_tut18_fire_spine.png
+size: 64,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+npc_standard_tut18_fire_content_npc_standard_tut18_fire_shine_Layer_1
+  rotate: false
+  xy: 1, 1
+  size: 54, 30
+  orig: 54, 30
+  offset: 0, 0
+  index: -1
+npc_standard_tut18_fire_content_npc_standard_tut18_fire_flame_Layer_1
+  rotate: false
+  xy: 1, 33
+  size: 62, 28
+  orig: 62, 28
+  offset: 0, 0
+  index: -1
+npc_standard_tut18_fire_content_npc_standard_tut18_fire_ash_Layer_1
+  rotate: false
+  xy: 57, 1
+  size: 3, 3
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+

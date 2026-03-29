@@ -1,0 +1,38 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:341e4bf21c503f866e8853256e3fcef8:d557fa105e123c2e5493693e109a83a7:bef5e4e7904c2bd9bbc43598f6f819bf$
+#
+:format=40300
+:texture=albums_unity.png
+:size=1024x1024
+:pivotpoints=enabled
+:borders=enabled
+:alphahandling=ClearTransparentPixels
+
+album_cover;991;878;25;26; 0.5;0.5; 18;3;11;11
+album_cover_bottom;777;952;227;70; 0.5;0.5; 0;0;7;59
+album_cover_flip;942;853;25;26; 0.5;0.5; 10;11;11;11
+album_page;2;975;773;47; 0.5;0.5; 0;0;29;12
+album_page_bottom;2;928;771;13; 0.5;0.5; 0;0;0;0
+album_page_middle;2;918;714;8; 0.5;0.5; 133;317;3;3
+album_page_top;2;943;771;30; 0.5;0.5; 0;0;0;0
+album_pages;942;941;57;6; 0.5;0.5; 0;0;2;2
+album_shadow;1006;906;4;46; 0.5;0.5; 0;0;0;0
+album_shadow_rotated;942;881;46;4; 0.5;0.5; 0;0;0;0
+icon_zolik;775;775;165;172; 0.5;0.5; 0;0;0;0
+kniha_vazba;775;949;227;1; 0.5;0.5; 0;0;0;0
+list;2;72;141;701; 0.5;0.5; 0;0;0;0
+paper_left;145;746;279;170; 0.5;0.5; 0;0;0;0
+paper_middle1;1006;954;16;16; 0.5;0.5; 6;6;6;6
+paper_middle2;2;30;540;40; 0.5;0.5; 0;0;0;0
+paper_right;544;615;377;158; 0.5;0.5; 0;0;0;0
+paska_cervena;923;743;86;30; 0.5;0.5; 0;0;0;0
+paska_modra;942;919;56;20; 0.5;0.5; 0;0;0;0
+paska_zelena;942;887;47;30; 0.5;0.5; 0;0;0;0
+photo_frame;145;476;273;268; 0.5;0.5; 0;0;0;0
+zalozka;1006;998;16;24; 0.5;0.5; 10;5;9;11
+zalozka_flip;1006;972;16;24; 0.5;0.5; 5;9;9;11

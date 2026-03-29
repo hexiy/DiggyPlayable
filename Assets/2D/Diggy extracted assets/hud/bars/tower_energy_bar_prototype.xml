@@ -1,0 +1,12 @@
+<element anchorX="-61" preferredWidth="382">
+    <element name="tower_energy_wrapper" preferredWidth="382" mouseUp="towerEnergyButton_handler" anchorX="0">
+        <element name="energyBar_blackBg" skin="@bg_black" preferredWidth="380" preferredHeight="42" anchorY="28" anchorX="80"/>
+        <element name="towerEnergyBar" skin="@top_bar_tower_energy" preferredHeight="33" anchorX="82" anchorY="32"/>
+        <element name="top_left_bg_02" skin="@top_left_alpha_bg" preferredHeight="50" preferredWidth="390" anchorY="24" anchorX="78"/>
+        <element name="topBtnTowerEnergy" skin="@ico_energy_tower" anchorY="12" anchorX="41" flushBatch="true" />
+        <element name="towerEnergyText" skin="@typeface_36_white_center_middle" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="32" anchorX="83" flushBatch="true" preferredHeight="50" preferredWidth="350"/>
+    </element>
+    <element name="towerEnergyButton" skin="@btn_blue_narrow" visible="false" anchorX="425" anchorY="20" preferredWidth="70" preferredHeight="80" >
+        <element name="energyButtonLabel" skin="@icon_plus" anchorY="-13" flushBatch="true" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" mouseEnabled="false"/>
+    </element>
+</element>

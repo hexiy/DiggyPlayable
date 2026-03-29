@@ -1,0 +1,21 @@
+<element name="black_screen" anchorTop="0" anchorBottom="1">
+	<!-- BODY LABEL -->
+	<element name="body_lbl" visible.display_select="true" visible="true" visible.hide_select="false" skin="@typeface_81_white_at" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="-200"/>
+	<!-- FREE SKINS -->
+	<element name="skins" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="120" anchorX="45">
+		<p:layout><horizontal gap="90"/></p:layout>
+	</element>
+	<!-- CONFIRM BUTTON -->
+
+	<element name="confirm_btn" skin="@preloader_button_green_01"
+			 preferredWidth="350" preferredHeight="100"
+			 anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"
+			 anchorY="430" mouseChildren="false" >
+
+		<element name="confirm_btn_lbl" skin="@bold_32_white_af_middle_center"
+				 preferredWidth="350" preferredHeight="100"
+				 model="#GUI3011" anchorY="26"/>
+
+	</element>
+
+</element>

@@ -1,0 +1,23 @@
+<element name="black_screen" skin="@black" anchorTop="0" anchorBottom="1">
+    <element anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="1430" preferredHeight="880">
+        <element name="popup_body" skin="@purple_epass_bg" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="1430" preferredHeight="880"/>
+
+        <!-- title -->
+        <element name="name" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="150" preferredWidth="1400">
+            <element name="name_label" skin="@eventpass_chest_info_title_font" preferredHeight="180"  preferredWidth="1300" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true" />
+        </element>
+
+        <!-- scrollable list -->
+
+        <element name="event_pass_scrollable_part_holder" skin="@asset" anchorAlign="MIDDLE_RIGHT" preferredWidth="1300" preferredHeight="500" anchorX="-1375" anchorY="-250" mouseDown="scrollMouseDown_handler">
+            <element name="event_pass_scrollable_mask_wrapper" anchorAlign="MIDDLE_RIGHT" preferredWidth="1300" preferredHeight="550" anchorX="-1300" anchorY="-250">
+                <element name="event_pass_scrollable_holder" anchorAlign="MIDDLE_RIGHT" preferredWidth="1300" preferredHeight="500" anchorX="0" anchorY="-250"/>
+            </element>
+        </element>
+
+        <element name="btn_great" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" skin="@btn_blue" skin.main="@btn_blue" skin.info="@btn_pink" preferredWidth="330" preferredHeight="160" anchorX="0" anchorY="60" mouseUp="closeMouseUp_handler">
+            <element name="btn_great_txt" skin="@oswald_bold_85_basic_drevo1" visible="true" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true" model="#GUI0137" />
+        </element>
+
+    </element>
+</element>

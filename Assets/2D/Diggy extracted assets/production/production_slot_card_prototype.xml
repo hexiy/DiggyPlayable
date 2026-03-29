@@ -1,0 +1,122 @@
+<element name="card" preferredWidth="578" preferredHeight="1015">
+
+    <element preferredWidth="578" preferredHeight="950">
+        <!-- INACTIVE slot -->
+        <element visible="false" visible.level_locked="true" visible.inactive="true" anchorTop="0" anchorBottom="1" anchorLeft="0" anchorRight="1">
+            <!-- Background -->
+            <element anchorX="12" skin="@middle_popup_dark"
+                     preferredWidth="578" preferredHeight="950"/>
+            <element name="cardActivateButton" anchorX="12" skin="@invisible"
+                     preferredWidth="578" preferredHeight="950" mouseUp="activateCardMouseUp_handler" mouseChildren="false">
+                <!-- Circle gradient -->
+                <element skin="@activate_slot_gradient_circle" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="-100" />
+
+                <!-- Ribbon -->
+                <element skin="@activate_slot_ribbon" anchorX="18" anchorY="-28" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT"
+                         visible="false" visible.level_locked="false" visible.inactive="true" />
+                <!-- Lock -->
+                <element anchorX="-110" anchorY="30" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT"
+                         visible="false" visible.level_locked="true" visible.inactive="false"
+                         preferredWidth="106" preferredHeight="126">
+                    <element skin="@ico_lock" anchorTop="0" anchorBottom="1" anchorLeft="0" anchorRight="1" />
+                </element>
+                <!-- Gradient with text "NEW XXX" -->
+                <element skin="@activate_slot_gradient" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"
+                         preferredWidth="510" preferredHeight="70">
+                    <element name="newText" skin="@oswald_40_white_center_middle" model.kitchen="#GUI3652" model.metalurg="#GUI3654" model.caravan="#GUI3653"
+                             preferredWidth="510" preferredHeight="70" anchorY="10" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+                </element>
+                <!-- Text "TAP TO REVEAL" -->
+                <element name="tapText" model="#GUI3655" skin="@oswald_40_white_center_middle"
+                         visible.level_locked="false" visible.inactive="true"
+                         preferredWidth="510" preferredHeight="70" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-100"/>
+                <!-- Text "Level XXX" -->
+                <element name="levelText" skin="@oswald_40_white_center_middle"
+                         visible.level_locked="true" visible.inactive="false" preferredWidth="200" preferredHeight="70"
+                         anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" anchorX="-70" anchorY="175"/>
+            </element>
+        </element>
+
+        <!-- ACTIVE slot -->
+        <element visible="true" visible.level_locked="false" visible.inactive="false" anchorTop="0" anchorBottom="1" anchorLeft="0" anchorRight="1">
+            <element anchorX="12" skin="@middle_popup" preferredWidth="578" preferredHeight="950"/>
+
+            <element anchorX="20" anchorY="26" preferredWidth="524" preferredHeight="882">
+                <element name="cardTitle" skin="@oswald_M_brown_af_center_middle" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="0"
+                         preferredWidth="500" preferredHeight="100"/>
+
+                <element name="cargo" anchorLeft="0" anchorRight="1">
+                    <element preferredWidth="596" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY.unlocked="70" anchorY="42">
+                        <element name="cardCargo0" skin="@asset" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX.two="-100" anchorY="100"/>
+                        <element name="cardCargo1" skin="@asset" visible="false" visible.two="true" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX.two="100" anchorY="100"/>
+                    </element>
+
+                    <element skin="@production_card_amount_bg" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="510" preferredHeight="70" anchorY.unlocked="270" anchorY="212">
+                        <element anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+                            <p:layout><horizontal/></p:layout>
+                            <element name="cardAmount0" skin="@production_title_font" anchorY="15"/>
+                            <element name="cardMaterial0" skin="@asset"/>
+                            <element name="cardAmount1" skin="@production_title_font" visible="false" visible.two="true" anchorX.two="100" anchorY="15"/>
+                            <element name="cardMaterial1" skin="@asset" visible="false" visible.two="true" anchorX.two="100"/>
+                        </element>
+                    </element>
+                </element>
+
+                <element skin="@shop_line1" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY.unlocked="370" anchorY="312"/>
+
+                <element skin="@production_time_icon" visible="true" visible.locked="false" anchorX="60" anchorY="390" anchorY.inactive="332"/>
+                <element name="cardTime" skin="@production_title_font" visible="true" visible.locked="false" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="406" anchorY.inactive="348" anchorY.prodTime="418" anchorY.inactiveProdTime="360"/>
+                <element name="special_week_half_prod" anchorX="-20" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" anchorY="376" anchorY.inactive="318" visible.locked="false" skin="@special_week_discount_50"/>
+                <element skin="@shop_line2" visible.locked="false" visible="true" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="478" anchorY.inactive="420"/>
+
+                <element name="cardPriceElem0" visible="true" visible.locked="false" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="520" anchorY.inactive="462">
+                    <p:layout><horizontal gap="10"/></p:layout>
+                    <element name="cardPriceIcon0" skin="@asset" anchorY="-11" pivotAlign="TOP_LEFT"/>
+                    <element name="cardPrice0" skin="@production_title_font"/>
+                    <element name="cardPriceHave0" skin="@production_title_red_font"/>
+                </element>
+                <element name="cardPriceElem1" visible="true" visible.locked="false" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="591" anchorY.inactive="533">
+                    <p:layout><horizontal gap="10"/></p:layout>
+                    <element name="cardPriceIcon1" skin="@asset" anchorY="-11" pivotAlign="TOP_LEFT"/>
+                    <element name="cardPrice1" skin="@production_title_font"/>
+                    <element name="cardPriceHave1" skin="@production_title_red_font"/>
+                </element>
+                <element name="cardPriceElem2" visible="true" visible.locked="false" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="662" anchorY.inactive="604">
+                    <p:layout><horizontal gap="10"/></p:layout>
+                    <element name="cardPriceIcon2" skin="@asset" anchorY="-11" pivotAlign="TOP_LEFT"/>
+                    <element name="cardPrice2" skin="@production_title_font"/>
+                    <element name="cardPriceHave2" skin="@production_title_red_font"/>
+                </element>
+
+                <element skin="@shop_card_locked" preferredWidth="600" preferredHeight="324" visible="false" visible.locked="true" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+
+                <element name="cardUnlockButton" visible="false" visible.locked="true" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="342" anchorLeft="0" anchorRight="1"/>
+            </element>
+            <element skin="@production_destination_card_locked" visible.unlocked="false" visible="true" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorX="2" preferredWidth="620" preferredHeight="292">
+                <element name="cardLockedText" skin="@production_locktext_font" visible="false" visible.locked="true" preferredWidth="596" preferredHeight="200" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="110"/>
+            </element>
+
+            <element name="buttonContainer" preferredWidth="596" preferredHeight="132" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-56">
+
+                <element name="cardSendButton" skin="@btn_center1" skin.disabled="@shop_btn_inactive" visible="false" visible.unlocked="true" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="378"
+                         mouseDown.unlocked="buttonMouseDown_handler" mouseUp.unlocked="sendCardMouseUp_handler" mouseDown.disabled="" mouseUp.disabled="">
+                    <element name="cardSendLabel" skin="@oswald_bold_85_basic_drevo1" skin.disabled="@shop_buy_button_inactive_font" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="39" anchorY="10">
+                        <element skin="@production_start_icon" alpha="1" alpha.disabled=".2" anchorX="-78" anchorY="-17"/>
+                    </element>
+                </element>
+            </element>
+
+            <!-- EVENT BADGE -->
+            <element name="event_new_badge" anchorX="-35" anchorY="-40" flushBatch="true" visible="false">
+                <element skin="@shop_event_bg"/>
+                <element name="new_badge_asset" skin="@shop_new"/>
+                <element name="event_badge_asset" skin="@asset"/>
+            </element>
+
+            <!-- SPECIAL WEEK DISCOUNT BADGE -->
+            <element name="special_week_double_prod" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" anchorY="60" skin="@special_week_x2" visible="false"/>
+            <element name="cardTimeFull" skin="@production_title_font_small" visible="false" visible.prodTime="true" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="402" anchorY.inactive="344"/>
+            <element name="timeCrossed" skin="@pack_popup_price_crossed" visible="false" visible.prodTime="true" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="409" anchorY.inactive="351"/>
+        </element>
+    </element>
+</element>

@@ -1,0 +1,44 @@
+<element preferredWidth="230">
+
+    <element preferredWidth="380" preferredHeight="500" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="220">
+        <element anchorY="-250" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER">
+
+            <element name="rewardAmount" skin="@popup_normal_brown" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="-250"/>
+
+            <element name="grid2" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" visible="false">
+                <p:layout><horizontal gap="-23"/></p:layout>
+                <element skin="@pack_popup_equip_ph2" flushBatch="true"/>
+                <element skin="@pack_popup_equip_ph2" flushBatch="true"/>
+                <element skin="@pack_popup_equip_ph2" flushBatch="true"/>
+                <element skin="@pack_popup_equip_ph2" flushBatch="true"/>
+            </element>
+            <element name="grid3" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" visible="false">
+                <p:layout><horizontal gap="-19"/></p:layout>
+                <element skin="@pack_popup_equip_ph3" flushBatch="true"/>
+                <element skin="@pack_popup_equip_ph3" flushBatch="true"/>
+                <element skin="@pack_popup_equip_ph3" flushBatch="true"/>
+                <element skin="@pack_popup_equip_ph3" flushBatch="true"/>
+            </element>
+            <element name="grid4" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" visible="false">
+                <p:layout><horizontal gap="-20"/></p:layout>
+                <element skin="@pack_popup_equip_ph4" flushBatch="true"/>
+                <element skin="@pack_popup_equip_ph4" flushBatch="true"/>
+                <element skin="@pack_popup_equip_ph4" flushBatch="true"/>
+                <element skin="@pack_popup_equip_ph4" flushBatch="true"/>
+            </element>
+
+            <element name="packItemIcon" skin="@asset" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER"/>
+        </element>
+
+        <element anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-250" preferredWidth="350">
+            <element name="reward_element" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="400" preferredHeight="100" anchorY="20">
+                <p:layout><horizontal gap="10"/></p:layout>
+                <element name="rewardGraphicsWrapper" preferredWidth="100" preferredHeight="100" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="-5">
+                    <element name="rewardGraphics" skin.regen="@hud_regen" skin.storage="@hud_storage" skin.energy="@ico_energy" visible="true" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+                </element>
+                <element name="rewardValue" skin="@popup_normal_brown" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="8"/>
+            </element>
+        </element>
+
+    </element>
+</element>

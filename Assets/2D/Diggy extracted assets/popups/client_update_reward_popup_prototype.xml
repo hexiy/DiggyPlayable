@@ -1,0 +1,12 @@
+<element name="black_screen" skin="@black" anchorTop="0" anchorBottom="1" mouseUp="okMouseUp_handler">
+    <element name="popup_body" skin="@middle_popup_half" preferredWidth="760" preferredHeight="800" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+        <element name="staticText" skin="@popup_medium_brown_autosize_off" preferredWidth="660" preferredHeight="300" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="98"/>
+        <element name="rewardsLabel" skin="@popup_small_brown" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="156" />
+        <element name="rewards" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="492">
+            <p:layout><horizontal gap="54"/></p:layout>
+        </element>
+        <element name="btn_claim" skin="@btn_center1" skin.pressed="@btn_center2" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-100">
+            <element name="txt_claim_label" skin="@oswald_bold_85_basic_drevo1" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="8"/>
+        </element>
+    </element>
+</element>

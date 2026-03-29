@@ -1,0 +1,17 @@
+<element anchorLeft="0" anchorTop="0" anchorBottom="1" anchorRight="1">
+
+    <element name="button" skin="@btn_blue_narrow_big" preferredWidth="234" preferredHeight="208" >
+
+        <element name="icon" skin="@asset" preferredWidth="180" preferredHeight="180" visible="true" pivotAlign="TOP_CENTER" anchorAlign="TOP_CENTER" anchorX="0" anchorY="-40"/>
+
+        <element name="bg" skin="@solid_black" preferredWidth="150" preferredHeight="70" anchorAlign="MIDDLE_RIGHT" pivotAlign="MIDDLE_RIGHT" anchorX="4" anchorY="34">
+
+            <element name="label" skin="@typeface_40_white_right_middle" preferredWidth="210" preferredHeight="100"
+                     anchorAlign="MIDDLE_RIGHT" pivotAlign="MIDDLE_RIGHT" model="#GUI3588" flushBatch="true" anchorX="-15" anchorY="5" />
+        </element>
+    </element>
+
+    <element name="btn_plus" skin="@btn_blue_narrow_s150" preferredWidth="100" preferredHeight="110" pivotAlign="MIDDLE_CENTER" anchorAlign="BOTTOM_RIGHT" anchorX="210" anchorY="160" >
+        <element name="energyButtonLabel" skin="@icon_plus_s150" anchorY="-20" flushBatch="true" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" mouseEnabled="false"/>
+    </element>
+</element>

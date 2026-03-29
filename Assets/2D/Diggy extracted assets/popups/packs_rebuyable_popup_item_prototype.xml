@@ -1,0 +1,9 @@
+<element name="reward_element" preferredWidth="380" preferredHeight="64" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+    <element name="packItemIcon" skin="@asset" anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT" anchorY="-30"/>
+    <p:layout><horizontal gap="10"/></p:layout>
+    <element name="rewardAmount" skin="@oswald_M_brown" anchorY="8"/>
+    <element name="rewardValue" skin="@oswald_M_brown" anchorY="8"/>
+    <element name="rewardGraphicsWrapper" preferredWidth="64" preferredHeight="64" anchorY="6">
+        <element name="rewardGraphics" skin.regen="@hud_regen" skin.storage="@hud_storage" skin.energy="@ico_energy" visible="true" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+    </element>
+</element>

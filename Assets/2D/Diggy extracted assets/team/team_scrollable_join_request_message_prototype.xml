@@ -1,0 +1,27 @@
+<element name="team_message_body" preferredHeight="300" preferredWidth="2400" anchorY="-100" anchorX="50" pivotAlign="TOP_CENTER" skin="@orange_bg" anchorAlign="TOP_CENTER">
+    <!--  MESSAGE SENDER LOGO  -->
+    <element name="team_message_sender_logo_holder" skin="@black_bg" preferredWidth="250" anchorX="30" preferredHeight="250" anchorY="25" visible="true" visible.my_message="false">
+        <element name="team_message_sender_logo" preferredWidth="235" preferredHeight="235" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" skin="@asset"/>
+    </element>
+    <!--  MESSAGE SENDER NAME  -->
+    <element name="team_message_sender_name" visible="true" anchorX="300" anchorY="15" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT"  preferredWidth="260" preferredHeight="120" skin="@team_chat_sender_join_request_font" flushBatch="true"/>
+
+    <!--    TIMESTAMP    -->
+    <element name="team_message_timestamp" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" anchorX="-30" preferredWidth="850" preferredHeight="80" skin="@team_chat_timestamp_white_font" skin.my_message="@team_chat_timestamp_my_message_font" flushBatch="true"/>
+
+    <element name="team_message_bg" preferredWidth="2125" preferredHeight="220" anchorX="275" anchorX.my_message="0" pivotAlign.my_message="BOTTOM_RIGHT" anchorAlign.my_message="BOTTOM_RIGHT" pivotAlign="BOTTOM_LEFT" anchorAlign="BOTTOM_LEFT">
+
+        <!--   JOIN REQUEST HOLDER     -->
+        <element name="team_message_join_request_holder" preferredWidth="2000" preferredHeight="170" visible="true" anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT">
+            <element name="team_message_join_request_info_txt" preferredHeight="170" preferredWidth="260" anchorX="25" skin="@team_chat_sender_join_request_info_font" model="#GUI3348" pivotAlign="TOP_LEFT" anchorAlign="TOP_LEFT" flushBatch="true"/>
+            <element name="team_message_join_request_txt" preferredHeight="280" preferredWidth="1000" skin="@team_join_request_body" anchorX="320" anchorY="-100" pivotAlign="TOP_LEFT" anchorAlign="TOP_LEFT" flushBatch="true"/>
+            <element name="join_data_holder"/>
+            <element name="team_message_join_request_accept_btn" anchorAlign="MIDDLE_RIGHT" pivotAlign="MIDDLE_RIGHT" anchorX="-200" anchorY="-35" preferredWidth="300" preferredHeight="200" skin="@btn_blue" mouseChildren="false">
+                <element name="team_message_join_request_accept_lbl" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="280" preferredHeight="180" skin="@team_body_font" model="#GUI3011" flushBatch="true"/>
+            </element>
+            <element name="team_message_join_request_deny_btn" anchorAlign="MIDDLE_RIGHT" pivotAlign="MIDDLE_RIGHT" anchorX="110" anchorY="-35" preferredWidth="300" preferredHeight="200" skin="@btn_red" mouseChildren="false">
+                <element name="team_message_join_request_deny_lbl" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="280" preferredHeight="180" skin="@team_body_font" model="#GUI3359" flushBatch="true"/>
+            </element>
+        </element>
+    </element>
+</element>

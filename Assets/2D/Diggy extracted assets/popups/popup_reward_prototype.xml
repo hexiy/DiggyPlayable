@@ -1,0 +1,32 @@
+<element preferredWidth="145" preferredHeight="225">
+    <!-- ASSET -->
+    <element name="rewardImage" skin="@asset" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="20"/>
+
+    <!-- ONLY IN MINE FINISHED REWARD (IT HAS NAME OF REWARD!) -->
+    <element name="rewardText" skin="@popup_small_brown" visible="false" visible.rewardText="true"
+             anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="145"/>
+    <!-- ONLY IN MINE FINISHED REWARD (IT HAS NAME OF REWARD!) -->
+
+    <!-- AMOUNT -->
+    <element name="rewardAmount" visible="true" visible.rewardText="false" skin="@popup_small_brown_reward" skin.amount_brown="@oswald_bold_42_align_center_bottom" skin.amount_white="@typeface_43_white_center_bottom" color.doubled="0x00FF00" visible.building="false"
+             preferredWidth="200" preferredHeight="120" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-15" anchorY.short_element="-45" flushBatch="true"/>
+    <!-- ENERGY & STORAGE STUFF HOLDER (FOR BUILDINGS) -->
+    <element visible="false" visible.building="true" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorLeft="0" anchorRight="1" anchorY="145" >
+        <!-- REGEN ICON + AMOUNT -->
+        <element name="rewardRegen" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" visible="false">
+            <p:layout><horizontal gap="5"/></p:layout>
+            <element anchorY="-1" preferredWidth="67" preferredHeight="35">
+                <element skin="@hud_regen" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+            </element>
+            <element name="rewardCapacityRegen" skin="@popup_small_brown" skin.bold="@typeface_36_brown_center_bottom" />
+        </element>
+        <!-- STORAGE ICON + AMOUNT -->
+        <element name="rewardStorage" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" visible="false">
+            <p:layout><horizontal gap="5"/></p:layout>
+            <element anchorY="5" preferredWidth="67" preferredHeight="24">
+                <element skin="@hud_storage" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+            </element>
+            <element name="rewardCapacityStorage" skin="@popup_small_brown" skin.bold="@typeface_36_brown_center_bottom" />
+        </element>
+    </element>
+</element>

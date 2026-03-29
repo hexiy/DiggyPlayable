@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:672b7c7ce4a89e77638944529017e30f:dbd0e21b70c1d53d4263d9fb610c682f:3d0155e3e165b2a89a5c4c76ac42c88e$ -->
+<TextureAtlas imagePath="camp_valhalla.png" width="512" height="1024">
+    <SubTexture name="camp_oracle" x="337" y="313" width="167" height="179" frameX="-13" frameY="0" frameWidth="180" frameHeight="179"/>
+    <SubTexture name="camp_valhalla_caravan" x="337" y="1" width="173" height="154" frameX="0" frameY="0" frameWidth="173" frameHeight="155"/>
+    <SubTexture name="camp_valhalla_god_bg" x="171" y="619" width="72" height="72"/>
+    <SubTexture name="camp_valhalla_kitchen" x="337" y="159" width="171" height="150" frameX="-14" frameY="0" frameWidth="190" frameHeight="151"/>
+    <SubTexture name="camp_valhalla_lift" x="198" y="420" width="130" height="195"/>
+    <SubTexture name="camp_valhalla_metalurg" x="332" y="496" width="177" height="179" frameX="0" frameY="0" frameWidth="178" frameHeight="180"/>
+    <SubTexture name="camp_valhalla_museum" x="1" y="420" width="193" height="184"/>
+    <SubTexture name="elevator" x="1" y="608" width="166" height="185"/>
+    <SubTexture name="pet_house_camp" x="1" y="1" width="332" height="415"/>
+</TextureAtlas>

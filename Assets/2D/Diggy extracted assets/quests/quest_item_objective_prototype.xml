@@ -1,0 +1,9 @@
+<element preferredHeight="170" preferredWidth="167" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" >
+    <element skin.brown="@quest_objective_brown" skin.blue="@quest_objective_blue" skin.inLocation="@quest_objective_brown" visible.objectiveDone="false" anchorLeft="0" anchorTop="0" anchorRight="1" anchorBottom="1" />
+    <element name="objective_asset" skin="@asset" preferredWidth="90" preferredHeight="90" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-50"/>
+    <element name="objective_progress" visible.objectiveInProgress="true" visible.objectiveDone="false" skin="@typeface_43_white_center_bottom" preferredHeight="50" preferredWidth="150" anchorY="-20" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" flushBatch="true"/>
+    <element name="objective_done"     visible.objectiveInProgress="false" visible.objectiveDone="true" skin="@typeface_43_white_center_bottom" preferredHeight="50" preferredWidth="150" anchorY="-20" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" flushBatch="true"/>
+
+    <element name="show_objective_button" skin="@invisible" preferredHeight="170" preferredWidth="167" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" />
+
+</element>

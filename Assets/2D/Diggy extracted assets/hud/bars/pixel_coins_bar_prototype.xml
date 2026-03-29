@@ -1,0 +1,5 @@
+<element name="top_pixel_coins_wrapper" preferredWidth="322" mouseUp="pixelCoinButton_handler" anchorY="24" anchorX="0">
+    <element name="coinsBg" skin="@top_left_bg" preferredHeight="60" preferredWidth="320" anchorX="0" anchorY="0"/>
+    <element name="coinsIcon" skin="@top_pixel_coin" anchorX="280" anchorY="-4" flushBatch="true" />
+    <element name="coinsLabel" skin="@typeface_36_white_right_middle" preferredWidth="260" preferredHeight="60" anchorX="15" anchorY="1" flushBatch="true"/>
+</element>

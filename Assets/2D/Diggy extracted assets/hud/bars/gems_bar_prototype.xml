@@ -1,0 +1,14 @@
+<element name="gems_wrapper" preferredWidth="270" anchorX="-10" mouseUp="gemsButton_handler">
+    <element name="gemsBg" skin="@top_left_bg" preferredHeight="60" preferredWidth="250" anchorX="8" anchorY="24"/>
+    <element name="gemsButton" visible="false" skin="@btn_blue_narrow" flushBatch="true" anchorX="0" anchorY="18" preferredWidth="70" preferredHeight="80" mouseChildren="false">
+        <element name="gemsButtonLabel" skin="@icon_plus" anchorY="-13" flushBatch="true" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+        <element name="promotion_notification" visible="false" visible.notification="true" preferredWidth="35" preferredHeight="35" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" anchorX="15" anchorY="-15" >
+            <element name="questNote" skin="@bottom_quests_notification" flushBatch="true" anchorLeft="0" anchorTop="0" anchorBottom="1" anchorRight="1" />
+        </element>
+        <element visible="false" visible.notification="true" preferredWidth="35" preferredHeight="35" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" anchorX="15" anchorY="-15" >
+            <element name="questNoteLight" skin="@bottom_quests_notification_highlight" flushBatch="true" anchorLeft="0" anchorTop="0" anchorBottom="1" anchorRight="1" />
+        </element>
+    </element>
+    <element name="gemsLabel" skin="@typeface_36_white_right_middle" preferredWidth="150" preferredHeight="60" anchorX="58" anchorY="26" flushBatch="true" mouseEnabled="false"/>
+    <element name="gemsIcon"  skin="@shop_price_gem" anchorX="214" anchorY="18" flushBatch="true" mouseEnabled="false"/>
+</element>

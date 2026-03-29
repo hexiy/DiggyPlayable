@@ -1,0 +1,6 @@
+<element name="card" preferredWidth="672" preferredHeight="904" skin="@black" mouseUp="onCardMouseUp_handler">
+    <element skin="@museum_tab" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="666" preferredHeight="580" anchorY="76" visible="false" visible.completed="true"/>
+    <element skin="@museum_decoration_progress" skin.completed="@museum_decoration_finished" preferredWidth="672" preferredHeight="271" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER"/>
+    <element name="spine" preferredWidth="504" preferredHeight="448" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorX="6" anchorX.completed="-6" anchorY="194" anchorY.completed="170"/>
+    <element name="title" skin="@museum_large_white" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="758" flushBatch="true"/>
+</element>

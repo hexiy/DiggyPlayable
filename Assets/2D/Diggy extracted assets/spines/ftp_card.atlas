@@ -1,0 +1,62 @@
+
+ftp_card.png
+size: 903,171
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+efekt
+  rotate: true
+  xy: 788, 4
+  size: 19, 57
+  orig: 19, 57
+  offset: 0, 0
+  index: -1
+efekt2
+  rotate: false
+  xy: 788, 100
+  size: 114, 70
+  orig: 114, 70
+  offset: 0, 0
+  index: -1
+efekt3
+  rotate: false
+  xy: 788, 24
+  size: 80, 75
+  orig: 80, 75
+  offset: 0, 0
+  index: -1
+ftp_back
+  rotate: false
+  xy: 1, 1
+  size: 195, 169
+  orig: 195, 169
+  offset: 0, 0
+  index: -1
+ftp_efekt
+  rotate: false
+  xy: 394, 2
+  size: 196, 168
+  orig: 196, 168
+  offset: 0, 0
+  index: -1
+ftp_front
+  rotate: false
+  xy: 197, 2
+  size: 196, 168
+  orig: 196, 168
+  offset: 0, 0
+  index: -1
+ftp_front_highlight
+  rotate: false
+  xy: 591, 2
+  size: 196, 168
+  orig: 196, 168
+  offset: 0, 0
+  index: -1
+vnutro
+  rotate: false
+  xy: 869, 67
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1

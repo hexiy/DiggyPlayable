@@ -1,0 +1,34 @@
+
+event_pass_box.png
+size: 215,134
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Gift_bottom
+  rotate: true
+  xy: 2, 14
+  size: 118, 96
+  orig: 118, 96
+  offset: 0, 0
+  index: -1
+Gift_glow
+  rotate: false
+  xy: 2, 2
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+Gift_light
+  rotate: true
+  xy: 166, 28
+  size: 104, 47
+  orig: 104, 47
+  offset: 0, 0
+  index: -1
+Gift_top
+  rotate: true
+  xy: 100, 8
+  size: 124, 64
+  orig: 124, 64
+  offset: 0, 0
+  index: -1

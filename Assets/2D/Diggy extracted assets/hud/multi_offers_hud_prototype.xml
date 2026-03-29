@@ -1,0 +1,285 @@
+<element anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1">
+
+    <element name="close_button"
+             anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"
+             visible="false">
+
+        <element name="close_button_top"
+                 skin="@invisible"
+                 pivotAlign="TOP_LEFT" anchorAlign="TOP_LEFT"
+                 mouseEnabled="true"
+                 mouseChildren="true"/>
+
+        <element name="close_button_left"
+                 skin="@invisible"
+                 pivotAlign="TOP_LEFT" anchorAlign="TOP_LEFT"
+                 mouseEnabled="true"
+                 mouseChildren="true"/>
+
+        <element name="close_button_right"
+                 skin="@invisible"
+                 pivotAlign="TOP_LEFT" anchorAlign="TOP_LEFT"
+                 mouseEnabled="true"
+                 mouseChildren="true"/>
+
+        <element name="close_button_bottom"
+                 skin="@invisible"
+                 pivotAlign="TOP_LEFT" anchorAlign="TOP_LEFT"
+                 mouseEnabled="true"
+                 mouseChildren="true"/>
+    </element>
+
+    <element name="multi_offers_hud" pivotAlign="TOP_LEFT" anchorAlign="TOP_LEFT"
+             anchorY="328"
+             anchorX="54" anchorX.notch="124"
+             preferredWidth="200"
+             preferredHeight="173">
+
+        <element name="button" skin="@btn_dropright" pivotAlign="TOP_LEFT" anchorAlign="TOP_LEFT"
+                 preferredWidth="268"
+                 preferredHeight="198"
+                 mouseChildren="true">
+
+            <element skin="@bg_edge_black_shade_50"
+                     preferredWidth="207"
+                     preferredHeight="154"
+                     visible="true"
+                     pivotAlign="TOP_LEFT" anchorAlign="TOP_LEFT" anchorX="9" anchorY="9"/>
+
+            <element name="chest_open" preferredWidth="98" preferredHeight="105" visible="false"
+                     skin="@asset"
+                     pivotAlign="MIDDLE_CENTER" anchorAlign="MIDDLE_LEFT" anchorX="100" anchorY="-64"/>
+
+            <element name="chest_closed"  preferredWidth="98" preferredHeight="105" visible="true"
+                     pivotAlign="MIDDLE_CENTER" anchorAlign="MIDDLE_LEFT" anchorX="112" anchorY="-64"
+                     flushBatch="true"/>
+
+            <element name="label" skin="@typeface_36_white_center_middle" preferredWidth="208" preferredHeight="60"
+                     anchorY="34"
+                     anchorX="114"
+                     pivotAlign="MIDDLE_CENTER" anchorAlign="MIDDLE_LEFT"
+                     model="15:20:33"
+                     flushBatch="true"/>
+
+            <element name="button_invisible"
+                     skin="@invisible"
+                     preferredWidth="264"
+                     preferredHeight="198"
+                     visible="true"
+                     mouseUp="onButtonClicked"
+                     pivotAlign="TOP_LEFT" anchorAlign="TOP_LEFT" anchorX="0" anchorY="0"/>
+
+            <element name="button_invisible_right"
+                     skin="@invisible"
+                     preferredWidth="54"
+                     preferredHeight="198"
+                     visible="true"
+                     mouseUp="onButtonClicked"
+                     pivotAlign="MIDDLE_RIGHT" anchorAlign="MIDDLE_RIGHT" anchorX="0" anchorY="0"/>
+
+            <element name="button_right" skin="@dropright_arrow_left" anchorX="-28" anchorY="-15"
+                     rotation="-3.14"
+                     preferredWidth="28"
+                     preferredHeight="46"
+                     pivotAlign="MIDDLE_CENTER" anchorAlign="MIDDLE_RIGHT" mouseEnabled="false"/>
+
+            <!--            NOTIFICATION-->
+
+            <element name="notification" visible="false" skin="@event_pass_badge"
+                     anchorAlign="TOP_LEFT"
+                     pivotAlign="MIDDLE_CENTER" preferredWidth="63" preferredHeight="63" anchorY="10" anchorX="186">
+                <element name="notification_text" skin="@typeface_36_white_center_middle" pivotAlign="MIDDLE_CENTER"
+                         anchorAlign="MIDDLE_CENTER"
+                         flushBatch="true" preferredHeight="55" preferredWidth="105" anchorY="5" model="!"/>
+            </element>
+
+            <!-- SCROLL -->
+            <element name="listMask" pivotAlign="MIDDLE_LEFT" anchorAlign="MIDDLE_LEFT"
+                     anchorX="214"
+                     anchorY="0"
+                     preferredWidth="622" preferredHeight="240"
+                     useMask="true" mouseDown="scrollMouseDown_handler">
+
+                <element name="scrollList" pivotAlign="TOP_LEFT" anchorAlign="TOP_LEFT"
+                         anchorX="30"
+                         anchorY="20"
+                         preferredWidth="910" preferredHeight="134">
+
+                    <element name="listItemsHolder"
+                             skin="@invisible"
+                             pivotAlign="TOP_LEFT" anchorAlign="TOP_LEFT"
+                             preferredWidth="727" preferredHeight="134">
+                        <p:layout>
+                            <horizontal useChildrenWidth="true" gap="30"/>
+                        </p:layout>
+                    </element>
+                </element>
+
+                <element name="gradient" skin="@gradient_white_right" anchorX="622" anchorY="-10" visible="false"
+                         preferredWidth="152"
+                         preferredHeight="160"
+                         color="0x3e93e4"
+                         pivotAlign="MIDDLE_LEFT" anchorAlign="MIDDLE_LEFT" mouseChildren="false"/>
+
+            </element>
+
+
+        </element>
+
+        <!--        <element name="fake_button" pivotAlign="TOP_LEFT" anchorAlign="TOP_LEFT" preferredWidth="215" preferredHeight="154" skin="@btn_round_brown" />-->
+
+        <element name="itemsHolder" anchorX="24" anchorY="185" pivotAlign="TOP_LEFT" anchorAlign="TOP_LEFT" preferredWidth="152">
+            <p:layout>
+                <vertical useChildrenWidth="true" gap="10"/>
+            </p:layout>
+        </element>
+
+
+        <!--used as xml resources for button-->
+        <element name="resources" visible="false" mouseChildren="false">
+            <!--DONE-->
+
+            <!-- STAGED OFFER -->
+            <element name="stagedOfferButton" preferredWidth="152"
+                     preferredHeight="174">
+
+                <element name="btn" skin="@btn_round_brown" preferredWidth="152"
+                         preferredHeight="174" mouseChildren="false">
+                    <element name="icon" skin="@asset" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorX="0"
+                             anchorY="-10"/>
+                    <element name="text" skin="@typeface_36_white_center_middle" anchorAlign="MIDDLE_CENTER"
+                             pivotAlign="MIDDLE_CENTER" anchorY="49" preferredWidth="160" preferredHeight="60"
+                             flushBatch="true"
+                             model="00:00:00"/>
+                </element>
+            </element>
+
+            <!-- REENGAGEMENT -->
+            <element name="reengagementButton" preferredWidth="152"
+                     preferredHeight="174">
+                <element name="btn" skin="@btn_round_brown"
+                         preferredWidth="152" preferredHeight="174" mouseChildren="false">
+                    <element anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"
+                             anchorX="-16" anchorY="-16" preferredWidth="140" preferredHeight="140">
+                        <element skin="@calendar_icon" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"
+                        />
+                        <!--anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"-->
+                    </element>
+                    <element name="reengagementNotification" visible="false" skin="@event_pass_badge"
+                             anchorAlign="TOP_RIGHT"
+                             pivotAlign="MIDDLE_CENTER" preferredWidth="63" preferredHeight="63" anchorY="10" anchorX="-5">
+                        <element skin="@typeface_36_white_center_middle" pivotAlign="MIDDLE_CENTER"
+                                 anchorAlign="MIDDLE_CENTER"
+                                 flushBatch="true" preferredHeight="55" preferredWidth="105" anchorY="5" model="!"/>
+                    </element>
+                </element>
+            </element>
+
+            <!-- REMOVE INTERSTITIALS -->
+            <element name="removeInterstitialsButton" preferredWidth="152"
+                     preferredHeight="174">
+                <element name="btn"
+                         preferredWidth="152"
+                         preferredHeight="174">
+                    <element skin="@no_interstitials_button"
+                             anchorY="-10"
+                             anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+                </element>
+            </element>
+
+            <!-- DAILY REWARD -->
+            <element name="dailyRewardButton" preferredWidth="152" preferredHeight="174">
+                <element name="btn" skin="@btn_round_brown"
+                         preferredWidth="152"
+                         preferredHeight="174"
+                         mouseChildren="false">
+                    <element name="dailyRewardIcon" skin="@ico_energy" anchorAlign="MIDDLE_CENTER"
+                             pivotAlign="MIDDLE_CENTER" anchorY="-6"/>
+                    <element name="timerText" skin="@typeface_36_white_center_middle" anchorAlign="MIDDLE_CENTER"
+                             pivotAlign="MIDDLE_CENTER" anchorY="49" preferredWidth="160" preferredHeight="60"
+                             flushBatch="true"/>
+                </element>
+            </element>
+
+            <!-- OFFER -->
+            <element name="offerButtonStatic" preferredWidth="152" preferredHeight="174">
+                <element name="btn" skin="@btn_round_brown"
+                         preferredWidth="152" preferredHeight="174" mouseChildren="false">
+                    <element name="offerButtonIcon" skin="@icon_offer" pivotAlign="MIDDLE_CENTER"
+                             anchorAlign="MIDDLE_CENTER"
+                             anchorY="-16" preferredWidth="167" preferredHeight="124" anchorX="-12"/>
+                </element>
+            </element>
+
+            <!-- MYSTERY BOX -->
+            <element name="mysteryBoxButton" preferredWidth="152" preferredHeight="174">
+                <element name="btn" skin="@invisible" preferredWidth="152"
+                         preferredHeight="174"  mouseChildren="false">
+                    <element name="btnIcon" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorX="-82" anchorY="6"/>
+                    <element name="timerText" skin="@typeface_36_white_center_middle" anchorAlign="MIDDLE_CENTER"
+                             pivotAlign="MIDDLE_CENTER" anchorY="49" preferredWidth="160" preferredHeight="60"
+                             flushBatch="true"/>
+                </element>
+            </element>
+
+            <!-- PIGGY BANK -->
+            <element name="piggyBankButton"
+                     preferredWidth="152"
+                     preferredHeight="174">
+
+                <element name="btn" skin="@btn_round_brown"
+                         preferredWidth="152"
+                         preferredHeight="174"
+                         mouseChildren="false">
+                    <element name="icon" skin="@asset" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorX="0"
+                             anchorY="-10"/>
+                    <element name="icon_energy" skin="@asset" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" anchorX="-10"
+                             anchorY="-11" flushBatch="true"/>
+                    <!--PROGRESS BAR-->
+                    <element name="progress_bar_holder" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"
+                             preferredWidth="87" preferredHeight="21" anchorX="0" anchorY="41">
+                        <element name="progress_blackBg" skin="@event_pass_button_xp_bg" preferredWidth="87"
+                                 preferredHeight="21" anchorX="1" anchorY="0" flushBatch="true"/>
+                        <element name="progress" skin="@progress_bar_gray" preferredWidth="75" preferredHeight="10"
+                                 anchorX="6"
+                                 anchorY="2" flushBatch="true"/>
+                    </element>
+                    <element name="text" skin="@typeface_36_white_center_middle" anchorAlign="MIDDLE_CENTER"
+                             pivotAlign="MIDDLE_CENTER" anchorY="49" preferredWidth="160" preferredHeight="60"
+                             flushBatch="true"/>
+                    <element name="notification" skin="@event_pass_badge" anchorAlign="TOP_RIGHT" pivotAlign="MIDDLE_CENTER"
+                             preferredWidth="63" preferredHeight="63" anchorY="10" anchorX="-5">
+                        <element skin="@typeface_36_white_center_middle" pivotAlign="MIDDLE_CENTER"
+                                 anchorAlign="MIDDLE_CENTER"
+                                 flushBatch="true" preferredHeight="55" preferredWidth="105" anchorY="5" model="!"/>
+                    </element>
+                    <!-- CHECK MARK -->
+                    <element name="checkMark" skin="@ico_check_mark" visible="false" anchorX="20" anchorY="-15"
+                             anchorAlign="BOTTOM_RIGHT" pivotAlign="BOTTOM_RIGHT"/>
+                </element>
+            </element>
+
+            <!-- COMMUNITY EVENT INQUIRY -->
+            <element name="inquiryQuestionButton" preferredWidth="152" preferredHeight="174">
+                <element name="btn" skin="@btn_round_brown" preferredWidth="152" preferredHeight="174"
+                         mouseChildren="false">
+                    <element name="inquiryQuestionIcon" skin="@asset" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"
+                             anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+                </element>
+            </element>
+
+            <!-- TIERED OFFER -->
+            <element name="tieredOfferButton" preferredWidth="152" preferredHeight="174">
+                <element name="btn" skin="@invisible"  preferredWidth="152"
+                         preferredHeight="174" mouseChildren="false">
+                    <element name="btnIcon" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorX="-98" anchorY="6"/>
+                    <element name="timerText" skin="@typeface_36_white_center_middle" anchorAlign="MIDDLE_CENTER"
+                             pivotAlign="MIDDLE_CENTER" anchorY="49" preferredWidth="160" preferredHeight="60"
+                             flushBatch="true"/>
+                </element>
+            </element>
+
+        </element>
+
+    </element>
+</element>

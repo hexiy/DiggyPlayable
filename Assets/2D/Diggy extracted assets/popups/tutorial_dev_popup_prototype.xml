@@ -1,0 +1,5 @@
+<element name="black_screen" anchorTop="0" anchorBottom="1">
+    <element skin="@middle_popup" preferredWidth="800" preferredHeight="900" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" anchorX="50" anchorY="110">
+        <element name="text" skin="@popup_tutorial_dev" preferredWidth="780" preferredHeight="900" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" anchorX="20" anchorY="20"/>
+    </element>
+</element>

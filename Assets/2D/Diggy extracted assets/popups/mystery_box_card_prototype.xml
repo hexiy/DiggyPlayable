@@ -1,0 +1,5 @@
+<element preferredWidth="480" preferredHeight="666">
+    <element name="underglow" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="670"/>
+    <element name="middle_glow" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="670"/>
+    <element name="card" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="670"/>
+</element>

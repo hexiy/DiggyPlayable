@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:7e0b5b49b374edcc606fb34c2fab5f1d:b20009f5d402b86950d50b9ac8ade1b1:8321a1a02abe283782fb8a315c797348$ -->
+<TextureAtlas imagePath="black_box.png" width="512" height="2048">
+    <SubTexture name="bg_pink" x="1" y="1" width="364" height="1347"/>
+    <SubTexture name="left_gold_deco" x="367" y="1" width="104" height="124"/>
+    <SubTexture name="right_gold_deco" x="367" y="127" width="104" height="124"/>
+</TextureAtlas>

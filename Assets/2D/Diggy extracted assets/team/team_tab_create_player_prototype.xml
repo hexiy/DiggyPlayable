@@ -1,0 +1,24 @@
+<element anchorTop="0.35" anchorBottom="0.95" anchorLeft="0.13" anchorRight="0.87">
+<!--  LOGO HOLDER  -->
+    <element name="create_player_logo_holder" anchorAlign="MIDDLE_LEFT" anchorX="-120">
+        <element name="create_player_logo_bg" skin="@black_bg" preferredHeight="300" preferredWidth="300" anchorY="-300">
+            <element name="create_player_logo" skin="@asset" preferredHeight="270" preferredWidth="270" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+        </element>
+        <element name="create_player_logo_change_btn" skin="@btn_blue" preferredWidth="320" preferredHeight="120" anchorY="-50" anchorX="-10" mouseChildren="false">
+            <element name="create_player_logo_change_btn_label" skin="@oswald_bold_85_basic_drevo1" model="#GUI3237" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true"/>
+        </element>
+    </element>
+<!--  INFO AND NAME HOLDER  -->
+    <element name="create_player_info_name_holder" anchorAlign= "TOP_CENTER" pivotAlign="TOP_CENTER">
+        <element name="create_player_header_one" skin="@team_big_font" preferredHeight="160" preferredWidth="1800" anchorY="-150" anchorX="50" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" model="#GUI3373"/>
+        <element name="create_player_header_two" skin="@team_big_font" preferredHeight="160" preferredWidth="1800" anchorY="0" anchorX="50" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" model="#GUI3225"/>
+        <element name="create_player_name_bg" skin="@black_bg" preferredHeight="160" preferredWidth="1100" anchorY="200" anchorX="50" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+            <element name="create_player_name_txt" visible="true" preferredWidth="1080" preferredHeight="158" anchorY="-10" anchorX="0" anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT" flushBatch="true"/>
+        </element>
+    </element>
+<!--  CREATE BUTTON HOLDER  -->
+    <element name="create_btn_confirm" visible="true" visible.main="true" visible.info="false" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" preferredWidth="450" preferredHeight="162"
+             skin="@btn_green_01" anchorY="-50" mouseChildren="false">
+        <element name="create_btn_confirm_lbl" skin="@oswald_bold_85_basic_drevo1" model="#GUI0098" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true"/>
+    </element>
+</element>

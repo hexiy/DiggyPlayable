@@ -1,0 +1,5 @@
+<element name="black_screen" skin="@black" anchorTop="0" anchorBottom="1" mouseUp="okMouseUp_handler">
+    <element skin="@middle_popup" preferredWidth="760" preferredHeight="700" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+        <element name="text" skin="@popup_big_gem_middle" preferredWidth="700" preferredHeight="700" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+    </element>
+</element>

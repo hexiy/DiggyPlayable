@@ -1,0 +1,38 @@
+<element name="black_screen" skin="@black" anchorTop="0" anchorBottom="1" mouseUp="backMouseUp_handler">
+    <element name="popup_body" preferredWidth="1080" preferredHeight="684" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+
+        <!-- POPUP BACKGROUND (brown) -->
+        <element skin="@bg_brown_half" preferredWidth="1080" preferredHeight="684" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+
+        <element name="content_holder" preferredWidth="1080" preferredHeight="684" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+            <!-- POPUP BACKGROUND (light) -->
+            <element skin="@middle_popup_half" preferredWidth="1031" preferredHeight="628" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"
+                     anchorX="15" anchorY="15"/>
+            
+            <!-- TITLE BACKGROUND -->
+            <element skin="@map_manager_detail_name_bg_half" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="1130" preferredHeight="120"
+                     anchorY="-50">
+                <!-- TITLE -->
+                <element name="title" skin="@oswald_bold_85_basic_drevo1_big" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="15"/>
+                <!-- X BUTTON -->
+                <element name="btn_cancel" skin="@production_cancel_icon" anchorX="-20" anchorY="0"
+                         anchorAlign="MIDDLE_RIGHT" pivotAlign="MIDDLE_RIGHT" flushBatch="true" />
+            </element>
+
+            <!-- QUESTION -->
+            <element model="#MOB299" skin="@oswald_bold_120_autosize_off" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"
+                     anchorY="155" anchorX="5" preferredWidth="940" preferredHeight="360"/>
+            <element anchorX="50" anchorY="400" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+                <!-- BUTTONS -->
+                <p:layout><horizontal gap="100"/></p:layout>
+                <element name="btn_yes" skin="@button_red_01" skin.pressed="@button_red_02" preferredWidth="328" preferredHeight="132" mouseChildren="false">
+                    <element model="#GUI0014" skin="@oswald_bold_85_basic_drevo1" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="8"/>
+                </element>
+                <element name="btn_no" skin="@button_green_01" skin.pressed="@button_green_02" preferredWidth="328" preferredHeight="132" mouseChildren="false">
+                    <element model="#GUI0039" skin="@oswald_bold_85_basic_drevo1" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="8"/>
+                </element>
+            </element>
+            <element name="loading_icon" skin="@loading_big" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" visible="false" flushBatch="true"/>
+        </element>
+    </element>
+</element>

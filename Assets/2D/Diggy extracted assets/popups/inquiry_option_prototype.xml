@@ -1,0 +1,17 @@
+<element preferredWidth="300" preferredHeight="297" mouseUp="okMouseUp_handler">
+
+    <element name="backgroundGreen"  skin="@btn_option_green"  preferredWidth="300" preferredHeight="297" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" visible="false"/>
+    <element name="backgroundBrown"  skin="@btn_option_brown"  preferredWidth="300" preferredHeight="297" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" />
+
+    <element preferredWidth="300" preferredHeight="60" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+        <element name="captionText"      skin="@oswald_XS_white" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="8"/>
+    </element>
+
+    <element name="frameYellow"      skin="@btn_option_yellow" preferredWidth="258" preferredHeight="218" anchorY="60" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"/>
+    <element name="image" skin="@asset" preferredWidth="258" preferredHeight="218" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="58" anchorX="5"/>
+
+    <element name="checkbox"         skin="@btn_checkbox"      preferredWidth="72"  preferredHeight="61"  anchorX="-27" anchorY="-23" anchorAlign="BOTTOM_RIGHT" pivotAlign="BOTTOM_RIGHT"/>
+
+    <element name="check" skin="@asset" anchorX="45" anchorY="-28" anchorAlign="BOTTOM_RIGHT" pivotAlign="BOTTOM_RIGHT" visible="false"/>
+    
+</element>

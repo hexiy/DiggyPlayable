@@ -1,0 +1,57 @@
+<element name="black_screen" skin="@black" anchorTop="0" anchorBottom="1" mouseUp="backgroundMouseUp_handler">
+    <element name="popup_body" preferredWidth="1024" preferredHeight="836" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true">
+        <element name="bg" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="980" preferredHeight="720" anchorX="28">
+            <element skin="@middle_popup" anchorTop="0" anchorBottom="1" anchorLeft="0" anchorRight="1"/>
+        </element>
+        <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" skin="@museum_popup_border1"/>
+        <element anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" skin="@museum_popup_border2"/>
+
+        <element preferredWidth="938" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorX="15" anchorTop="0" anchorBottom="1">
+            <element name="progressBar" preferredWidth="878" preferredHeight="60" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"
+                     anchorY="330" anchorY.closed="430"
+                     visible="true" visible.completed="false">
+                <element skin="@progress_bg" preferredWidth="858" anchorY="10" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"/>
+                <element name="progressFill" skin="@progress_fill" preferredWidth="858" anchorX="10" anchorY="10"/>
+                <element skin="@progress_bar" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+                <element name="progress" skin="@museum_bar_font_popup" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="15"/>
+            </element>
+
+            <element name="desc" skin="@museum_desc_font" preferredWidth="878" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="264"/>
+            <element name="staticText1" skin="@museum_title_font" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"
+                     anchorY="275" anchorY.closed="375"
+                     visible="true" visible.completed="false"/>
+            <element name="staticText2" skin="@museum_title_font" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="460" anchorY.completed="280" visible="true" visible.closed="false" />
+
+            <element name="rewards" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="535" anchorY.completed="335" visible="true" visible.closed="false">
+                <p:layout><horizontal gap="5"/></p:layout>
+            </element>
+
+            <element model="#WGL108" skin="@museum_title_font" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="420" visible="false" visible.closed="true"/>
+
+        </element>
+
+        <element name="claimButton" skin="@btn_blue_narrow" visible="false" visible.completed="true" visible.videoFinished="true" preferredWidth="440" preferredHeight="142" anchorY="-200" anchorX.availableVideoReward="30"
+                 anchorAlign="BOTTOM_CENTER" pivotAlign="MIDDLE_CENTER" pivotAlign.videoFinished="MIDDLE_CENTER" pivotAlign.availableVideoReward="MIDDLE_RIGHT"
+                 flushBatch="true" mouseChildren="false">
+            <element name="staticText3" skin="@typeface_48_white_center_middle" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="400" preferredHeight="140" anchorY="-8"/>
+        </element>
+
+        <element name="videoButtonHolder" skin="@invisible" visible="false" visible.availableVideoReward="true"
+                 visible.videoFinished="false" preferredWidth="390" preferredHeight="142" anchorX="60" anchorY="-200"
+                 pivotAlign="MIDDLE_LEFT" pivotAlign.offAds="MIDDLE_CENTER"
+                 anchorAlign="BOTTOM_CENTER" flushBatch="true"/>
+
+        <element name="closeButton" skin="@btn_center1" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-130" preferredWidth="440" preferredHeight="142" visible="false" visible.closed="true" mouseChildren="false">
+            <element name="staticText4" skin="@museum_title_font" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="10"/>
+        </element>
+
+        <element name="title" skin="@museum_title_font_popup" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="40"/>
+        <element name="level" skin="@museum_title_font_popup" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="143"/>
+
+        <element name="hour_glass" skin="@sand_glass" visible="false" visible.videoInProgress="true" visible.videoFinished="false"
+                 anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="0" anchorY="0" preferredWidth="128" preferredHeight="234"/>
+
+        <element name="debug_id_txt" skin="@dialog_font" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="10" model="id:[123456789]"/>
+
+    </element>
+</element>

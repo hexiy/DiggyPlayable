@@ -1,0 +1,37 @@
+<element name="black_screen" skin="@black" anchorTop="0" anchorBottom="1"  mouseUp="backMouseUp_handler">
+    <element name="popup_body" preferredWidth="1400" preferredHeight="1320" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+
+        <!-- pozadie popupu -->
+        <element skin="@bg_brown" preferredWidth="1400" preferredHeight="1320" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+
+        <element preferredWidth="1400" preferredHeight="1320" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+            <element skin="@middle_popup" preferredWidth="1330" preferredHeight="1240" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="15" anchorY="15"/>
+
+            <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="100">
+                <element name="image" skin="@asset" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"/>
+                <element name="text" skin="@popup_small_brown_autosize_off_valign" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="350" preferredWidth="1200" preferredHeight="200"/>
+
+                <element preferredWidth="400" preferredHeight="400" anchorX="-600" anchorY="600">
+                    <element name="experience_text" skin="@popup_medium_brown" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="10"/>
+                    <element name="experience_bottom_text" skin="@popup_medium_brown" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="10"/>
+                    <element skin="@desktop_popup_podklad_tabulka" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="230" preferredHeight="230"/>
+                    <element name="experience_icon" skin="@asset" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+                </element>
+
+                <element preferredWidth="800" preferredHeight="400" anchorX="-150" anchorY="600">
+                    <element skin="@desktop_popup_podklad_tabulka" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="650" preferredHeight="230"/>
+                    <element name="materials_text" skin="@popup_medium_brown" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="10"/>
+                    <element name="materials" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+                        <p:layout><horizontal gap="10"/></p:layout>
+                    </element>
+                </element>
+
+            </element>
+
+            <element name="btn_ok" skin="@btn_center1" skin.pressed="@btn_center2" anchorY="-90" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER">
+                <element name="btn_ok_text" skin="@oswald_bold_85_basic_drevo1" anchorY="8" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+            </element>
+
+        </element>
+    </element>
+</element>

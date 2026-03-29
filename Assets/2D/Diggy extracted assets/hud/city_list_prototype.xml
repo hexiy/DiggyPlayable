@@ -1,0 +1,16 @@
+<element anchorLeft="0" anchorRight="1" anchorTop="1" anchorBottom="1">
+    <element name="cityList" preferredWidth="210" preferredHeight="270" anchorAlign="BOTTOM_RIGHT" pivotAlign="BOTTOM_RIGHT" anchorX="-20" anchorX.notch="-20" anchorX.no_notch="-20" anchorX.right_notch="-115" anchorY="-290" visible="false">
+        <element name="list_bg" skin="@bottom_city_bg_3slice" preferredWidth="194" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="5"/>
+        <element name="list_wrapper" preferredWidth="210" anchorTop="0" anchorBottom="1">
+            <element name="mask_wrapper" preferredWidth="210" anchorTop="0" anchorBottom="1">
+                <element name="list" preferredWidth="176" anchorX="17" anchorY="5"/>
+            </element>
+        </element>
+        <element name="list_frame" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1">
+            <element skin="@bottom_city_frame_2" preferredWidth="208" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"/>
+            <element skin="@bottom_city_frame_8" preferredWidth="208" anchorY="18" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER"/>
+            <element skin="@bottom_city_frame_4" anchorX="2" anchorY="6" anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT"/>
+            <element skin="@bottom_city_frame_6" anchorX="-2" anchorY="6" anchorAlign="MIDDLE_RIGHT" pivotAlign="MIDDLE_RIGHT"/>
+        </element>
+    </element>
+</element>

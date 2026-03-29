@@ -1,0 +1,119 @@
+
+karavana_grecko.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+caravana_grecko_idle_content_hlava_caravana_grecko_idle_Layer2
+  rotate: false
+  xy: 1, 1
+  size: 64, 90
+  orig: 64, 90
+  offset: 0, 0
+  index: -1
+caravana_grecko_idle_content_haluzka_caravana_grecko_idle_Layer1
+  rotate: false
+  xy: 67, 1
+  size: 93, 78
+  orig: 93, 78
+  offset: 0, 0
+  index: -1
+caravana_grecko_idle_content_ZL_noha_caravana_grecko_idle_Layer3
+  rotate: false
+  xy: 162, 1
+  size: 46, 71
+  orig: 46, 71
+  offset: 0, 0
+  index: -1
+caravana_grecko_idle_content_telo_caravana_grecko_idle_Layer3
+  rotate: false
+  xy: 67, 81
+  size: 111, 69
+  orig: 111, 69
+  offset: 0, 0
+  index: -1
+caravana_grecko_idle_content_ZP_noha_caravana_grecko_idle_Layer3
+  rotate: false
+  xy: 210, 1
+  size: 31, 65
+  orig: 31, 65
+  offset: 0, 0
+  index: -1
+caravana_grecko_idle_content_snurka_caravana_grecko_idle_Layer1
+  rotate: false
+  xy: 180, 74
+  size: 61, 64
+  orig: 61, 64
+  offset: 0, 0
+  index: -1
+caravana_grecko_idle_content_hlava_caravana_grecko_idle_Layer9
+  rotate: false
+  xy: 1, 93
+  size: 50, 60
+  orig: 50, 60
+  offset: 0, 0
+  index: -1
+caravana_grecko_idle_content_PP_noha_caravana_grecko_idle_Layer3
+  rotate: false
+  xy: 180, 140
+  size: 21, 59
+  orig: 21, 59
+  offset: 0, 0
+  index: -1
+caravana_grecko_idle_content_PL_noha_caravana_grecko_idle_Layer3
+  rotate: false
+  xy: 203, 140
+  size: 21, 58
+  orig: 21, 58
+  offset: 0, 0
+  index: -1
+caravana_grecko_idle_content_ucho2_grecko_caravana_idle_Layer1
+  rotate: false
+  xy: 53, 152
+  size: 34, 55
+  orig: 34, 55
+  offset: 0, 0
+  index: -1
+caravana_grecko_idle_content_deka_caravana_grecko_idle_Layer2
+  rotate: false
+  xy: 89, 152
+  size: 71, 50
+  orig: 71, 50
+  offset: 0, 0
+  index: -1
+caravana_grecko_idle_content_chvost_caravana_grecko_idle_Layer1
+  rotate: false
+  xy: 243, 1
+  size: 11, 44
+  orig: 11, 44
+  offset: 0, 0
+  index: -1
+caravana_grecko_idle_content_oci_caravana_grecko_idle_Layer4
+  rotate: false
+  xy: 162, 201
+  size: 56, 24
+  orig: 56, 24
+  offset: 0, 0
+  index: -1
+caravana_grecko_idle_content_oko1_caravana_grecko_idle_Layer3
+  rotate: false
+  xy: 226, 140
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+caravana_grecko_idle_content_oko2_caravana_grecko_idle_Layer3
+  rotate: false
+  xy: 162, 152
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+grecko_caravana_idle_main_Layer2
+  rotate: false
+  xy: 1, 227
+  size: 197, 13
+  orig: 197, 13
+  offset: 0, 0
+  index: -1
+

@@ -1,0 +1,58 @@
+<element name="team_my_and_create_team_holder" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1">
+    <element name="team_my_team_create_team_holder" visible="false" visible.create_new_team="true" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1">
+        <element name="team_create_team_lbl_holder" skin="@team_big_font" model="#GUI3377" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="1000" preferredHeight="250" anchorY="-160" flushBatch="true"/>
+        <element name="team_create_team_btn" skin="@btn_green_01" anchorY="50" preferredWidth="550" preferredHeight="200" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" mouseChildren="false">
+            <element name="team_create_team_btn_label" skin="@team_body_font" model="#GUI3234" preferredHeight="200" preferredWidth="550" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true"/>
+        </element>
+    </element>
+    <element name="team_my_team_holder" visible="true" visible.create_new_team="false" anchorTop="0.25" anchorBottom="1" anchorLeft="0" anchorRight="1">
+        <element name="team_my_left_part" preferredHeight="800" preferredWidth="707" anchorX="250" anchorX.notch="350" anchorY="0" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT">
+            <element name="team_my_logo_and_member_count_holder" preferredHeight="200" preferredWidth="160">
+                <element name="team_my_logo_holder" skin="@black_bg" preferredWidth="160" preferredHeight="160">
+                    <element name="team_my_logo" skin="@asset" preferredWidth="140" preferredHeight="140" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+                </element>
+                <element name="team_my_member_count" preferredHeight="120" preferredWidth="260" skin="@team_body_font_small" flushBatch="true" anchorY="140" anchorX="-50"/>
+            </element>
+            <element name="team_my_name" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" preferredWidth="480" preferredHeight="100" skin="@team_title_hint_left_white_font" flushBatch="true" anchorX="0"/>
+            <element name="team_my_description" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" preferredHeight="350" preferredWidth="480" skin="@team_hint_white_font_left" flushBatch="true" anchorY="80" anchorX="0"/>
+            <element name="team_my_id_lbl" model="#GUI3243" preferredHeight="100" preferredWidth="500" anchorY="390" skin="@team_hint_font_left"/>
+            <element name="team_my_id" preferredHeight="100" preferredWidth="600" anchorY="390" skin="@team_hint_white_font_right"/>
+            <element name="team_my_type_lbl" model="#GUI3229" preferredHeight="100" preferredWidth="500" anchorY="460" skin="@team_hint_font_left"/>
+            <element name="team_my_type" preferredHeight="100" preferredWidth="600" anchorY="460" skin="@team_hint_white_font_right"/>
+            <element name="team_my_score_lbl" model="#GUI3244" preferredHeight="100" preferredWidth="500" anchorY="530" skin="@team_hint_font_left"/>
+            <element name="team_my_score" preferredHeight="100" preferredWidth="600" anchorY="530" skin="@team_hint_white_font_right"/>
+
+            <element name="team_my_detail_score_info_holder" preferredWidth="70" preferredHeight="70" anchorY="530" anchorX="620">
+                <element name="team_my_detail_score_info" skin="@info" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+            </element>
+            <element name="team_my_req_level_lbl" model="#GUI3232" preferredHeight="100" preferredWidth="500" anchorY="600" skin="@team_hint_font_left"/>
+            <element name="team_my_req_level" preferredHeight="100" preferredWidth="600" anchorY="600" skin="@team_hint_white_font_right"/>
+            <element name="team_my_leave_button" preferredHeight="180" preferredWidth="400" anchorY="680" anchorX="100" preferredWidth.notch="350" anchorX.is_leader="300" skin="@btn_red" mouseChildren="false">
+                <element name="team_my_leave_button_label" skin="@team_body_font_small" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true" preferredHeight="180" preferredWidth="400"/>
+            </element>
+            <element name="team_my_edit_button" visible="false" visible.is_leader="true" preferredHeight="180" preferredWidth="400" anchorY="680" anchorX="-200" anchorX.notch="-100" preferredWidth.notch="350" skin="@btn_green_01" mouseChildren="false">
+                <element name="team_my_edit_button_label" skin="@team_body_font_small" model="#GUI3237" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true" preferredHeight="180" preferredWidth="400"/>
+            </element>
+        </element>
+        <element name="team_my_right_holder" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT">
+            <element name="team_my_scrollable_part_holder" skin="@black_bg" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" preferredWidth="1800" preferredHeight="946">
+                <element name="team_my_scrollable_mask_wrapper" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="1800" preferredHeight="946">
+                    <element name="team_my_scrollable_holder" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="1800" preferredHeight="946"/>
+                </element>
+            </element>
+        </element>
+
+        <element name="info_bubble" anchorX="940" anchorX.notch="1040" anchorY="485" preferredWidth="400" preferredHeight="250" visible="false">
+            <element skin="@quests_talker_bubble_02" anchorY="35"/>
+            <element name="quests_talker_bubble" skin="@quests_talker_bubble_01" preferredWidth="700" preferredHeight="800" anchorY="-535" anchorX="75" flushBatch="true">
+                <element name="info_bubble_text_header" skin="@team_info_wrap_bigger" preferredWidth="650" preferredHeight="200" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="-35"/>
+                <element name="info_bubble_text_1" skin="@team_info_wrap" preferredWidth="650" preferredHeight="110" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="95"/>
+                <element name="info_bubble_text_2" skin="@team_info_wrap" preferredWidth="650" preferredHeight="110" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="210"/>
+                <element name="info_bubble_text_3" skin="@team_info_wrap" preferredWidth="650" preferredHeight="110" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="325"/>
+                <element name="info_bubble_text_4" skin="@team_info_wrap" preferredWidth="650" preferredHeight="110" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="440"/>
+                <element name="info_bubble_text_5" skin="@team_info_wrap" preferredWidth="650" preferredHeight="110" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="555"/>
+                <element name="info_bubble_text_6" skin="@team_info_wrap" preferredWidth="650" preferredHeight="110" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="670"/>
+            </element>
+        </element>
+    </element>
+</element>

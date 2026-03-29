@@ -1,0 +1,21 @@
+<element name="black_screen" skin="@black" anchorTop="0" anchorBottom="1" mouseUp="backMouseUp_handler">
+    <element name="popup_body" preferredWidth="700" preferredHeight="920" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+
+        <!-- pozadie popupu -->
+        <element skin="@bg_brown" preferredWidth="700" preferredHeight="920" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+
+        <element preferredWidth="700" preferredHeight="920" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+            <element skin="@middle_popup" preferredWidth="630" preferredHeight="840" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="15" anchorY="15"/>
+            <element preferredWidth="700" preferredHeight="920" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+                <element name="text" skin="@popup_medium_brown_autosize_off" preferredWidth="500" preferredHeight="250" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="150"/>
+                <element name="camera_wrapper" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="250" preferredWidth="400" preferredHeight="400">
+                    <element name="camera_icon" skin="@camera" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="277" preferredHeight="175"/>
+                    <element skin="@production_cancel_icon" preferredWidth="104" preferredHeight="104" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+                </element>
+                <element name="btn_ok" skin="@btn_center1" skin.pressed="@btn_center2" anchorY="-90" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER">
+                    <element name="btn_ok_text" skin="@oswald_bold_85_basic_drevo1" anchorY="8" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+                </element>
+            </element>
+        </element>
+    </element>
+</element>

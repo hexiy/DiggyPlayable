@@ -1,0 +1,51 @@
+<element preferredWidth="1660" preferredHeight="265" mouseUp="cardMouseUp_handler" pivotAlign="TOP_RIGHT" anchorAlign="TOP_RIGHT" flushBatch="true">
+    <element skin.brown="@quest_body_brown" skin.inLocation="@quest_body_green" skin.blue="@quest_body_blue" anchorLeft="0" anchorTop="0" anchorRight="1" anchorBottom="1" />
+    <element preferredWidth="1660" preferredHeight="265" mouseUp="cardMouseUp_handler" pivotAlign="TOP_RIGHT" anchorAlign="TOP_RIGHT">
+        <p:layout><horizontal useChildrenHeight="true" skipLastGap="true"/></p:layout>
+        <element name="left_part" skin="@quest_body_header_brown" skin.inLocation="@quest_body_header_green" skin.blue="@quest_body_header_blue" preferredWidth="580" preferredHeight="225" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT">
+            <element name="quest_giver" preferredWidth="175" preferredHeight="175" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" flushBatch="true" anchorY="16" anchorX="19">
+                <element name="quest_giver_asset" skin="@asset" anchorLeft="0" anchorTop="0" anchorRight="1" anchorBottom="1" />
+            </element>
+
+            <element name="quest_giver_description" skin="@talk_bubble_icon" preferredWidth="100" preferredHeight="50" anchorAlign="BOTTOM_LEFT" pivotAlign="BOTTOM_LEFT" anchorX="23" anchorY="-10">
+                <element skin="@talk_bubble_icon" anchorLeft="0" anchorTop="0" anchorRight="1" anchorBottom="1" />
+            </element>
+
+            <element name="quest_info" preferredWidth="380" preferredHeight="265" anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT" anchorX="200" anchorY="20">
+                <element name="quest_name" skin="@oswald_bold_42_align_left_top" preferredWidth="335" preferredHeight="165" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" anchorX="25" anchorY="18"/>
+                <element name="quest_hint_icon" visible="false" skin="@hint_icon" preferredWidth="54" preferredHeight="63" anchorAlign="BOTTOM_RIGHT" pivotAlign="BOTTOM_RIGHT" anchorX="-25" anchorY="-35" />
+            </element>
+
+            <element name="quest_jump_button" visible="false" preferredWidth="100" preferredHeight="100" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER">
+                <element skin="@popup_restart_icon" anchorLeft="0" anchorTop="0" anchorRight="1" anchorBottom="1" />
+            </element>
+        </element>
+
+        <element name="middle_part" preferredWidth="840" preferredHeight="245" anchorAlign="MIDDLE_RIGHT" pivotAlign="MIDDLE_RIGHT">
+            <element name="quest_objectives" preferredWidth="840" preferredHeight="210" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="20">
+                <p:layout><horizontal gap="10" useChildrenHeight="true" skipLastGap="true"/></p:layout>
+
+            </element>
+            <element name="quest_steps" preferredWidth="500" preferredHeight="20" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="10">
+                <p:layout><horizontal gap="15" useChildrenHeight="true" skipLastGap="true"/></p:layout>
+                <element name="quest_steps_text" skin="@oswald_bold_42_align_right_middle" preferredHeight="50" preferredWidth="150" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-6"/>
+            </element>
+        </element>
+
+        <element name="right_part" preferredWidth="240" preferredHeight="245" anchorAlign="MIDDLE_RIGHT" pivotAlign="MIDDLE_RIGHT">
+            <element name="rewards_button" preferredWidth="230" preferredHeight="90" anchorY="17" anchorX="-15" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+                <element skin="@btn_blue_narrow" anchorLeft="0" anchorTop="0" anchorRight="1" anchorBottom="1" />
+                <element name="rewards_button_text" skin="@typeface_31_white_center_middle" preferredWidth="200" preferredHeight="70" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" flushBatch="true" />
+            </element>
+
+            <element visible.inLocation="false" preferredWidth="230" preferredHeight="130" anchorY="-15" anchorX="-15" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER">
+                <element name="do_quest_action_button" visible.inLocation="false" preferredWidth="230" preferredHeight="130" anchorY="0" anchorX="0" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+                    <element name="button_skin" skin="@btn_orange_narrow" anchorLeft="0" anchorTop="0" anchorRight="1" anchorBottom="1" />
+                    <element name="action_button_text" skin="@typeface_48_white_center_middle" preferredWidth="200" preferredHeight="60" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true" anchorX="-3" anchorY="-8"/>
+                </element>
+            </element>
+            <element name="in_the_location_text" skin="@oswald_bold_42_align_center_top" visible.brown="false" visible.blue="false" visible.inLocation="true" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" preferredWidth="220" preferredHeight="125" anchorY="-10" anchorX="-10" />
+        </element>
+    </element>
+
+</element>

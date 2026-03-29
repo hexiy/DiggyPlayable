@@ -1,0 +1,22 @@
+<element name="black_screen" skin="@black" anchorTop="0" anchorBottom="1">
+    <element anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+        <element name="popup_body" skin="@bg_brown" preferredWidth="1188" preferredHeight="858" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+
+            <element name="popup3" skin="@middle_popup_half" preferredWidth="1078" preferredHeight="700" anchorX="16" anchorY="108" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+                <element skin="@gem_received_gem_small" anchorX="-144" anchorY="-88" anchorAlign="MIDDLE_RIGHT" pivotAlign="MIDDLE_RIGHT"/>
+
+                <element name="gems" skin="@popup_extra_large_brown" anchorX="-244" anchorY="-88" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+
+                <element name="btn_reward" skin="@btn_center1_trislice" skin.pressed="@btn_center_3slice" preferredWidth="858" preferredHeight="118" anchorY="514" anchorX="-16" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+                    <element name="rewardImage" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+                    <element name="get_reward" skin="@oswald_bold_85_basic_drevo1" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="8"/>
+                </element>
+            </element>
+
+            <element skin="@btn_center1_trislice" preferredWidth="1120" preferredHeight="118" anchorY="50" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+                <element name="title" skin="@oswald_bold_85_basic_drevo1" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="8"/>
+            </element>
+
+        </element>
+    </element>
+</element>

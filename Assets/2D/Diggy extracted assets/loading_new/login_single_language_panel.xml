@@ -1,0 +1,9 @@
+<element preferredWidth="400" preferredHeight="84">
+    <!-- SELECTED BACKGROUND -->
+    <element skin="@preloader_highlight" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="-5" anchorX="-10"
+             visible="false" visible.selected="true">
+    </element>
+    <!-- LANGUAGE TEXT -->
+    <element name="language_txt" skin="@bold_32_white_at" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="0" anchorY="0"/>
+    <element name="hit_area" skin="@invisible" preferredWidth="400" preferredHeight="84"/>
+</element>

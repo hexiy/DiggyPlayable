@@ -1,0 +1,28 @@
+
+npc_standard_tut18_godchild_2_spine.png
+size: 128,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Godchild_patron_water_content_Godchild_patron_water_telo
+  rotate: false
+  xy: 1, 1
+  size: 34, 46
+  orig: 34, 46
+  offset: 0, 0
+  index: -1
+Symbol1_Layer_1
+  rotate: false
+  xy: 37, 1
+  size: 51, 13
+  orig: 51, 13
+  offset: 0, 0
+  index: -1
+Godchild_patron_water_main_Layer_3
+  rotate: false
+  xy: 90, 1
+  size: 35, 8
+  orig: 35, 8
+  offset: 0, 0
+  index: -1
+

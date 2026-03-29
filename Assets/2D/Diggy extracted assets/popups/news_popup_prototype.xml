@@ -1,0 +1,38 @@
+<element name="black_screen" skin="@black" anchorTop="0" anchorBottom="1" mouseUp="backMouseUp_handler">
+    <element name="popup_body" preferredWidth="1400" preferredHeight="1120" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+
+        <!-- pozadie popupu -->
+        <element skin="@bg_brown" preferredWidth="1400" preferredHeight="1120" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+
+        <element preferredWidth="1400" preferredHeight="1120" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" name="content_holder">
+            <element skin="@middle_popup" preferredWidth="1330" preferredHeight="1040" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="15" anchorY="15"/>
+            <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="100">
+                <element name="image" skin="@asset" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"/>
+                <element name="text" skin="@popup_medium_brown_autosize_off_valign" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="535" preferredWidth="1200" preferredHeight="430"/>
+            </element>
+
+            <element name="btn_open_link" skin="@button_green_01" skin.pressed="@button_green_02" anchorY="-90" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER"
+                     anchorX="-220" preferredWidth="378" preferredHeight="132">
+                <element name="btn_open_link_text" skin="@oswald_bold_85_basic_drevo1" anchorY="8" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+            </element>
+
+            <element name="btn_ok" skin="@button_brown_01" skin.pressed="@button_brown_02" anchorY="-90" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER"
+                     preferredWidth="378" preferredHeight="132">
+                <element name="btn_ok_text" skin="@oswald_bold_85_basic_drevo1" anchorY="8" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+            </element>
+
+            <element name="link" skin="@popup_medium_blue_autosize_off_valign" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-240"
+                     preferredWidth="1200" preferredHeight="100" visible="false" mouseUp="linkMouseUp_handler"/>
+
+            <element name="btn_seaport" anchorY="-90" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER"
+                     skin="@button_green_01" preferredWidth="380" visible="false">
+                <element name="btn_image" skin="@gem_icon" anchorY="-105"  anchorX="90"/>
+                <element name="btn_gems_text" skin="@shop_price_font" anchorY="-105" anchorX="35" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+                <element name="btn_seaport_text" skin="@oswald_bold_85_basic_drevo1" anchorY="8" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+            </element>
+
+            <element name="reward_holder" anchorY="-90" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" />
+
+        </element>
+    </element>
+</element>

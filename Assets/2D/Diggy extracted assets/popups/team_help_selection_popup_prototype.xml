@@ -1,0 +1,25 @@
+<element name="black_screen" skin="@shade_black" anchorTop="0" anchorBottom="1" mouseUp="backMouseUp_handler">
+    <element name="popup_body" preferredWidth="1324" preferredHeight="836" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true">
+        <element name="popup_bg" skin="@small_popup_bg" preferredWidth="1600" preferredHeight="850" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+<!--            <element skin="@small_popup_bg_divider" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="110" preferredWidth="1600"/>-->
+
+            <element anchorTop="0" anchorBottom="1" anchorLeft="0" anchorRight="1" mouseDown="scrollHelpSelectMouseDown_handler">
+                <element name="team_help_select_scrollable_part_holder" skin="@black_bg" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="1400" preferredHeight="700" anchorX="0" anchorY="30">
+                    <element name="team_help_select_scrollable_mask_wrapper" anchorAlign="TOP_CENTER" preferredWidth="1400" preferredHeight="700" anchorX="-700" anchorY="0">
+                        <element name="team_help_select_scrollable_holder" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" preferredWidth="1400" preferredHeight="700" anchorX="0" anchorY="0"/>
+                    </element>
+                </element>
+            </element>
+            <element name="team_help_select_btn" skin="@btn_green_01" visible="false" visible.help_selected="true" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="35" preferredHeight="150" preferredWidth="250" mouseChildren="false">
+                <element name="team_help_select_btn_label" skin="@oswald_bold_85_basic_drevo1" model="#GUI3233" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true" anchorY="-10"/>
+            </element>
+            <element name="team_help_select_hint" skin="@team_body_font" visible="true" visible.help_selected="false" preferredHeight="120" preferredWidth="500" anchorX.is_time_limited="120" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="15"/>
+            <element name="team_help_time_limited_info_element" visible="false" visible.is_time_limited="true" visible.is_not_time_limited="false" skin="@light_blue_bg" preferredHeight="166" preferredWidth="486" anchorAlign="BOTTOM_LEFT" pivotAlign="BOTTOM_LEFT" anchorX="16" anchorY="16">
+                <element name="team_help_time_limited_info_element_label" preferredWidth="340" preferredHeight="60" skin="@oswald_bold_1_lblue_af" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="-34" anchorX="-42" flushBatch="true"/>
+                <element name="team_help_time_limited_info_element_time" preferredWidth="340" preferredHeight="60" skin="@oswald_bold_1_lblue_af" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="26" anchorX="-42" flushBatch="true"/>
+                <element name="team_help_time_limited_info_element_logo" preferredWidth="120" preferredHeight="180" skin="@tiny_clock_logo" anchorAlign="MIDDLE_RIGHT" pivotAlign="MIDDLE_RIGHT" anchorX="20"/>
+            </element>
+            <element name="btn_close" skin="@preloader_production_cancel_icon" visible="true" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" anchorX="50" anchorY="-50"/>
+        </element>
+    </element>
+</element>

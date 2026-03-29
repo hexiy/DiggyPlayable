@@ -1,0 +1,10 @@
+<element name="black_screen" skin="@black" anchorTop="0" anchorBottom="1" mouseUp="okMouseUp_handler">
+    <element name="popup_body" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="1000" preferredHeight="930">
+        <element name="spine" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="-118"/>
+        <element preferredWidth="1000" preferredHeight="300" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER">
+            <element skin="@pantheon_bg_text" anchorLeft="0" anchorTop="0" anchorRight="1" anchorBottom="1"/>
+            <element name="panteonTitle" skin="@popup_medium_white" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="42"/>
+            <element name="panteonDesc" skin="@popup_small_ml_white" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="850" preferredHeight="200" anchorY="96"/>
+        </element>
+    </element>
+</element>

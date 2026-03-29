@@ -1,0 +1,52 @@
+<element name="black_screen" skin="@black" anchorTop="0" anchorBottom="1">
+    <!-- 2 popup states: video / noVideo -->
+    <element name="popup_body" skin="@middle_popup" preferredWidth="860" preferredHeight="300" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" mouseUp="buttonRestored_handler">
+        <element alpha.videoInProgress="0.5" alpha.videoNotInProgress="1.0" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredHeight="300" anchorY="-60">
+
+            <!-- title -->
+            <element name="name" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="10" preferredWidth="1400">
+                <element name="txt_name" skin="@popup_medium_brown_autosize_off" preferredHeight="180"  preferredWidth="1300" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true" />
+            </element>
+
+            <element preferredWidth="380" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" anchorX="0">
+                <element name="rewardsLeft" anchorY="62" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+                    <p:layout><horizontal gap="0"/></p:layout>
+                </element>
+            </element>
+
+            <element name="rewards" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="62">
+                <p:layout><horizontal gap="5"/></p:layout>
+            </element>
+
+            <element preferredWidth="380" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT">
+                <element name="rewardsRight" anchorY="62" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+                    <p:layout><horizontal gap="0"/></p:layout>
+                </element>
+            </element>
+
+            <!-- Video button-->
+            <element visible.video="true" visible.noVideo="false"
+                     name="videoButtonHolder" preferredWidth="360" preferredHeight="130" anchorY="195"
+                     anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" flushBatch="true" anchorX="-160"/>
+
+            <!-- CLAIM reward buton -->
+            <element name="btn_claim" skin="@button_brown_01" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER"
+                     preferredWidth.noVideo="340" preferredWidth.video="260"
+                     preferredHeight.noVideo="130" preferredHeight.video="110"
+                     anchorY.noVideo="230" anchorY.video="192"
+                     anchorX.noVideo="0" anchorX.video="190">
+                <element name="txt_claim_label" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true"
+                         anchorY="4"
+                         skin.bigClaimVideo  ="@oswald_bold_75_basic_drevo1_af" skin.smallClaimVideo  ="@oswald_bold_65_basic_drevo1_af"
+                         skin.bigClaimNoVideo="@oswald_bold_85_basic_drevo1_af" skin.smallClaimNoVideo="@oswald_bold_75_basic_drevo1_af"
+                         preferredWidth.noVideo="310"  preferredWidth.video="230"
+                         preferredHeight.noVideo="130" preferredHeight.video="110"/>
+            </element>
+
+        </element>
+
+        <!-- HOURGLASS - waiting for video response -->
+        <element name="sand_glass" skin="@sand_glass" visible="false" visible.videoInProgress="true" visible.videoNotInProgress="false"
+                 anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="0" anchorY="0" preferredWidth="128" preferredHeight="234"/>
+    </element>
+</element>

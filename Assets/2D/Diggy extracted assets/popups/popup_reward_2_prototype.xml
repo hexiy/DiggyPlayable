@@ -1,0 +1,11 @@
+<element preferredWidth="150" preferredHeight="400" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER">
+    <element name="rewardImage" skin="@asset" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-50"/>
+    <element name="text" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER">
+        <p:layout><horizontal gap="10"/></p:layout>
+        <element name="rewardAmount" skin="@popup_small_brown" skin.big="@popup_medium_brown" visible="true" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY.big="20"/>
+        <element name="rewardGraphicsWrapper" preferredWidth="100" preferredHeight="100" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-5">
+            <element name="rewardGraphics" skin.regen="@hud_regen" skin.storage="@hud_storage" skin.energy="@ico_energy" visible="true" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+        </element>
+        <element name="rewardValue" skin="@popup_small_brown" skin.big="@popup_medium_brown" visible="true" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY.big="20"/>
+    </element>
+</element>

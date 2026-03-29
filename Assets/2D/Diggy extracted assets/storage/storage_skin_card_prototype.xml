@@ -1,0 +1,48 @@
+<element skin.selected="@middle_popup" skin.notselected="@middle_popup_alpha"
+		 preferredWidth.selected="530" preferredHeight.selected="956"
+		 preferredWidth="530" preferredHeight="956"
+		 preferredWidth.notselected="530" preferredHeight.notselected="734">
+	<element anchorX="-20" preferredWidth.selected="530" preferredHeight.selected="956"
+		 	 preferredWidth.notselected="530" preferredHeight.notselected="734">
+
+		<!-- NAME -->
+		<element name="name" skin="@shop_item_name_font_mobile" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"
+				 anchorY="20" preferredWidth.selected="450" preferredHeight.selected="150"
+				 preferredWidth.notselected="390" preferredHeight.notselected="100"/>
+
+		<!-- TESTER LABEL SKIN ID -->
+		<element name="testerLabel" skin="@shop_extras_tester_font" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"
+				 anchorY="80" preferredWidth.selected="450" preferredHeight.selected="150"
+				 preferredWidth.notselected="390" preferredHeight.notselected="100"/>
+
+		<!-- LINE -->
+		<element preferredWidth.selected="450" preferredWidth.notselected="400" skin="@shop_line1_small"
+				 pivotAlign="TOP_CENTER" anchorAlign="TOP_CENTER"
+				 anchorY.selected="170" anchorY.notselected="120"/>
+
+		<!-- IMAGE -->
+		<element name="image" skin="@asset"
+				 pivotAlign="MIDDLE_CENTER" anchorAlign="MIDDLE_CENTER" flushBatch="true"/>
+
+		<!-- LINE -->
+		<element preferredWidth.selected="450" preferredWidth.notselected="400" skin="@shop_line1_small"
+				 anchorY.notselected="-170" anchorY.selected="-200" pivotAlign="BOTTOM_CENTER" anchorAlign="BOTTOM_CENTER"/>
+
+		<element name="limitReached" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorX="140" anchorY="-230"
+				 skin="@shop_limit_reached_small" visible.selected="true" visible.notselected="false" />
+
+		<!-- BUTTON -->
+		<element name="buttonUse" mouseChildren="false" skin="@btn_blue" preferredWidth="340" preferredHeight="142"
+				 anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-10"
+				 mouseUp="diggySkinUseUp_handler"
+				 visible.selected="false" visible.notselected="true">
+			<element name="buttonLabel" skin="@oswald_bold_85_basic_drevo1"
+					 anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="0"/>
+		</element>
+
+		<!-- IN USE -->
+		<element model="#WGL075" skin="@shop_item_name_font" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER"
+				 anchorY="0" preferredWidth.selected="530" preferredHeight="142" preferredWidth.notselected="420"
+				 visible.selected="true" visible.notselected="false"/>
+	</element>
+</element>

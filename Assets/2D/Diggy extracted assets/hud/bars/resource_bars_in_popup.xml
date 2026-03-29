@@ -1,0 +1,19 @@
+<element anchorLeft="0" anchorRight="1" anchorTop="1" anchorBottom="1" >
+
+    <element name="top_left_part" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" anchorY="15">
+        <element name="top_exp_energy_wrapper">
+            <element name="top_exp_wrapper" anchorX="51" preferredWidth="263" />
+            <element name="top_energy_wrapper" anchorX="361" preferredWidth="410" />
+            <element name="top_tower_energy_wrapper" anchorX="51" preferredWidth="410" />
+        </element>
+    </element>
+
+    <element name="top_right_part" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" anchorY="15" >
+        <element name="top_coins_gems_wrapper" preferredWidth="734" pivotAlign="TOP_RIGHT" anchorAlign="TOP_RIGHT">
+            <element name="top_coins_wrapper" preferredWidth="340" anchorX="-60"/>
+            <element name="top_gems_wrapper" preferredWidth="250" anchorX="342"/>
+            <element name="top_tower_crowns_wrapper" preferredWidth="250" anchorX="372" />
+            <element name="top_tower_coins_wrapper" preferredWidth="340" anchorX="-10"/>
+        </element>
+    </element>
+</element>

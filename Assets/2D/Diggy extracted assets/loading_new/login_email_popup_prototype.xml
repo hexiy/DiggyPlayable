@@ -1,0 +1,37 @@
+<element name="black_screen" mouseUp="backMouseUp_handler" skin="@black" anchorTop="0" anchorBottom="1">
+	<!-- BACKGROUND -->
+	<element name="popup_body" skin="@preloader_login_screen_BG2" preferredWidth="1320" preferredHeight="900" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="-25">
+		<!-- SIGN IN WITH EMAIL TO LOAD YOUR PROGRESS: -->
+		<element name="header_txt" skin="@bold_32_white_af_center" preferredWidth="1200" preferredHeight="200" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="100" flushBatch="true"/>
+
+		<!-- EMAIL INPUT -->
+		<element skin="@login_input_bg" name="email_input" preferredWidth="500" anchorAlign="TOP_CENTER" pivotAlign="TOP_RIGHT" anchorY="250" anchorX="-30">
+			<element anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT" anchorX="20">
+				<element name="email_txt" model="EMAIL" skin="@bold_40_black_at" anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT" anchorY="10" flushBatch="true"/>
+			</element>
+		</element>
+
+		<!-- PASSWORD INPUT -->
+		<element skin="@login_input_bg" name="password_input" preferredWidth="500" anchorAlign="TOP_CENTER" pivotAlign="TOP_LEFT" anchorY="250" anchorX="30">
+			<element anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT" anchorX="20">
+				<element name="password_txt" model="PASSWORD" skin="@bold_40_black_at" anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT" anchorY="10" flushBatch="true"/>
+			</element>
+		</element>
+
+		<!-- SHOW PASSWORD BUTTON-->
+		<element skin="@invisible" name="showPassword_btn" preferredWidth="100" preferredHeight="100" anchorAlign="TOP_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="470" anchorY="296" mouseChildren="false">
+			<element skin="@eye_password_crossed" skin.showPassword="@eye_password" name="showPassword_btn" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+		</element>
+
+		<!-- PLAY BUTTON with text -->
+		<element skin="@preloader_play_btn" name="play_btn" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="210" mouseChildren="false">
+			<element name="play_btn_txt" model="#WPP01" skin="@bold_64_dgreen_at" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="20" flushBatch="true"/>
+		</element>
+	</element>
+	<!-- BACK BUTTON -->
+	<element skin="@preloader_button_wood" name="back_btn" mouseChildren="false" anchorAlign="BOTTOM_LEFT" pivotAlign="BOTTOM_LEFT" anchorY="0" anchorX="0">
+		<element anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+			<element skin="@preloader_arrow" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="0"/>
+		</element>
+	</element>
+</element>

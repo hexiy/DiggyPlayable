@@ -1,0 +1,171 @@
+<element anchorLeft="0" anchorRight="1" anchorTop="1" anchorBottom="1">
+	<element name="bottomShadow" preferredWidth="5000" preferredHeight="100" skin="@bottom_hud_bg" anchorX="0" anchorY="0" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" mouseEnabled="false"/>
+
+	<!-- LEFT BUTTONS -->
+	<element pivotAlign="BOTTOM_LEFT" anchorAlign="BOTTOM_LEFT"
+			 anchorX.notch="80" anchorX.right_notch="29" anchorX.no_notch="29" anchorY="-12">
+
+		<!-- TOWER SHOP -->
+		<element name="tower_shop" skin="@invisible" pivotAlign="BOTTOM_LEFT" anchorAlign="BOTTOM_LEFT" anchorY="20" anchorX="25" preferredWidth="200" preferredHeight="191" mouseChildren="false">
+			<element skin="@btn_purple_narrow_big" preferredWidth="200" preferredHeight="191" flushBatch="true">
+				<element name="icon" skin="@bottom_shop_icon" pivotAlign="TOP_CENTER" anchorAlign="TOP_CENTER" anchorX="0" anchorY="-10"/>
+				<element name="towerShopButton_label" skin="@typeface_54_white_center_bottom" preferredWidth="165" preferredHeight="60" anchorY="-35" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER"
+						 model="#GUI0022" flushBatch="true" anchorX="-5"/>
+			</element>
+		</element>
+
+		<!-- SHOP -->
+		<element pivotAlign="BOTTOM_LEFT" anchorAlign="BOTTOM_LEFT" anchorY="20" anchorX="25" preferredWidth="200" preferredHeight="191" visible.show_storage_button_only="false" visible.normal_storage_button="true">
+			<element skin="@btn_blue_narrow_big" name="shop" pivotAlign="MIDDLE_CENTER" anchorAlign="MIDDLE_CENTER" preferredWidth="200" preferredHeight="191" mouseChildren="false">
+				<element name="icon" skin="@bottom_shop_icon" pivotAlign="TOP_CENTER" anchorAlign="TOP_CENTER" anchorX="0" anchorY="-10" flushBatch="true"/>
+				<element name="shopButton_label" skin="@typeface_54_white_center_bottom" preferredWidth="185" preferredHeight="60" anchorY="-30" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER"
+						 model="#GUI0022" flushBatch="true" anchorX="-5"/>
+
+				<element name="shopNotification" skin="@event_pass_badge" anchorAlign="TOP_LEFT" pivotAlign="MIDDLE_CENTER" preferredWidth="63" preferredHeight="63" anchorY="10" anchorX="20">
+					<element name="shopNotificationTxt" skin="@typeface_36_white_center_middle" pivotAlign="MIDDLE_CENTER" anchorAlign="MIDDLE_CENTER" flushBatch="true" preferredHeight="55" preferredWidth="105" anchorY="5" model="!"/>
+				</element>
+			</element>
+
+		</element>
+
+		<!-- STORAGE -->
+		<element pivotAlign="BOTTOM_LEFT" anchorAlign="BOTTOM_LEFT" anchorY="20" anchorX="260" preferredWidth="200" preferredHeight="153" visible.show_storage_button_only="true" visible.normal_storage_button="true">
+			<element name="storage" skin="@btn_blue_narrow_big" pivotAlign="MIDDLE_CENTER" anchorAlign="MIDDLE_CENTER" preferredWidth="200" preferredHeight="153" mouseChildren="false">
+				<element name="icon" skin="@bottom_storage_icon" pivotAlign="TOP_CENTER" anchorAlign="TOP_CENTER" anchorX="0" anchorY="-14"/>
+				<element name="storageButton_label" skin="@typeface_54_white_center_bottom" preferredWidth="185" preferredHeight="60" anchorY="-30" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER"
+						 model="#GUI0021" flushBatch="true" anchorX="-5"/>
+			</element>
+		</element>
+	</element>
+
+	<!-- RIGHT BUTTONS -->
+	<element pivotAlign="BOTTOM_RIGHT" anchorAlign="BOTTOM_RIGHT"
+			 anchorX.notch="-29" anchorX.right_notch="-80" anchorX.no_notch="-29" anchorY="-12" visible.show_storage_button_only="false" visible.normal_storage_button="true">
+		<!-- MAP -->
+		<element name="map" skin="@btn_blue_narrow_big" pivotAlign="BOTTOM_RIGHT" anchorAlign="BOTTOM_RIGHT" anchorY="20" anchorX="-260" preferredWidth="200" preferredHeight="153" mouseChildren="false">
+			<element name="icon" skin="@bottom_map_icon" pivotAlign="TOP_CENTER" anchorAlign="TOP_CENTER" anchorX="0" anchorY="-10"/>
+			<element name="mapButton_label" skin="@typeface_54_white_center_bottom" preferredWidth="185" preferredHeight="60" anchorY="-30" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER"
+					 model="#GUI0017" flushBatch="true" anchorX="-8"/>
+		</element>
+
+		<!-- QUESTS -->
+		<element name="btn_quest_holder" pivotAlign="BOTTOM_RIGHT" anchorAlign="BOTTOM_RIGHT" anchorY="20" anchorX="-25" preferredWidth="200" preferredHeight="191" >
+		<element name="quest" skin="@btn_orange_narrow_big" anchorY="0" anchorX="0" pivotAlign="MIDDLE_CENTER" anchorAlign="MIDDLE_CENTER" preferredWidth="200" preferredHeight="191" mouseChildren="false">
+			<element name="quest_icon" skin="@bottom_quests_icon" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-90"/>                <!-- 104 x 111-->
+			<element name="questNoteHolder" visible="false" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" anchorX="15" anchorY="-10" preferredWidth="45" preferredHeight="45">
+				<element name="questNote" skin="@event_pass_badge" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1" flushBatch="true"/>
+				<element model="!" skin="@typeface_36_white_center_bottom" preferredWidth="45" preferredHeight="45" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true"/>
+			</element>
+			<element name="questButton_label" skin="@typeface_54_white_center_bottom" preferredWidth="185" preferredHeight="60" anchorY="-30" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER"
+					 model="#SHME50" flushBatch="true" anchorX="-8"/>
+			<element anchorAlign="TOP_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-15" preferredWidth="250" preferredHeight="130">
+				<element name="questProgressNote" skin="@notif_bg" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1" visible="false">
+					<element anchorX="20" anchorY="15">
+						<p:layout><horizontal gap="0"/></p:layout>
+						<element preferredWidth="100" preferredHeight="100">
+							<element name="notif_quest_progress_icon" skin="@asset" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"
+									 anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+						</element>
+						<element>
+							<element name="notif_quest_progress_txt" skin="@oswald_bold_85" anchorY="30" flushBatch="true"/>
+							<element name="notif_quest_progress_completed" skin="@camp_ui_progress_bar_done"/>
+						</element>
+					</element>
+				</element>
+			</element>
+		</element>
+		</element>
+
+		<!-- TOWER LEADERBOARD -->
+		<element name="tower_leaderboard" skin="@invisible" pivotAlign="BOTTOM_RIGHT" anchorAlign="BOTTOM_RIGHT" anchorY="20" anchorX="-20" preferredWidth="200" preferredHeight="191" mouseChildren="false">
+			<element name="tower_bg" skin="@btn_purple_narrow_big" preferredWidth="200" preferredHeight="191" flushBatch="true">
+				<element name="icon" skin="@ico_leaderboard" pivotAlign="TOP_CENTER" anchorAlign="TOP_CENTER" anchorX="0" anchorY="-10"/>
+				<element name="towerLeaderboardButton_label" skin="@typeface_54_white_center_bottom" preferredWidth="165" preferredHeight="60" anchorY="-45" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER"
+						 model="#GUI3876" flushBatch="true" anchorX="-5" />
+			</element>
+		</element>
+
+		<!-- TOWER PASS -->
+		<element name="towerPass" skin="@btn_round_brown" anchorX="-20" anchorY="-180" pivotX=".5" pivotY=".5" preferredWidth="152" preferredHeight="174" pivotAlign="BOTTOM_RIGHT" anchorAlign="BOTTOM_RIGHT" mouseChildren="false">
+			<element name="eventPassIcon" skin="@ico_tower_pass" preferredWidth="115" preferredHeight="148" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="-30"/>
+			<element anchorAlign="BOTTOM_LEFT" pivotAlign="BOTTOM_LEFT" name="eventPassXpBar_bg" skin="@event_pass_button_xp_bg" preferredWidth="128" preferredHeight="21" anchorX="12" anchorY="-24"/>
+			<element anchorAlign="BOTTOM_LEFT" pivotAlign="BOTTOM_LEFT" name="eventPassXpBar"  preferredHeight="17" anchorX="14" anchorY="-26" preferredWidth="1">
+				<element skin="@towerpass_bar_fill" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+			</element>
+
+			<element name="towerPassNotification" skin="@event_pass_badge" anchorAlign="TOP_RIGHT" pivotAlign="MIDDLE_CENTER" preferredWidth="63" preferredHeight="63" anchorY="10" anchorX="-5">
+				<element name="towerPassNotificationTxt" skin="@oswald_bold_60_basic_drevo1_autosize_false" pivotAlign="MIDDLE_CENTER" anchorAlign="MIDDLE_CENTER" flushBatch="true" preferredHeight="55" preferredWidth="105" anchorY="5"/>
+			</element>
+		</element>
+	</element>
+
+	<!-- MIDDLE BUTTONS -->
+	<element name="bottomMenu" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" preferredWidth="920" preferredHeight="120"
+			 anchorX.mid_no_offset="0" anchorX.mid_right_offset="-40" anchorX.mid_left_offset="40" visible.show_storage_button_only="false" visible.normal_storage_button="true"
+			 anchorY.no_bottom_notch="10" anchorY.bottom_notch="-25">
+		<element name="city" skin.city="@new_tab_selected" skin="@new_tab" mouseChildren="false"
+				 preferredWidth="310" preferredHeight="150" anchorY.city="-5" anchorY="0" anchorX="0">
+			<element preferredWidth="310" preferredHeight="120">
+				<element name="icon" skin="@bottom_city_icon" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER"
+						 anchorY.city="-50" anchorY.default-camp-mine-map="-20" flushBatch="true"/>
+				<element name="cityButton_label" skin.initFont="@typeface_54_white_center_bottom" preferredWidth="280" preferredHeight="60" anchorY="-2" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" model="#GUI0024" flushBatch="true"
+						 visible.default-camp-mine-map="false" visible.city="true"/>
+			</element>
+		</element>
+		<!-- don't rename "camp" button name - used in camp and also in tutorial definition for UI unlock and hand / arrows-->
+		<element name="camp" skin.camp_upper="@new_tab_selected" skin="@new_tab" mouseChildren="false"
+				 preferredWidth="310" preferredHeight="150" anchorY.camp_upper="-5" anchorY="0" anchorX="305">
+			<element preferredWidth="310" preferredHeight="120">
+				<element name="camp_icon" skin="@bottom_camp_icon" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER"
+						 anchorY.camp_upper="-50" anchorY.default-city-mine-map="-20" flushBatch="true"/>
+
+				<element name="rewardNote" skin="@notif_bg" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-15" visible="false">
+					<element skin="@notif_reward" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="20"/>
+				</element>
+				<element name="prodNote" skin="@notif_bg" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-15" visible="false">
+					<element skin="@notif_production" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="10"/>
+				</element>
+				<element name="campNoteHolder" visible="false" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" anchorX="0" anchorY="-10" preferredWidth="45" preferredHeight="45">
+					<element name="campNote" skin="@event_pass_badge" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1" flushBatch="true"/>
+					<element model="!" skin="@typeface_36_white_center_bottom" preferredWidth="45" preferredHeight="45" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true"/>
+				</element>
+				<element name="campButton_label" skin.initFont="@typeface_54_white_center_bottom" preferredWidth="280" preferredHeight="60" anchorY="-2" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" model="#GUI0049" flushBatch="true"
+						 visible.default-city-mine-map="false" visible.camp_upper="true"/>
+			</element>
+		</element>
+		<element name="event" skin="@new_tab"  mouseChildren="false"
+				 preferredWidth="310" preferredHeight="150" anchorY="-5" anchorX="305">
+			<element preferredWidth="310" preferredHeight="120">
+				<element name="event_icon" skin="@hud_icon_builder_event" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-30"  flushBatch="true"/>
+				<element name="eventButton_label" skin="@typeface_26_white_at" pivotAlign="BOTTOM_CENTER" anchorAlign="BOTTOM_CENTER" model=""
+						 anchorX="35" anchorY="20" preferredWidth="280" preferredHeight="60" flushBatch="true"  visible="true"/>
+			</element>
+		</element>
+
+		<!-- TOWER -->
+		<element name="tower" skin="@btn_purple_narrow_big"  mouseChildren="false"
+				 preferredWidth="310" preferredHeight="180" anchorY="-5" anchorX="305">
+			<element preferredWidth="310" preferredHeight="120">
+				<element name="icon" skin="@ico_tower" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-60"  flushBatch="true"/>
+				<element name="towerButton_label" skin="@typeface_43_white_center_bottom" pivotAlign="BOTTOM_CENTER" anchorAlign="BOTTOM_CENTER"
+						 anchorX="0" anchorY="0" preferredWidth="280" preferredHeight="50" flushBatch="true"  visible="true"/>
+			</element>
+		</element>
+
+		<element name="mine" skin.mine="@new_tab_selected" skin="@new_tab" mouseChildren="false"
+				 preferredWidth="310" preferredHeight="150" anchorY.mine="-5" anchorY="0" anchorX="610">
+			<element preferredWidth="310" preferredHeight="120">
+				<element name="mine_icon" skin="@bottom_mine_icon" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER"
+						 anchorY.mine="-50" anchorY.default-camp-city-map="-20" flushBatch="true"/>
+				<element name="mineNote" skin="@bottom_quests_notification" pivotAlign="MIDDLE_CENTER" visible="false" anchorX="80" anchorY="20"/>
+				<element name="mineNoteLight" skin="@bottom_quests_notification_highlight" alpha="0" pivotAlign="MIDDLE_CENTER" visible="false" anchorX="80" anchorY="20"/>
+				<element name="mineButton_label" skin.initFont="@typeface_54_white_center_bottom" preferredWidth="280" preferredHeight="60" anchorY="-2" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" model="#GUI0050" flushBatch="true"
+						 visible.default-camp-city-map="false" visible.mine="true"/>
+				<element name="mineNoteHolder" visible="false" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" anchorX="0" anchorY="-10" preferredWidth="45" preferredHeight="45">
+					<element name="campNote" skin="@event_pass_badge" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1" flushBatch="true"/>
+					<element model="!" skin="@typeface_36_white_center_bottom" preferredWidth="45" preferredHeight="45" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true"/>
+				</element>
+			</element>
+		</element>
+	</element>
+</element>

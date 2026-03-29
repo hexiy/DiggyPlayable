@@ -1,0 +1,28 @@
+<data>
+    <textureSkin id="production_caravan_buy_mars" texture="@production_caravan_buy_mars" scaleX="2" scaleY="2"/>
+    <textureSkin id="production_caravan_idle_mars" texture="@production_caravan_idle_mars" scaleX="2" scaleY="2"/>
+
+    <textureSkin id="production_caravan_buy_amazon" texture="@production_caravan_buy_amazon" scaleX="2" scaleY="2"/>
+    <textureSkin id="production_caravan_idle_amazon" texture="@production_caravan_idle_amazon" scaleX="2" scaleY="2"/>
+
+    <textureSkin id="production_caravan_buy_atlantis" texture="@production_caravan_buy_atlantis" scaleX="2" scaleY="2"/>
+    <textureSkin id="production_caravan_idle_atlantis" texture="@production_caravan_idle_atlantis" scaleX="2" scaleY="2"/>
+
+    <textureSkin id="production_caravan_buy_china" texture="@production_caravan_buy_china" scaleX="2" scaleY="2"/>
+    <textureSkin id="production_caravan_idle_china" texture="@production_caravan_idle_china" scaleX="2" scaleY="2"/>
+
+    <textureSkin id="production_caravan_buy_egypt" texture="@production_caravan_buy_egypt" scaleX="2" scaleY="2"/>
+    <textureSkin id="production_caravan_idle_egypt" texture="@production_caravan_idle_egypt" scaleX="2" scaleY="2"/>
+
+    <textureSkin id="production_caravan_buy_greece" texture="@production_caravan_buy_greece" scaleX="2" scaleY="2"/>
+    <textureSkin id="production_caravan_idle_greece" texture="@production_caravan_idle_greece" scaleX="2" scaleY="2"/>
+
+    <textureSkin id="production_caravan_buy_terra" texture="@production_caravan_buy_terra" scaleX="2" scaleY="2"/>
+    <textureSkin id="production_caravan_idle_terra" texture="@production_caravan_idle_terra" scaleX="2" scaleY="2"/>
+
+    <textureSkin id="production_caravan_buy_valhalla" texture="@production_caravan_buy_valhalla" scaleX="2" scaleY="2"/>
+    <textureSkin id="production_caravan_idle_valhalla" texture="@production_caravan_idle_valhalla" scaleX="2" scaleY="2"/>
+
+    <textureSkin id="production_caravan_buy_india" texture="@production_caravan_buy_india" scaleX="2" scaleY="2"/>
+    <textureSkin id="production_caravan_idle_india" texture="@production_caravan_idle_india" scaleX="2" scaleY="2"/>
+</data>

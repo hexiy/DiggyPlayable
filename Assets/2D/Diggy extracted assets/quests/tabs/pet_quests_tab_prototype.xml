@@ -1,0 +1,31 @@
+<element name="pet_quests_tab" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1" visible="false" visible.inactive="false"  visible.active="true">
+    <element visible="true" visible.noQuests="false" preferredWidth="1920" preferredHeight="800" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+        <element name="quests_scrollable_list_mask" preferredWidth="1660" preferredHeight="910" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" anchorX="145" mouseDown="scrollMouseDown_handler" useMask="true">
+            <element name="quests_scrollable_list_holder" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="1660" preferredHeight="0">
+                <element name="quests_scrollable_list" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="1660" preferredHeight="0">
+                    <p:layout><vertical useChildrenWidth="true" gap="10"/></p:layout>
+                </element>
+            </element>
+        </element>
+    </element>
+
+    <element visible="false" visible.noQuests="true" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1">
+        <element name="no_quest_wrapper" preferredWidth="900" preferredHeight="310" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" >
+            <element preferredWidth="300" preferredHeight="310" anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT" >
+                <element skin="@popup_quest" anchorLeft="0.1" anchorTop="0.1" anchorBottom="0.9" anchorRight="0.9" />
+            </element>
+            <element preferredWidth="1000" preferredHeight="330" anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT" anchorX="300">
+                <element name="no_quests_title" skin="@typeface_62_white_at" preferredWidth="1000" preferredHeight="100" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" model="CONGRATULATIONS!"/>
+                <element name="no_quests_description" skin="@typeface_36_white_left_top" preferredWidth="1000" preferredHeight="120" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" anchorY="80" model="All adventures in EGYPT are completed!"/>
+                <element name="no_quests_action_button" preferredWidth="380" preferredHeight="130" anchorAlign="BOTTOM_LEFT" pivotAlign="BOTTOM_LEFT">
+                    <element skin="@btn_orange_narrow" anchorLeft="0"  anchorTop="0" anchorRight="1" anchorBottom="1" />
+                    <element name="no_quests_action_button_text" skin="@typeface_48_white_center_middle" preferredWidth="360" preferredHeight="110" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" anchorX="10" model="GO TO MAP!"/>
+                </element>
+
+                <element name="cant_enter_city_text" skin="@typeface_36_white_left_top" visible="false" visible.cantEnterCity="true" preferredWidth="500" preferredHeight="130" anchorAlign="BOTTOM_LEFT" pivotAlign="BOTTOM_LEFT" model="All adventures in EGYPT are completed!"/>
+            </element>
+
+        </element>
+    </element>
+
+</element>

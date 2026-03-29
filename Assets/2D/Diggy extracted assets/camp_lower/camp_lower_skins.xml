@@ -1,0 +1,76 @@
+<!--	UI SKIN DEFINITIONS FILE 	-->
+<data>
+
+    <fontSkin id="camp_building_storage_font" font="@oswald_bold" autoSize="true" color="0x48bbfa" fontScale=".8"/>
+    <fontSkin id="camp_building_regen_font" font="@oswald_bold" autoSize="true" color="0xa5ed35" fontScale=".8"/>
+    <fontSkin id="camp_building_minus_regen_font" font="@oswald_bold" autoSize="true" color="0x67841e" fontScale=".7"/>
+    <fontSkin id="camp_building_minus_storage_font" font="@oswald_bold" autoSize="true" color="0x396b80" fontScale=".7"/>
+
+    <fontSkin id="camp_lower_info_text_font" font="@oswald_bold" autoSize="true" color="0x0" fontScale=".8" hAlign="CENTER"/>
+    <fontSkin id="camp_lower_info_text_font_brown" font="@oswald_bold" autoSize="true" color="0x5A3A11" fontScale=".8" hAlign="CENTER"/>
+    <fontSkin id="camp_lower_info_text_red_font" font="@oswald_bold" autoSize="true" red="1" green="0" blue="0" fontScale=".8" hAlign="CENTER"/>
+
+    <textureSkin id="camp_lower_bg" texture="@camp_lower_bg"/>
+    <textureSkin id="camp_lower_buildline_size2_end1" texture="@camp_lower_buildline_size2_end1"/>
+    <textureSkin id="camp_lower_buildline_size2_end2" texture="@camp_lower_buildline_size2_end2"/>
+    <textureSkin id="camp_lower_buildline_size2" texture="@camp_lower_buildline_size2"/>
+    <textureSkin id="camp_lower_buildline_size2_highlight" texture="@camp_lower_buildline_size2_highlight"/>
+    <textureSkin id="camp_lower_size2_highlight" texture="@camp_lower_size2_highlight"/>
+    <textureSkin id="camp_lower_debris_size2" texture="@camp_lower_debris_size2"/>
+    <textureSkin id="camp_lower_debris_size2_highlight" texture="@camp_lower_debris_size2_highlight"/>
+    <textureSkin id="camp_lower_debris_tresure_size2" texture="@camp_lower_debris_tresure_size2"/>
+    <textureSkin id="camp_lower_debris_tresure_size2_highlight" texture="@camp_lower_debris_tresure_size2_highlight"/>
+    <textureSkin id="camp_lower_buildline_size3_end1" texture="@camp_lower_buildline_size3_end1"/>
+    <textureSkin id="camp_lower_buildline_size3_end2" texture="@camp_lower_buildline_size3_end2"/>
+    <textureSkin id="camp_lower_buildline_size3" texture="@camp_lower_buildline_size3"/>
+    <textureSkin id="camp_lower_buildline_size3_highlight" texture="@camp_lower_buildline_size3_highlight"/>
+    <textureSkin id="camp_lower_size3_highlight" texture="@camp_lower_size3_highlight"/>
+    <textureSkin id="camp_lower_debris_size3" texture="@camp_lower_debris_size3"/>
+    <textureSkin id="camp_lower_debris_size3_highlight" texture="@camp_lower_debris_size3_highlight"/>
+    <textureSkin id="camp_lower_debris_tresure_size3" texture="@camp_lower_debris_tresure_size3"/>
+    <textureSkin id="camp_lower_debris_tresure_size3_highlight" texture="@camp_lower_debris_tresure_size3_highlight"/>
+    <textureSkin id="camp_lower_buildline_size4_end1" texture="@camp_lower_buildline_size4_end1"/>
+    <textureSkin id="camp_lower_buildline_size4_end2" texture="@camp_lower_buildline_size4_end2"/>
+    <textureSkin id="camp_lower_buildline_size4" texture="@camp_lower_buildline_size4"/>
+    <textureSkin id="camp_lower_buildline_size4_highlight" texture="@camp_lower_buildline_size4_highlight"/>
+    <textureSkin id="camp_lower_size4_highlight" texture="@camp_lower_size4_highlight"/>
+    <textureSkin id="camp_lower_debris_size4" texture="@camp_lower_debris_size4"/>
+    <textureSkin id="camp_lower_debris_size4_highlight" texture="@camp_lower_debris_size4_highlight"/>
+    <textureSkin id="camp_lower_debris_tresure_size4" texture="@camp_lower_debris_tresure_size4"/>
+    <textureSkin id="camp_lower_debris_tresure_size4_highlight" texture="@camp_lower_debris_tresure_size4_highlight"/>
+    <textureSkin id="camp_lower_buildline_top" texture="@camp_lower_buildline_top"/>
+    <textureSkin id="camp_lower_info_tab" texture="@camp_lower_info_tab" sliceLeft="45" sliceRight="50"/>
+    <textureSkin id="camp_lower_pebbles1" texture="@camp_lower_pebbles1"/>
+    <textureSkin id="camp_lower_pebbles2" texture="@camp_lower_pebbles2"/>
+    <textureSkin id="camp_lower_pebbles3" texture="@camp_lower_pebbles3"/>
+    <textureSkin id="camp_lower_pebbles4" texture="@camp_lower_pebbles4"/>
+    <textureSkin id="camp_lower_arrow_down" texture="@camp_lower_arrow_down"/>
+    <textureSkin id="camp_lower_arrow_up" texture="@camp_lower_arrow_up"/>
+    <textureSkin id="camp_lower_top_over" texture="@camp_lower_top_over"/>
+    <textureSkin id="camp_lower_grid_highlight" texture="@camp_lower_grid_highlight"/>
+    <textureSkin id="camp_lower_confirm_btn" texture="@camp_lower_confirm_btn"/>
+    <textureSkin id="camp_lower_cancel_btn" texture="@camp_lower_cancel_btn"/>
+    <textureSkin id="camp_lower_sell_btn" texture="@camp_lower_sell_btn"/>
+    <textureSkin id="camp_lower_store_btn" texture="@camp_lower_store_btn"/>
+    <textureSkin id="camp_lower_parameter_minus_storage" texture="@camp_lower_parameter_minus_storage"/>
+    <textureSkin id="camp_lower_parameter_minus_regen" texture="@camp_lower_parameter_minus_regen"/>
+    <textureSkin id="camp_lower_parameter_minus_bg" texture="@camp_lower_parameter_minus_bg"/>
+    <textureSkin id="camp_lower_parameter_storage" texture="@camp_lower_parameter_storage"/>
+    <textureSkin id="camp_lower_parameter_regen" texture="@camp_lower_parameter_regen"/>
+    <textureSkin id="camp_lower_parameter_bg" texture="@camp_lower_parameter_bg"/>
+    <textureSkin id="camp_lower_btn_big" texture="@camp_lower_btn_big"/>
+    <textureSkin id="camp_lower_confirm_icon" texture="@camp_lower_confirm_icon"/>
+    <textureSkin id="camp_lower_unlock_icon" texture="@camp_lower_unlock_icon"/>
+    <textureSkin id="camp_lower_cancel_icon" texture="@camp_lower_cancel_icon"/>
+    <textureSkin id="camp_lower_debris_unlock" texture="@camp_lower_debris_unlock"/>
+    <textureSkin id="camp_lower_confirm_icon_inactive" texture="@camp_lower_confirm_icon_inactive"/>
+    <textureSkin id="camp_lower_circle_btn_bg" texture="@camp_lower_circle_btn_bg"/>
+    <textureSkin id="camp_lower_switch_btn_state1" texture="@camp_lower_switch_btn_state1"/>
+    <textureSkin id="camp_lower_switch_btn_state2" texture="@camp_lower_switch_btn_state2"/>
+    <textureSkin id="camp_lower_switch_btn_switcher" texture="@camp_lower_switch_btn_switcher"/>
+    <textureSkin id="camp_lower_switch_btn_dot" texture="@camp_lower_switch_btn_dot"/>
+    <textureSkin id="camp_lower_to_upper_camp" texture="@camp_lower_to_upper_camp"/>
+    <textureSkin id="camp_lower_line1" texture="@line1"/>
+    <textureSkin id="GUIother_ButtonMaPrechodDoKempu" texture="@GUIother_ButtonMaPrechodDoKempu" scaleX="2" scaleY="2"/>
+
+</data>

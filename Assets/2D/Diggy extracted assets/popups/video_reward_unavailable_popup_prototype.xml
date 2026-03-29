@@ -1,0 +1,23 @@
+<element name="black_screen" skin="@black" anchorTop="0" anchorBottom="1" mouseUp="backMouseUp_handler">
+    <element name="popup_body" preferredWidth="800" preferredHeight="1050" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+
+        <!-- pozadie popupu -->
+        <element skin="@bg_brown" preferredWidth="800" preferredHeight="1050" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+
+        <element preferredWidth="800" preferredHeight="1020" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+            <element skin="@middle_popup" preferredWidth="730" preferredHeight="970" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="15" anchorY="15"/>
+            <element preferredWidth="800" preferredHeight="1050" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+                <element name="text" skin="@popup_medium_brown_autosize_off" preferredWidth="600" preferredHeight="250" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="100"/>
+                <element name="camera_icon" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="280" preferredWidth="381" preferredHeight="338" skin="@GuiOther_PopUP_NeVideo"/>
+                <element preferredWidth="550" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-270">
+                    <p:layout><horizontal gap="15"/></p:layout>
+                    <element name="rewardImage" skin="@ico_energy" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="75" preferredHeight="91"/>
+                    <element name="reward_value" skin="@popup_large_brown" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="10"/>
+                </element>
+                <element name="btn_ok" skin="@btn_center1" skin.pressed="@btn_center2" anchorY="-90" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER">
+                    <element name="btn_ok_text" skin="@oswald_bold_85_basic_drevo1" anchorY="8" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+                </element>
+            </element>
+        </element>
+    </element>
+</element>

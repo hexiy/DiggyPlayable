@@ -1,0 +1,16 @@
+<element anchorLeft="0" anchorTop="0" anchorBottom="1" anchorRight="1">
+    <element name="video_button" skin="@button_green_01" anchorLeft="0" anchorTop="0" anchorBottom="1" anchorRight="1" flushBatch="true" mouseChildren="false">
+        <element preferredWidth="120" preferredHeight="76" anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT" anchorX="-48" anchorY="-10">
+            <element skin="@camera" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+
+        </element>
+        <element preferredWidth="127" preferredHeight="67" anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT" anchorX="-60" anchorY="35">
+            <element skin="@shop_tab_so" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+        </element>
+        <element name="show_video_btn_txt" skin="@show_video_button_af" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"
+                 preferredWidth="210" preferredHeight="130" anchorAlign.two_texts="TOP_CENTER" pivotAlign.two_texts="TOP_CENTER" preferredHeight.two_texts="65" anchorY.two_texts="15"/>
+        <element name="show_video_btn_txt2" skin="@show_video_button_af" visible="false" visible.two_texts="true"
+                 anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"
+        		 preferredWidth="210" preferredHeight="65" anchorY="65" />
+    </element>    
+</element>

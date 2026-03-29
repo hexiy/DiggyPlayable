@@ -1,0 +1,31 @@
+<element name="event_quest_bg" skin="@event_quest_group_bg" preferredWidth="1920" preferredHeight="631" pivotAlign="TOP_CENTER" anchorAlign="TOP_CENTER" mouseUp="cardMouseUp_handler" flushBatch="true">
+    <element preferredWidth="1920" preferredHeight="631" pivotAlign="TOP_CENTER" anchorAlign="TOP_CENTER">
+        <p:layout><horizontal useChildrenHeight="true"/></p:layout>
+        <element name="left_side_bar" preferredWidth="215" preferredHeight="631">
+            <element name="progress_bar_holder" visible="true" skin="@progress_bar_bg_blue" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="110" preferredHeight="420" anchorY="130">
+                <element preferredWidth="175" preferredHeight="175" anchorAlign="TOP_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="30">
+                    <element skin="@event_icon_border" anchorLeft="0" anchorTop="0" anchorRight="1" anchorBottom="1" flushBatch="true" />
+                    <element name="event_icon" skin="@asset" anchorLeft="0.05" anchorTop="0.05" anchorRight="0.95" anchorBottom="0.85" />
+                </element>
+                <element name="progress_bar_fill" skin="@progress_bar_fill_gold" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-40" preferredWidth="45" preferredHeight="245" />
+                <element name="progress_bar_info" anchorAlign="BOTTOM_CENTER" pivotAlign="TOP_CENTER" preferredWidth="210" preferredHeight="60">
+                    <element name="progress_bar_percentage" skin="@typeface_48_white_center_middle" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="210" preferredHeight="60" />
+                </element>
+                <element preferredHeight="105" preferredWidth="105" anchorAlign="TOP_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="10">
+                    <element skin="@map_rework_quest_icon" anchorLeft="0" anchorTop="0" anchorRight="1" anchorBottom="1" flushBatch="true"/>
+                </element>
+            </element>
+        </element>
+
+        <element preferredWidth="1705" preferredHeight="631" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+            <element preferredWidth="1705" preferredHeight="80" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+                <element name="event_title_text" skin="@typeface_48_white_left_middle" preferredWidth="750" preferredHeight="80" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" anchorX="40" anchorY="10" model="!Event name!"/>
+                <element name="event_duration" skin="@typeface_48_white_right_middle" preferredWidth="750" preferredHeight="80" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" anchorX="-40" anchorY="10" model="!Duration 23:59:59!"/>
+            </element>
+            <element name="quest_item_list" preferredWidth="1705" preferredHeight="0" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="75">
+                <p:layout><vertical useChildrenWidth="true" gap="7"/></p:layout>
+            </element>
+        </element>
+    </element>
+
+</element>

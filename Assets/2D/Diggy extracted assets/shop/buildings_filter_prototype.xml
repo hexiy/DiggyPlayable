@@ -1,0 +1,132 @@
+<element skin="@middle_popup_half" preferredWidth="1500" preferredHeight="1200" preferredHeight.regions_off="700" preferredHeight.max_region="750" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true" anchorX="0" anchorY="50" anchorY.max_region="150">
+    <!-- HEADER + TEXT -->
+    <element name="filter_popup_header" skin="@map_manager_detail_name_bg" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorX="-15" anchorY="-10" preferredWidth="1500" preferredHeight="120">
+        <element model="#GUI3902" skin="@oswald_bold_85_basic_drevo1_big" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="20"/>
+    </element>
+
+    <!-- X BUTTON -->
+    <element anchorTop="0" anchorBottom="1" anchorLeft="0" anchorRight="1">
+        <element name="btn_close_filter_popup" skin="@production_cancel_icon" anchorX="0" anchorY="0" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" />
+    </element>
+
+    <!-- REGIONS -->
+    <element model="#GUI3845" skin="@oswald_M_brown" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" anchorX="50" anchorY="150" visible.regions_off="false"/>
+
+    <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorX="-10" anchorX.more_buttons="-160" anchorY="320" visible.regions_off="false">
+
+        <!-- EGYPT FILTER -->
+        <element preferredHeight="132" preferredWidth="132" name="btn_region_1" anchorX="-450" anchorY="0" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+            <element preferredHeight="180" preferredWidth="180" anchorX="-28" anchorY="-28">
+                <element name="region_background" skin.filter_on="@shop_filter_on" skin.filter_off="@shop_filter_off" anchorLeft="0" anchorRight="1" anchorBottom="1" anchorTop="0"/>
+            </element>
+            <element skin="@region_1_badge" name="region_badge" anchorLeft="0" anchorRight="1" anchorBottom="1" anchorTop="0"/>
+        </element>
+
+        <!-- VALHALLA FILTER -->
+        <element preferredHeight="132" preferredWidth="132" name="btn_region_2" anchorX="-450" anchorY="235" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+            <element preferredHeight="180" preferredWidth="180" anchorX="-28" anchorY="-28">
+                <element name="region_background" skin.filter_on="@shop_filter_on" skin.filter_off="@shop_filter_off" anchorLeft="0" anchorRight="1" anchorBottom="1" anchorTop="0"/>
+            </element>
+            <element skin="@region_2_badge" name="region_badge" anchorLeft="0" anchorRight="1" anchorBottom="1" anchorTop="0"/>
+        </element>
+
+        <!-- CHINA FILTER -->
+        <element preferredHeight="132" preferredWidth="132" name="btn_region_3" anchorX="-150" anchorY="0" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+            <element preferredHeight="180" preferredWidth="180" anchorX="-28" anchorY="-28">
+                <element name="region_background" skin.filter_on="@shop_filter_on" skin.filter_off="@shop_filter_off" anchorLeft="0" anchorRight="1" anchorBottom="1" anchorTop="0"/>
+            </element>
+            <element skin="@region_3_badge" name="region_badge" anchorLeft="0" anchorRight="1" anchorBottom="1" anchorTop="0"/>
+        </element>
+
+        <!-- ATLANTIS FILTER -->
+        <element preferredHeight="132" preferredWidth="132" name="btn_region_4" anchorX="-150" anchorY="235" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+            <element preferredHeight="180" preferredWidth="180" anchorX="-28" anchorY="-28">
+                <element name="region_background" skin.filter_on="@shop_filter_on" skin.filter_off="@shop_filter_off" anchorLeft="0" anchorRight="1" anchorBottom="1" anchorTop="0"/>
+            </element>
+            <element skin="@region_4_badge" name="region_badge" anchorLeft="0" anchorRight="1" anchorBottom="1" anchorTop="0"/>
+        </element>
+
+        <!-- GREECE FILTER -->
+        <element preferredHeight="132" preferredWidth="132" name="btn_region_5" anchorX="150" anchorY="0" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+            <element preferredHeight="180" preferredWidth="180" anchorX="-28" anchorY="-28">
+                <element name="region_background" skin.filter_on="@shop_filter_on" skin.filter_off="@shop_filter_off" anchorLeft="0" anchorRight="1" anchorBottom="1" anchorTop="0"/>
+            </element>
+            <element skin="@region_5_badge" name="region_badge" anchorLeft="0" anchorRight="1" anchorBottom="1" anchorTop="0"/>
+        </element>
+
+        <!-- SOUTH AMERICA FILTER -->
+        <element preferredHeight="132" preferredWidth="132" name="btn_region_6" anchorX="150" anchorY="235" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+            <element preferredHeight="180" preferredWidth="180" anchorX="-28" anchorY="-28">
+                <element name="region_background" skin.filter_on="@shop_filter_on" skin.filter_off="@shop_filter_off" anchorLeft="0" anchorRight="1" anchorBottom="1" anchorTop="0"/>
+            </element>
+            <element skin="@region_6_badge" name="region_badge" anchorLeft="0" anchorRight="1" anchorBottom="1" anchorTop="0"/>
+        </element>
+
+        <!-- TERRA FILTER -->
+        <element preferredHeight="132" preferredWidth="132" name="btn_region_7" anchorX="450" anchorY="0" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+            <element preferredHeight="180" preferredWidth="180" anchorX="-28" anchorY="-28">
+                <element name="region_background" skin.filter_on="@shop_filter_on" skin.filter_off="@shop_filter_off" anchorLeft="0" anchorRight="1" anchorBottom="1" anchorTop="0"/>
+            </element>
+            <element skin="@region_7_badge" name="region_badge" anchorLeft="0" anchorRight="1" anchorBottom="1" anchorTop="0"/>
+        </element>
+
+        <!-- MARS FILTER -->
+        <element preferredHeight="132" preferredWidth="132" name="btn_region_8" anchorX="450" anchorY="235" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+            <element preferredHeight="180" preferredWidth="180" anchorX="-28" anchorY="-28">
+                <element name="region_background" skin.filter_on="@shop_filter_on" skin.filter_off="@shop_filter_off" anchorLeft="0" anchorRight="1" anchorBottom="1" anchorTop="0"/>
+            </element>
+            <element skin="@region_8_badge" name="region_badge" anchorLeft="0" anchorRight="1" anchorBottom="1" anchorTop="0"/>
+        </element>
+
+        <!-- INDIA FILTER -->
+        <element preferredHeight="132" preferredWidth="132" name="btn_region_9" anchorX="750" anchorY="0" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" visible="false">
+            <element preferredHeight="180" preferredWidth="180" anchorX="-28" anchorY="-28">
+                <element name="region_background" skin.filter_on="@shop_filter_on" skin.filter_off="@shop_filter_off" anchorLeft="0" anchorRight="1" anchorBottom="1" anchorTop="0"/>
+            </element>
+            <element skin="@region_9_badge" name="region_badge" anchorLeft="0" anchorRight="1" anchorBottom="1" anchorTop="0"/>
+        </element>
+
+        <!-- EVENT FILTER -->
+        <element preferredHeight="132" preferredWidth="132" name="btn_event" anchorX="750" anchorY="235" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+            <element preferredHeight="180" preferredWidth="180" anchorX="-28" anchorY="-28">
+                <element name="region_background" skin.filter_on="@shop_filter_on" skin.filter_off="@shop_filter_off" anchorLeft="0" anchorRight="1" anchorBottom="1" anchorTop="0"/>
+            </element>
+            <element skin="@event_badge" name="region_badge" anchorLeft="0" anchorRight="1" anchorBottom="1" anchorTop="0"/>
+        </element>
+    </element>
+
+    <element skin="@brown_txt_bg" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="1400" preferredHeight="34" anchorX="-10" anchorY="670" visible.regions_off="false"/>
+    <element model="#GUI3866" skin="@oswald_M_brown" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" anchorX="50" anchorY="720" anchorY.regions_off="150"/>
+
+    <!-- REGEN / STORAGE -->
+    <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorX="-260" anchorY="770" anchorY.regions_off="220">
+        <element mouseUp="regenFilterMouse_handler">
+            <element anchorX="0" name="regenFilter" skin="@shop_filter_off"/>
+            <element anchorX="100" anchorY="10" skin="@hud_regen"/>
+        </element>
+        <element mouseUp="storageFilterMouse_handler">
+            <element anchorX="270" name="storageFilter" skin="@shop_filter_off"/>
+            <element anchorX="370" anchorY="10" skin="@hud_storage"/>
+        </element>
+    </element>
+
+    <element skin="@brown_txt_bg" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="1400" preferredHeight="34" anchorX="-10" anchorY="900" anchorY.regions_off="350"/>
+    <element model="#GUI3903" skin="@oswald_M_brown" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" anchorX="50" anchorY="950" anchorY.regions_off="420"/>
+
+    <!-- SIZE -->
+    <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorX="-300" anchorY="1020" anchorY.regions_off="490">
+        <element anchorX="0" mouseUp="size2FilterMouse_handler">
+            <element name="size2Filter" skin="@shop_filter_off"/>
+            <element anchorX="90" anchorY="10" skin="@shop_filter_size2"/>
+        </element>
+        <element anchorX="210" mouseUp="size3FilterMouse_handler">
+            <element name="size3Filter" skin="@shop_filter_off"/>
+            <element anchorX="90" anchorY="10" skin="@shop_filter_size3"/>
+        </element>
+        <element anchorX="420" mouseUp="size4FilterMouse_handler">
+            <element name="size4Filter" skin="@shop_filter_off"/>
+            <element anchorX="90" anchorY="10" skin="@shop_filter_size4"/>
+        </element>
+    </element>
+
+</element>

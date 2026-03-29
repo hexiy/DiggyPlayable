@@ -1,0 +1,15 @@
+    <element skin="@invisible"
+             anchorTop="0" anchorBottom="1" anchorLeft="0" anchorRight="1" mouseUp="closeMineTutorial" flushBatch="true">
+
+        <element anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT" preferredWidth="704" preferredHeight="168" anchorX="230" anchorY="-60" >
+            <element skin="@popup_bg_tutorial" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="704" preferredHeight="168" />
+
+            <element anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" anchorX="-112" anchorY="-102" preferredWidth="200" preferredHeight="222">
+                <element name="tutorial_character" skin="@asset" anchorLeft="0" anchorTop="0" anchorRight="1" anchorBottom="1"/>
+            </element>
+
+            <element name="tutorialText" anchorX="12" skin="@oswald_62_white_left_middle" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" model=""
+                     preferredWidth="560" preferredHeight="256" flushBatch="true"/>
+        </element>
+
+    </element>

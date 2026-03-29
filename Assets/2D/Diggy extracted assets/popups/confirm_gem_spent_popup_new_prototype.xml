@@ -1,0 +1,20 @@
+<element name="black_screen" skin="@black" anchorLeft="-1" anchorTop="-1" anchorBottom="2" anchorRight="2" mouseUp="backMouseUp_handler">
+    <element name="popup_body" skin="@middle_popup_half" preferredWidth="800" preferredHeight="800" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+        <element name="text" skin="@shop_item_name_font" preferredWidth="700" preferredHeight="300" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="100"/>
+
+        <!-- GEM COST -->
+        <element name="gemPrice" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="300">
+            <p:layout><horizontal gap="5"/></p:layout>
+            <element name="gemValue" anchorY="15" skin="@oswald_bold_85"/>
+            <element name="gemImage" skin="@asset"/>
+        </element>
+
+        <element name="btn_ok" mouseChildren="false" skin="@btn_center1" skin.pressed="@btn_center2" anchorY="-200" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER">
+            <element name="btn_ok_text" skin="@oswald_bold_85_basic_drevo1" anchorY="8" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+        </element>
+
+        <element name="btn_cancel" mouseChildren="false" skin="@btn_center1" skin.pressed="@btn_center2" anchorY="-70" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER">
+            <element name="btn_cancel_text" skin="@oswald_bold_85_basic_drevo1" anchorY="8" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+        </element>
+    </element>
+</element>

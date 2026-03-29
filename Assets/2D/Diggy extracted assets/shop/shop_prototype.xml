@@ -1,0 +1,113 @@
+<element anchorLeft="0" anchorRight="1" anchorBottom="1" anchorTop="0">
+	<element name="shop_bg" skin="@shop_bg" anchorBottom="1" anchorTop="0"/>
+	<element name="listBackground" anchorY="335" preferredHeight="1200"  skin="@shop_mid_bg" mouseDown="scrollMouseDown_handler"/>
+	<element name="list" anchorY="375" mouseDown="scrollMouseDown_handler"/>
+	<element name="shop_border_top" anchorY="315" skin="@shop_border"/>
+	<element name="shop_border_bottom" anchorY="1325" skin="@shop_border"/>
+
+	<element name="shop_no_quest_holder" visible="false" preferredWidth="900" preferredHeight="310" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" >
+		<element preferredWidth="300" preferredHeight="310" anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT" >
+			<element skin="@popup_quest" anchorLeft="0.1" anchorTop="0.1" anchorBottom="0.9" anchorRight="0.9" />
+		</element>
+		<element preferredWidth="1000" preferredHeight="330" anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT" anchorX="300" anchorY="90">
+			<element skin="@typeface_62_white_at" model="#GUI3573" preferredWidth="1000" preferredHeight="70" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" />
+			<element skin="@typeface_36_white_left_top" model="#GUI3698" preferredWidth="1000" preferredHeight="120" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" anchorY="80"/>
+		</element>
+
+	</element>
+
+	<element name="usableFilter" anchorY="1410" visible.na="false" visible.usable="true">
+		<element anchorX="50">
+			<element anchorX="0" mouseUp="eatFilterMouse_handler">
+				<element name="eatFilter" skin="@shop_filter_off"/>
+				<element anchorX="90" anchorY="-10" skin="@shop_filter_usable_eat"/>
+			</element>
+			<element anchorX="250" mouseUp="storeFilterMouse_handler">
+				<element name="storeFilter" skin="@shop_filter_on"/>
+				<element anchorX="90" anchorY="-3" skin="@shop_filter_usable_store"/>
+			</element>
+		</element>
+	</element>
+
+	<element name="materialSellerFilter" anchorY="1410" visible.na="false" visible.materialSell="true">
+		<element anchorX="20">
+			<p:layout><horizontal gap="30"/></p:layout>
+			<element name="filter_all" anchorX="0" preferredHeight="100" mouseUp="changeMaterialFilter">
+				<p:layout><horizontal gap="20"/></p:layout>
+				<element name="filter_all_icon" skin="@shop_filter_on"/>
+				<element name="filter_all_text" model="#GUI0076" skin="@oswald_bold_85_basic_drevo1_big" anchorY="5"/>
+			</element>
+			<element name="filter_materials" anchorX="200" preferredHeight="100" mouseUp="changeMaterialFilter">
+				<p:layout><horizontal gap="20"/></p:layout>
+				<element name="filter_materials_icon" skin="@shop_filter_off"/>
+				<element name="filter_materials_text" model="#GUI0010" skin="@oswald_bold_85_basic_drevo1_big" anchorY="5"/>
+			</element>
+
+			<element name="filter_ingredients" anchorX="600" preferredHeight="100" mouseUp="changeMaterialFilter">
+				<p:layout><horizontal gap="20"/></p:layout>
+				<element name="filter_ingredients_icon" skin="@shop_filter_off"/>
+				<element name="filter_ingredients_text" skin="@oswald_bold_85_basic_drevo1_big"  model="#GUI3132" anchorY="5"/>
+			</element>
+		</element>
+
+	</element>
+
+	<element name="offerCountdown" anchorY="1410" anchorLeft="0" anchorRight="1" visible.na="false" visible.offer="true">
+		<element name="countdown" skin="@shop_countdown_font" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="20"/>
+	</element>
+	<element name="tabs" anchorY="263" anchorLeft=".5" anchorRight=".5" pivotAlign="TOP_CENTER">
+		<!-- Layout gap is changed at ShopScreen.hx due to screen ratio size -->
+		<p:layout><horizontal gap="20"/></p:layout>
+		<element name="buildingTab" skin.building="@shop_tab_bg2" skin.default-na="@shop_tab_bg1" anchorY.building="-20" anchorY.default-na="0">
+			<element skin="@shop_tab_equip" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY.building="-80" anchorY.default-na="-10"/>
+			<element name="buildingTabTitle" skin="@oswald_bold_85_basic_drevo1" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-15" visible.building="true" visible.default-na="false" flushBatch="true"/>
+		</element>
+		<element name="usableTab" skin.usable="@shop_tab_bg2" skin.default-na="@shop_tab_bg1" anchorY.usable="-20" anchorY.default-na="0">
+			<element skin="@shop_tab_usable" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorX="16" anchorY.usable="-80" anchorY.default-na="-10"/>
+			<element name="usableTabTitle" skin="@oswald_bold_85_basic_drevo1" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-15" visible.usable="true" visible.default-na="false" flushBatch="true"/>
+		</element>
+		<element name="extrasTab" skin.extras="@shop_tab_bg2" skin.default-na="@shop_tab_bg1" anchorY.extras="-20" anchorY.default-na="0">
+			<element skin="@shop_tab_extras" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorX="-72" anchorY.extras="-80" anchorY.default-na="-10"/>
+			<element name="extrasTabTitle" skin="@oswald_bold_85_basic_drevo1" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-15" visible.extras="true" visible.default-na="false" flushBatch="true"/>
+		</element>
+		<element name="skinsTab" skin.skins="@shop_tab_bg2" skin.default-na="@shop_tab_bg1" anchorY.skins="-20" anchorY.default-na="0">
+			<element skin="@shop_tab_skin" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorX="0" anchorY.skins="-80" anchorY.default-na="-10"/>
+			<element name="skinsTabTitle" skin="@oswald_bold_85_basic_drevo1" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-15" visible.skins="true" visible.default-na="false" flushBatch="true"/>
+
+			<element name="shopTabNotification" skin="@event_pass_badge" anchorAlign="TOP_LEFT" pivotAlign="MIDDLE_CENTER" preferredWidth="63" preferredHeight="63" anchorY="35" anchorX="60">
+				<element name="shopTabNotificationTxt" skin="@typeface_36_white_center_middle" pivotAlign="MIDDLE_CENTER" anchorAlign="MIDDLE_CENTER" flushBatch="true" preferredHeight="55" preferredWidth="105" anchorY="5" model="!"/>
+			</element>
+
+		</element>
+		<element name="offerTab" skin.offer="@shop_tab_bg2" skin.default-na="@shop_tab_bg1" anchorY.offer="-20" anchorY.default-na="0">
+			<element skin="@shop_tab_so" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY.offer="-80" anchorY.default-na="-10"/>
+			<element name="offerTabTitle" skin="@oswald_bold_85_basic_drevo1" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-15" visible.offer="true" visible.default-na="false" flushBatch="true"/>
+		</element>
+		<element name="newsTab" skin.news="@shop_tab_bg2" skin.default-na="@shop_tab_bg1" anchorY.news="-20" anchorY.default-na="0">
+			<element skin="@shop_tab_new" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY.news="-80" anchorY.default-na="-10"/>
+			<element name="newsTabTitle" skin="@oswald_bold_85_basic_drevo1" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-15" visible.news="true" visible.default-na="false" flushBatch="true"/>
+		</element>
+		<element name="eventsTab" skin.events="@shop_tab_bg2" skin.default-na="@shop_tab_bg1" anchorY.events="-20" anchorY.default-na="0">
+			<element preferredWidth="150" preferredHeight="35" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY.events="-75" anchorY.default-na="-10">
+				<element skin="@quest_step_bg" alpha="0.3" anchorLeft="0" anchorRight="1" anchorBottom="1" anchorTop="0"/>
+			</element>
+			<element preferredWidth="175" preferredHeight="165" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY.events="-80" anchorY.default-na="-10">
+				<element skin="@ico_events" anchorLeft="0" anchorRight="1" anchorBottom="1" anchorTop="0"/>
+			</element>
+			<element name="eventsTabTitle" skin="@oswald_bold_85_basic_drevo1" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-15" visible.events="true" visible.default-na="false" flushBatch="true"/>
+		</element>
+	</element>
+	<element name="noItemsText" anchorY="770" skin="@oswald_bold_white" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"/>
+	<element name="loading" anchorY="770" skin="@oswald_bold_white" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" visible.na="false" visible.loading="true"/>
+	<element name="offer_not_available" anchorY="770" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" visible.loading="false">
+		<element name="offer_not_available_1" skin="@oswald_bold_white" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"/>
+		<element name="offer_not_available_2" anchorY="60" skin="@oswald_bold_white" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"/>
+	</element>
+	<element name="btn_back" anchorAlign="BOTTOM_LEFT" pivotAlign="BOTTOM_LEFT" skin="@bottom_btn_basic" skin.pressed="@bottom_btn_basic_pressed" mouseChildren="false">
+		<element anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" skin="@bottom_back_icon"/>
+	</element>
+	<element name="btn_buildings_filter" anchorAlign="BOTTOM_RIGHT" pivotAlign="BOTTOM_RIGHT" skin="@bottom_btn_basic" skin.pressed="@bottom_btn_basic_pressed" mouseCHildren="false" visible.na="false" visible.building="true">
+		<element name="filter_text"  model="#WGL111" skin="@oswald_bold_85_gem1_white_middle" anchorY="0" preferredWidth="504" preferredHeight="160" flushBatch="true"/>
+	</element>
+	<element name="buildings_filter_popup" skin="@shade_black" anchorTop="0" anchorBottom="1" anchorLeft="0" anchorRight="1" visible="false" mouseUp="buildingsFilterMouseUp_handler"/>
+</element>

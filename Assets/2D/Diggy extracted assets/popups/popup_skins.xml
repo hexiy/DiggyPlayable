@@ -1,0 +1,59 @@
+<data>
+    <!-- POPUP FONTS -->
+    <fontSkin id="popup_extra_large_brown" font="@oswald_bold" autoSize="true" color="0x412d0f" fontScale="2"/>
+    <fontSkin id="popup_large_brown" font="@oswald_bold" autoSize="true" color="0x412d0f" fontScale="1.5"/>
+    <fontSkin id="popup_large_brown_autosize_off_right" font="@oswald_bold" hAlign="RIGHT" autoSize="false" wordWrap="true" color="0x412d0f" fontScale="1.5"/>
+    <fontSkin id="popup_large_brown_autosize_off_left" font="@oswald_bold" hAlign="LEFT" autoSize="false" wordWrap="true" color="0x412d0f" fontScale="1.5"/>
+    <fontSkin id="popup_large_light_brown_autosize_off_left" font="@oswald_bold" hAlign="LEFT" autoSize="false" wordWrap="true" color="0xB1935E" fontScale="1.5"/>
+
+    <fontSkin id="popup_medium_brown" font="@oswald_bold" autoSize="true" color="0x412d0f" fontScale="1"/>
+    <fontSkin id="popup_medium_brown_autosize_off" font="@oswald_bold" hAlign="CENTER" autoSize="false" wordWrap="true" color="0x412d0f" fontScale="1"/>
+    <fontSkin id="popup_medium_brown_autosize_off_left_valign" font="@oswald_bold" hAlign="LEFT" vAlign="MIDDLE" autoSize="false" wordWrap="true" color="0x412d0f" fontScale="1"/>
+    <fontSkin id="popup_medium_brown_autosize_off_valign" font="@oswald_bold" hAlign="CENTER" vAlign="MIDDLE" autoSize="false" wordWrap="true" color="0x412d0f" fontScale="1"/>
+    <fontSkin id="popup_medium_brown_autosize_off_bottom_valign" font="@oswald_bold" hAlign="CENTER" vAlign="BOTTOM" autoSize="false" wordWrap="true" color="0x412d0f" fontScale="1"/>
+    <fontSkin id="popup_extra_large_brown_autosize_off_top_valign" font="@oswald_bold" hAlign="CENTER" vAlign="TOP" autoSize="false" wordWrap="true" color="0x412d0f" fontScale="2"/>
+    <fontSkin id="popup_extra_large_white_autosize_off_top_valign" font="@oswald_bold" hAlign="CENTER" vAlign="TOP" autoSize="false" wordWrap="true" color="0xFFFFFF" fontScale="2"/>
+    <fontSkin id="popup_medium_blue_autosize_off_valign" font="@oswald_bold" hAlign="CENTER" vAlign="MIDDLE" autoSize="false" wordWrap="true" color="0x7091F6" fontScale="1"/>
+    <fontSkin id="popup_small_brown_autosize_off_valign" font="@oswald_bold" hAlign="CENTER" vAlign="MIDDLE" autoSize="false" wordWrap="true" color="0x412d0f" fontScale="0.8"/>
+    <fontSkin id="popup_medium_brown_ml" font="@oswald_bold" autoSize="false" wordWrap="true" hAlign="CENTER" color="0x412d0f" fontScale=".9"/>
+    <fontSkin id="popup_normal_brown" font="@oswald_bold" autoSize="true" color="0x412d0f" fontScale=".8"/>
+    <fontSkin id="popup_normal_brown_autosize_false" font="@oswald_bold" autoSize="false" wordWrap="true" color="0x412d0f" fontScale=".7" hAlign="CENTER"/>
+    <fontSkin id="popup_tutorial_dev" font="@oswald_bold" autoSize="false" wordWrap="true" color="0x412d0f" fontScale=".7" hAlign="LEFT"/>
+    <fontSkin id="popup_normal_light_brown_autosize_false" font="@oswald_bold" autoSize="false" wordWrap="true" color="0xB1935E" fontScale=".7" hAlign="CENTER"/>
+    <fontSkin id="popup_normal_ml_brown" font="@oswald_bold" autoSize="true" color="0x412d0f" fontScale=".8" hAlign="CENTER"/>
+    <fontSkin id="popup_small_brown" font="@oswald_bold" autoSize="true" color="0x412d0f" fontScale=".6" />
+
+    <fontSkin id="team_header_font" font="@oswald_bold" autoSize="false" wordWrap="true" vAlign="TOP" hAlign="CENTER" color="0x9b7144" fontScale="1"/>
+    <fontSkin id="team_header_font_darker_biggest" font="@oswald_bold" autoSize="false" wordWrap="true" vAlign="MIDDLE" hAlign="CENTER" color="0x684b27" fontScale="1.6"/>
+    <fontSkin id="team_body_font_small" font="@oswald_bold" autoSize="false" wordWrap="true" hAlign="CENTER" vAlign="MIDDLE" color="0xFFFFFF" fontScale="0.85"/>
+    <fontSkin id="team_notice_font" font="@oswald_bold" autoSize="false" wordWrap="true" hAlign="CENTER" vAlign="MIDDLE" color="0x9b7144" fontScale="0.7"/>
+
+    <fontSkin id="popup_small_green" font="@oswald_bold" autoSize="true" color="0x33A706" fontScale=".7"/>
+
+    <fontSkin id="popup_normal_gem" font="@oswald_bold" autoSize="true" color="0x118742" fontScale=".8"/>
+    <fontSkin id="popup_big_gem" font="@oswald_bold" autoSize="false" wordWrap="true" hAlign="CENTER" color="0x118742" fontScale="1"/>
+    <fontSkin id="popup_big_gem_middle" font="@oswald_bold" autoSize="false" wordWrap="true" hAlign="CENTER" vAlign="MIDDLE" color="0x118742" fontScale="1"/>
+    <fontSkin id="popup_big_gem_white" font="@oswald_bold" autoSize="false" wordWrap="true" hAlign="CENTER" color="0xffffff" fontScale="1"/>
+    <fontSkin id="popup_big_gem_autosize" font="@oswald_bold" autoSize="true" hAlign="CENTER" color="0x118742" fontScale="1"/>
+
+    <fontSkin id="popup_xlarge_white" font="@oswald_bold" autoSize="true" hAlign="CENTER" color="0xffffff" fontScale="1.2"/>
+    <fontSkin id="popup_large_white" font="@oswald_bold" autoSize="true" hAlign="CENTER" color="0xffffff" fontScale=".9"/>
+    <fontSkin id="popup_large_dark_green" font="@oswald_bold" autoSize="true" hAlign="CENTER" color="0x112C08" fontScale=".9"/>
+    <fontSkin id="popup_medium_white" font="@oswald_bold" autoSize="true" color="0xffffff" fontScale=".7"/>
+    <fontSkin id="popup_small_white" font="@oswald_bold" autoSize="true" hAlign="CENTER" color="0xffffff" fontScale=".6"/>
+    <fontSkin id="popup_small_ml_white" font="@oswald_bold" autoSize="false" wordWrap="true" hAlign="CENTER" color="0xffffff" fontScale=".6"/>
+
+    <!--    POPUPS      -->
+    <textureSkin texture="@top_context_shadow_rotated" id="top_context_shadow_rotated"/>
+    <textureSkin texture="@popup_levelup" id="popup_levelup"/>
+    <textureSkin texture="@popup_quest" id="popup_quest"/>
+    <textureSkin texture="@popup_mine_icon" id="popup_mine_icon"/>
+    <textureSkin texture="@popup_restart_icon" id="popup_restart_icon"/>
+    <textureSkin id="popup_line1" texture="@line1"/>
+    <textureSkin id="popup_line2" texture="@line2"/>
+    <textureSkin id="pantheon_bg_text" texture="@pantheon_bg_text" sliceLeft="15" sliceRight="22" sliceTop="23" sliceBottom="30"/>
+    <textureSkin id="find_the_pair_bg" texture="@find_the_pair_bg" sliceLeft="15" sliceRight="369" sliceTop="35" sliceBottom="590"/>
+    <textureSkin id="btn_green" texture="@btn_green" sliceLeft="57" sliceRight="59" sliceTop="54" sliceBottom="56"/>
+    <textureSkin id="btn_green_pushed" texture="@btn_green_pushed" sliceLeft="57" sliceRight="59" sliceTop="54" sliceBottom="56"/>
+
+</data>

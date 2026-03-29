@@ -1,0 +1,44 @@
+<element name="team_message_body" preferredHeight="300" preferredWidth="1400" anchorY="-100" anchorX="50" pivotAlign="TOP_CENTER" anchorAlign="TOP_CENTER" flushBatch="true">
+    <!--  MESSAGE SENDER LOGO  -->
+    <element name="team_message_sender_logo_holder" skin="@black_bg" preferredWidth="250" preferredHeight="250" anchorY="25" visible="true" visible.my_message="false">
+        <element name="team_message_sender_logo" preferredWidth="235" preferredHeight="235" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" skin="@asset"/>
+    </element>
+    <!--  MESSAGE SENDER NAME  -->
+    <element name="team_message_sender_name" visible="true" anchorX="275" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT"  preferredWidth="800" preferredHeight="80" skin="@team_chat_sender_white_font" skin.my_message="@team_chat_sender_my_message_font" pivotAlign.my_message="TOP_RIGHT" anchorAlign.my_message="TOP_RIGHT" flushBatch="true"/>
+
+    <!--    TIMESTAMP    -->
+    <element name="team_message_timestamp" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" preferredWidth="850" preferredHeight="80" skin="@team_chat_timestamp_font" skin.my_message="@team_chat_timestamp_my_message_font" flushBatch="true"/>
+
+    <element name="team_message_bg" skin="@dialog_brown" skin.my_message="@dialog_blue" preferredWidth="2125" preferredHeight="220" anchorX="275" anchorX.my_message="0" pivotAlign.my_message="BOTTOM_RIGHT" anchorAlign.my_message="BOTTOM_RIGHT" pivotAlign="BOTTOM_LEFT" anchorAlign="BOTTOM_LEFT">
+        <!--   REQUEST HOLDER     -->
+        <element name="team_message_request_holder" preferredWidth="2000" preferredHeight="170" visible="true" anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT">
+            <element name="team_message_help_request_logo_holder" preferredHeight="170" preferredWidth="170" pivotAlign="MIDDLE_LEFT" anchorAlign="MIDDLE_LEFT" anchorX="70">
+                <element name="team_message_help_request_logo" preferredWidth="170" preferredHeight="170" skin="@asset" pivotAlign="MIDDLE_CENTER" anchorAlign="MIDDLE_CENTER"/>
+                <element name="region_badge_holder" visible="true"
+                         pivotAlign="BOTTOM_RIGHT" anchorAlign="BOTTOM_RIGHT" anchorY="0" anchorX="-5" preferredHeight="60" preferredWidth="60">
+                    <element name="region_badge"
+                             skin.region1="@region_badge_1"
+                             skin.region2="@region_badge_2"
+                             skin.region3="@region_badge_3"
+                             skin.region4="@region_badge_4"
+                             skin.region5="@region_badge_5"
+                             skin.region6="@region_badge_6"
+                             skin.region7="@region_badge_7"
+                             skin.region8="@region_badge_8"
+                             skin.region9="@region_badge_9"
+                             anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+                </element>
+            </element>
+            <element name="team_message_help_request_txt" preferredHeight="200" preferredWidth="500" skin="@team_body_font" anchorX="220" pivotAlign="TOP_LEFT" anchorAlign="TOP_LEFT" flushBatch="true"/>
+            <element name="team_message_help_progress_holder" preferredWidth="500" preferredHeight="150" anchorX="550" anchorY="10">
+                <element name="team_message_help_request_progress_bar_bg" preferredHeight="150" preferredWidth="500" skin="@black_bg" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+                <element name="team_message_help_request_progress_bar" preferredWidth="10" preferredHeight="130" anchorX="10" skin="@blue_bg" anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT"/>
+                <element name="team_message_help_request_progress_lbl" preferredHeight="140" preferredWidth="400" skin="@team_body_font_small" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true"/>
+            </element>
+            <element name="help_data_holder"/>
+            <element name="team_message_help_request_btn" anchorAlign="MIDDLE_RIGHT" pivotAlign="MIDDLE_RIGHT" preferredWidth="300" preferredHeight="200" anchorX="150" skin="@btn_blue" mouseChildren="false" visible="true" visible.my_message="false">
+                <element name="team_message_help_request_lbl" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="280" preferredHeight="180" skin="@team_body_font" model="#GUI3268" flushBatch="true"/>
+            </element>
+        </element>
+    </element>
+</element>

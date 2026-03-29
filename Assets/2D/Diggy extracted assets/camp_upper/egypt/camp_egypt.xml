@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:5969b9b298513b9f78910d750cbf4420:067f267d10eab08d14875be719bea8bc:ccb0c1851f126377b0170e77c6e88e74$ -->
+<TextureAtlas imagePath="camp_egypt.png" width="512" height="1024">
+    <SubTexture name="camp_egypt_caravan" x="330" y="181" width="169" height="151"/>
+    <SubTexture name="camp_egypt_god_bg" x="223" y="410" width="72" height="72"/>
+    <SubTexture name="camp_egypt_kitchen" x="223" y="519" width="184" height="147"/>
+    <SubTexture name="camp_egypt_lift" x="1" y="798" width="132" height="195"/>
+    <SubTexture name="camp_egypt_metalurg" x="330" y="1" width="172" height="176"/>
+    <SubTexture name="camp_egypt_museum" x="1" y="410" width="218" height="195"/>
+    <SubTexture name="camp_oracle_egypt" x="330" y="336" width="167" height="179" frameX="-13" frameY="0" frameWidth="180" frameHeight="179"/>
+    <SubTexture name="elevator" x="1" y="609" width="166" height="185"/>
+    <SubTexture name="pet_house_camp" x="1" y="1" width="325" height="405"/>
+</TextureAtlas>

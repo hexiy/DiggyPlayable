@@ -1,0 +1,46 @@
+<element name="black_screen" skin="@shade_black" anchorTop="0" anchorBottom="1" mouseUp="forceFinishTextAnimation">
+    <element name="popup_body" preferredWidth="1230" preferredHeight="840" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" mouseUp="forceFinishTextAnimation">
+
+        <element name="quest_body" preferredWidth="1208" preferredHeight="710" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" >
+            <element skin="@popup_bg" anchorLeft="0" anchorTop="0" anchorRight="1" anchorBottom="1" />
+
+            <element name="quest_objectives" preferredWidth="800" preferredHeight="170" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-312">
+                <p:layout><horizontal gap="25" useChildrenHeight="true" skipLastGap="true" /></p:layout>
+            </element>
+
+            <element name="quest_steps" preferredWidth="1060" preferredHeight="30" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-232">
+                <p:layout><horizontal gap="15" useChildrenHeight="true" skipLastGap="true" /></p:layout>
+                <element name="quest_step_text" skin="@oswald_bold_42_align_right_middle" preferredHeight="50" preferredWidth="150" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-5" model="#GUI3560" />
+            </element>
+
+            <element preferredWidth="1060" preferredHeight="160" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-15">
+                <p:layout><horizontal gap="30" skipLastGap="true" /></p:layout>
+                <element name="later_button" preferredWidth="295" preferredHeight="130" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-25">
+                    <element skin="@btn_blue_narrow" anchorLeft="0" anchorTop="0" anchorRight="1" anchorBottom="1"/>
+                    <element name="later_button_text" skin="@typeface_48_white_center_middle" preferredWidth="260" preferredHeight="115" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" model="!LATER!" anchorX="-3" flushBatch="true" />
+                </element>
+                <element name="go_button" preferredWidth="380" preferredHeight="130" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-25">
+                    <element name="button_skin" skin="@btn_orange_narrow" anchorLeft="0" anchorTop="0" anchorRight="1" anchorBottom="1"/>
+                    <element name="go_button_text" skin="@typeface_48_white_center_middle" preferredWidth="260" preferredHeight="80" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" model="!GO!" anchorX="-3" anchorY="-10" flushBatch="true" />
+                </element>
+            </element>
+        </element>
+
+        <element name="quest_header" preferredWidth="1230" preferredHeight="310" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+            <element skin="@tooltip_body" anchorLeft="0" anchorTop="0" anchorRight="1" anchorBottom="1" />
+
+            <element name="quest_title" skin="@oswald_bold_70_top_center_black" preferredWidth="1135" preferredHeight="60" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" anchorX="55" anchorY="40" model="!New Quest!" flushBatch="true" />
+            <element name="quest_description" skin="@oswald_bold_top_left_black_autosize" preferredWidth="1135" preferredHeight="170" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" anchorX="55" anchorY="100" model="!New Quest!" flushBatch="true" />
+
+            <element name="quest_giver" preferredWidth="175" preferredHeight="175" anchorAlign="TOP_LEFT" pivotAlign="MIDDLE_LEFT" anchorX="47" flushBatch="true">
+                <element name="quest_giver_asset" skin="@asset" anchorLeft="0" anchorTop="0" anchorRight="1" anchorBottom="1" />
+            </element>
+        </element>
+
+    </element>
+    <element name="quest_objective_desc_tooltip" visible="false" preferredWidth="325" preferredHeight="277" anchorAlign="TOP_LEFT" pivotAlign="BOTTOM_CENTER" mouseDown="hideTooltips" flushBatch="true">
+        <element skin="@tooltip_body" anchorLeft="0" anchorTop="0" anchorBottom="1" anchorRight="1" />
+        <element name="info_bubble_text" skin="@oswald_bold_75_autosize_false_halign_black" preferredWidth="300" preferredHeight="250" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="50" flushBatch="true"/>
+        <element skin="@tooltip_down" pivotAlign="BOTTOM_CENTER" anchorAlign="BOTTOM_CENTER" anchorY="31"/>
+    </element>
+</element>

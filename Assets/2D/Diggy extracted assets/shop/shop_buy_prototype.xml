@@ -1,0 +1,4 @@
+<element prefferedWidth="400" preferredHeight="200" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="-40">
+    <element name="goodsAmount" skin="@shop_countdown_font_brown" anchorAlign="MIDDLE_RIGHT" pivotAlign="MIDDLE_RIGHT" anchorX="-30" anchorY="15"/>
+    <element name="goodsIcon" skin="@asset" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="60" anchorY="0"/>
+</element>

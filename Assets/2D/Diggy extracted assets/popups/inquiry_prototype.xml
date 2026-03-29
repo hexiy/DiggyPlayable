@@ -1,0 +1,73 @@
+<element name="black_screen" skin="@black" anchorTop="0" anchorBottom="1">
+
+<element preferredWidth="1400" preferredHeight="1120" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" skin="@bg_brown">
+
+    <element skin="@middle_popup" preferredWidth="1330" preferredHeight="1040" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="15" anchorY="15"/>
+
+    <element name="btn_close" skin="@production_cancel_icon" anchorX="0" anchorY="0" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" />
+    <!-- INFO PAGE -->
+    <element name="infoPageWrapper" preferredWidth="1400" preferredHeight="1120" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+        
+        <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="100">
+            <element name="image" skin="@asset" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"/>
+            <element name="infoText" skin="@popup_medium_brown_autosize_off_valign" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="510" preferredWidth="1200" preferredHeight="430"/>
+        </element>
+
+        <element name="buttonWrapper" preferredWidth="1400" preferredHeight="360" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="25">
+            <element preferredWidth="800" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" anchorX="50">
+                <element name="btn_ok" skin="@btn_center1" skin.pressed="@btn_center2" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+                    <element name="txt_ok" skin="@oswald_bold_85_basic_drevo1" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="8"/>
+                </element>
+            </element>
+            <element preferredWidth="800" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" anchorX="-50">
+                <element name="btn_cancel" skin="@btn_center1" skin.pressed="@btn_center2" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+                    <element name="txt_cancel" skin="@oswald_bold_85_basic_drevo1" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="8"/>
+                </element>
+            </element>
+        </element>
+    </element>
+
+    <!-- QUESTION PAGE -->
+    <element name="questionPageWrapper" preferredWidth="1400" preferredHeight="1120" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" visible="false" anchorY="60">
+        <element name="questionTitleText" skin="@popup_medium_brown_ml" preferredWidth="1200" preferredHeight="220" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"/>
+        <element name="questionText" skin="@popup_medium_brown_ml" preferredWidth="1200" preferredHeight="220" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="50"/>
+        <element anchorY="120" preferredHeight="610" preferredWidth="1020" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+            <element name="list" preferredWidth="1020" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+        </element>
+
+        <element preferredWidth="850" preferredHeight="360" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-20">
+            <element name="btn_confirm_question" skin="@btn_center1" skin.pressed="@btn_center2" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+                <element name="txt_confirm" skin="@oswald_bold_85_basic_drevo1" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="8"/>
+            </element>
+        </element>
+    </element>
+
+    <!-- BOTTOM SOCIAL TEXT WITH BUTTONS -->
+    <element anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" name="socialMediaWrapper" anchorY="-105" preferredWidth="1200" preferredHeight="200">
+        <p:layout><horizontal gap="10"/></p:layout>
+        <element name="socialMediaText1" skin="@popup_small_brown" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+
+        <element name="fbIcon" skin="@hud_fb_icon" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+
+        <element name="socialMediaText2" skin="@popup_small_brown" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+
+        <element name="twitterIcon" skin="@hud_twitter_icon" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+    
+    </element>
+
+    <!-- POST-QUESTION PAGE -->
+    <element name="postQuestionWrapper" preferredWidth="1400" preferredHeight="600" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" visible="false">
+
+        <element name="questionAnsweredTittleText" skin="@popup_medium_brown_autosize_off" preferredWidth="1200" preferredHeight="220" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"/>
+        <element name="questionAnsweredInfoText" skin="@popup_medium_brown_ml" preferredWidth="1200" preferredHeight="220" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="100"/>
+        <element name="questionAnsweredSocialText" skin="@popup_medium_brown_ml" preferredWidth="1200" preferredHeight="220" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="350"/>
+
+        <element name="socialMediaButtonWrapper" preferredWidth="1400" preferredHeight="300" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="520">
+
+            <element name="fbButton" skin="@hud_fb_icon" anchorX="-250" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"/>
+            <element name="twitterButton" skin="@hud_twitter_icon" anchorX="250" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"/>
+        </element>
+    </element>
+    
+</element>
+</element>

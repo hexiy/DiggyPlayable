@@ -1,0 +1,64 @@
+<element name="black_screen" anchorTop="0" anchorBottom="1">
+	<!-- BACKGROUND -->
+	<element name="preloader_brown_BG" skin="@preloader_brown_BG" preferredWidth="1760" preferredHeight="900"
+			 anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="-25">
+		<!-- CLOSE BUTTON? -->
+		<element name="close_btn" skin="@preloader_production_cancel_icon"
+				 anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" anchorX="-10" anchorY="10"/>
+
+		<!-- *** LEFT PART  -->
+		<element skin="@preloader_card_BG" name="left_part"
+				 preferredWidth="780" preferredWidth.bigger="945" preferredHeight="660" preferredHeight.bigger="860"
+				 anchorAlign="TOP_CENTER" pivotAlign="TOP_RIGHT" anchorX="80" anchorX.bigger="90" anchorY="100" anchorY.bigger="20">
+
+			<!-- IMAGE -->
+			<element skin="@account_device_icon" skin.fb_icon="@account_fb_icon"
+					 anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" anchorX="100" anchorX.bigger="130" anchorY="60" anchorY.bigger="130"/>
+
+			<!-- TXT -->
+			<element name="left_txt" skin="@bold_32_black_af_left_top"
+					 preferredHeight="300" preferredWidth="300"
+					 anchorAlign="TOP_CENTER" pivotAlign="TOP_LEFT" anchorX="-60" anchorX.bigger="-30" anchorY="80" anchorY.bigger="170"/>
+
+			<!-- LEVEL TXT -->
+			<element name="left_level_txt" skin="@bold_32_black_af_middle_center" skin.bigger="@bold_48_black_af_middle_center"
+					 preferredHeight="300" preferredWidth="800"
+					 anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorX="0" anchorY="-150" anchorY.bigger="-230"/>
+
+			<!-- PLAY BUTTON -->
+			<element skin="@preloader_play_btn" name="left_play_btn" mouseChildren="false"
+					 anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorX="-20" anchorY="-60" anchorY.bigger="-100">
+				<element name="left_play_btn_txt" skin="@bold_64_dgreen_at"
+						 anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="20"/>
+			</element>
+		</element>
+
+		<!-- *** RIGHT PART *** -->
+		<element skin="@preloader_card_BG" name="right_part"
+				 preferredWidth="780" preferredWidth.bigger="945" preferredHeight="660" preferredHeight.bigger="860"
+				 anchorAlign="TOP_CENTER" pivotAlign="TOP_LEFT" anchorX="80" anchorX.bigger="90" anchorY="100" anchorY.bigger="20">
+
+			<!-- IMAGE -->
+			<element skin="@account_device_icon" skin.fb_icon="@account_fb_icon"
+					 anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" anchorX="100" anchorX.bigger="130" anchorY="60" anchorY.bigger="130"/>
+
+			<!-- TXT -->
+			<element name="right_txt" skin="@bold_32_black_af_left_top"
+					 preferredHeight="300" preferredWidth="300"
+					 anchorAlign="TOP_CENTER" pivotAlign="TOP_LEFT" anchorX="-60" anchorX.bigger="-30" anchorY="80" anchorY.bigger="170"/>
+
+			<!-- LEVEL TXT -->
+			<element name="right_level_txt" skin="@bold_32_black_af_middle_center" skin.bigger="@bold_48_black_af_middle_center"
+					 preferredHeight="300" preferredWidth="800"
+					 anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorX="0" anchorY="-150" anchorY.bigger="-230"/>
+
+			<!-- PLAY BUTTON -->
+			<element skin="@preloader_play_btn" name="right_play_btn" mouseChildren="false"
+					 anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorX="-20" anchorY="-60" anchorY.bigger="-100">
+				<element name="right_play_btn_txt" skin="@bold_64_dgreen_at"
+						 anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="20"/>
+			</element>
+		</element>
+
+	</element>
+</element>

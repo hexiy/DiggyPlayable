@@ -1,0 +1,29 @@
+<element name="black_screen" skin="@shade_black" anchorTop="0" anchorBottom="1" mouseUp="closeMouseUp_handler">
+	
+	<element name="popup_body" preferredWidth="1500" preferredHeight="820" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+	
+		<element skin="@bg_brown" preferredWidth="1500" preferredHeight="820" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+		
+		<element name="btn_close" skin="@icon_close" visible="true" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" anchorX="-20" anchorY="0"/>
+        
+        <element name="btn_left" skin="@button_brown_01" skin.pressed="@button_brown_02" anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT" anchorX="24" anchorY="30" preferredWidth="142" preferredHeight="142" mouseChildren="false">
+			<element name="btn_left_icon" skin="@production_start_icon" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+        </element>
+        
+        <element name="btn_right" skin="@button_brown_01" skin.pressed="@button_brown_02" anchorAlign="MIDDLE_RIGHT" pivotAlign="MIDDLE_RIGHT" anchorX="-24" anchorY="30" preferredWidth="142" preferredHeight="142" mouseChildren="false">
+			<element name="btn_right_icon" skin="@production_start_icon" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+        </element>
+        
+        <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="70" preferredHeight="626" anchorLeft="0" anchorRight="1">
+            <element name="asset_header" skin="@asset" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"/>
+        </element>
+		
+		<element name="lbl_text" skin="@oswald_40_white_center_top" model="LEVEL" anchorY="510" preferredWidth="1190" preferredHeight="300" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"/>
+		
+		<element name="steps" preferredWidth="500" preferredHeight="20" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-20">
+			<p:layout><horizontal gap="15" useChildrenHeight="true" skipLastGap="true"/></p:layout>
+		</element>
+		
+	</element>
+ 
+</element>

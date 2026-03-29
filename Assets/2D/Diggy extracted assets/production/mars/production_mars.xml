@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:2811767f8faf39567b30be412e2dea20:ef2917dc4b3eb9a58f1e39b262bc2c94:6b20994958d86cd27db2b5d7cb391337$ -->
+<TextureAtlas imagePath="production_mars.png" width="512" height="512">
+    <SubTexture name="production_caravan_buy_mars" x="1" y="138" width="295" height="112"/>
+    <SubTexture name="production_caravan_idle_mars" x="300" y="219" width="77" height="82" frameX="-14" frameY="-16" frameWidth="97" frameHeight="98"/>
+    <SubTexture name="production_kitchen_buy" x="1" y="1" width="295" height="133"/>
+    <SubTexture name="production_kitchen_idle" x="300" y="1" width="160" height="107"/>
+    <SubTexture name="production_metalurg_buy" x="1" y="254" width="293" height="104"/>
+    <SubTexture name="production_metalurg_idle" x="300" y="112" width="136" height="103"/>
+</TextureAtlas>

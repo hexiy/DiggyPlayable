@@ -1,0 +1,45 @@
+<data>
+
+    <fontSkin id="team_header_font_darker" font="@oswald_bold" autoSize="false" wordWrap="true" vAlign="TOP" hAlign="CENTER" color="0x684b27" fontScale="1"/>
+    <fontSkin id="team_header_font_darker_bigger" font="@oswald_bold" autoSize="false" wordWrap="true" vAlign="MIDDLE" hAlign="CENTER" color="0x684b27" fontScale="1.1"/>
+
+    <fontSkin id="team_header_font_darker_left" font="@oswald_bold" autoSize="false" wordWrap="true" vAlign="TOP" hAlign="LEFT" color="0x684b27" fontScale="1"/>
+    <fontSkin id="team_hint_header_left_font" font="@oswald_bold" autoSize="false" wordWrap="true" hAlign="LEFT" color="0xFFFFFF" fontScale="1"/>
+    <fontSkin id="team_title_hint_font" font="@oswald_bold" autoSize="false" wordWrap="true" vAlign="TOP" hAlign="CENTER" color="0x9b7144" fontScale="0.9"/>
+    <fontSkin id="team_title_hint_left_font" font="@oswald_bold" autoSize="false" wordWrap="true" vAlign="TOP" hAlign="LEFT" color="0x9b7144" fontScale="1"/>
+    <fontSkin id="team_title_hint_left_white_font" font="@oswald_bold" autoSize="false" wordWrap="true" vAlign="TOP" hAlign="LEFT" color="0xFFFFFF" fontScale="1"/>
+    <fontSkin id="team_hint_font" font="@oswald_bold" autoSize="false" wordWrap="true" vAlign="TOP" hAlign="CENTER" color="0x9b7144" fontScale="0.85"/>
+    <fontSkin id="team_help_font" font="@oswald_bold" autoSize="false" wordWrap="true" vAlign="BOTTOM" hAlign="CENTER" color="0xFFFFFF" fontScale="0.85"/>
+    <fontSkin id="team_activity_font" font="@oswald_bold" autoSize="false" wordWrap="true" vAlign="MIDDLE" hAlign="LEFT" color="0xFFFFFF" fontScale="0.85"/>
+    <fontSkin id="team_hint_font_left" font="@oswald_bold" autoSize="false" wordWrap="true" vAlign="TOP" hAlign="LEFT" color="0x9b7144" fontScale="0.85"/>
+    <fontSkin id="team_hint_white_font_left" font="@oswald_bold" autoSize="false" wordWrap="true" vAlign="TOP" hAlign="LEFT" color="0xFFFFFF" fontScale="0.85"/>
+    <fontSkin id="team_hint_white_font_right" font="@oswald_bold" autoSize="false" wordWrap="true" vAlign="TOP" hAlign="RIGHT" color="0xFFFFFF" fontScale="0.85"/>
+    <fontSkin id="team_hint_white_font_mid_right" font="@oswald_bold" autoSize="false" wordWrap="true" vAlign="MIDDLE" hAlign="RIGHT" color="0xFFFFFF" fontScale="0.85"/>
+    <fontSkin id="team_hint_font_left_small" font="@oswald_bold" autoSize="false" wordWrap="true" vAlign="TOP" hAlign="LEFT" color="0x9b7144" fontScale="0.55"/>
+    <fontSkin id="team_hint_font_left_smallest" font="@oswald_bold" autoSize="false" wordWrap="true" vAlign="TOP" hAlign="LEFT" color="0x9b7144" fontScale="0.52"/>
+    <fontSkin id="team_big_font" font="@oswald_bold" autoSize="false" wordWrap="true" hAlign="CENTER" vAlign="MIDDLE" color="0xFFFFFF" fontScale="1.6"/>
+    <fontSkin id="team_join_request_body" font="@oswald_bold" autoSize="false" wordWrap="true" hAlign="CENTER" vAlign="MIDDLE" color="0xFFFFFF" fontScale="1.6"/>
+    <fontSkin id="team_body_font" font="@oswald_bold" autoSize="false" wordWrap="true" hAlign="CENTER" vAlign="MIDDLE" color="0xFFFFFF" fontScale="1"/>
+    <fontSkin id="team_body_brown_font" font="@oswald_bold" autoSize="false" wordWrap="true" hAlign="LEFT" vAlign="MIDDLE" color="0x412d0f" fontScale="1"/>
+<!--    <fontSkin id="team_body_font_small" font="@oswald_bold" autoSize="false" wordWrap="true" hAlign="CENTER" vAlign="MIDDLE" color="0xFFFFFF" fontScale="0.6"/>-->
+
+    <fontSkin id="team_body_font_smaller" font="@oswald_bold" autoSize="false" wordWrap="true" hAlign="RIGHT" vAlign="MIDDLE" color="0xFFFFFF" fontScale="0.6"/>
+    <fontSkin id="team_body_font_smaller_mc" font="@oswald_bold" autoSize="false" wordWrap="true" hAlign="CENTER" vAlign="MIDDLE" color="0xFFFFFF" fontScale="0.6"/>
+    <fontSkin id="team_premium_btn_font" font="@oswald_bold" autoSize="false" wordWrap="true" hAlign="CENTER" vAlign="MIDDLE" color="0xFFFFFF" fontScale="1.2"/>
+    <fontSkin id="team_scrollable_body_font" font="@oswald_bold" autoSize="false" wordWrap="true" hAlign="LEFT" vAlign="MIDDLE" color="0xFFFFFF" fontScale="1"/>
+    <fontSkin id="team_scrollable_body_big_left_font" font="@oswald_bold" autoSize="false" wordWrap="true" hAlign="LEFT" vAlign="MIDDLE" color="0xFFFFFF" fontScale="1.2"/>
+    <fontSkin id="team_info_wrap" hAlign="LEFT" vAlign="MIDDLE" font="@oswald_bold" autoSize="false" wordWrap="true" color="0x412d0d" fontScale="0.8"/>
+    <fontSkin id="team_info_wrap_bigger" hAlign="CENTER" vAlign="MIDDLE" font="@oswald_bold" autoSize="false" wordWrap="true" color="0x412d0d" fontScale="1.2"/>
+
+    <fontSkin id="team_chat_timestamp_my_message_font" font="@oswald_bold" autoSize="false" wordWrap="true" vAlign="TOP" hAlign="RIGHT" color="0x519CCB" fontScale="1"/>
+    <fontSkin id="team_chat_timestamp_font" font="@oswald_bold" autoSize="false" wordWrap="true" vAlign="TOP" hAlign="RIGHT" color="0x684b27" fontScale="1"/>
+    <fontSkin id="team_chat_timestamp_white_font" font="@oswald_bold" autoSize="false" wordWrap="true" vAlign="TOP" hAlign="RIGHT" color="0xFFFFFF" fontScale="1"/>
+    <fontSkin id="team_chat_sender_font" font="@oswald_bold" autoSize="false" wordWrap="true" vAlign="TOP" hAlign="LEFT" color="0x8A6636" fontScale="1"/>
+    <fontSkin id="team_chat_sender_white_font" font="@oswald_bold" autoSize="false" wordWrap="true" vAlign="TOP" hAlign="LEFT" color="0xFFFFFF" fontScale="1"/>
+    <fontSkin id="team_chat_sender_my_message_font" font="@oswald_bold" autoSize="false" wordWrap="true" vAlign="TOP" hAlign="LEFT" color="0x519CCB" fontScale="1"/>
+    <fontSkin id="team_chat_sender_join_request_font" font="@oswald_bold" autoSize="false" wordWrap="true" vAlign="TOP" hAlign="LEFT" color="0xFFFFFF" fontScale="1.2"/>
+    <fontSkin id="team_chat_sender_join_request_info_font" font="@oswald_bold" autoSize="false" wordWrap="true" vAlign="TOP" hAlign="LEFT" color="0xFFFFFF" fontScale="1"/>
+    <fontSkin id="team_chat_message_font" font="@oswald_bold" autoSize="false" wordWrap="true" vAlign="MIDDLE" hAlign="LEFT" color="0xFFFFFF" fontScale="1"/>
+    <fontSkin id="team_chat_my_message_font" font="@oswald_bold" autoSize="false" wordWrap="true" vAlign="MIDDLE" hAlign="RIGHT" color="0xFFFFFF" fontScale="1"/>
+
+</data>

@@ -1,0 +1,55 @@
+
+lucky_cards.png
+size: 921,380
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ZIARA
+  rotate: true
+  xy: 526, 214
+  size: 164, 314
+  orig: 164, 314
+  offset: 0, 0
+  index: -1
+card_bronze
+  rotate: false
+  xy: 2, 191
+  size: 260, 187
+  orig: 260, 187
+  offset: 0, 0
+  index: -1
+card_front
+  rotate: false
+  xy: 264, 191
+  size: 260, 187
+  orig: 260, 187
+  offset: 0, 0
+  index: -1
+card_front_outline
+  rotate: false
+  xy: 526, 25
+  size: 260, 187
+  orig: 260, 187
+  offset: 0, 0
+  index: -1
+card_gold
+  rotate: false
+  xy: 2, 2
+  size: 260, 187
+  orig: 260, 187
+  offset: 0, 0
+  index: -1
+card_silver
+  rotate: false
+  xy: 264, 2
+  size: 260, 187
+  orig: 260, 187
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 788, 25
+  size: 131, 187
+  orig: 131, 187
+  offset: 0, 0
+  index: -1

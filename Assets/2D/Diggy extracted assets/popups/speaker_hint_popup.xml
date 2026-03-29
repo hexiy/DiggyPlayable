@@ -1,0 +1,9 @@
+<element anchorTop="0" anchorBottom="1" anchorLeft="0" anchorRight="1">
+    <element name="black_screen" skin="@shade_black" anchorTop="0" anchorBottom="1" anchorLeft="0" anchorRight="1"/>
+    <element name="popup_body" skin="@dialog_body" preferredWidth="900" preferredHeight="640" pivotAlign="MIDDLE_CENTER">
+        <element name="img_speaker_head" skin="@asset" anchorAlign.left="TOP_LEFT" anchorAlign.right="TOP_RIGHT" pivotAlign="MIDDLE_CENTER"/>
+        <!-- anchor=-15 to correctly center it to "popup_body" as "middle_popup_half" has shadow in picture -->
+        <element name="content" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="-5"/>
+    </element>
+    <element name="click_area" skin="@invisible" anchorTop="0" anchorBottom="1" anchorLeft="0" anchorRight="1" mouseUp="okMouseUp_handler"/>
+</element>

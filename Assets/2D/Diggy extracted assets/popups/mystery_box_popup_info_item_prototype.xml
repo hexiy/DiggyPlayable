@@ -1,0 +1,69 @@
+<element preferredWidth="480" preferredHeight="666">
+    <element name="cardSpine" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="670"/>
+    <element name="amount" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="235" preferredWidth="350">
+        <element skin="@gem_popup_card_amount_bg" preferredWidth="335" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorX="20" anchorY="12" flushBatch="true"/>
+        <element skin="@shop_parameter_limit_01" preferredWidth="335" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"/>
+
+        <element name="reward_element" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredHeight="100" anchorY="20">
+            <p:layout><horizontal gap="10"/></p:layout>
+            <element name="rewardAmount" skin="@oswald_M_brown" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="8"/>
+            <element name="rewardGraphicsWrapper" preferredWidth="100" preferredHeight="100" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="-5">
+                <element name="rewardGraphics" skin.regen="@hud_regen" skin.storage="@hud_storage" skin.energy="@ico_energy" visible="true" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+            </element>
+            <element name="rewardValue" skin="@oswald_M_brown" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="8"/>
+        </element>
+    </element>
+
+    <element name="icon_asset_wrapper" anchorY="-90" anchorY.building="-75" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER">
+        <element name="grid2" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER">
+            <p:layout><horizontal gap="-23"/></p:layout>
+            <element skin="@pack_popup_equip_ph2"/>
+            <element skin="@pack_popup_equip_ph2"/>
+            <element skin="@pack_popup_equip_ph2"/>
+            <element skin="@pack_popup_equip_ph2"/>
+        </element>
+        <element name="grid3" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER">
+            <p:layout><horizontal gap="-19"/></p:layout>
+            <element skin="@pack_popup_equip_ph3"/>
+            <element skin="@pack_popup_equip_ph3"/>
+            <element skin="@pack_popup_equip_ph3"/>
+            <element skin="@pack_popup_equip_ph3"/>
+        </element>
+        <element name="grid4" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER">
+            <p:layout><horizontal gap="-20"/></p:layout>
+            <element skin="@pack_popup_equip_ph4"/>
+            <element skin="@pack_popup_equip_ph4"/>
+            <element skin="@pack_popup_equip_ph4"/>
+            <element skin="@pack_popup_equip_ph4"/>
+        </element>
+
+        <element name="icon_asset" skin="@asset" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" flushBatch="true">
+            <element name="rewardImage" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER"/>
+        </element>
+
+        <element name="region_badge_holder" visible="false"
+                 pivotAlign="BOTTOM_CENTER" anchorAlign="BOTTOM_CENTER" anchorLeft=".5" anchorRight=".5">
+            <element name="region_badge"
+                     skin.region1="@region_badge_1"
+                     skin.region2="@region_badge_2"
+                     skin.region3="@region_badge_3"
+                     skin.region4="@region_badge_4"
+                     skin.region5="@region_badge_5"
+                     skin.region6="@region_badge_6"
+                     skin.region7="@region_badge_7"
+                     skin.region8="@region_badge_8"
+                     skin.region9="@region_badge_9"
+                     anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+        </element>
+
+    </element>
+
+    <element name="title" skin="@oswald_M_brown_aoff" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="75" preferredWidth="340" preferredHeight="200"/>
+
+    <element name="prob" skin="@otaznik" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="30" mouseUp="onProbInfoMouseUp_handler" visible="false"/>
+
+    <element name="prob_info" skin="@quests_talker_bubble_01" preferredWidth="175" preferredHeight="88" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorX="5" anchorY="-50" visible="false" flushBatch="true">
+        <element name="prob_txt" skin="@oswald_M_brown" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="8"/>
+    </element>
+
+</element>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:c3e33c4ec87bbdcfbf97431fd82d7db0:e5e7809abb112708ef15d18c25ece58c:064d0d286340d118bd025e4bd280433f$ -->
+<TextureAtlas imagePath="camp_india.png" width="512" height="1024">
+    <SubTexture name="camp_greece_god_bg" x="217" y="571" width="89" height="89"/>
+    <SubTexture name="camp_india_caravan" x="1" y="420" width="252" height="147"/>
+    <SubTexture name="camp_india_kitchen" x="1" y="848" width="199" height="143"/>
+    <SubTexture name="camp_india_lift" x="337" y="373" width="132" height="195"/>
+    <SubTexture name="camp_india_metalurg" x="310" y="572" width="199" height="272"/>
+    <SubTexture name="camp_india_museum" x="1" y="571" width="212" height="259"/>
+    <SubTexture name="camp_oracle" x="337" y="1" width="167" height="179" frameX="-13" frameY="0" frameWidth="180" frameHeight="179"/>
+    <SubTexture name="elevator" x="337" y="184" width="166" height="185"/>
+    <SubTexture name="pet_house_camp" x="1" y="1" width="332" height="415"/>
+</TextureAtlas>

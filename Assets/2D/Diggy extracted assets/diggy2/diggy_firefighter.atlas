@@ -1,0 +1,321 @@
+
+Diggy.png
+size: 345,78
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Brada
+  rotate: false
+  xy: 213, 28
+  size: 3, 3
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+Lopata
+  rotate: true
+  xy: 296, 48
+  size: 14, 41
+  orig: 14, 41
+  offset: 0, 0
+  index: -1
+Nos
+  rotate: true
+  xy: 98, 27
+  size: 6, 10
+  orig: 6, 10
+  offset: 0, 0
+  index: -1
+Nos_zboku
+  rotate: true
+  xy: 296, 5
+  size: 7, 11
+  orig: 7, 11
+  offset: 0, 0
+  index: -1
+Obocie
+  rotate: false
+  xy: 181, 28
+  size: 11, 3
+  orig: 11, 3
+  offset: 0, 0
+  index: -1
+Oko_bielko
+  rotate: false
+  xy: 337, 39
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+Oko_viecko
+  rotate: false
+  xy: 309, 4
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+Oko_zatvorene
+  rotate: false
+  xy: 319, 4
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+Potapacske_okuliare01
+  rotate: false
+  xy: 296, 28
+  size: 35, 18
+  orig: 35, 18
+  offset: 0, 0
+  index: -1
+Potapacske_okuliare02
+  rotate: true
+  xy: 162, 2
+  size: 29, 17
+  orig: 29, 17
+  offset: 0, 0
+  index: -1
+Snorchel
+  rotate: true
+  xy: 111, 27
+  size: 17, 36
+  orig: 17, 36
+  offset: 0, 0
+  index: -1
+Space_helmet
+  rotate: false
+  xy: 2, 24
+  size: 52, 52
+  orig: 52, 52
+  offset: 0, 0
+  index: -1
+Tien_tvar
+  rotate: true
+  xy: 272, 2
+  size: 20, 6
+  orig: 20, 6
+  offset: 0, 0
+  index: -1
+Tvar3
+  rotate: true
+  xy: 181, 2
+  size: 24, 33
+  orig: 24, 33
+  offset: 0, 0
+  index: -1
+Ucho
+  rotate: true
+  xy: 333, 27
+  size: 4, 8
+  orig: 4, 8
+  offset: 0, 0
+  index: -1
+Usmev
+  rotate: false
+  xy: 146, 2
+  size: 14, 8
+  orig: 14, 8
+  offset: 0, 0
+  index: -1
+Usta
+  rotate: false
+  xy: 280, 5
+  size: 14, 6
+  orig: 14, 6
+  offset: 0, 0
+  index: -1
+Usta_normal
+  rotate: true
+  xy: 339, 47
+  size: 15, 4
+  orig: 15, 4
+  offset: 0, 0
+  index: -1
+Usta_unaveny
+  rotate: false
+  xy: 280, 13
+  size: 14, 8
+  orig: 14, 8
+  offset: 0, 0
+  index: -1
+Vlasy
+  rotate: true
+  xy: 149, 12
+  size: 32, 11
+  orig: 32, 11
+  offset: 0, 0
+  index: -1
+Vlasy_bg
+  rotate: false
+  xy: 258, 24
+  size: 26, 18
+  orig: 26, 18
+  offset: 0, 0
+  index: -1
+Vlasy_bok
+  rotate: false
+  xy: 333, 33
+  size: 2, 13
+  orig: 2, 13
+  offset: 0, 0
+  index: -1
+Vlasy_tien
+  rotate: false
+  xy: 213, 33
+  size: 29, 11
+  orig: 29, 11
+  offset: 0, 0
+  index: -1
+Vlasy_zadne
+  rotate: true
+  xy: 216, 2
+  size: 24, 33
+  orig: 24, 33
+  offset: 0, 0
+  index: -1
+Zbijacka
+  rotate: true
+  xy: 2, 2
+  size: 20, 41
+  orig: 20, 41
+  offset: 0, 0
+  index: -1
+Zrenicka
+  rotate: false
+  xy: 218, 28
+  size: 3, 3
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+empty_placeholder
+  rotate: false
+  xy: 146, 24
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+firefighter_bodyB
+  rotate: true
+  xy: 98, 2
+  size: 23, 25
+  orig: 23, 25
+  offset: 0, 0
+  index: -1
+firefighter_bodyF
+  rotate: true
+  xy: 125, 2
+  size: 23, 19
+  orig: 23, 19
+  offset: 0, 0
+  index: -1
+firefighter_bodyS
+  rotate: true
+  xy: 251, 2
+  size: 20, 19
+  orig: 20, 19
+  offset: 0, 0
+  index: -1
+firefighter_drop
+  rotate: true
+  xy: 337, 33
+  size: 4, 6
+  orig: 4, 6
+  offset: 0, 0
+  index: -1
+firefighter_hadica1
+  rotate: true
+  xy: 244, 33
+  size: 11, 12
+  orig: 11, 12
+  offset: 0, 0
+  index: -1
+firefighter_hadica2
+  rotate: true
+  xy: 198, 29
+  size: 16, 13
+  orig: 16, 13
+  offset: 0, 0
+  index: -1
+firefighter_hasak
+  rotate: true
+  xy: 162, 33
+  size: 12, 34
+  orig: 12, 34
+  offset: 0, 0
+  index: -1
+firefighter_hatB
+  rotate: false
+  xy: 56, 2
+  size: 40, 31
+  orig: 40, 31
+  offset: 0, 0
+  index: -1
+firefighter_hatF1
+  rotate: false
+  xy: 213, 46
+  size: 46, 30
+  orig: 46, 30
+  offset: 0, 0
+  index: -1
+firefighter_hatF2
+  rotate: false
+  xy: 296, 64
+  size: 46, 12
+  orig: 46, 12
+  offset: 0, 0
+  index: -1
+firefighter_hatS1
+  rotate: false
+  xy: 56, 35
+  size: 53, 41
+  orig: 53, 41
+  offset: 0, 0
+  index: -1
+firefighter_hatS2
+  rotate: false
+  xy: 162, 47
+  size: 49, 29
+  orig: 49, 29
+  offset: 0, 0
+  index: -1
+firefighter_leg
+  rotate: false
+  xy: 323, 14
+  size: 7, 12
+  orig: 7, 12
+  offset: 0, 0
+  index: -1
+firefighter_nadrz
+  rotate: true
+  xy: 296, 14
+  size: 12, 25
+  orig: 12, 25
+  offset: 0, 0
+  index: -1
+firefighter_ruka1
+  rotate: false
+  xy: 286, 23
+  size: 8, 19
+  orig: 8, 19
+  offset: 0, 0
+  index: -1
+firefighter_ruka2
+  rotate: false
+  xy: 45, 3
+  size: 9, 19
+  orig: 9, 19
+  offset: 0, 0
+  index: -1
+firefighter_sekerka
+  rotate: true
+  xy: 111, 46
+  size: 30, 49
+  orig: 30, 49
+  offset: 0, 0
+  index: -1
+firefighter_splash
+  rotate: true
+  xy: 261, 44
+  size: 32, 33
+  orig: 32, 33
+  offset: 0, 0
+  index: -1

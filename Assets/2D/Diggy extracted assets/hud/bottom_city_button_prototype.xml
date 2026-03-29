@@ -1,0 +1,4 @@
+<element preferredWidth="176" preferredHeight="180">
+    <element skin="@bottom_city_bg"/>
+    <element name="buttonIcon" skin="@asset" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" mouseClick="cityButtonMouseUp_handler" mouseDown="cityButtonMouseDown_handler" mouseOut="cityButtonMouseOut_handler"/>
+</element>

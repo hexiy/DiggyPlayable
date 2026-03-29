@@ -1,0 +1,21 @@
+<element anchorX="-61" preferredWidth="382" name="panel_energy">
+    <element name="energy_wrapper" preferredWidth="382" mouseUp="energyButton_handler" anchorX="0">
+        <element name="energyBar_blackBg" skin="@bg_black" preferredWidth="380" preferredHeight="42" anchorY="28" anchorX="80"/>
+        <element name="energyBar" skin="@top_bar_energy" preferredHeight="33" anchorX="82" anchorY="32"/>
+        <element name="top_left_bg_02" skin="@top_left_alpha_bg" preferredHeight="50" preferredWidth="390" anchorY="24" anchorX="78"/>
+        <element name="topBtnEnergy" skin="@ico_energy" anchorY="12" anchorX="41" flushBatch="true" />
+        <element name="energyText"
+                skin="@typeface_36_white_center_middle_as"
+                anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"
+                anchorY="32" anchorX="83"
+                flushBatch="true"
+                preferredHeight="50"
+                preferredWidth="300"/>
+    </element>
+    <element name="energyButton" visible="false" skin="@invisible" anchorX="425" anchorY="20" preferredWidth="70" preferredHeight="80" mouseEnabled="true" flushBatch="true">
+        <element name="energyButtonContent" skin="@btn_blue_narrow"  anchorX="0" anchorY="0" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"
+                 preferredWidth="70" preferredHeight="80" mouseEnabled="true" mouseChildren="false" flushBatch="true">
+            <element name="energyButtonLabel" skin="@icon_plus" anchorY="-13" flushBatch="true" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" mouseEnabled="false"/>
+        </element>
+    </element>
+</element>

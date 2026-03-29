@@ -1,0 +1,19 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:583a6ffe0aad174fcda467e1ee372ae0:bf24cb88ad7eee10f7b959bbfe7d362f:47651bbb60b2d9aecf5a36d3e873f973$
+#
+:format=40300
+:texture=event_pass.png
+:size=512x1024
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+event_pass_deluxe_box_diggy;1;374;325;323; 0.5;0.5; 0;0;0;0
+event_pass_deluxe_gradient;345;635;4;388; 0.5;0.5; 0;0;0;0
+event_pass_deluxe_pass_box;1;229;179;143; 0.5;0.5; 0;0;0;0
+event_pass_deluxe_ribbon;1;699;342;324; 0.5;0.5; 0;0;0;0

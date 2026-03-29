@@ -1,0 +1,82 @@
+<element name="black_screen" skin="@black" anchorTop="0" anchorBottom="1">
+    <element anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+        <element name="popup_body" skin="@bg_brown" preferredWidth="1188" preferredHeight="858" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+
+            <element visible.1="true" visible="false" skin="@middle_popup_half" preferredWidth="1078" preferredHeight="700" anchorX="16" anchorY="108" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+                <element skin="@DA_logo" anchorY="110" anchorX="-16" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="400" preferredHeight="170"/>
+
+                <element name="btn_having_fun" skin="@btn_center1_trislice" skin.pressed="@btn_center_3slice" preferredWidth="858" preferredHeight="118" anchorY="364" anchorX="-16" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+                    <element anchorAlign="BOTTOM_LEFT" pivotAlign="BOTTOM_LEFT" preferredWidth="282" preferredHeight="200" anchorX="-45" anchorY="-10"><element skin="@popup_levelup" anchorTop="0" anchorBottom="1" anchorLeft="0" anchorRight="1"/></element>
+                    <element name="having_fun" skin="@oswald_bold_85_basic_drevo1" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="8"/>
+                </element>
+
+                <element name="btn_not_having_fun" skin="@btn_center1_trislice" skin.pressed="@btn_center_3slice" preferredWidth="858" preferredHeight="118" anchorY="514" anchorX="-16" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+                    <element skin="@child" anchorAlign="BOTTOM_RIGHT" pivotAlign="BOTTOM_RIGHT" anchorX="-15" anchorY="4"/>
+                    <element name="not_having_fun" skin="@oswald_bold_85_basic_drevo1" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="8"/>
+                </element>
+            </element>
+
+            <element visible.2="true" visible="false" skin="@middle_popup_half" preferredWidth="1078" preferredHeight="700" anchorX="16" anchorY="108" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+                <element anchorY="130" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+                    <p:layout><horizontal gap="74"/></p:layout>
+                    <element name="star1" skin="@asset"/>
+                    <element name="star2" skin="@asset"/>
+                    <element name="star3" skin="@asset"/>
+                </element>
+                <element name="starSmall1" skin="@asset" anchorX="178" anchorY="106"/>
+                <element name="starSmall2" skin="@asset" anchorX="176" anchorY="232"/>
+                <element name="starSmall3" skin="@asset" anchorX="408" anchorY="100"/>
+                <element name="starSmall4" skin="@asset" anchorX="376" anchorY="174"/>
+                <element name="starSmall5" skin="@asset" anchorX="390" anchorY="268"/>
+                <element name="starSmall6" skin="@asset" anchorX="592" anchorY="100"/>
+                <element name="starSmall7" skin="@asset" anchorX="594" anchorY="244"/>
+                <element name="starSmall8" skin="@asset" anchorX="794" anchorY="112"/>
+
+
+                <element name="btn_rate" skin="@button_green_01" skin.pressed="@button_green_02" preferredWidth="858" preferredHeight="118" anchorY="364" anchorX="-16" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+                    <element name="rate" skin="@buy_button_gem_font1" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="8"/>
+                    <element name="shopGem1" skin="@asset" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" anchorX="25" anchorY="-30"/>
+                    <element name="shopGem2" skin="@asset" anchorAlign="MIDDLE_RIGHT" pivotAlign="MIDDLE_RIGHT" anchorX="-25"/>
+                </element>
+
+                <element name="btn_remind" skin="@btn_center1_trislice" skin.pressed="@btn_center_3slice" preferredWidth="858" preferredHeight="118" anchorY="514" anchorX="-16" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+                    <element name="remind" skin="@oswald_bold_85_basic_drevo1" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="8"/>
+                </element>
+            </element>
+
+            <element visible.3="true" visible="false" name="popup3" skin="@middle_popup_half" preferredWidth="1078" preferredHeight="700" anchorX="16" anchorY="108" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+                <element skin="@gem_received_gem_small" anchorX="-144" anchorY="-88" anchorAlign="MIDDLE_RIGHT" pivotAlign="MIDDLE_RIGHT"/>
+
+                <element skin="@50x" anchorX="-244" anchorY="-88" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+
+                <element name="btn_reward" skin="@btn_center1_trislice" skin.pressed="@btn_center_3slice" preferredWidth="858" preferredHeight="118" anchorY="514" anchorX="-16" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+                    <element name="rewardImage" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+                    <element name="get_reward" skin="@oswald_bold_85_basic_drevo1" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="8"/>
+                </element>
+            </element>
+
+            <element visible.4="true" visible="false" name="popup4" skin="@middle_popup_half" preferredWidth="1078" preferredHeight="700" anchorX="16" anchorY="108" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+                <element name="btn_wikipedia" skin="@btn_center1_trislice" skin.pressed="@btn_center_3slice" preferredWidth="858" preferredHeight="118" anchorY="148" anchorX="-16" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+                    <element skin="@info" anchorX="-64" anchorY="-17" anchorAlign="BOTTOM_RIGHT" pivotAlign="BOTTOM_RIGHT"/>
+                    <element name="wikipedia" skin="@oswald_bold_85_basic_drevo1" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="8"/>
+                </element>
+
+                <element name="btn_contact" skin="@btn_center1_trislice" skin.pressed="@btn_center_3slice" preferredWidth="858" preferredHeight="118" anchorY="315" anchorX="-16" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+                    <element skin="@shop_tab_extras" anchorX="-12" anchorY="25" anchorAlign="BOTTOM_RIGHT" pivotAlign="BOTTOM_RIGHT"/>
+                    <element skin="@otaznik" anchorX="25" anchorY="-15" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT"/>
+                    <element name="contact" skin="@oswald_bold_85_basic_drevo1" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="8"/>
+                </element>
+
+                <element name="btn_close" skin="@btn_center1_trislice" skin.pressed="@btn_center_3slice" preferredWidth="858" preferredHeight="118" anchorY="484" anchorX="-16" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+                    <element skin="@production_cancel_icon" anchorX="-92" anchorY="-27" anchorAlign="BOTTOM_RIGHT" pivotAlign="BOTTOM_RIGHT"/>
+                    <element name="close" skin="@oswald_bold_85_basic_drevo1" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="8"/>
+                </element>
+            </element>
+
+            <element skin="@btn_center_3slice" preferredWidth="1094" preferredHeight="118" anchorY="29" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+                <element name="title" skin="@oswald_bold_85_basic_drevo1" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="37"/>
+            </element>
+
+        </element>
+    </element>
+</element>

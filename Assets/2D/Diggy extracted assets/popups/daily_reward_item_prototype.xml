@@ -1,0 +1,14 @@
+<element preferredWidth="200">
+    <element name="iconWrapper" preferredWidth="200" preferredHeight="200" anchorY="50">
+        <element skin="@shop_filter_off" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" anchorY="-22" anchorX="-22" flushBatch="true">
+            <element name="day_text" skin="@oswald_bold_85_basic_drevo1" anchorY="8" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+        </element>
+        <element name="red_outline" skin="@botton_round_01" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="215" preferredHeight="215"/>
+        <element name="background_ready" skin="@botton_round_01" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="200" preferredHeight="200"/>
+        <element name="background_ready_glow" skin="@botton_round_glow" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"  preferredWidth="200" preferredHeight="200"/>
+        <element name="background" skin="@camp_ui_switch_btn_bg" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+        <element name="asset" skin="@asset" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+        <element name="claimed" skin="@camp_ui_progress_bar_done" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="156" preferredHeight="120" anchorX="20" anchorY="-10"/>
+    </element>
+    <element name="next" skin="@production_start_icon" anchorX="235" anchorY="115"/>
+</element>

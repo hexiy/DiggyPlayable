@@ -1,0 +1,46 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:c2c59d30c2a687e143c111c3aca204fb:e2f1110678fa94274c265209ec1a7346:377d86f6e1d18dfd4a30ccaf3de07224$
+#
+:format=40300
+:texture=common_ui.png
+:size=1024x1024
+:pivotpoints=enabled
+:borders=enabled
+:alphahandling=ClearTransparentPixels
+
+badge_bg;835;575;145;146; 0.5;0.5; 0;0;0;0
+badge_gradient;835;425;145;146; 0.5;0.5; 0;0;0;0
+circle_lock_gold;836;875;146;146; 0.5;0.5; 0;0;0;0
+circle_lock_silver;835;725;146;146; 0.5;0.5; 0;0;0;0
+frame;986;989;32;32; 0.5;0.5; 12;12;8;14
+gold_chain;986;514;20;375; 0.5;0.5; 0;0;0;0
+gradient_bottom;827;363;4;512; 0.5;0.5; 0;0;0;0
+gradient_edge_top;3;15;44;256; 0.5;0.5; 17;17;17;17
+gradient_left;3;7;512;4; 0.5;0.5; 0;0;0;0
+gradient_right;3;804;512;4; 0.5;0.5; 0;0;0;0
+gradient_top;611;119;4;512; 0.5;0.5; 0;0;0;0
+horizontal_ribbon_white;519;635;97;69; 0.5;0.5; 29;2;2;3
+ico_coin;519;216;71;71; 0.5;0.5; 0;0;0;0
+ico_dna;519;459;80;80; 0.5;0.5; 0;0;0;0
+ico_energy;519;543;88;88; 0.5;0.5; 0;0;0;0
+ico_gem;519;291;78;80; 0.5;0.5; 0;0;0;0
+ico_misc;519;375;80;80; 0.5;0.5; 0;0;0;0
+ico_no_ads_tv;51;27;118;118; 0.5;0.5; 0;0;0;0
+icon_daily_tasks;519;708;100;100; 0.5;0.5; 0;0;0;0
+loading_progress;51;162;50;50; 0.5;0.5; 0;0;0;0
+pixelroof;623;879;209;142; 0.5;0.5; 0;0;0;0
+polygon_arrow_left;623;275;200;600; 0.5;0.5; 184;7;292;308
+popup_special_header;3;812;616;209; 0.5;0.5; 0;0;0;0
+shadow_rectangle;594;220;12;67; 0.5;0.5; 5;5;17;17
+timer_yellow;105;162;50;50; 0.5;0.5; 0;0;0;0
+white_edge;159;172;44;40; 0.5;0.5; 17;17;18;17
+white_edge_half_down;519;190;44;22; 0.5;0.5; 17;16;1;16
+white_edge_half_left;986;941;22;44; 0.5;0.5; 17;1;16;16
+white_edge_half_right;986;893;22;44; 0.5;0.5; 1;16;16;17
+white_edge_half_up;519;164;44;22; 0.5;0.5; 16;17;17;1
+white_rectangle;594;149;12;67; 0.5;0.5; 6;4;17;17

@@ -1,0 +1,54 @@
+<element name="gui_tooltip_holder"
+         preferredWidth="725"
+         preferredHeight="257"
+         anchorAlign="BOTTOM_CENTER"
+         pivotAlign="TOP_CENTER"
+         anchorX="0" anchorY="12">
+    <element skin="@tooltip_body" anchorLeft="0" anchorTop="0" anchorBottom="1" anchorRight="1" flushBatch="true"/>
+    <!-- Content -->
+    <element anchorAlign="MIDDLE_CENTER"
+             pivotAlign="MIDDLE_CENTER"
+             anchorY="20"
+             preferredHeight="257"
+             preferredWidth="725">
+        <!--p:layout><vertical gap="25" /></p:layout-->
+        <!-- Row 1 -->
+        <element anchorLeft="0" anchorRight="0">
+            <element name="gui_tooltip_text"
+                     anchorAlign="TOP_LEFT"
+                     pivotAlign="TOP_LEFT"
+                     anchorY="20"
+                     skin="@oswald_40_black_center_middle"
+                     preferredWidth="725"
+                     preferredHeight="60"
+                     flushBatch="true"/>
+        </element>
+        <!-- Row 2 -->
+        <element
+                anchorAlign="MIDDLE_CENTER"
+                pivotAlign="MIDDLE_CENTER"
+                anchorY="10"
+                flushBatch="true">
+            <p:layout><horizontal gap="0" /></p:layout>
+            <element name="exp_image"
+                     skin="@exp_small"
+                     anchorAlign="MIDDLE_LEFT"
+                     pivotAlign="MIDDLE_LEFT"
+                     anchorX="0"
+                     anchorY="-20"
+                     preferredWidth="25"
+                     preferredHeight="25"
+                     flushBatch="true"/>
+
+            <element name="gui_tooltip_text_row2"
+                     anchorAlign="TOP_LEFT"
+                     pivotAlign="TOP_LEFT"
+                     anchorX="0"
+                     skin="@oswald_S_brown"
+                     preferredWidth="170"
+                     preferredHeight="60"
+                     flushBatch="true"/>
+        </element>
+    </element>
+    <element skin="@tooltip_up" pivotAlign="TOP_CENTER" anchorAlign="TOP_CENTER" anchorY="-31"/>
+</element>

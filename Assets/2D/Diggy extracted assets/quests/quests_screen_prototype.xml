@@ -1,0 +1,72 @@
+<element anchorTop="0" anchorBottom="1" anchorLeft="0" anchorRight="1" mouseDown="scrollMouseDown_handler">
+    <element name="screen_bg" skin="@screen_bg" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+    <element name="cooking_event_screen_bg_shelf_top" skin="@new_tab_bg" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="1920" anchorY="105"/>
+
+    <element name="quest_log_name" skin="@typeface_54_white_left_middle" color="0xEEB57A" preferredWidth="1860" preferredHeight="70" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorX="30" anchorY="75" model="#SHME50"/>
+
+    <element name="tab_buttons_holder" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="55">
+        <p:layout><horizontal useChildrenHeight="true" gap="0"/></p:layout>
+
+        <element name="main_quests_tab_button" preferredWidth="315" prefferedHeight="95" preferredHeight.notSelected="74" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="-18" anchorY.notSelected="-4">
+            <element skin="@new_tab_selected" skin.notSelected="@new_tab" anchorLeft="0" anchorTop="0" anchorRight="1"/>
+            <element name="main_quests_tab_text" skin="@typeface_54_white_center_middle" skin.notSelected="@typeface_46_brown_center_middle" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"
+                     mouseEnabled="false" preferredWidth="260" preferredHeight="70" anchorY="35" anchorY.notSelected="20" />
+        </element>
+
+        <element name="side_quests_tab_button" preferredWidth="315" prefferedHeight="95" preferredHeight.notSelected="74" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="-18" anchorY.notSelected="-4">
+            <element skin="@new_tab_selected" skin.notSelected="@new_tab" anchorLeft="0" anchorTop="0" anchorRight="1"/>
+            <element name="side_quests_tab_text" skin="@typeface_54_white_center_middle" skin.notSelected="@typeface_46_brown_center_middle"  anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"
+                     mouseEnabled="false" preferredWidth="260" preferredHeight="70" anchorY="35" anchorY.notSelected="20" />
+        </element>
+
+        <element name="event_quests_tab_button" preferredWidth="315" prefferedHeight="95" preferredHeight.notSelected="74" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="-18" anchorY.notSelected="-4">
+            <element skin="@new_tab_selected" skin.notSelected="@new_tab" anchorLeft="0" anchorTop="0" anchorRight="1"/>
+            <element name="event_quests_tab_text" skin="@typeface_54_white_center_middle" skin.notSelected="@typeface_46_brown_center_middle"  anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"
+                     mouseEnabled="false" preferredWidth="260" preferredHeight="70" anchorY="35" anchorY.notSelected="20" />
+        </element>
+
+        <element name="pet_quests_tab_button" preferredWidth="315" prefferedHeight="95" preferredHeight.notSelected="74" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="-18" anchorY.notSelected="-4">
+            <element skin="@new_tab_selected" skin.notSelected="@new_tab" anchorLeft="0" anchorTop="0" anchorRight="1"/>
+            <element name="pet_quests_tab_text" skin="@typeface_54_white_center_middle" skin.notSelected="@typeface_46_brown_center_middle"  anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"
+                     mouseEnabled="false" preferredWidth="260" preferredHeight="70" anchorY="35" anchorY.notSelected="20" />
+        </element>
+    </element>
+
+    <element name="btn_back" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" preferredWidth="77" preferredHeight="97" anchorX="-55" anchorY="50" >
+        <element skin="@icon_close" anchorLeft="0" anchorTop="0" anchorRight="1" anchorBottom="1" />
+    </element>
+
+    <element name="tab_content" anchorLeft="0" anchorRight="1" anchorTop="0.20" anchorBottom="1">
+
+    </element>
+
+    <element name="quest_description_tooltip" visible="false" preferredWidth="1420" preferredHeight="280" pivotAlign="MIDDLE_LEFT" anchorAlign="TOP_LEFT" mouseDown="hideTooltips">
+        <element skin="@tooltip_body" anchorLeft="0" anchorTop="0" anchorRight="1" anchorBottom="1" />
+        <element name="info_bubble_text" skin="@oswald_bold_70_top_left_black" preferredWidth="500" preferredHeight="100" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" anchorX="55" anchorY="50" flushBatch="true"/>
+        <element skin="@tooltip_left" anchorAlign="TOP_LEFT" pivotAlign="MIDDLE_RIGHT" anchorY="70" anchorX="20" />
+    </element>
+
+    <element name="quest_objective_desc_tooltip" visible="false" preferredWidth="325" preferredHeight="277" anchorAlign="TOP_LEFT" pivotAlign="BOTTOM_CENTER" mouseDown="hideTooltips">
+        <element skin="@tooltip_body" anchorLeft="0" anchorTop="0" anchorBottom="1" anchorRight="1" />
+        <element name="info_bubble_text" skin="@oswald_bold_75_autosize_false_halign_black" preferredWidth="300" preferredHeight="250" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" anchorX="55" anchorY="50" flushBatch="true"/>
+        <element skin="@tooltip_down" pivotAlign="BOTTOM_CENTER" anchorAlign="BOTTOM_CENTER" anchorY="31"/>
+    </element>
+
+    <element name="quest_rewards_info_bubble" visible="false" preferredWidth="1040" preferredHeight="330" anchorAlign="TOP_LEFT" pivotAlign="MIDDLE_RIGHT" mouseDown="hideTooltips">
+        <element name="text_bubble_body" pivotAlign="MIDDLE_CENTER" anchorAlign="MIDDLE_CENTER" preferredWidth="1040" preferredHeight="330" flushBatch="true">
+            <element skin="@tooltip_body" anchorLeft="0" anchorTop="0" anchorRight="1" anchorBottom="1"/>
+            <element name="info_bubble_text" skin="@oswald_bold_75_autosize_false_halign_black" preferredWidth="900" preferredHeight="80" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="25" flushBatch="true"/>
+            <element name="rewards" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="70">
+                <p:layout><horizontal useChildrenHeight="true" skipLastGap="true" gap="25"/></p:layout>
+            </element>
+        </element>
+
+        <element skin="@tooltip_right" pivotAlign="MIDDLE_RIGHT" anchorAlign="MIDDLE_RIGHT" anchorX="30" />
+    </element>
+
+    <element name="quest_hint_tooltip" visible="false" preferredWidth="1000" preferredHeight="280" pivotAlign="MIDDLE_LEFT" anchorAlign="TOP_LEFT" mouseDown="hideTooltips">
+        <element skin="@tooltip_body" anchorLeft="0" anchorTop="0" anchorRight="1" anchorBottom="1" />
+        <element name="info_bubble_text" skin="@oswald_bold_70_top_left_black" preferredWidth="850" preferredHeight="190" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" anchorX="55" anchorY="50" flushBatch="true"/>
+        <element skin="@tooltip_left" anchorAlign="TOP_LEFT" pivotAlign="MIDDLE_RIGHT" anchorY="80" anchorX="20"/>
+    </element>
+</element>

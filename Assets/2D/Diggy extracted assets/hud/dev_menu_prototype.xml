@@ -1,0 +1,4 @@
+<element anchorY="100">
+    <horizontal/>
+    <element skin="@ui_btn_bg" mouseDown="zoomMouseDown_handler"></element>
+</element>

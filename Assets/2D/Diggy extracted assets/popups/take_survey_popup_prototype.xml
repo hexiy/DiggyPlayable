@@ -1,0 +1,19 @@
+<element name="black_screen" skin="@black" anchorTop="0" anchorBottom="1" mouseUp="backMouseUp_handler">
+    <element name="popup_body" preferredWidth="1000" preferredHeight="1400" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+        <element preferredWidth="1000" preferredHeight="1400" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+            <element skin="@middle_popup" preferredWidth="1000" preferredHeight="1400" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="15" anchorY="15"/>
+            <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="100">
+                <element name="title" skin="@popup_medium_brown_autosize_off" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="20" preferredWidth="1000" preferredHeight="80" model="#GUI3491" />
+                <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="150" preferredWidth="627" preferredHeight="513">
+                    <element name="image" skin="@popup_quest" anchorLeft="0" anchorTop="0" anchorRight="1" anchorBottom="1"/>
+                </element>
+                <element name="text" skin="@popup_small_brown_autosize_off_valign" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="700" preferredWidth="800" preferredHeight="350"/>
+            </element>
+
+            <element name="btn_ok" skin="@button_green_01" skin.pressed="@button_green_02" anchorY="-90" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" preferredWidth="580">
+                <element name="btn_ok_text" skin="@oswald_bold_85_basic_drevo1" anchorY="8" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+            </element>
+
+        </element>
+    </element>
+</element>

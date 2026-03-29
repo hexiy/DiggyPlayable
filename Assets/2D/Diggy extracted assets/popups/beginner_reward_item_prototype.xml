@@ -1,0 +1,15 @@
+<element preferredWidth="200">
+    <element name="title" skin="@oswald_bold_75" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"/>
+    <element name="iconWrapper" preferredWidth="200" preferredHeight="200" anchorY="50">
+        <element name="red_outline" skin="@bottom_quests_notification_big" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="215" preferredHeight="215"/>
+        <element name="background" skin="@camp_ui_switch_btn_bg" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+        <element name="rewardImage" skin="@ico_energy" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+        <element name="claimed" skin="@camp_ui_progress_bar_done" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="156" preferredHeight="120" anchorX="20" anchorY="-10"/>
+    </element>
+    <element name="valueWrapper" anchorY="275" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorX="40">
+        <p:layout><horizontal gap="10"/></p:layout>
+        <element name="value_text" skin="@oswald_bold_85" skin.last="@oswald_bold_85_white"/>
+        <element name="value_icon" skin="@ico_energy" anchorY="-10"/>
+    </element>
+    <element name="next" skin="@production_start_icon" anchorX="235" anchorY="115"/>
+</element>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:687fb85fa666ec3be410519bdd5e6a8c:adaf75e2915e73fbcfa691937b068b60:ed986eb0b8a4d47e3b93bdc5b55280ff$ -->
+<TextureAtlas imagePath="shadows.png" width="256" height="256">
+    <SubTexture name="kombo0" x="1" y="1" width="60" height="60"/>
+    <SubTexture name="kombo1" x="1" y="65" width="60" height="60"/>
+    <SubTexture name="kombo2" x="1" y="129" width="60" height="60"/>
+    <SubTexture name="kombo3" x="1" y="193" width="60" height="60"/>
+    <SubTexture name="roh1" x="129" y="129" width="35" height="35" frameX="0" frameY="-25" frameWidth="60" frameHeight="60"/>
+    <SubTexture name="roh2" x="193" y="65" width="60" height="35" frameX="0" frameY="-25" frameWidth="60" frameHeight="60"/>
+    <SubTexture name="roh3" x="65" y="1" width="60" height="60"/>
+    <SubTexture name="roh4" x="129" y="1" width="60" height="60"/>
+    <SubTexture name="roh5" x="193" y="1" width="60" height="60"/>
+    <SubTexture name="stena1" x="193" y="104" width="36" height="60" frameX="-24" frameY="0" frameWidth="60" frameHeight="60"/>
+    <SubTexture name="stena2" x="65" y="65" width="60" height="60"/>
+    <SubTexture name="stena3" x="65" y="129" width="60" height="60"/>
+    <SubTexture name="stena4" x="65" y="193" width="60" height="60"/>
+    <SubTexture name="stena5" x="129" y="65" width="60" height="60"/>
+</TextureAtlas>

@@ -1,0 +1,97 @@
+<element name="black_screen" skin="@black" anchorTop="0" anchorBottom="1">
+    <element name="popup_body" preferredWidth="2030" preferredHeight="1360" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+        <element skin="@bg_pink" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1" visible="true" visible.tap_state="true"/>
+        <element name="loading" skin="@popup_xlarge_white" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" visible="false"/>
+        <element name="btn_cancel" skin="@preloader_production_cancel_icon_big" skin.pressed="@preloader_production_cancel_icon_big" anchorX="-150" anchorY="75" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT"
+                 visible="true" visible.buy_state-info_state-tap_state-final_state="false" />
+
+        <!-- START STATE -->
+        <element anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1" visible="false" visible.start_state="true">
+            <element preferredWidth="820" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="55">
+                <element skin="@btn_center_3slice" preferredWidth="720" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="5" flushBatch="true"/>
+                <element skin="@left_gold_deco" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT"/>
+                <element skin="@right_gold_deco" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT"/>
+                <element name="mainLabel" skin="@popup_xlarge_white" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="32"/>
+            </element>
+
+            <element preferredWidth="1840" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="195">
+                <element skin="@btn_center_3slice" preferredWidth="1750" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="5" flushBatch="true"/>
+                <element skin="@left_gold_deco" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT"/>
+                <element skin="@right_gold_deco" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT"/>
+                <element preferredWidth="398" preferredHeight="140" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="-4">
+                    <element skin="@popup_label_flag" preferredWidth="398" anchorTop="0" anchorBottom="1"/>
+                    <element name="timerLabel" skin="@popup_xlarge_white" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="30"/>
+                </element>
+            </element>
+
+            <element name="chestSlot0" anchorX="500" anchorY="195"/>
+            <element name="chestSlot1" anchorX="1500" anchorY="195"/>
+        </element>
+
+        <!-- BUY STATE / SINGLE STATE -->
+        <element anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1" visible="false" visible.buy_state-single_state="true">
+            <element preferredWidth="1240" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="55">
+                <element skin="@btn_center_3slice" preferredWidth="1150" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="5" flushBatch="true"/>
+                <element skin="@left_gold_deco" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT"/>
+                <element skin="@right_gold_deco" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT"/>
+                <element name="buyLabel" skin="@popup_large_white" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="37"/>
+            </element>
+
+            <element name="buyChestSlot" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"/>
+
+            <element name="btn_back" skin="@button_brown_01" skin.pressed="@button_brown_02" preferredWidth="345" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="1184">
+                <element name="backButtonLabel" skin="@popup_xlarge_white" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="34" flushBatch="true"/>
+            </element>
+        </element>
+
+        <!-- INFO STATE -->
+        <element anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1" visible="false" visible.info_state="true">
+            <element preferredWidth="1720" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="45">
+                <element skin="@btn_center_3slice" preferredWidth="1630" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="5" flushBatch="true"/>
+                <element skin="@left_gold_deco" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT"/>
+                <element skin="@right_gold_deco" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT"/>
+                <element name="infoLabel" skin="@popup_large_white" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="37"/>
+            </element>
+
+            <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" name="infoCardsWrapper" skin="@black" preferredWidth="1620" preferredHeight="800" anchorY="300" mouseDown="scrollMouseDown_handler">
+                <element name="mask_wrapper" preferredWidth="1720" preferredHeight="800" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+                    <element name="infoCardsParent">
+                        <element name="infoCards">
+
+                        </element>
+                    </element>
+                </element>
+                <element skin="@bg_gradient_l" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" anchorX="-75" preferredHeight="700" flushBatch="true"/>
+                <element skin="@bg_gradient_r" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" anchorX="75" preferredHeight="700"/>
+            </element>
+
+            <element name="infoFootNote" skin="@oswald_40_white_center_middle" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="990"
+                     preferredWidth="1500" preferredHeight="200" />
+
+            <element name="btn_close" skin="@button_brown_01" skin.pressed="@button_brown_02" preferredWidth="440" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="1134">
+                <element name="closeButtonLabel" skin="@popup_xlarge_white" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="34" flushBatch="true"/>
+            </element>
+        </element>
+
+        <!-- TAP STATE + FINAL STATE -->
+        <element anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1" visible="false" visible.tap_state-final_state="true">
+
+            <element name="tapCards" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1" flushBatch="true">
+                <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorX="35" anchorY="290">
+                    <p:layout><horizontal gap="90"/></p:layout>
+                    <element name="card1" skin="@black" preferredWidth="480" preferredHeight="666" mouseUp="onCardTapMouseUp_handler"/>
+                    <element name="card0" skin="@black" preferredWidth="480" preferredHeight="666" mouseUp="onCardTapMouseUp_handler"/>
+                    <element name="card2" skin="@black" preferredWidth="480" preferredHeight="666" mouseUp="onCardTapMouseUp_handler"/>
+                </element>
+            </element>
+
+            <element name="btn_turnAll" skin="@button_brown_01" skin.pressed="@button_brown_02" preferredWidth="644" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="1134" visible="true" visible.final_state="false">
+                <element name="turnAllButtonLabel" skin="@popup_xlarge_white" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="34" flushBatch="true"/>
+            </element>
+            
+            <element name="btn_claimReward" skin="@button_brown_01" skin.pressed="@button_brown_02" preferredWidth="644" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="1134" visible="true" visible.tap_state="false">
+                <element name="claimButtonLabel" skin="@popup_xlarge_white" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="34" flushBatch="true"/>
+            </element>
+        </element>
+    </element>
+</element>

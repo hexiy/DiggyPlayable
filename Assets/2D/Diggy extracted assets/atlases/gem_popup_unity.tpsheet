@@ -1,0 +1,28 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:3db4133f8f7190d3dccde1eae2d67163:acf15dfb25acc938edb47168c9c0214a:87900516aa80059860bfd27291b2cf3a$
+#
+:format=40300
+:texture=gem_popup_unity.png
+:size=1024x1024
+:pivotpoints=disabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+gem_gem0;713;390;208;174; 0.5;0.5; 0;0;0;0
+gem_gem1;713;214;208;174; 0.5;0.5; 0;0;0;0
+gem_gem2;767;811;236;212; 0.5;0.5; 0;0;0;0
+gem_gem3;413;356;298;208; 0.5;0.5; 0;0;0;0
+gem_gem4;1;74;364;282; 0.5;0.5; 0;0;0;0
+gem_gem5;413;761;352;262; 0.5;0.5; 0;0;0;0
+gem_offer_wall;1;358;410;665; 0.5;0.5; 0;0;0;0
+new_gem_gem0;897;83;108;129; 0.5;0.5; 0;0;0;0
+new_gem_gem1;825;692;166;117; 0.5;0.5; 0;0;0;0
+new_gem_gem2;663;50;232;162; 0.5;0.5; 0;0;0;0
+new_gem_gem3;367;34;294;148; 0.5;0.5; 0;0;0;0
+new_gem_gem4;367;184;294;170; 0.5;0.5; 0;0;0;0
+new_gem_gem5;413;566;410;193; 0.5;0.5; 0;0;0;0

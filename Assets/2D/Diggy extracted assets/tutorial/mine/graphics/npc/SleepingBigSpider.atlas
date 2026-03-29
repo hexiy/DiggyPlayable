@@ -1,0 +1,70 @@
+
+SleepingBigSpider.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sleepingBigSpider_content_sleepingBigSpider_telo_Layer1
+  rotate: false
+  xy: 1, 1
+  size: 94, 91
+  orig: 94, 91
+  offset: 0, 0
+  index: -1
+sleepingBigSpider_content_sleepingBigSpider_nohy_Layer_14
+  rotate: false
+  xy: 97, 1
+  size: 139, 57
+  orig: 139, 57
+  offset: 0, 0
+  index: -1
+sleepingBigSpider_content_sleepingBigSpider_body_Layer_1
+  rotate: false
+  xy: 97, 60
+  size: 46, 45
+  orig: 46, 45
+  offset: 0, 0
+  index: -1
+sleepingBigSpider_content_sleepingBigSpider_hlava_Layer_3
+  rotate: false
+  xy: 145, 60
+  size: 39, 44
+  orig: 39, 44
+  offset: 0, 0
+  index: -1
+sleepingBigSpider_content_sleepingBigSpider_prednanoha2_Layer_3
+  rotate: false
+  xy: 186, 60
+  size: 35, 29
+  orig: 35, 29
+  offset: 0, 0
+  index: -1
+sleepingBigSpider_content_sleepingBigSpider_leg14_Layer_3
+  rotate: false
+  xy: 186, 91
+  size: 40, 28
+  orig: 40, 28
+  offset: 0, 0
+  index: -1
+sleepingBigSpider_main_Layer_2
+  rotate: false
+  xy: 1, 107
+  size: 106, 19
+  orig: 106, 19
+  offset: 0, 0
+  index: -1
+sleepingBigSpider_content_sleepingBigSpider_zub_Layer_1
+  rotate: false
+  xy: 238, 1
+  size: 9, 17
+  orig: 9, 17
+  offset: 0, 0
+  index: -1
+sleepingBigSpider_content_sleepingBigSpider_zubadla_Layer_4
+  rotate: false
+  xy: 238, 20
+  size: 17, 11
+  orig: 17, 11
+  offset: 0, 0
+  index: -1
+

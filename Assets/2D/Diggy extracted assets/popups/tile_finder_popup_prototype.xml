@@ -1,0 +1,113 @@
+<element name="black_screen" skin="@black" anchorTop="0" anchorBottom="1" mouseUp="backMouseUp_handler">
+    <element name="popup_body" preferredWidth="1070" preferredHeight="1120" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+
+        <!-- pozadie popupu -->
+        <element skin="@bg_brown" preferredWidth="1070" preferredHeight="1120" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+
+        <element preferredWidth="1070" preferredHeight="1060" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+            <element skin="@middle_popup" preferredWidth="1030" preferredHeight="1060" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="15" anchorY="15"/>
+
+
+            <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="122">
+                <element name="image" skin="@asset" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"/>
+                <element name="text" skin="@popup_medium_brown_autosize_off_valign" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="490" preferredWidth="970" preferredHeight="430"/>
+            </element>
+
+            <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="760">
+                <element name="status_icon" skin="@asset" anchorX="-210"/>
+                <element name="status_text" skin="@popup_medium_brown_autosize_off_valign" anchorX="40" anchorY="60" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="650" preferredHeight="430"/>
+            </element>
+
+            <!-- Video button-->
+            <element visible="true" visible.videoButton="true" visible.offAds="false"
+                     preferredWidth="310" preferredHeight="130"
+                     anchorX="240" anchorY="-165"
+                     anchorAlign="BOTTOM_CENTER" pivotAlign="TOP_CENTER"
+                     flushBatch="true" >
+
+                <element name="videoButtonHolder"
+                         visible.speedupVideo="true" visible="false" visible.speedup="false" visible.nothing="false" visible.mineMore="false"
+                         preferredWidth="310" preferredHeight="130"
+                         flushBatch="true" />
+            </element>
+
+            <!-- No Ads instant 2x button-->
+            <element visible="false" visible.videoButton="false" visible.offAds="true"
+                     preferredWidth="340" preferredHeight="125"
+                     anchorX="240" anchorY="-165"
+                     anchorAlign="BOTTOM_CENTER" pivotAlign="TOP_CENTER"
+                     flushBatch="true">
+
+                <element name="noAdsButton"
+                         skin="@btn_orange_narrow_big"
+                         visible.speedupVideo="true" visible="false" visible.speedup="false" visible.nothing="false" visible.mineMore="false"
+                         preferredWidth="340" preferredHeight="125"
+                         flushBatch="true" >
+
+                    <element preferredWidth="310" preferredHeight="100"
+                             anchorX="0" anchorY="0"
+                             anchorAlign="MIDDLE_CENTER"
+                             pivotAlign="MIDDLE_CENTER"
+                             mouseChildren="false">
+
+                        <element name="noAdsButtonText"
+                                 skin="@typeface_54_white_center_middle"
+                                 model="#GUI4262"
+                                 preferredWidth="310" preferredHeight="100"
+                                 anchorY="-10"
+                                 anchorAlign="MIDDLE_CENTER"
+                                 pivotAlign="MIDDLE_CENTER"
+                                 flushBatch="true"
+                        />
+                    </element>
+                </element>
+            </element>
+
+            <!-- Speedup buton -->
+            <element name="speedupButton" visible.speedup="true" visible.speedupVideo="true" visible.nothing="false" visible.mineMore="false"
+                     anchorY="-30" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER"
+                     anchorX.speedupVideo="-220" anchorX.speedup="0"
+                     skin="@button_green_01" skin.speedupVideo="@button_brown_01" skin.speedup="@button_green_01"
+                     preferredWidth="340" preferredHeight="112" flushBatch="true" mouseChildren="false">
+                <element preferredWidth="428" preferredHeight="116" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="26">
+                    <element preferredWidth="106" anchorY="18" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT">
+                        <element name="gemcost_txt"
+                            skin="@buy_button_gem_font1"
+                            skin.small_light="@buy_button_gem_font1_small_lightgreen"
+                            skin.small_dark="@buy_button_gem_font1_small_darkgreen"
+                            skin.normal_light="@buy_button_gem_font1_small_lightgreen"
+                            skin.normal_dark="@buy_button_gem_font1_small_darkgreen"
+                            anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT"/>
+                    </element>
+                    <element skin="@gem_icon" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorX="-60" anchorY="-10"/>
+                    <element preferredWidth="156" anchorY="18" anchorX="-60" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT">
+                        <element name="refresh_txt" model="#MOB108"
+                            skin="@buy_button_gem_font1"
+                            skin.small_light="@buy_button_gem_font1_smaller_lightgreen"
+                            skin.small_dark="@buy_button_gem_font1_smaller_darkgreen"
+                            skin.normal_light="@buy_button_gem_font1_small_lightgreen"
+                            skin.normal_dark="@buy_button_gem_font1_small_darkgreen"
+                            anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT"/>
+                    </element>
+                </element>
+            </element>
+
+            <element name="btn_ok" skin="@btn_center1" skin.pressed="@btn_center2" anchorY="-30" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER"
+                     visible.speedup="false" visible.speedupVideo="false" visible.nothing="true" visible.mineMore="true" visible="true" mouseChildren="false">
+                <element model.nothing="#MOB104" model.mineMore="#MOB103" skin="@oswald_bold_85_basic_drevo1" anchorY="8"
+                         anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+            </element>
+
+        </element>
+
+        <element preferredWidth="1070" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="2">
+            <element skin="@btn_center_3slice" preferredWidth="1050" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="5"  flushBatch="true" />
+            <element name="mainLabel" skin="@popup_xlarge_white" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="32"/>
+        </element>
+
+        <!-- HOURGLASS - waiting for video response -->
+        <element name="sand_glass" skin="@sand_glass" visible="false" visible.videoInProgress="true" visible.videoNotInProgress="false"
+                 anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="0" anchorY="0" preferredWidth="128" preferredHeight="234"/>
+
+    </element>
+</element>

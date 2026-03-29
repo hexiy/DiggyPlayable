@@ -1,0 +1,17 @@
+<element pivotAlign="TOP_CENTER" preferredWidth="470" anchorTop="0.15" anchorBottom="0.85" anchorX="50" anchorBottom.notselected="0.65">
+	<element name="name" skin="@shop_item_name_font_small" skin.selected="@shop_item_name_font_small" skin.notselected="@shop_item_name_font_smallest" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY.selected="30" anchorY.notselected="-10" preferredWidth="350" preferredHeight="100"/>
+
+	<!-- IMAGE -->
+	<element name="image_holder" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="-100" anchorY="-100" visible.notselected="false" visible.selected="true" flushBatch="true">
+		<element name="image" skin="@asset"/>
+	</element>
+
+	<element name="image_big_holder" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="-100" anchorY="-100" visible.selected="false" visible.notselected="true" flushBatch="true">
+		<element name="image_small" skin="@asset"/>
+	</element>
+
+	<!-- AMOUNT + ENERGY of one ITEM -->
+	<element anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT" anchorX="100">
+		<element name="value" skin="@shop_energy_font_small" skin.notselected="@shop_energy_font_small" skin.selected="@shop_energy_font"/>
+	</element>
+</element>

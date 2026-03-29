@@ -1,0 +1,160 @@
+<city id="4" name="amazon" url="graphics/cities/amazon/" width="2360" offsetX="38" offsetY="170" rows="8" cols="50" path="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,
+1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">	
+<element orderId="0" texture="obloha" x="1629" y="323" scaleX="116.39" scaleY="1" />
+<element orderId="1" texture="LES_6" x="902" y="182" scaleX="2" scaleY="2" />
+<element orderId="2" texture="LES_6" x="1651" y="231" scaleX="2" scaleY="2" />
+<element orderId="3" texture="LES_6" x="2652" y="279" scaleX="2" scaleY="2" />
+<element orderId="4" texture="LES_6" x="1355" y="406" scaleX="2" scaleY="2" />
+<element orderId="5" texture="LES_6" x="2468" y="232" scaleX="2" scaleY="2" />
+<element orderId="6" texture="LES_4" x="579" y="205" scaleX="2" scaleY="2" />
+<element orderId="7" texture="LES_4" x="1358" y="253" scaleX="2" scaleY="2" />
+<element orderId="8" texture="LES_4" x="2167" y="226" scaleX="2" scaleY="2" />
+<element orderId="9" texture="LES_4" x="1524" y="433" scaleX="2" scaleY="2" />
+<element orderId="10" texture="LES_4" x="2950" y="193" scaleX="2" scaleY="2" />
+<element orderId="11" texture="LES_4" x="2469" y="396" scaleX="2" scaleY="2" />
+<element orderId="12" texture="LES_3" x="912" y="306" scaleX="2" scaleY="2" />
+<element orderId="13" texture="LES_3" x="1644" y="306" scaleX="2" scaleY="2" />
+<element orderId="14" texture="LES_3" x="2055" y="355" scaleX="2" scaleY="2" />
+<element orderId="15" texture="LES_3" x="2753" y="388" scaleX="2" scaleY="2" />
+<element orderId="16" texture="LES_2" x="818" y="330" scaleX="2" scaleY="2" />
+<element orderId="17" texture="LES_2" x="1325" y="426" scaleX="2" scaleY="2" />
+<element orderId="18" texture="LES_2" x="2078" y="391" scaleX="2" scaleY="2" />
+<element orderId="19" texture="LES_2" x="2626" y="326" scaleX="2" scaleY="2" />
+<element orderId="20" texture="LES_2" x="3299" y="293" scaleX="2" scaleY="2" />
+<element orderId="21" texture="amazon_strom2" x="2139" y="437" scaleX="1.22" scaleY="1.22" />
+<element orderId="22" texture="amazon_strom2" x="2299" y="357" scaleX="-1.22" scaleY="1.22" />
+<element orderId="23" texture="amazon_strom1" x="1654" y="386" scaleX="1.31" scaleY="1.31" />
+<element orderId="24" texture="amazon_strom2" x="1523" y="482" scaleX="1.22" scaleY="1.22" />
+<element orderId="25" texture="amazon_strom2" x="1334" y="478" scaleX="1" scaleY="1" />
+<element orderId="26" texture="amazon_strom1" x="2179" y="477" scaleX="1.09" scaleY="1.09" />
+<element orderId="27" texture="amazon_strom1" x="1334" y="406" scaleX="1.09" scaleY="1.09" />
+<element orderId="28" texture="amazon_strom1" x="634" y="226" scaleX="1.09" scaleY="1.09" />
+<element orderId="29" texture="amazon_strom2" x="765" y="236" scaleX="1" scaleY="1" />
+<element orderId="30" texture="amazon_strom2" x="973" y="262" scaleX="1" scaleY="1" />
+<element orderId="31" texture="Symbol 17" x="1499" y="487" scaleX="1" scaleY="1" />
+<element orderId="32" texture="Symbol 17" x="2167" y="477" scaleX="1" scaleY="1" />
+<element orderId="33" texture="amazon_jaskyna" x="340" y="162" scaleX="1" scaleY="1" />
+<element orderId="34" texture="SKALY" x="20" y="168" scaleX="1" scaleY="1" />
+<element orderId="35" texture="SKALY" x="-212" y="198" scaleX="1.13" scaleY="1.13" />
+<element orderId="36" texture="SKALY" x="3026" y="178" scaleX="-1" scaleY="1" />
+<element orderId="37" texture="travnik" x="3430" y="43" scaleX="2.55" scaleY="1" />
+<element orderId="38" texture="amazon_strom2" x="3232" y="-29" scaleX="1.22" scaleY="1.22" />
+<element orderId="39" texture="amazon_strom4" x="3062" y="-45" scaleX="1.47" scaleY="1.47" />
+<element orderId="40" texture="amazon_strom4" x="3307" y="-15" scaleX="1" scaleY="1" />
+<element orderId="41" texture="SKALY" x="220" y="349" scaleX="1" scaleY="1" />
+<element orderId="42" texture="stena" x="428" y="376" scaleX="1.11" scaleY="0.52" />
+<element orderId="43" texture="stena" x="746" y="355" scaleX="1" scaleY="0.76" />
+<element orderId="44" texture="stena" x="983" y="356" scaleX="1" scaleY="0.76" />
+<element orderId="45" texture="stena" x="1151" y="382" scaleX="1" scaleY="0.46" />
+<element orderId="46" texture="stena" x="166" y="543" scaleX="1" scaleY="1" />
+<element orderId="47" texture="stena" x="-121" y="543" scaleX="1" scaleY="1" />
+<element orderId="48" texture="stena" x="402" y="543" scaleX="1" scaleY="1" />
+<element orderId="49" texture="stena" x="571" y="544" scaleX="1" scaleY="1" />
+<element orderId="50" texture="stena" x="847" y="544" scaleX="1" scaleY="1" />
+<element orderId="51" texture="stena" x="1084" y="544" scaleX="1" scaleY="1" />
+<element orderId="52" texture="stena" x="1252" y="545" scaleX="1" scaleY="1" />
+<element orderId="53" texture="SKALY" x="2772" y="376" scaleX="-1" scaleY="1" />
+<element orderId="54" texture="SKALY" x="3109" y="387" scaleX="-1" scaleY="1" />
+<element orderId="55" texture="SKALY" x="2429" y="387" scaleX="-1" scaleY="1" />
+<element orderId="56" texture="travnik" x="2833" y="258" scaleX="2.55" scaleY="1.06" />
+<element orderId="57" texture="amazon_strom1" x="3085" y="148" scaleX="1.33" scaleY="1.33" />
+<element orderId="58" texture="Symbol 16" x="3048" y="252" scaleX="1" scaleY="1" />
+<element orderId="59" texture="Symbol 18" x="2429" y="221" scaleX="1" scaleY="1" />
+<element orderId="60" texture="stena" x="2433" y="551" scaleX="1" scaleY="1" />
+<element orderId="61" texture="stena" x="2670" y="551" scaleX="1" scaleY="1" />
+<element orderId="62" texture="stena" x="2904" y="551" scaleX="1" scaleY="1" />
+<element orderId="63" texture="stena" x="3120" y="553" scaleX="1" scaleY="1" />
+<element orderId="64" texture="stena" x="3305" y="553" scaleX="1" scaleY="1" />
+<element orderId="65" texture="stena" x="3544" y="555" scaleX="1" scaleY="1" />
+<element orderId="66" texture="travnik" x="2802" y="444" scaleX="2.37" scaleY="1" />
+<element orderId="67" texture="mesto_dom" x="3151" y="368" scaleX="1.14" scaleY="1.14" />
+<element orderId="68" texture="hlina" x="1519" y="753" scaleX="6.62" scaleY="1" />
+<element orderId="69" texture="chodnik_2x5" x="159" y="658" scaleX="1" scaleY="1" />
+<element orderId="70" texture="chodnik_2x5" x="-120" y="658" scaleX="1" scaleY="1" />
+<element orderId="71" texture="chodnik_2x5" x="454" y="658" scaleX="1" scaleY="1" />
+<element orderId="72" texture="chodnik_2x5" x="749" y="658" scaleX="1" scaleY="1" />
+<element orderId="73" texture="chodnik_2x5" x="1044" y="658" scaleX="1" scaleY="1" />
+<element orderId="74" texture="chodnik_2x5" x="1339" y="658" scaleX="1" scaleY="1" />
+<element orderId="75" texture="chodnik_2x5" x="1634" y="658" scaleX="1" scaleY="1" />
+<element orderId="76" texture="chodnik_2x5" x="1929" y="658" scaleX="1" scaleY="1" />
+<element orderId="77" texture="chodnik_2x5" x="2224" y="658" scaleX="1" scaleY="1" />
+<element orderId="78" texture="chodnik_2x5" x="2519" y="658" scaleX="1" scaleY="1" />
+<element orderId="79" texture="chodnik_2x5" x="2814" y="658" scaleX="1" scaleY="1" />
+<element orderId="80" texture="chodnik_2x5" x="3109" y="658" scaleX="1" scaleY="1" />
+<element orderId="81" texture="chodnik_2x5_top" x="3409" y="598" scaleX="1" scaleY="1" />
+<element orderId="82" texture="chodnik_2x5" x="3409" y="657" scaleX="1" scaleY="1" />
+<element orderId="83" texture="chodnik_2x5_top" x="159" y="599" scaleX="1" scaleY="1" />
+<element orderId="84" texture="chodnik_2x5_top" x="-130" y="599" scaleX="1" scaleY="1" />
+<element orderId="85" texture="chodnik_2x5_top" x="454" y="599" scaleX="1" scaleY="1" />
+<element orderId="86" texture="chodnik_2x5_top" x="749" y="599" scaleX="1" scaleY="1" />
+<element orderId="87" texture="chodnik_2x5_top" x="1044" y="599" scaleX="1" scaleY="1" />
+<element orderId="88" texture="chodnik_2x5_top" x="1339" y="599" scaleX="1" scaleY="1" />
+<element orderId="89" texture="Symbol 18" x="1324" y="549" scaleX="1" scaleY="1" />
+<element orderId="90" texture="chodnik_2x5_top" x="2224" y="599" scaleX="1" scaleY="1" />
+<element orderId="91" texture="chodnik_2x5_top" x="2519" y="599" scaleX="1" scaleY="1" />
+<element orderId="92" texture="chodnik_2x5_top" x="2814" y="599" scaleX="1" scaleY="1" />
+<element orderId="93" texture="chodnik_2x5_top" x="1634" y="599" scaleX="1" scaleY="1" />
+<element orderId="94" texture="chodnik_2x5_top" x="1929" y="599" scaleX="1" scaleY="1" />
+<element orderId="95" texture="chodnik_2x5_top" x="3109" y="599" scaleX="1" scaleY="1" />
+<element orderId="96" texture="amazon_Symbol 2" x="1345" y="451" scaleX="1" scaleY="1" />
+<element orderId="97" texture="travnik" x="782" y="313" scaleX="-2.37" scaleY="1.09" />
+<element orderId="98" texture="travnik" x="-143" y="214" scaleX="-2.37" scaleY="1" />
+<element orderId="99" texture="amazon_Symbol 3" x="512" y="451" scaleX="8.65" scaleY="1" />
+<element orderId="100" texture="travnik" x="-356" y="435" scaleX="-2.37" scaleY="1" />
+<element orderId="101" texture="amazon_schody" x="211" y="541" scaleX="1" scaleY="1" />
+<element orderId="102" texture="amazon_schody" x="1236" y="541" scaleX="1" scaleY="1" />
+<element orderId="103" texture="amazon_Symbol 4" x="1095" y="390" scaleX="1" scaleY="1" />
+<element orderId="104" texture="amazon_Symbol 5" x="366" y="551" scaleX="1" scaleY="1" />
+<element orderId="105" texture="amazon_Symbol 5" x="848" y="551" scaleX="1" scaleY="1" />
+<element orderId="106" texture="amazon_Symbol 5" x="1332" y="551" scaleX="1" scaleY="1" />
+<element orderId="107" texture="mesto_dom_3" x="699" y="535" scaleX="1" scaleY="1" />
+<element orderId="108" texture="mesto_dom_3" x="220" y="149" scaleX="1" scaleY="1" />
+<element orderId="109" texture="mesto_dom" x="193" y="353" scaleX="1" scaleY="1" />
+<element orderId="110" texture="mesto_dom_3" x="2923" y="176" scaleX="1" scaleY="1" />
+<element orderId="111" texture="mesto_dom" x="2625" y="167" scaleX="1" scaleY="1" />
+<element orderId="112" texture="Dom_TRH_2" x="2446" y="361" scaleX="1" scaleY="1" />
+<element orderId="113" texture="amazon_Symbol 6" x="2317" y="515" scaleX="1" scaleY="1" />
+<element orderId="114" texture="Symbol 16" x="2247" y="547" scaleX="1" scaleY="1" />
+<element orderId="115" texture="amazon_Symbol 7" x="2698" y="525" scaleX="1" scaleY="1" />
+<element orderId="116" texture="Symbol 8" x="2845" y="525" scaleX="1" scaleY="1" />
+<element orderId="117" texture="Symbol 9" x="2994" y="525" scaleX="1" scaleY="1" />
+<element orderId="118" texture="Dom_TRH_2" x="3129" y="525" scaleX="1" scaleY="1" />
+<element orderId="119" texture="Symbol 10" x="964" y="222" scaleX="1" scaleY="1" />
+<element orderId="120" texture="Symbol 11" x="842" y="183" scaleX="1" scaleY="1" />
+<element orderId="121" texture="Symbol 11" x="1088" y="183" scaleX="1" scaleY="1" />
+<element orderId="122" texture="Symbol 10" x="2779" y="167" scaleX="1" scaleY="1" />
+<element orderId="123" texture="Symbol 12" x="1837" y="297" scaleX="1" scaleY="1" />
+<element orderId="124" texture="Symbol 13" x="2474" y="534" scaleX="1" scaleY="1" />
+<element orderId="125" texture="Symbol 14" x="2593" y="359" scaleX="1" scaleY="1" />
+<element orderId="126" texture="amazon_strom4" x="270" y="-32" scaleX="1" scaleY="1" />
+<element orderId="127" texture="amazon_strom4" x="-117" y="-52" scaleX="1" scaleY="1" />
+<element orderId="128" texture="amazon_strom2" x="29" y="-32" scaleX="1" scaleY="1" />
+<element orderId="129" texture="amazon_strom3" x="414" y="-30" scaleX="1" scaleY="1" />
+<element orderId="130" texture="amazon_strom2" x="417" y="-12" scaleX="1" scaleY="1" />
+<element orderId="131" texture="amazon_strom1" x="141" y="-28" scaleX="1" scaleY="1" />
+<element orderId="132" texture="amazon_strom4" x="3471" y="297" scaleX="-1.73" scaleY="1.73" />
+<element orderId="133" texture="amazon_strom2" x="3205" y="149" scaleX="1" scaleY="1" />
+<element orderId="134" texture="amazon_strom1" x="203" y="-21" scaleX="1" scaleY="1" />
+<element orderId="135" texture="amazon_strom1" x="66" y="37" scaleX="1.33" scaleY="1.33" />
+<element orderId="136" texture="amazon_strom4" x="3271" y="202" scaleX="1" scaleY="1" />
+<element orderId="137" texture="amazon_strom1" x="3173" y="197" scaleX="1" scaleY="1" />
+<element orderId="138" texture="amazon_strom4" x="3424" y="418" scaleX="-1.47" scaleY="1.47" />
+<element orderId="139" texture="amazon_strom2" x="3563" y="517" scaleX="1.22" scaleY="1.22" />
+<element orderId="140" texture="amazon_strom4" x="3393" y="518" scaleX="1.47" scaleY="1.47" />
+<element orderId="141" texture="amazon_strom1" x="3232" y="554" scaleX="1.09" scaleY="1.09" />
+<element orderId="142" texture="amazon_strom1" x="378" y="254" scaleX="1.09" scaleY="1.09" />
+<element orderId="143" texture="amazon_strom4" x="-80" y="79" scaleX="1.47" scaleY="1.47" />
+<element orderId="144" texture="amazon_strom2" x="51" y="135" scaleX="1" scaleY="1" />
+<element orderId="145" texture="amazon_strom4" x="-55" y="129" scaleX="1" scaleY="1" />
+<element orderId="146" texture="amazon_strom1" x="16" y="176" scaleX="1" scaleY="1" />
+<element orderId="147" texture="amazon_strom4" x="-114" y="174" scaleX="1" scaleY="1" />
+<element orderId="148" texture="amazon_strom2" x="-18" y="349" scaleX="1.22" scaleY="1.22" />
+<element orderId="149" texture="amazon_strom4" x="-188" y="351" scaleX="1.47" scaleY="1.47" />
+<element orderId="150" texture="Symbol 9" x="-54" y="523" scaleX="1" scaleY="1" />
+<element orderId="151" texture="Dom_TRH_2" x="-195" y="523" scaleX="1" scaleY="1" />
+<element orderId="152" texture="Symbol 15" x="-248" y="640" scaleX="2" scaleY="2" />
+<element orderId="153" texture="Symbol 15" x="3385" y="623" scaleX="-2" scaleY="2" />
+<element orderId="154" texture="Symbol 16" x="571" y="542" scaleX="1" scaleY="1" />
+<element orderId="155" texture="Symbol 16" x="1152" y="271" scaleX="-1" scaleY="1" />
+<element orderId="156" texture="Symbol 18" x="672" y="271" scaleX="1" scaleY="1" />
+</city>

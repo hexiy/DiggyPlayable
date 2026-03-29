@@ -1,0 +1,314 @@
+
+Diggy.png
+size: 512,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Brada
+  rotate: false
+  xy: 48, 5
+  size: 3, 3
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+Lopata
+  rotate: false
+  xy: 78, 21
+  size: 14, 41
+  orig: 14, 41
+  offset: 0, 0
+  index: -1
+Nos
+  rotate: true
+  xy: 112, 2
+  size: 6, 10
+  orig: 6, 10
+  offset: 0, 0
+  index: -1
+Nos_zboku
+  rotate: false
+  xy: 503, 33
+  size: 7, 11
+  orig: 7, 11
+  offset: 0, 0
+  index: -1
+Obocie
+  rotate: false
+  xy: 259, 43
+  size: 11, 3
+  orig: 11, 3
+  offset: 0, 0
+  index: -1
+Oko_bielko
+  rotate: false
+  xy: 40, 2
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+Oko_viecko
+  rotate: false
+  xy: 180, 34
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+Oko_zatvorene
+  rotate: false
+  xy: 190, 35
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+Potapacske_okuliare01
+  rotate: false
+  xy: 146, 44
+  size: 35, 18
+  orig: 35, 18
+  offset: 0, 0
+  index: -1
+Potapacske_okuliare02
+  rotate: false
+  xy: 183, 45
+  size: 29, 17
+  orig: 29, 17
+  offset: 0, 0
+  index: -1
+Snorchel
+  rotate: true
+  xy: 56, 2
+  size: 17, 36
+  orig: 17, 36
+  offset: 0, 0
+  index: -1
+Space_helmet
+  rotate: false
+  xy: 2, 10
+  size: 52, 52
+  orig: 52, 52
+  offset: 0, 0
+  index: -1
+Superhero_bodyB
+  rotate: true
+  xy: 391, 44
+  size: 18, 19
+  orig: 18, 19
+  offset: 0, 0
+  index: -1
+Superhero_bodyF
+  rotate: false
+  xy: 460, 46
+  size: 18, 16
+  orig: 18, 16
+  offset: 0, 0
+  index: -1
+Superhero_bodyS
+  rotate: false
+  xy: 480, 46
+  size: 18, 16
+  orig: 18, 16
+  offset: 0, 0
+  index: -1
+Superhero_maskB
+  rotate: false
+  xy: 275, 49
+  size: 27, 13
+  orig: 27, 13
+  offset: 0, 0
+  index: -1
+Superhero_maskF
+  rotate: true
+  xy: 94, 2
+  size: 25, 16
+  orig: 25, 16
+  offset: 0, 0
+  index: -1
+Superhero_maskS
+  rotate: false
+  xy: 412, 48
+  size: 23, 14
+  orig: 23, 14
+  offset: 0, 0
+  index: -1
+Superhero_noha
+  rotate: true
+  xy: 473, 25
+  size: 5, 12
+  orig: 5, 12
+  offset: 0, 0
+  index: -1
+Superhero_plast1B
+  rotate: false
+  xy: 214, 46
+  size: 28, 16
+  orig: 28, 16
+  offset: 0, 0
+  index: -1
+Superhero_plast1F
+  rotate: false
+  xy: 335, 46
+  size: 26, 16
+  orig: 26, 16
+  offset: 0, 0
+  index: -1
+Superhero_plast1S
+  rotate: false
+  xy: 500, 46
+  size: 10, 16
+  orig: 10, 16
+  offset: 0, 0
+  index: -1
+Superhero_plast2B
+  rotate: false
+  xy: 112, 10
+  size: 30, 17
+  orig: 30, 17
+  offset: 0, 0
+  index: -1
+Superhero_plast2F
+  rotate: false
+  xy: 244, 48
+  size: 29, 14
+  orig: 29, 14
+  offset: 0, 0
+  index: -1
+Superhero_plast2S
+  rotate: false
+  xy: 473, 32
+  size: 12, 12
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+Superhero_plastB_gem
+  rotate: false
+  xy: 454, 27
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+Superhero_rukaL
+  rotate: true
+  xy: 412, 38
+  size: 8, 19
+  orig: 8, 19
+  offset: 0, 0
+  index: -1
+Superhero_rukaR
+  rotate: true
+  xy: 433, 35
+  size: 9, 19
+  orig: 9, 19
+  offset: 0, 0
+  index: -1
+Superhero_vlasy_backlight
+  rotate: true
+  xy: 437, 46
+  size: 16, 21
+  orig: 16, 21
+  offset: 0, 0
+  index: -1
+Tien_tvar
+  rotate: false
+  xy: 2, 2
+  size: 20, 6
+  orig: 20, 6
+  offset: 0, 0
+  index: -1
+Tvar3
+  rotate: false
+  xy: 94, 29
+  size: 24, 33
+  orig: 24, 33
+  offset: 0, 0
+  index: -1
+Ucho
+  rotate: false
+  xy: 200, 35
+  size: 4, 8
+  orig: 4, 8
+  offset: 0, 0
+  index: -1
+Usmev
+  rotate: false
+  xy: 487, 36
+  size: 14, 8
+  orig: 14, 8
+  offset: 0, 0
+  index: -1
+Usta
+  rotate: false
+  xy: 24, 2
+  size: 14, 6
+  orig: 14, 6
+  offset: 0, 0
+  index: -1
+Usta_normal
+  rotate: false
+  xy: 124, 4
+  size: 15, 4
+  orig: 15, 4
+  offset: 0, 0
+  index: -1
+Usta_unaveny
+  rotate: false
+  xy: 487, 26
+  size: 14, 8
+  orig: 14, 8
+  offset: 0, 0
+  index: -1
+Vlasy
+  rotate: false
+  xy: 146, 31
+  size: 32, 11
+  orig: 32, 11
+  offset: 0, 0
+  index: -1
+Vlasy_bg
+  rotate: false
+  xy: 363, 44
+  size: 26, 18
+  orig: 26, 18
+  offset: 0, 0
+  index: -1
+Vlasy_bok
+  rotate: true
+  xy: 244, 44
+  size: 2, 13
+  orig: 2, 13
+  offset: 0, 0
+  index: -1
+Vlasy_tien
+  rotate: false
+  xy: 304, 51
+  size: 29, 11
+  orig: 29, 11
+  offset: 0, 0
+  index: -1
+Vlasy_zadne
+  rotate: false
+  xy: 120, 29
+  size: 24, 33
+  orig: 24, 33
+  offset: 0, 0
+  index: -1
+Zbijacka
+  rotate: false
+  xy: 56, 21
+  size: 20, 41
+  orig: 20, 41
+  offset: 0, 0
+  index: -1
+Zrenicka
+  rotate: false
+  xy: 503, 28
+  size: 3, 3
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+empty_placeholder
+  rotate: false
+  xy: 48, 2
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1

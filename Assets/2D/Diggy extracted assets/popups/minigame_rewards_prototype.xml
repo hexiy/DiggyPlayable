@@ -1,0 +1,31 @@
+<element name="black_screen" skin="@shade_black" anchorTop="0" anchorBottom="1">
+    <element name="popup_body" preferredWidth="1230" preferredHeight="840" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+
+        <element name="quest_body" preferredWidth="1208" preferredHeight="710" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER">
+            <element skin="@popup_bg" anchorLeft="0" anchorTop="0" anchorRight="1" anchorBottom="1" />
+
+            <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="80">
+                <element name="rewards_text" skin="@oswald_bold_85_autosize_false_mid" preferredWidth="830" preferredHeight="80" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" model="!REWARDS!" flushBatch="true" />
+            </element>
+
+            <element name="non_doubled_rewards" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-232">
+                <p:layout><horizontal useChildrenHeight="true" skipLastGap="true" gap="20"/></p:layout>
+            </element>
+
+            <element name="collect_rewards_button" preferredWidth="295" preferredHeight="130" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-100">
+                <element skin="@btn_blue_narrow" anchorLeft="0" anchorTop="0" anchorRight="1" anchorBottom="1"/>
+                <element name="collect_rewards_text" skin="@typeface_48_white_center_middle" preferredWidth="295" preferredHeight="115" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" model="!Collect!" flushBatch="true" anchorX="-3" />
+            </element>
+
+        </element>
+
+        <element name="quest_header" preferredWidth="1208" preferredHeight="156" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="20">
+            <element skin="@popup_header_blue" anchorLeft="0" anchorTop="0" anchorRight="1" anchorBottom="1" />
+
+            <element name="header_title" skin="@typeface_74_white_center_middle" color="0x87E2FF" preferredWidth="700" preferredHeight="60" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="50" flushBatch="true" />
+
+            <element name="diggy_solved_asset" skin="@asset"  anchorAlign="BOTTOM_RIGHT" pivotAlign="BOTTOM_RIGHT" anchorX="-30" anchorY="-10"/>
+        </element>
+
+    </element>
+</element>

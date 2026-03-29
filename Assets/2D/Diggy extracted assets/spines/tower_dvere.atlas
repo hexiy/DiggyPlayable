@@ -1,0 +1,55 @@
+
+tower_dvere.png
+size: 264,271
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dvere
+  rotate: true
+  xy: 122, 1
+  size: 104, 115
+  orig: 104, 115
+  offset: 0, 0
+  index: -1
+dvere_tien
+  rotate: false
+  xy: 159, 155
+  size: 104, 115
+  orig: 104, 115
+  offset: 0, 0
+  index: -1
+predok
+  rotate: true
+  xy: 1, 106
+  size: 164, 157
+  orig: 164, 157
+  offset: 0, 0
+  index: -1
+vnutro
+  rotate: true
+  xy: 1, 1
+  size: 104, 120
+  orig: 104, 120
+  offset: 0, 0
+  index: -1
+zamok_kokotina
+  rotate: true
+  xy: 212, 112
+  size: 10, 28
+  orig: 10, 28
+  offset: 0, 0
+  index: -1
+zamok_spodok
+  rotate: false
+  xy: 159, 113
+  size: 52, 41
+  orig: 52, 41
+  offset: 0, 0
+  index: -1
+zamok_vrch
+  rotate: false
+  xy: 212, 123
+  size: 41, 31
+  orig: 41, 31
+  offset: 0, 0
+  index: -1

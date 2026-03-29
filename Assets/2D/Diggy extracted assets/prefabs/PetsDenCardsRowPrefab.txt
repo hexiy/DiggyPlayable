@@ -1,0 +1,13 @@
+---
+o:go_974846124140110168
+s|name|PetsDenCardsRowPrefab
+o:rt_3041344764236027470
+f|offsetMinX|-925
+f|offsetMinY|-225
+f|offsetMaxX|925
+f|offsetMaxY|225
+o:hlg_6759300732782445092
+f|paddingLeft|40
+f|spacing|30
+o:hx_5099094788395590937|PetsDenCardsRowBehaviour
+p|PetCardPrefab|PetsDenPetCardPrefab

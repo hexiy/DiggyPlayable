@@ -1,0 +1,11 @@
+<element preferredWidth="125" preferredHeight="70" preferredWidth.small="94" preferredHeight.small="53">        
+    
+    <p:layout><horizontal gap="5"/></p:layout>
+    <!-- ICON -->
+    <element anchorY="-1" preferredWidth="58" preferredHeight="70" preferredWidth.small="44" preferredHeight.small="53">
+        <element name="energy_icon" skin="@ico_energy" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+    </element>
+    <!-- AMOUNT -->
+    <element name="text" skin="@popup_medium_brown" skin.small="@popup_normal_brown" anchorY="2" anchorY.small="4"/>
+    
+</element>

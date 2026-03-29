@@ -1,0 +1,65 @@
+<element name="card" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" preferredWidth="629" preferredHeight="495">
+    <element skin="@middle_popup_half" preferredWidth="615" preferredHeight="495" anchorX="5" flushBatch="true"/>
+    <element preferredWidth="590" preferredHeight="460">
+
+        <element name="stateIcon" skin="@asset" visible="false" visible.idle="true" visible.empty="true" visible.inactive="true" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true"/>
+        <element visible="false" visible.delivering="true" visible.delivered="true" preferredWidth="596" anchorY="100">
+            <element name="slotCargo0" skin="@asset" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX.two="-100" preferredWidth="120" preferredHeight="120" anchorY="100" flushBatch="true"/>
+            <element name="slotCargo1" skin="@asset" visible="false" visible.two="true" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX.two="100" preferredWidth="120" preferredHeight="120" anchorY="100"/>
+        </element>
+        <element skin="@production_card_amount_bg" visible="true" visible.idle="false" visible.locked="false" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="510" preferredHeight="70" anchorY="240">
+            <element anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+                <p:layout><horizontal/></p:layout>
+                <element name="slotAmount0" skin="@production_title_font" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX.two="-100" anchorX.insufficient="-80" anchorY="15">
+                    <element name="materialIcon" skin="@asset" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" anchorX="-64" anchorY="-7" visible="false" visible.empty="true"/>
+                </element>
+                <element name="slotMaterial0" skin="@asset"/>
+                <element name="slotAmount1" skin="@production_title_font" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" visible="false" visible.two="true" visible.insufficient="true" anchorX.two="100" anchorX.insufficient="80" anchorY="15"/>
+                <element name="slotMaterial1" skin="@asset" visible="false" visible.two="true" anchorX.two="100"/>
+            </element>
+        </element>
+        <element name="slotTitle" skin="@production_title_font" visible="true" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="22" visible.empty="false"/>
+        <element name="slotItem" skin="@production_material_font" visible="false" visible.delivered="true" visible.delivering="true" visible.empty="true"
+                 anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="85" preferredWidth="590" preferredWidth.empty="300" preferredHeight="120"/>
+        <element preferredWidth="515" preferredHeight="132" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-10">
+            <element name="slotGetButton" skin="@production_btn_left1" visible="false" visible.delivered="true" anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT" preferredWidth="250" preferredHeight="132" mouseDown.delivered="buttonMouseDown_handler" mouseUp.delivered="getSlotMouseUp_handler">
+                <element preferredWidth="104" preferredHeight="82" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+                    <element name="slotGetLabel" skin="@shop_limit_reached" anchorTop="0" anchorBottom="1" anchorLeft="0" anchorRight="1"/>
+                </element>
+            </element>
+            <element name="slotResendButton" skin="@production_btn_right1" visible="false" visible.delivered="true" anchorAlign="MIDDLE_RIGHT" pivotAlign="MIDDLE_RIGHT" preferredWidth="250" preferredHeight="132" mouseDown.delivered="buttonMouseDown_handler" mouseUp.delivered="resendSlotMouseUp_handler">
+                <element name="slotResendLabel" skin="@popup_restart_icon" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+            </element>
+            <element name="slotCancelButton" skin="@production_btn_left1" visible="false" visible.delivering="true" anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT" preferredWidth="250" preferredHeight="132" mouseDown.delivering="buttonMouseDown_handler" mouseUp.delivering="cancelSlotMouseUp_handler">
+                <element name="slotCancelLabel" skin="@production_cancel_icon" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+            </element>
+            <element name="slotSpeedupButton" skin="@production_btn_right1" visible="false" visible.delivering="true" anchorAlign="MIDDLE_RIGHT" pivotAlign="MIDDLE_RIGHT" preferredWidth="250" preferredHeight="132" mouseDown.delivering="buttonMouseDown_handler" mouseUp.delivering="speedupSlotMouseUp_handler">
+                <element name="slotSpeedupLabel" skin="@production_speed_up_icon" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+            </element>
+            <element name="slotSendButton" skin="@btn_center1" visible="false" visible.idle="true" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="378" preferredHeight="132" mouseDown.idle="buttonMouseDown_handler" mouseUp.idle="sendSlotMouseUp_handler">
+                <element name="slotSendLabel" skin="@production_start_icon" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+            </element>
+            <element name="slotBuyButton" skin="@btn_center1" skin.inactive="@shop_btn_inactive" visible="false" visible.empty="true" visible.inactive="true" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="378" preferredHeight="132"
+                     mouseDown.empty="buttonMouseDown_handler" mouseUp.empty="buySlotMouseUp_handler" mouseDown.inactive="" mouseUp.inactive="">
+                <element preferredWidth="104" preferredHeight="82" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+                    <element name="slotBuyLabel" skin="@shop_limit_reached" anchorTop="0" anchorBottom="1" anchorLeft="0" anchorRight="1" alpha="1" alpha.inactive=".2"/>
+                </element>
+            </element>
+        </element>
+        <element skin="@shop_card_locked" preferredWidth="638" preferredHeight="344" visible="false" visible.locked="true" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER"/>
+        <element name="cardLockedText" skin="@production_locktext_font" visible="false" visible.locked="true" preferredWidth="590" preferredHeight="200" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="110"/>
+
+        <!-- SPECIAL WEEK -->
+        <element name="special_week_double_prod" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" anchorY="30" skin="@special_week_x2" visible="false"/>
+        <element name="special_week_half_prod" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" anchorY="30" skin="@special_week_discount_50" visible="false"/>
+
+        <!-- EVENT BADGE -->
+        <element name="event_new_badge" anchorX="25" anchorY="10" visible="false">
+            <element skin="@shop_event_bg"/>
+            <element name="new_badge_asset" skin="@shop_new"/>
+            <element name="event_badge_asset" skin="@asset"/>
+        </element>
+
+    </element>
+    <element name="slotUnlockButton" visible="false" visible.locked="true" anchorTop="0" anchorBottom="1" anchorLeft="0" anchorRight="1"/>
+</element>

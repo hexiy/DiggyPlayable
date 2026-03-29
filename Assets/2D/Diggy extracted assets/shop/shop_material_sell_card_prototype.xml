@@ -1,0 +1,144 @@
+<element skin="@middle_popup" skin.pixel="@middle_popup_blue" preferredWidth="664" preferredHeight="956">
+    <element name="card_wrapper" anchorX="-20" preferredWidth="664" preferredHeight="926">
+        <element name="name" skin="@shop_item_name_font" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="20" preferredWidth="450" preferredHeight="200" flushBatch="true"/>
+        <element name="material_sell_item_amount" skin="@shop_extras_text_font_left" anchorX="40" anchorY="50"  anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" preferredWidth="300"  preferredHeight="100"/>
+        <element name="material_sell_event_name" skin="@shop_extras_text_font_middle"  anchorY="160" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="450"  preferredHeight="150"/>
+
+
+        <!-- SPECIAL WEEK DISCOUNT BADGE -->
+        <element name="special_week_offer_discount" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" anchorY="60" skin="@special_week_discount_30" visible="false"/>
+
+        <!-- EVENT BADGE -->
+        <element name="event_new_badge" anchorX="25" anchorY="70">
+            <element skin="@shop_event_bg"/>
+            <element name="new_badge_asset" skin="@shop_new"/>
+            <element name="event_badge_asset" skin="@asset"/>
+        </element>
+
+        <element name="info_wrapper" anchorY="50" preferredWidth="664">
+            <!-- IMAGE -->
+            <element name="image" anchorLeft=".5" anchorRight=".5" anchorY="350" anchorY.sellPostcard="200" skin="@asset" pivotAlign="MIDDLE_CENTER"/>
+
+            <element visible="false" visible.diggySkin="false" anchorY="150" anchorX="-5" preferredWidth="50" preferredHeight="50" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+                <element name="chestLimitAmountValue" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" skin="@shop_limit_font"/>
+            </element>
+
+            <element visible="true" visible.sellPostcard="false" anchorY="530" pivotAlign="MIDDLE_CENTER" anchorAlign="MIDDLE_CENTER">
+                <p:layout><horizontal gap="2"/></p:layout>
+                <element name="material_price" skin="@shop_price_font" model="1"/>
+                <element name="material_sell_currency" skin="@asset" anchorY="-13"/>
+            </element>
+
+            <!-- LINE -->
+            <element name="line1" visible="false" visible.sellPostcard="true" anchorLeft=".5" anchorRight=".5" anchorY="380" skin="@shop_line1" pivotAlign="TOP_CENTER"/>
+
+            <!-- TEXT -->
+            <element name="extras_text_title" skin="@shop_effect_level_font" visible="false" visible.passive_effect="true" anchorY="182" anchorY.passive_effect="182" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="600" preferredWidth.locked="400" preferredHeight="300" flushBatch="true"/>
+            <!-- TEXT -->
+            <element name="extras_text" skin="@shop_extras_text_font_middle" skin.mobile="@shop_extras_text_font_mobile" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="600" anchorY="355" anchorY.sellMaterial="600" preferredHeight="250" preferredHeight.passive_effect="204" flushBatch="true"/>
+
+            <!-- LINE -->
+            <element name="line2" visible="false" visible.sellPostcard="true" anchorLeft=".5" anchorRight=".5" anchorY="560" skin="@shop_line2" pivotAlign="TOP_CENTER"/>
+            <!-- TEXT -->
+
+            <element name="extras_upgrade_info_holder" anchorX="12" visible="false" anchorY ="455" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" >
+                <p:layout><horizontal gap="0"/></p:layout>
+                <element preferredWidth="280" preferredHeight="400">
+                    <element name="extras_text_upgrade_title1" skin="@shop_effect_upgrade_level_font" preferredWidth="280" preferredHeight="400" alpha="0.6" />
+                    <element name="extras_text_upgrade1" skin="@shop_extras_text_font" anchorY="60" preferredWidth="280" preferredHeight="400" alpha="0.6"/>
+                </element>
+                <element name="extras_upgrade_icon" skin="@shop_effect_upgrade" anchorY="45" pivotAlign="MIDDLE_CENTER"/>
+                <element preferredWidth="280" preferredHeight="400">
+                    <element name="extras_text_upgrade_title2" skin="@shop_effect_upgrade_level_font" preferredWidth="280" preferredHeight="400"/>
+                    <element name="extras_text_upgrade2" skin="@shop_extras_text_font" anchorY="60" preferredWidth="280" preferredHeight="400"/>
+                </element>
+            </element>
+
+            <!-- COST -->
+            <element visible="false" visible.sellPostcard="true" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"  anchorY="15" >
+                <element name="cost" anchorY="575" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" >
+                    <p:layout><horizontal gap="5"/></p:layout>
+                    <element name="priceImage" skin="@asset" anchorY="-15"/>
+                    <element name="priceValue" anchorY="15" skin="@shop_price_font"/>
+                    <element name="priceHave" anchorY="15" skin="@shop_price_have_font"/>
+                </element>
+            </element>
+
+            <!-- LOCK -->
+            <element name="lock" visible="false" visible.locked="true" anchorLeft="0" anchorRight="1" >
+                <element skin="@shop_card_locked" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="540" preferredWidth="690"/>
+                <!--<element skin="@shop_card_extra_lock1" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorX="-275" anchorY="520"/>-->
+                <!--<element skin="@shop_card_extra_lock2" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorX="275" anchorY="525"/>-->
+            </element>
+        </element>
+
+        <!-- LIMIT AMOUNT -->
+        <!-- LIMIT AMOUNT -->
+        <element name="limitAmount" skin="@shop_card_limit" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" anchorY="185">
+            <element anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="10" name="limitAmountValue" skin="@shop_price_font" flushBatch="true"/>
+        </element>
+        <element name="limitReached" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorX="20" anchorY="-30" skin="@shop_limit_reached"/>
+
+        <element name="buttonContainer" anchorAlign="BOTTOM_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="-100">
+
+            <element name="buttonGem" visible="false">
+                <element anchorX="-10" anchorY="30" preferredWidth="200" preferredHeight="160" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+                    <p:layout><horizontal gap="10"/></p:layout>
+                    <element name="buttonIcon" skin="@shop_gem_icon1" skin.inactive="@shop_buy_icon_inactive" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="-15"/>
+                    <element name="buttonLabel" skin="@shop_buy_button_gem_font1" skin.inactive="@shop_buy_button_inactive_font" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" />
+                </element>
+            </element>
+
+            <element name="buttonPixel" mouseChildren="false"
+                     preferredWidth="440" preferredHeight="142"
+                     pivotAlign="MIDDLE_CENTER"
+                     anchorY="0"
+                     anchorY.down="7"
+
+                     skin="@button_blue_01"
+                     skin.down="@button_blue_01"
+                     skin.inactive="@shop_btn_inactive"
+
+                     mouseUp="extrasBuyUp_handler"
+                     mouseDown="extrasBuyDown_handler"
+                     mouseOut="extrasBuyOut_handler"
+
+                     mouseDown.inactive=""
+                     mouseUp.inactive=""
+            >
+                <element anchorY="30" anchorY.inactive="45" preferredWidth="200" preferredHeight="160" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+                    <p:layout><horizontal gap="10"  gap.inactive="25"/></p:layout>
+                    <element name="buttonIcon"
+                             skin="@pixel_id_coin"
+                             skin.inactive="@shop_buy_icon_inactive"
+                             anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"
+                             anchorY="-15"/>
+                    <element name="buttonLabel"
+                             skin="@shop_buy_button_blue_font"
+                             skin.inactive="@shop_buy_button_inactive_font"
+                             anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"
+                             anchorY="0" anchorY.inactive="-5" flushBatch="true"/>
+                </element>
+            </element>
+
+            <element name="buttonMultiple" visible="true" visible.sellPostcard="false" skin="@btn_center1" skin.down="@btn_center2" preferredWidth="400" preferredHeight="120" skin.inactive="@shop_btn_inactive" pivotAlign="MIDDLE_CENTER" anchorY="-110" anchorY.down="-103" mouseUp="sellMultipleMaterial_handler" mouseDown="extrasBuyDown_handler" mouseOut="extrasBuyOut_handler">
+                <element anchorY="45" preferredWidth="200" preferredHeight="160" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+                    <p:layout><horizontal gap="25"/></p:layout>
+                    <element name="buttonIcon" skin="@shop_buy_icon_drevo_white" skin.inactive="@shop_buy_icon_drevo2" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="-15"/>
+                    <element name="buttonMultipleLabel" skin="@oswald_bold_85_basic_drevo1" skin.inactive="@shop_buy_button_basic_font2" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="-5" flushBatch="true"/>
+                </element>
+            </element>
+
+            <element name="button" mouseChildren="false" skin="@btn_center1" skin.down="@btn_center2" preferredWidth="400" preferredHeight="120" skin.inactive="@shop_btn_inactive" pivotAlign="MIDDLE_CENTER" anchorY="30" anchorY.down="37" mouseUp="extrasBuyUp_handler" mouseDown="extrasBuyDown_handler" mouseOut="extrasBuyOut_handler" mouseDown.inactive="" mouseUp.inactive=""  flushBatch="true">
+                <element anchorY="45" preferredWidth="200" preferredHeight="160" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+                    <p:layout><horizontal gap="25"/></p:layout>
+                    <element name="buttonIcon" skin="@shop_buy_icon_drevo_white" skin.inactive="@shop_buy_icon_inactive" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="-15"/>
+                    <element name="buttonLabel" skin="@oswald_bold_85_basic_drevo1" skin.inactive="@shop_buy_button_inactive_font" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="-5"/>
+                </element>
+            </element>
+
+        </element>
+
+    </element>
+
+</element>

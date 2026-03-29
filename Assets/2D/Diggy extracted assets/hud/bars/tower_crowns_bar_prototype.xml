@@ -1,0 +1,5 @@
+<element name="tower_crowns_wrapper" preferredWidth="232" mouseUp="towerCrown_handler" anchorY="24" anchorX="0">
+    <element name="crownsBg" skin="@top_left_bg" preferredHeight="60" preferredWidth="200" anchorX="0" anchorY="0"/>
+    <element name="towerCrownsIcon" skin="@ico_crown" anchorX="180" anchorY="-4" flushBatch="true" />
+    <element name="towerCrownsText" skin="@typeface_36_white_right_middle" preferredWidth="160" preferredHeight="60" anchorX="15" anchorY="1" flushBatch="true"/>
+</element>

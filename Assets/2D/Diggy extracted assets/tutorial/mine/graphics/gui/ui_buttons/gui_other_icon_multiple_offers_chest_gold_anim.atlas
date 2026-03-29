@@ -1,0 +1,28 @@
+
+gui_other_icon_multiple_offers_chest_gold_anim.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gui_other_icon_multiple_offers_chest_content_gui_other_icon_multiple_offers_chest_Layer_3
+  rotate: false
+  xy: 1, 1
+  size: 192, 160
+  orig: 192, 160
+  offset: 0, 0
+  index: -1
+gui_other_icon_multiple_offers_chest_content_gui_other_icon_multiple_offers_chest_glow_Layer_1
+  rotate: false
+  xy: 1, 163
+  size: 138, 37
+  orig: 138, 37
+  offset: 0, 0
+  index: -1
+gui_other_icon_multiple_offers_chest_content_gui_other_icon_multiple_offers_shine_Layer_1
+  rotate: false
+  xy: 195, 1
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+

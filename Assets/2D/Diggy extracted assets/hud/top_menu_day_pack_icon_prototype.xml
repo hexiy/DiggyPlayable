@@ -1,0 +1,10 @@
+<element name="dayPackButton" preferredWidth="152" preferredHeight="174">
+	<element name="btn" skin="@btn_round_brown" preferredWidth="152" preferredHeight="174" mouseChildren="false">
+		<element name="dayPackIcon" skin="@icon_day_pack" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="-30" anchorX="0"/>
+		<element name="timerText" skin="@typeface_36_white_center_middle" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="49" preferredWidth="185" preferredHeight="60" flushBatch="true"/>
+		<element name="claimNotification" skin="@event_pass_badge" anchorAlign="TOP_RIGHT" pivotAlign="MIDDLE_CENTER" preferredWidth="48" preferredHeight="48"
+				 anchorX="-15" anchorY="25" flushBatch="true">
+			<element name="claimLabel" skin="@oswald_bold_60_basic_drevo1_autosize_false" pivotAlign="MIDDLE_CENTER" anchorAlign="MIDDLE_CENTER" flushBatch="true" preferredHeight="55" preferredWidth="105" anchorY="5"/>
+		</element>
+	</element>
+</element>

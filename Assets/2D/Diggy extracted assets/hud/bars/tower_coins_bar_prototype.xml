@@ -1,0 +1,7 @@
+<element name="tower_coins_wrapper" preferredWidth="302" mouseUp="towerCoinBar_handler" anchorY="24" anchorX="0">
+    <element name="coinsBg" skin="@top_left_bg" preferredHeight="60" preferredWidth="300" anchorX="0" anchorY="0"/>
+    <element anchorX="270" anchorY="-10" preferredWidth="80" preferredHeight="80">
+        <element name="towerCoinsIcon" skin="@asset" anchorLeft="0" anchorTop="0" anchorRight="1" anchorBottom="1" />
+    </element>
+    <element name="towerCoinsText" skin="@typeface_36_white_right_middle" preferredWidth="260" preferredHeight="60" anchorX="2" anchorY="1" flushBatch="true"/>
+</element>

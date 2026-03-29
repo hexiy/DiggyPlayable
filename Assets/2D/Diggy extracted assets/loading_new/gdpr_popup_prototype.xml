@@ -1,0 +1,69 @@
+<element name="black_screen" anchorTop="0" anchorBottom="1">
+	<!-- BACKGROUND -->
+    <element name="popup_body" skin="@preloader_card_BG" preferredWidth="1200" preferredHeight="1100"
+    		 anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="-25">		
+
+		<!-- INNER BACKGROUND -->
+     	<element skin="@preloader_inner_background" preferredWidth="1050" preferredHeight="600"
+     			 anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="-100">
+
+		<!-- TITLE TXT -->
+		<element name="title_txt" skin="@bold_32_black_af_left_top" preferredWidth="900" preferredHeight="520" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" />
+
+		<!-- MAIN TXT -->
+		<element name="main_txt" skin="@bold_24_black_af_left_top" preferredWidth="900" preferredHeight="520" anchorY="100" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" />
+
+		<!-- EULA -->
+		<element name="eula_btn" skin="@preloader_button_brown_01" anchorAlign="BOTTOM_LEFT" pivotAlign="BOTTOM_LEFT" anchorX="40" anchorY="-20" preferredWidth="450" preferredHeight="160"
+				 visible="true" visible.download_data="false" mouseChildren="false">
+			<element name="eula_btn_txt" skin="@bold_32_white_af_middle_center" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="5"
+					 preferredWidth="420" preferredHeight="130"/>
+		</element>
+
+		<!-- PRIVACY -->
+		<element name="privacy_btn" skin="@preloader_button_brown_01" anchorAlign="BOTTOM_RIGHT" pivotAlign="BOTTOM_RIGHT" anchorX="-40" anchorY="-20" preferredWidth="450" preferredHeight="160"
+				 visible="true" visible.download_data="false" mouseChildren="false">
+			<element name="privacy_btn_txt" skin="@bold_32_white_af_middle_center" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="5"
+					 preferredWidth="420" preferredHeight="130"/>
+		</element>
+
+     	</element>
+
+     	<!-- RED ICON -->
+		<element name="red_icon" skin="@preloader_red_mark" 
+				 visible="false" visible.red_mark="true"
+	             anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" anchorX="-130" anchorY="-30"/>
+
+	    <!-- BLUE ICON -->
+		<element name="red_icon" skin="@preloader_blue_mark" 
+				 visible="true" visible.red_mark="false"
+	             anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" anchorX="-130" anchorY="-30"/>
+		
+		<!-- BROWN BUTTON with text -->
+		<element name="brown_btn_holder" anchorY="-90" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER"
+	             anchorX="0" anchorX.both_buttons="-270"	             
+	             preferredWidth="450" preferredHeight="160"	             
+	             visible="false" visible.both_buttons="true">
+	        <element skin="@preloader_button_brown_01" name="brown_btn"	        		 
+	        		 preferredWidth="450" preferredHeight="160" mouseChildren="false">
+	            <element name="brown_btn_txt" skin="@bold_32_white_at"
+		             anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="5"/>
+	            </element>
+        </element>
+
+        <!-- GREEN BUTTON with text -->
+        <element name="green_btn_holder" anchorY="-80" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER"
+	             anchorX="0" anchorX.both_buttons="270"
+	             preferredWidth="500" preferredHeight="180">
+	        <element skin="@preloader_button_green_01" name="green_btn"
+	        		 preferredWidth="500" preferredHeight="180" mouseChildren="false">
+	            <element name="green_btn_txt" skin="@bold_48_white_at" 
+		             anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="5"/>
+	            </element>
+        </element>
+        
+        <!-- CLOSE BUTTON -->
+		<element name="close_btn" skin="@preloader_production_cancel_icon" visible="false" visible.close_button="true"
+	             anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" anchorX="-50" anchorY="50"/>
+    </element>
+</element>

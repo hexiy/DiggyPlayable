@@ -1,0 +1,38 @@
+<element name="team_player_scrollable_item" preferredHeight="180" preferredWidth="1200" preferredWidth.wide="1750" preferredWidth.widest="2200" anchorY="-100" anchorX="0" anchorX.widest="50" pivotAlign="TOP_CENTER" anchorAlign="TOP_CENTER" skin.is_me_leaderboard="@blue_bg">
+
+    <element name="clickable_holder" mouseUp="onPlayerDetail_handler" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1">
+        <element name="team_player_skin_holder" preferredHeight="160" preferredWidth="1200" preferredWidth.wide="1750" preferredWidth.widest="2200" skin="@brown_bg" skin.wide="@brown_bg" skin.is_me="@blue_bg" skin.is_transferring="@blue_bg" skin.is_me_leaderboard="" anchorY="10" anchorX="0" pivotAlign="TOP_CENTER" anchorAlign="TOP_CENTER" mouseChildren="false">
+            <element name="data_holder"/>
+            <element name="team_player_logo" preferredHeight="135" preferredWidth="135" anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT" skin="@asset" anchorX="5" anchorY="-5"/>
+            <element name="team_player_leader_badge" skin="@icon_crown" visible="false" visible.is_not_leader="false" visible.is_leader="true" anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT" preferredHeight="100" preferredWidth="100" anchorX="150"/>
+
+            <element name="team_player_name" skin="@team_scrollable_body_font"
+                     anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT"
+                     anchorX="150" anchorX.is_not_leader="150" anchorX.is_leader="255" anchorX.can_be_kicked="255"
+                     anchorY="-30"
+                     preferredHeight="100"
+                     preferredWidth="300"
+                     flushBatch="true"/>
+
+            <element name="team_player_activity" skin="@team_activity_font"
+                     anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT"
+                     anchorX="155" anchorX.is_not_leader="155" anchorX.is_leader="260" anchorX.can_be_kicked="260"
+                     anchorY="30"
+                     preferredHeight="40" preferredWidth="300" flushBatch="true"/>
+
+            <element name="team_player_score_holder" anchorAlign="MIDDLE_RIGHT" pivotAlign="MIDDLE_RIGHT" anchorX="-95" preferredHeight="160" preferredWidth="260">
+                <element name="team_player_score" skin="@oswald_bold_85_basic_drevo1_big" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="25" flushBatch="true"/>
+                <element name="team_player_score_lbl" model="#GUI3469" skin="@team_help_font" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-5" flushBatch="true" preferredWidth="190" preferredHeight="70"/>
+            </element>
+            <element name="team_player_level_holder" anchorAlign="MIDDLE_RIGHT" pivotAlign="MIDDLE_RIGHT" anchorX="65" preferredHeight="160" preferredWidth="260">
+                <element name="team_player_level" skin="@oswald_bold_85_basic_drevo1_big" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="25" flushBatch="true"/>
+                <element name="team_player_level_lbl" skin="@team_help_font" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-10" model="#GUI0002" preferredWidth="110" preferredHeight="70" flushBatch="true"/>
+            </element>
+        </element>
+        <element name="team_player_leader_kick_member" skin="@production_cancel_icon" visible="false" visible.is_not_leader="false" visible.can_be_kicked="true" anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT" preferredHeight="100" preferredWidth="100" anchorX="150"/>
+        <element name="team_leaderboard_rank_holder" anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT" visible="false" visible.is_leaderboards="true" preferredHeight="160" preferredWidth="160" anchorX="10">
+            <element name="team_leaderboard_rank_badge" skin="@white_circle_bg" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" visible="false" visible.top_three="true" preferredWidth="160" preferredHeight="160"/>
+            <element name="team_leaderboard_rank_number" skin="@team_premium_btn_font" preferredHeight="160" preferredWidth="160" flushBatch="true" anchorY="10" anchorX="-5"/>
+        </element>
+    </element>
+</element>

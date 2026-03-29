@@ -1,0 +1,8 @@
+<element name="black_screen" skin="@black" anchorTop="0" anchorBottom="1" mouseUp="okMouseUp_handler">
+    <element preferredWidth="800" preferredHeight="870" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+        <element name="popup_body" skin="@middle_popup" anchorLeft="0" anchorTop="0" anchorBottom="1" anchorRight="1"/>
+        <element name="font_body" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+            <p:layout><vertical useChildrenWidth="true" gap="10"/></p:layout>
+        </element>
+    </element>
+</element>

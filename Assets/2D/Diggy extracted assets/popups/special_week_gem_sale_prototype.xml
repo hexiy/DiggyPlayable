@@ -1,0 +1,158 @@
+<element name="black_screen" skin="@black" anchorTop="0" anchorBottom="1" mouseUp="backMouseUp_handler">
+    <element name="bg" skin="@bg_brown" preferredWidth="1500" preferredHeight="1220" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="100">
+        <element name="btn_cancel" skin="@production_cancel_icon" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" />
+
+        <element name="btnOpenGemShop"  anchorAlign="BOTTOM_RIGHT" preferredWidth="300" preferredHeight="100" pivotAlign="BOTTOM_RIGHT" anchorX="-20" anchorY="-20">
+            <element skin="@button_red_01" skin.pressed="@button_red_02" anchorLeft="0" anchorTop="0" anchorRight="1" anchorBottom="1">
+                <element  name="btnOpenGemLabel" skin="@oswald_bold_85_white" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="5"/>
+            </element>
+        </element>
+    </element>
+
+    <element name="name" skin="@btn_center_3slice" preferredWidth="1200" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="105">
+        <element name="name_label" skin="@oswald_bold_85_basic_drevo1_big" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="10"/>
+        <element preferredWidth="398" preferredHeight="140" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="100   ">
+            <element name="timerLabel" skin="@popup_xlarge_white" anchorAlign="TOP_CENTER" model="??:??:??" pivotAlign="TOP_CENTER" anchorY="30"/>
+        </element>
+    </element>
+
+    <!-- zobrazenie stavu procesovanej platby -->
+    <element name="payment_progres" anchorY="300" preferredWidth="1860" preferredHeight="1000" anchorX="15" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+        <element skin="@middle_popup" preferredWidth="1150" preferredHeight="850" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+        <element preferredWidth="1150" preferredHeight="850" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+            <element name="rewardImage" skin="@gem_received_gem_small" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="100" preferredWidth="" width="672" height="400"/>
+            <element name="payment_text" skin="@oswald_54_black_center_top" preferredWidth="900" preferredHeight="220" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"
+                     anchorY="450"/>
+
+            <element name="btn_ok" skin="@btn_center1" skin.pressed="@btn_center2" anchorY="-70" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER">
+                <element name="btn_ok_text" skin="@oswald_bold_85_basic_drevo1" anchorY="8" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+            </element>
+
+            <element name="btn_gem" skin="@button_green_01" skin.pressed="@button_green_02" preferredWidth="440" preferredHeight="142" anchorY="-70" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER">
+                <element name="btn_gem_text" skin="@oswald_bold_85_gem1" anchorY="8" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+            </element>
+
+        </element>
+        <element name="payment_asset_loader" skin="@asset" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+    </element>
+    <!-- zobrazenie stavu procesovanej platby -->
+
+    <element name="payment_main" anchorY="350" preferredWidth="1860" preferredHeight="1000" anchorX="15" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+        <element preferredWidth="1860" preferredHeight="830" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+            <p:layout><horizontal gap="20"/></p:layout>
+            <element name="gemPackBgLeft" skin="@middle_popup" preferredWidth="398" preferredHeight="860" anchorX="-20"/>
+            <element name="gemPackBgMiddle" skin="@middle_popup" color="0xADFFA0" preferredWidth="450" preferredHeight="940" anchorY="-40"/>
+            <element name="gemPackBgRight" skin="@middle_popup" preferredWidth="398" preferredHeight="860"/>
+        </element>
+
+        <element anchorY="20" preferredWidth="1860" preferredHeight="830" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorX="-10">
+            <p:layout><horizontal gap="50"/></p:layout>
+
+            <element name="gemPackLeft" preferredWidth="370" preferredHeight="830">
+                <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="286" anchorY="138">
+                    <element skin="@line1" anchorLeft="0" anchorRight="1"/>
+                </element>
+                <element name="gem_picture" skin="@asset" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="238"/>
+                <element skin="@gem_popup_card_amount_bg" anchorX="20" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="540"/>
+                <element name="popup_label_flag" skin="@popup_label_flag" visible="false" visible.gemSale="true" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="160" preferredWidth="316" preferredHeight="80">
+                    <element name="ribbon" skin="@oswald_XS_white" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="22"/>
+                </element>
+
+                <element name="crossedGemCount" visible="false" visible.gemSale="=true" skin="@oswald_M_brown" model="500" anchorY="-20" preferredWidth="100" preferredHeight="25" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" >
+                    <element name="crossedGemCountLine" preferredHeight="10" anchorY="20">
+                        <element skin="@line1" anchorLeft="0" anchorTop="0" anchorRight="1" anchorBottom="1" preferredHeight="10" anchorY="20"/>
+                        <element skin="@line1" anchorLeft="0" anchorTop="0" anchorRight="1" anchorBottom="1" preferredHeight="10" anchorY="20"/>
+                    </element>
+                </element>
+                <element preferredWidth="286" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="36">
+                    <element preferredWidth="182" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT">
+                        <element name="gemCount" skin="@oswald_XL_brown" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT"/>
+                    </element>
+                    <element name="gemIcon" skin="@asset" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" anchorX="10" anchorY="-10"/>
+                </element>
+
+                <element preferredWidth="370" preferredHeight="84" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="540">
+                    <element name="gemPrice" skin="@oswald_L_brown" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="12"/>
+                </element>
+
+                <element name="bonusGemsAmount" visible="false" visible.gemSale="true" skin="@oswald_S_brown" model="+? BONUS GEMS" preferredWidth="150" preferredHeight="30" anchorY="500" anchorX="30"/>
+
+                <element name="btnBuyLeft" skin="@button_green_01" skin.pressed="@button_green_02" preferredWidth="304" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorX="10" anchorY="-50">
+                    <element name="btnBuyLabel" skin="@oswald_bold_white" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="40"/>
+                </element>
+            </element>
+
+            <element name="gemPackMiddle" preferredWidth="410" preferredHeight="960">
+                <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="286" anchorY="138">
+                    <element skin="@line1" anchorLeft="0" anchorTop="0" anchorRight="1" anchorBottom="1" preferredHeight="10" anchorY="20"/>
+                    <element skin="@line1" anchorLeft="0" anchorTop="0" anchorRight="1" anchorBottom="1" preferredHeight="10" anchorY="20"/>
+                </element>
+                <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="320" anchorY="230">
+                    <!--<element skin="@line1" anchorLeft="0" anchorRight="1"/>-->
+                </element>
+                <element name="gem_picture" skin="@asset" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="238"/>
+                <element skin="@gem_popup_card_amount_bg" anchorX="20" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="540"/>
+                <element name="popup_label_flag" skin="@popup_label_flag" visible="false" visible.gemSale="true" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="160" preferredWidth="316" preferredHeight="80">
+                    <element name="ribbon" skin="@oswald_XS_white" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="22"/>
+                </element>
+
+                <element name="crossedGemCount" visible="false" visible.gemSale="=true" skin="@oswald_M_brown" model="500" anchorY="-50" preferredWidth="100" preferredHeight="25" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" >
+                    <element name="crossedGemCountLine" preferredHeight="10" anchorY="20">
+                        <element skin="@line1" anchorLeft="0" anchorTop="0" anchorRight="1" anchorBottom="1" preferredHeight="10" anchorY="20"/>
+                    </element>
+                </element>
+                <element preferredWidth="286" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="16">
+                    <element preferredWidth="182" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT">
+                        <element name="gemCount" skin="@oswald_XL_brown" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT"/>
+                    </element>
+                    <element name="gemIcon" skin="@asset" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" anchorX="5" anchorY="-10"/>
+                </element>
+
+                <element preferredWidth="370" preferredHeight="84" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="540">
+                    <element name="gemPrice" skin="@oswald_L_brown" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="12"/>
+                </element>
+
+                <element name="bonusGemsAmount" visible="false" visible.gemSale="true" skin="@oswald_S_brown" model="+? BONUS GEMS" preferredWidth="150" preferredHeight="30" anchorY="500" anchorX="30"/>
+
+                <element name="btnBuyMiddle" skin="@button_green_01" skin.pressed="@button_green_02" preferredWidth="304" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorX="10" anchorY="-150">
+                    <element name="btnBuyLabel" skin="@oswald_bold_white" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="40"/>
+                </element>
+            </element>
+
+            <element name="gemPackRight" preferredWidth="370" preferredHeight="830">
+                <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="286" anchorY="138">
+                    <element skin="@line1" anchorLeft="0" anchorRight="1"/>
+                </element>
+                <element name="gem_picture" skin="@asset" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="238"/>
+                <element skin="@gem_popup_card_amount_bg" anchorX="20" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="540"/>
+                <element name="popup_label_flag" skin="@popup_label_flag" visible="false" visible.gemSale="true" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="160" preferredWidth="316" preferredHeight="80">
+                    <element name="ribbon" skin="@oswald_XS_white" model="#MOB083" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="22"/>
+                </element>
+
+                <element name="crossedGemCount" visible="false" visible.gemSale="=true" skin="@oswald_M_brown" model="500" anchorY="-20" preferredWidth="100" preferredHeight="25" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" >
+                    <element name="crossedGemCountLine" preferredHeight="10" anchorY="20">
+                        <element skin="@line1" anchorLeft="0" anchorTop="0" anchorRight="1" anchorBottom="1" preferredHeight="10" anchorY="20"/>
+                        <element skin="@line1" anchorLeft="0" anchorTop="0" anchorRight="1" anchorBottom="1" preferredHeight="10" anchorY="20"/>
+                    </element>
+                </element>
+
+                <element preferredWidth="286" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="36">
+                    <element preferredWidth="182" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT">
+                        <element name="gemCount" skin="@oswald_XL_brown" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT"/>
+                    </element>
+                    <element name="gemIcon" skin="@asset" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" anchorX="10" anchorY="-10"/>
+                </element>
+
+                <element preferredWidth="370" preferredHeight="84" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="540">
+                    <element name="gemPrice" skin="@oswald_L_brown" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="12"/>
+                </element>
+
+                <element name="bonusGemsAmount" visible="false" visible.gemSale="true" skin="@oswald_S_brown" model="+? BONUS GEMS" preferredWidth="150" preferredHeight="30" anchorY="500" anchorX="30"/>
+
+                <element name="btnBuyRight" skin="@button_green_01" skin.pressed="@button_green_02" preferredWidth="304" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorX="10" anchorY="-50">
+                    <element name="btnBuyLabel" skin="@oswald_bold_white" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="40"/>
+                </element>
+            </element>
+        </element>
+    </element>
+</element>

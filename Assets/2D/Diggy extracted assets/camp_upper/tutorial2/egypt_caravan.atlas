@@ -1,0 +1,76 @@
+
+tava.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chvost
+  rotate: false
+  xy: 560, 95
+  size: 107, 23
+  orig: 107, 23
+  offset: 0, 0
+  index: -1
+hlava
+  rotate: false
+  xy: 137, 5
+  size: 128, 113
+  orig: 128, 113
+  offset: 0, 0
+  index: -1
+krk
+  rotate: false
+  xy: 457, 6
+  size: 101, 112
+  orig: 101, 112
+  offset: 0, 0
+  index: -1
+nohy
+  rotate: false
+  xy: 267, 26
+  size: 159, 57
+  orig: 159, 57
+  offset: 0, 0
+  index: -1
+telo
+  rotate: false
+  xy: 2, 2
+  size: 133, 116
+  orig: 133, 116
+  offset: 0, 0
+  index: -1
+tienik
+  rotate: false
+  xy: 267, 85
+  size: 188, 33
+  orig: 188, 33
+  offset: 0, 0
+  index: -1
+trava
+  rotate: false
+  xy: 428, 54
+  size: 25, 29
+  orig: 25, 29
+  offset: 0, 0
+  index: -1
+ucho
+  rotate: false
+  xy: 560, 43
+  size: 29, 22
+  orig: 29, 22
+  offset: 0, 0
+  index: -1
+usta
+  rotate: false
+  xy: 669, 98
+  size: 43, 20
+  orig: 43, 20
+  offset: 0, 0
+  index: -1
+vlas
+  rotate: false
+  xy: 560, 67
+  size: 41, 26
+  orig: 41, 26
+  offset: 0, 0
+  index: -1

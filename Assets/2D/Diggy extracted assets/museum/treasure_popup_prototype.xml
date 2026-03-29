@@ -1,0 +1,63 @@
+<element name="black_screen" skin="@black" anchorTop="0" anchorBottom="1" mouseUp="backMouseUp_handler">
+    <element name="popup_body" preferredWidth="1024" preferredHeight="1036" preferredHeight.completed="1165" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true">
+        <element anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="980" preferredHeight="920" preferredHeight.completed="1050" anchorX="28">
+            <element skin="@middle_popup" anchorTop="0" anchorBottom="1" anchorLeft="0" anchorRight="1"/>
+        </element>
+
+        <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" skin="@museum_popup_border1"/>
+        <element anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" skin="@museum_popup_border2"/>
+        <element name="btn_cancel" skin="@production_cancel_icon" anchorX="-40" anchorY="0" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" flushBatch="true" />
+
+        <element preferredWidth="938" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorX="15" anchorTop="0" anchorBottom="1">
+
+            <element name="artifacts_main" anchorLeft="0" anchorRight="1" anchorY="265" visible="true">
+                <element name="desc" skin="@museum_desc_font" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"/>
+                <element name="staticText1" skin="@museum_title_font" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="135" visible="true" visible.completed="false"/>
+                <element name="staticText2" skin="@museum_title_font" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="361"/>
+
+                <element name="reward" visible="false" visible.completed="true" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="393">
+                    <p:layout><horizontal gap="30"/></p:layout>
+                </element>
+            </element>
+
+            <element name="button_close" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="700" skin="@btn_center1" skin.pressed="@btn_center2" mouseChildren="false">
+                <element name="button_close_text" skin="@oswald_bold_85_basic_drevo1" anchorY="8" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+            </element>
+
+            <element name="artifacts_detail" anchorLeft="0" anchorRight="1" anchorY="255" visible="false">
+                <element preferredWidth="190" preferredHeight="190" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+                    <element name="artifacts_detail_asset" skin="@asset" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" />
+                </element>
+
+                <element name="artifacts_detail_text_1" skin="@oswald_bold_85_autosize_false_halign_black" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="225" preferredWidth="850" preferredHeight="200"/>
+
+                <element anchorY="340" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="900">
+                    <element name="artifacts_detail_button_cancel" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" skin="@btn_blue_narrow" mouseChildren="false" preferredWidth="440" preferredHeight="142">
+                        <element name="btn_cancel_text" skin="@typeface_48_white_center_middle" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="400" preferredHeight="140" anchorY="-8"/>
+                    </element>
+
+                    <element name="artifacts_detail_button_mine" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" skin="@btn_orange_narrow" mouseChildren="false" preferredWidth="440" preferredHeight="142">
+                        <element name="go_to_text" skin="@typeface_48_white_center_middle" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="400" preferredHeight="140" anchorY="-8" model="#WGL012"/>
+                    </element>
+                </element>
+            </element>
+
+            <element name="artifacts_container" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="755" visible="true" visible.completed="false">
+                <p:layout><horizontal gap="10"/></p:layout>
+            </element>
+        </element>
+
+        <element skin="@btn_center1" preferredWidth="440" preferredHeight="142" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" visible="false" visible.completed="true" anchorY="874" mouseDown="buttonPushed_handler" mouseUp="getRewardMouseUp_handler">
+            <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="20">
+                <p:layout><horizontal gap="15"/></p:layout>
+                <element skin="@museum_get_reward_icon" anchorX="66" anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT"/>
+                <element name="staticText3" skin="@museum_title_font" anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT" anchorY="10" flushBatch="true"/>
+            </element>
+        </element>
+
+        <element name="title" skin="@museum_title_font_popup" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="40"/>
+        <element name="level" skin="@museum_title_font_popup" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="143"/>
+
+
+    </element>
+</element>

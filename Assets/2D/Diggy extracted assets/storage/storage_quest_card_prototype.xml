@@ -1,0 +1,18 @@
+<element skin="@middle_popup_half" preferredWidth="530" preferredHeight="460">
+    <element anchorX="-20" preferredWidth="530" preferredHeight="410">
+        <element name="name" skin="@oswald_bold_85_autosize_false_halign_black" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="450" preferredHeight="100" anchorY="20"/>
+
+        <element name="basic" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1">
+            <!-- IMAGE -->
+            <element name="image" anchorLeft=".5" anchorRight=".5" anchorY="185" skin="@asset" pivotAlign="MIDDLE_CENTER"/>
+
+            <!-- COUNT -->
+            <element name="count" skin="@oswald_bold_85" anchorY="185" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" anchorX="75"/>
+
+            <!-- BUTTON -->
+            <element name="buttonInfo" mouseChildren="false" skin="@btn_center1" preferredWidth="440" preferredHeight="142" anchorAlign="BOTTOM_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="-50" mouseDown="infoDown_handler" mouseUp="infoUp_handler" mouseOut="infoOut_handler">
+                <element name="buttonLabel" skin="@oswald_bold_85_basic_drevo1" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="10"/>
+            </element>
+        </element>
+    </element>
+</element>

@@ -1,0 +1,59 @@
+<element skin="@middle_popup" skin.locked="@middle_popup_alpha" skin.unlocked ="@middle_popup" skin.bought ="@middle_popup" preferredWidth.selected="680" preferredHeight.selected="986" preferredWidth="545" preferredHeight="860" preferredWidth.notselected="545" preferredHeight.notselected="860" anchorY.notselected = "96" anchorY.selected = "0">
+	<element anchorX="-15" preferredWidth.selected="680" preferredHeight.selected="986" preferredWidth="545" preferredHeight="860" preferredWidth.notselected="545" preferredHeight.notselected="860">
+		<element anchorLeft=".1" anchorRight=".9" anchorY="90" skin="@shop_line1" pivotAlign="TOP_CENTER"/>
+		<element anchorLeft=".5" anchorRight=".5" anchorY="260" anchorY.selected="290" skin="@shop_line3" pivotAlign="TOP_CENTER" visible.available="true" visible.bought="false"/>
+		<element anchorLeft=".1" anchorRight=".9" anchorY="430" anchorY.selected="515" skin="@shop_line2" pivotAlign="TOP_CENTER"/>
+
+
+
+		<element name="item_wrapper_left" anchorY="100" preferredWidth="10" anchorX.notselected="140" anchorX.selected="170"
+				 preferredHeight="550" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT"
+				 visible.available="true" visible.bought="false" visible.selected="true"/>
+
+		<element name="item_wrapper_right" anchorY="100" preferredWidth="10" anchorX.notselected="395" anchorX.selected="500"
+				 preferredHeight="550" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT"
+				 visible.available="true" visible.bought="false" visible.selected="true"/>
+
+		<element name="item_wrapper_bottom" anchorY="370" anchorY.selected="420" preferredWidth="10" anchorX.notselected="240" anchorX.selected="300"
+				 preferredHeight="550" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT"
+				 visible.available="true" visible.bought="false" visible.selected="true"/>
+
+		<element name="pack_bought_big" skin="@shop_limit_reached" preferredWidth="200" preferredHeight="140" anchorY="120" anchorY.selected="120"  anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" visible.available="false" visible.bought="true" visible.selected="false"></element>
+
+		<element name="buttonContainer" anchorAlign="BOTTOM_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="-125" >
+			<element name="buttonGem" skin="@button_green_01" skin.down="@button_green_02" preferredWidth.notselected="380" preferredWidth.selected="410" preferredHeight="142" skin.inactive="@shop_btn_inactive" pivotAlign="MIDDLE_CENTER" anchorY="0" anchorY.down="7" mouseOut="offerBuyOut_handler" mouseUp="offerBuyUp_handler" mouseDown="offerBuyDown_handler" mouseDown.inactive="" mouseUp.inactive="" visible="false" visible.locked="false" visible.unlocked="true" visible.bought="false">
+				<element anchorX="-10" anchorY="30" preferredWidth="200" preferredHeight="160" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+					<p:layout><horizontal gap="10"/></p:layout>
+					<element name="buttonIcon" skin="@shop_gem_icon1" skin.inactive="@shop_buy_icon_inactive" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="-15"/>
+					<element name="buttonLabel" skin="@shop_countdown_font" skin.inactive="@shop_countdown_font" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true"/>
+				</element>
+			</element>
+		</element>
+		<element visible="false" visible.locked="true" visible.unlocked="false" visible.bought="false" anchorAlign="BOTTOM_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="-100" >
+			<element name="pack_locked_small" skin="@shop_item_name_font" anchorAlign="BOTTOM_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="150"
+					 preferredWidth="400" preferredWidth.notselected="360" preferredHeight="400"
+					 model="#SPP766" visible.notselected="true" visible.selected="false"/>
+
+			<element name="pack_locked_big" skin="@shop_item_name_font" anchorAlign="BOTTOM_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="150"
+					 preferredWidth="250" preferredWidth.notselected="200"
+					 model="#SPP766" preferredHeight="400" visible.notselected="false" visible.selected="true" anchorX ="-120" />
+
+			<element name="buttonIcon" skin="@shop_gem_icon1"  anchorAlign="BOTTOM_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="70" visible.notselected="false" visible.selected="true" anchorY="-30" />
+			<element name="buttonLabel2" skin="@shop_countdown_font" anchorX="174" anchorAlign="BOTTOM_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="-18" visible.notselected="false" visible.selected="true" flushBatch="true"/>
+
+		</element>
+		<element visible.bought="true" visible.available="false" anchorAlign="BOTTOM_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="-200" >
+			<element name="pack_bought_small" skin="@shop_item_name_font" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"
+					 anchorY.selected="36" anchorY.notselected="8" preferredWidth="250" preferredWidth.notselected="200"  preferredHeight="400"
+					 model="#SPP767" visible.notselected="false" visible.selected="true" anchorX ="-120"/>
+			<element name="pack_bought_selected" skin="@shop_item_name_font" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"
+					 anchorY.selected="10" anchorY.notselected="-40" preferredWidth="400" preferredWidth.notselected="360" preferredHeight="400"
+					 model="#SPP768" visible.notselected="true" visible.selected="false"/>
+			<element skin="@camp_ui_progress_bar_done" preferredWidth="200" preferredHeight="140" anchorY="60" anchorY.selected="-10" anchorX="150" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" visible.notselected="false" visible.selected="true"></element>
+		</element>
+
+
+		<element name="tier_name" skin="@shop_item_name_font" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="28" preferredWidth="360" preferredHeight="200" />
+	</element>
+
+</element>

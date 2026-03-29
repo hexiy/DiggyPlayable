@@ -1,0 +1,75 @@
+<element>
+	<element name="name" skin="@shop_item_name_font_small" skin.selected="@shop_item_name_font_small" skin.notselected="@shop_item_name_font_smallest" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY.selected="10" anchorY.notselected="8" preferredWidth="250" preferredWidth.notselected="200"  preferredHeight="400" flushBatch="true"/>
+		<!-- BUILDING GRIDS -->
+	<element name="grids_holder" visible="false" visible.notselected="false" visible.selected="true">
+		<element name="grid2" anchorY="350" pivotAlign="BOTTOM_CENTER" anchorLeft=".5" anchorRight=".5">
+			<p:layout><horizontal gap="-23"/></p:layout>
+			<element skin="@shop_equip_ph2"/>
+			<element skin="@shop_equip_ph2"/>
+			<element skin="@shop_equip_ph2"/>
+			<element skin="@shop_equip_ph2"/>
+		</element>
+		<element name="grid3" anchorY="350" pivotAlign="BOTTOM_CENTER" anchorLeft=".5" anchorRight=".5">
+			<p:layout><horizontal gap="-19"/></p:layout>
+			<element skin="@shop_equip_ph3"/>
+			<element skin="@shop_equip_ph3"/>
+			<element skin="@shop_equip_ph3"/>
+			<element skin="@shop_equip_ph3"/>
+		</element>
+		<element name="grid4" anchorY="350" pivotAlign="BOTTOM_CENTER" anchorLeft=".5" anchorRight=".5">
+			<p:layout><horizontal gap="-20"/></p:layout>
+			<element skin="@shop_equip_ph4"/>
+			<element skin="@shop_equip_ph4"/>
+			<element skin="@shop_equip_ph4"/>
+			<element skin="@shop_equip_ph4"/>
+		</element>
+	</element>
+	<!-- IMAGE -->
+	<element name="image_holder" visible.notselected="false" visible.selected="true" flushBatch="true">
+		<element name="image" anchorLeft=".5" anchorRight=".5" anchorY="345" skin="@asset" pivotAlign="BOTTOM_CENTER"/>
+	</element>
+	<element name="image_big_holder" visible.selected="false" visible.notselected="true" flushBatch="true">
+		<element name="image_small" anchorLeft=".5" anchorRight=".5" anchorY="260" skin="@asset" pivotAlign="BOTTOM_CENTER"/>
+	</element>
+
+	<element name="region_badge_holder" visible="false" visible.selected="true" visible.notselected="false"
+			 anchorY="350" pivotAlign="BOTTOM_CENTER" anchorAlign="BOTTOM_CENTER" anchorLeft=".5" anchorRight=".5">
+		<element name="region_badge"
+				 skin.region1="@region_badge_1"
+				 skin.region2="@region_badge_2"
+				 skin.region3="@region_badge_3"
+				 skin.region4="@region_badge_4"
+				 skin.region5="@region_badge_5"
+				 skin.region6="@region_badge_6"
+				 skin.region7="@region_badge_7"
+				 skin.region8="@region_badge_8"
+				 skin.region9="@region_badge_9"
+				 visible="false"
+				 anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+	</element>
+
+	<element name="region_badge_holder_small" visible="false" visible.selected="false" visible.notselected="true"
+			 anchorY="270" pivotAlign="BOTTOM_CENTER" anchorAlign="BOTTOM_CENTER" anchorLeft=".5" anchorRight=".5">
+		<element name="region_badge_small"
+				 skin.region1="@region_badge_1"
+				 skin.region2="@region_badge_2"
+				 skin.region3="@region_badge_3"
+				 skin.region4="@region_badge_4"
+				 skin.region5="@region_badge_5"
+				 skin.region6="@region_badge_6"
+				 skin.region7="@region_badge_7"
+				 skin.region8="@region_badge_8"
+				 skin.region9="@region_badge_9"
+				 visible="false"
+				 anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+	</element>
+
+	<!-- VALUE -->
+	<element anchorY="243" anchorY.selected="325" anchorY.notselected="243" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+		<element anchorY="27" anchorX="0" preferredWidth="200" preferredHeight="100" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+			<p:layout><horizontal gap="10"/></p:layout>
+			<element name="type" skin.regen="@hud_regen" skin.storage="@hud_storage" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorY="-10"/>
+			<element name="value" skin="@shop_energy_font_small" skin.notselected="@shop_energy_font_small" skin.selected="@shop_energy_font" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+		</element>
+	</element>
+</element>

@@ -1,0 +1,286 @@
+
+Diggy.png
+size: 141,141
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Brada
+  rotate: false
+  xy: 57, 47
+  size: 17, 11
+  orig: 17, 11
+  offset: 0, 0
+  index: -1
+BradaFace
+  rotate: false
+  xy: 54, 23
+  size: 14, 19
+  orig: 14, 19
+  offset: 0, 0
+  index: -1
+BradaFace02
+  rotate: false
+  xy: 54, 2
+  size: 14, 19
+  orig: 14, 19
+  offset: 0, 0
+  index: -1
+Fuz
+  rotate: false
+  xy: 2, 2
+  size: 12, 5
+  orig: 12, 5
+  offset: 0, 0
+  index: -1
+Fuz02
+  rotate: true
+  xy: 134, 107
+  size: 12, 5
+  orig: 12, 5
+  offset: 0, 0
+  index: -1
+Lopata
+  rotate: false
+  xy: 41, 44
+  size: 14, 41
+  orig: 14, 41
+  offset: 0, 0
+  index: -1
+Noha
+  rotate: true
+  xy: 126, 21
+  size: 6, 10
+  orig: 6, 10
+  offset: 0, 0
+  index: -1
+Nos
+  rotate: true
+  xy: 117, 13
+  size: 6, 10
+  orig: 6, 10
+  offset: 0, 0
+  index: -1
+Nos_zboku
+  rotate: false
+  xy: 117, 21
+  size: 7, 11
+  orig: 7, 11
+  offset: 0, 0
+  index: -1
+Obocie
+  rotate: true
+  xy: 99, 38
+  size: 11, 3
+  orig: 11, 3
+  offset: 0, 0
+  index: -1
+Oko_bielko
+  rotate: false
+  xy: 112, 3
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+Oko_viecko
+  rotate: false
+  xy: 129, 11
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+Oko_zatvorene
+  rotate: false
+  xy: 102, 6
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+Pickaxe
+  rotate: false
+  xy: 2, 44
+  size: 37, 41
+  orig: 37, 41
+  offset: 0, 0
+  index: -1
+Pickaxe2
+  rotate: false
+  xy: 56, 98
+  size: 24, 41
+  orig: 24, 41
+  offset: 0, 0
+  index: -1
+Potapacske_okuliare01
+  rotate: false
+  xy: 104, 121
+  size: 35, 18
+  orig: 35, 18
+  offset: 0, 0
+  index: -1
+Potapacske_okuliare02
+  rotate: false
+  xy: 104, 80
+  size: 29, 17
+  orig: 29, 17
+  offset: 0, 0
+  index: -1
+Prilba_front
+  rotate: false
+  xy: 104, 99
+  size: 28, 20
+  orig: 28, 20
+  offset: 0, 0
+  index: -1
+Ruka
+  rotate: false
+  xy: 127, 33
+  size: 11, 19
+  orig: 11, 19
+  offset: 0, 0
+  index: -1
+Ruka2
+  rotate: false
+  xy: 88, 10
+  size: 11, 19
+  orig: 11, 19
+  offset: 0, 0
+  index: -1
+Sandwich
+  rotate: false
+  xy: 76, 71
+  size: 26, 25
+  orig: 26, 25
+  offset: 0, 0
+  index: -1
+Snorchel
+  rotate: false
+  xy: 57, 60
+  size: 17, 36
+  orig: 17, 36
+  offset: 0, 0
+  index: -1
+Space_helmet
+  rotate: false
+  xy: 2, 87
+  size: 52, 52
+  orig: 52, 52
+  offset: 0, 0
+  index: -1
+Svetluska
+  rotate: false
+  xy: 70, 13
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+Telo1
+  rotate: true
+  xy: 104, 34
+  size: 18, 21
+  orig: 18, 21
+  offset: 0, 0
+  index: -1
+Telo2
+  rotate: true
+  xy: 76, 31
+  size: 18, 21
+  orig: 18, 21
+  offset: 0, 0
+  index: -1
+Tvar3
+  rotate: false
+  xy: 2, 9
+  size: 24, 33
+  orig: 24, 33
+  offset: 0, 0
+  index: -1
+Ucho
+  rotate: false
+  xy: 135, 57
+  size: 4, 8
+  orig: 4, 8
+  offset: 0, 0
+  index: -1
+Usmev
+  rotate: false
+  xy: 70, 3
+  size: 14, 8
+  orig: 14, 8
+  offset: 0, 0
+  index: -1
+Usta
+  rotate: false
+  xy: 86, 2
+  size: 14, 6
+  orig: 14, 6
+  offset: 0, 0
+  index: -1
+Usta_otvorene
+  rotate: false
+  xy: 101, 16
+  size: 14, 6
+  orig: 14, 6
+  offset: 0, 0
+  index: -1
+Usta_unaveny
+  rotate: false
+  xy: 101, 24
+  size: 14, 8
+  orig: 14, 8
+  offset: 0, 0
+  index: -1
+Vlasy
+  rotate: false
+  xy: 104, 67
+  size: 32, 11
+  orig: 32, 11
+  offset: 0, 0
+  index: -1
+Vlasy_bg
+  rotate: false
+  xy: 76, 51
+  size: 26, 18
+  orig: 26, 18
+  offset: 0, 0
+  index: -1
+Vlasy_bok
+  rotate: true
+  xy: 126, 29
+  size: 2, 13
+  orig: 2, 13
+  offset: 0, 0
+  index: -1
+Vlasy_tien
+  rotate: false
+  xy: 104, 54
+  size: 29, 11
+  orig: 29, 11
+  offset: 0, 0
+  index: -1
+Vlasy_zadne
+  rotate: false
+  xy: 28, 9
+  size: 24, 33
+  orig: 24, 33
+  offset: 0, 0
+  index: -1
+Zbijacka
+  rotate: false
+  xy: 82, 98
+  size: 20, 41
+  orig: 20, 41
+  offset: 0, 0
+  index: -1
+Zrenicka
+  rotate: false
+  xy: 112, 11
+  size: 3, 3
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+empty_placeholder
+  rotate: false
+  xy: 57, 44
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1

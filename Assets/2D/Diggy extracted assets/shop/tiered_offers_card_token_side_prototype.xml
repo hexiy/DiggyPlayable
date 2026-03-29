@@ -1,0 +1,19 @@
+<element>
+	<element name="name" skin="@shop_item_name_font_small" skin.selected="@shop_item_name_font_small" skin.notselected="@shop_item_name_font_smallest" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY.selected="10" anchorY.notselected="8" preferredWidth="250" preferredWidth.notselected="200"  preferredHeight="400" flushBatch="true"/>
+
+	<!-- IMAGE -->
+	<element name="image_holder" visible.notselected="false" visible.selected="true" >
+		<element name="image" anchorLeft=".5" anchorRight=".5" anchorY="345" skin="@asset" pivotAlign="BOTTOM_CENTER"/>
+	</element>
+
+	<element name="image_big_holder" visible.selected="false" visible.notselected="true" >
+		<element name="image_small" anchorLeft=".5" anchorRight=".5" anchorY="260" skin="@asset" pivotAlign="BOTTOM_CENTER"/>
+	</element>
+
+	<!-- VALUE -->
+	<element anchorY="216" anchorY.selected="312" anchorY.notselected="216" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+		<element anchorY="27" anchorX="0" preferredWidth="200" preferredHeight="100" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+			<element name="value" skin="@shop_energy_font_small" skin.notselected="@shop_energy_font_small" skin.selected="@shop_energy_font" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+		</element>
+	</element>
+</element>

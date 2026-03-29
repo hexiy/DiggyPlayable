@@ -1,0 +1,20 @@
+<!--	UI SKIN DEFINITIONS FILE 	-->
+<data>
+    <textureSkin id="bg_pink" texture="@bg_pink" sliceLeft="126" sliceRight="238"/>
+    <textureSkin id="box_building_01" texture="@box_building_01"/>
+    <textureSkin id="box_energy_01" texture="@box_energy_01"/>
+    <textureSkin id="Card_Building_01" texture="@Card_Building_01"/>
+    <textureSkin id="Card_Building_02" texture="@Card_Building_02"/>
+    <textureSkin id="Card_Energy_01" texture="@Card_Energy_01"/>
+    <textureSkin id="Card_Energy_02" texture="@Card_Energy_02"/>
+    <textureSkin id="card_green" texture="@card_green"/>
+    <textureSkin id="card_red_small" texture="@card_red_small"/>
+    <textureSkin id="left_gold_deco" texture="@left_gold_deco"/>
+    <textureSkin id="right_gold_deco" texture="@right_gold_deco"/>
+    <textureSkin id="black_box_buildings" texture="@black_box_buildings"/>
+    <textureSkin id="black_box_energy" texture="@black_box_energy"/>
+    <textureSkin id="black_box_building_exp" texture="@black_box_building_exp"/>
+    <textureSkin id="black_box_energy_exp" texture="@black_box_energy_exp"/>
+    <textureSkin id="black_box_building_material" texture="@black_box_building_material"/>
+    <textureSkin id="black_box_energy_material" texture="@black_box_energy_material"/>
+</data>

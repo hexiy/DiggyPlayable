@@ -1,0 +1,20 @@
+<element name="black_screen" skin="@shade_black" anchorTop="0" anchorBottom="1" mouseUp="backMouseUp_handler">
+    <element name="popup_body" preferredWidth="1824" preferredHeight="636" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true">
+        <element name="popup_bg" skin="@small_popup_bg" preferredWidth="1800" preferredHeight="650" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+            <element name="material_header" skin="@team_header_font" model="#GUI3265" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="10" preferredHeight="100" preferredWidth="1100" flushBatch="true"/>
+            <element name="material_body_text" skin="@team_header_font_darker" model="#GUI3266" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="100" preferredHeight="200" preferredWidth="1700" flushBatch="true"/>
+            <element name="materials_holder" preferredWidth="1750" preferredHeight="300" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+                <element name="materials_holder_0" preferredHeight="250" preferredWidth="250" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX.1="0" anchorX.2="-125" anchorX.3="-250" anchorX.4="-375" anchorX.5="-500" anchorX.6="-625"/>
+                <element name="materials_holder_1" preferredHeight="250" preferredWidth="250" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX.2="125" anchorX.3="0" anchorX.4="-125" anchorX.5="-250" anchorX.6="-375"/>
+                <element name="materials_holder_2" preferredHeight="250" preferredWidth="250" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX.3="250" anchorX.4="125" anchorX.5="0" anchorX.6="-125"/>
+                <element name="materials_holder_3" preferredHeight="250" preferredWidth="250" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX.4="375" anchorX.5="250" anchorX.6="125"/>
+                <element name="materials_holder_4" preferredHeight="250" preferredWidth="250" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX.5="500" anchorX.6="375"/>
+                <element name="materials_holder_5" preferredHeight="250" preferredWidth="250" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX.6="625"/>
+            </element>
+            <element name="team_material_claim_btn" skin="@btn_green_01" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="35" preferredHeight="150" preferredWidth="350" mouseChildren="false">
+                <element name="team_material_claim_btn_label" skin="@oswald_bold_85_basic_drevo1" model="#GUI3262" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true"/>
+            </element>
+            <element name="btn_close" skin="@preloader_production_cancel_icon" visible="true" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" anchorX="50" anchorY="-50"/>
+        </element>
+    </element>
+</element>

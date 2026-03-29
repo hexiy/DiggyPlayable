@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:ccf31aacb5e655f72f1316b99279685e:9dc5f1448b42779f93c43d2bf42b2581:172c510b84c3495629a77e765080bfaf$ -->
+<TextureAtlas imagePath="camp_lower.png" width="512" height="2048">
+    <SubTexture name="camp_lower_arrow_down" x="205" y="87" width="170" height="124"/>
+    <SubTexture name="camp_lower_arrow_up" x="1" y="205" width="170" height="124"/>
+    <SubTexture name="camp_lower_bg" x="379" y="87" width="4" height="1536"/>
+    <SubTexture name="camp_lower_buildline_size2" x="129" y="940" width="60" height="140"/>
+    <SubTexture name="camp_lower_buildline_size2_end1" x="165" y="333" width="62" height="215"/>
+    <SubTexture name="camp_lower_buildline_size2_end2" x="231" y="333" width="62" height="215"/>
+    <SubTexture name="camp_lower_buildline_size2_highlight" x="65" y="1023" width="60" height="140"/>
+    <SubTexture name="camp_lower_buildline_size3" x="65" y="451" width="60" height="200"/>
+    <SubTexture name="camp_lower_buildline_size3_end1" x="67" y="1674" width="62" height="275"/>
+    <SubTexture name="camp_lower_buildline_size3_end2" x="133" y="1674" width="62" height="275"/>
+    <SubTexture name="camp_lower_buildline_size3_highlight" x="129" y="552" width="60" height="200"/>
+    <SubTexture name="camp_lower_buildline_size4" x="297" y="333" width="60" height="260"/>
+    <SubTexture name="camp_lower_buildline_size4_end1" x="387" y="1332" width="62" height="338"/>
+    <SubTexture name="camp_lower_buildline_size4_end2" x="1" y="1674" width="62" height="338"/>
+    <SubTexture name="camp_lower_buildline_size4_highlight" x="1" y="451" width="60" height="260"/>
+    <SubTexture name="camp_lower_buildline_top" x="205" y="1" width="180" height="82"/>
+    <SubTexture name="camp_lower_cancel_icon" x="389" y="1" width="122" height="122"/>
+    <SubTexture name="camp_lower_circle_btn_bg" x="1" y="1" width="200" height="200"/>
+    <SubTexture name="camp_lower_confirm_icon" x="175" y="215" width="160" height="114"/>
+    <SubTexture name="camp_lower_confirm_icon_inactive" x="1" y="333" width="160" height="114"/>
+    <SubTexture name="camp_lower_debris_size2" x="1" y="1083" width="60" height="120"/>
+    <SubTexture name="camp_lower_debris_size2_highlight" x="129" y="1084" width="60" height="120"/>
+    <SubTexture name="camp_lower_debris_size3" x="65" y="655" width="60" height="180"/>
+    <SubTexture name="camp_lower_debris_size3_highlight" x="1" y="715" width="60" height="180"/>
+    <SubTexture name="camp_lower_debris_size4" x="226" y="1804" width="60" height="240"/>
+    <SubTexture name="camp_lower_debris_size4_highlight" x="290" y="1804" width="60" height="240"/>
+    <SubTexture name="camp_lower_debris_tresure_size2" x="65" y="1167" width="60" height="120"/>
+    <SubTexture name="camp_lower_debris_tresure_size2_highlight" x="1" y="1207" width="60" height="120"/>
+    <SubTexture name="camp_lower_debris_tresure_size3" x="129" y="756" width="60" height="180"/>
+    <SubTexture name="camp_lower_debris_tresure_size3_highlight" x="65" y="839" width="60" height="180"/>
+    <SubTexture name="camp_lower_debris_tresure_size4" x="354" y="1804" width="60" height="240"/>
+    <SubTexture name="camp_lower_debris_tresure_size4_highlight" x="418" y="1804" width="60" height="240"/>
+    <SubTexture name="camp_lower_debris_unlock" x="387" y="914" width="104" height="120"/>
+    <SubTexture name="camp_lower_grid_highlight" x="387" y="221" width="120" height="38" frameX="0" frameY="0" frameWidth="120" frameHeight="40"/>
+    <SubTexture name="camp_lower_info_tab" x="387" y="563" width="104" height="347"/>
+    <SubTexture name="camp_lower_parameter_bg" x="453" y="1354" width="55" height="50"/>
+    <SubTexture name="camp_lower_parameter_minus_bg" x="387" y="1125" width="90" height="98" frameX="0" frameY="-2" frameWidth="90" frameHeight="100"/>
+    <SubTexture name="camp_lower_parameter_minus_regen" x="387" y="1227" width="76" height="34"/>
+    <SubTexture name="camp_lower_parameter_minus_storage" x="387" y="1265" width="76" height="31" frameX="0" frameY="-2" frameWidth="76" frameHeight="34"/>
+    <SubTexture name="camp_lower_parameter_regen" x="387" y="1038" width="96" height="42"/>
+    <SubTexture name="camp_lower_parameter_storage" x="387" y="1084" width="96" height="37" frameX="0" frameY="-3" frameWidth="96" frameHeight="42"/>
+    <SubTexture name="camp_lower_pebbles1" x="387" y="263" width="114" height="100"/>
+    <SubTexture name="camp_lower_pebbles2" x="387" y="1300" width="66" height="28" frameX="0" frameY="-2" frameWidth="66" frameHeight="30"/>
+    <SubTexture name="camp_lower_pebbles3" x="481" y="1125" width="30" height="16"/>
+    <SubTexture name="camp_lower_pebbles4" x="387" y="127" width="123" height="90" frameX="0" frameY="-3" frameWidth="126" frameHeight="93"/>
+    <SubTexture name="camp_lower_size2_highlight" x="129" y="1208" width="60" height="120"/>
+    <SubTexture name="camp_lower_size3_highlight" x="1" y="899" width="60" height="180"/>
+    <SubTexture name="camp_lower_store_btn" x="384" y="1674" width="126" height="126"/>
+    <SubTexture name="camp_lower_switch_btn_dot" x="457" y="1300" width="50" height="50"/>
+    <SubTexture name="camp_lower_switch_btn_state1" x="387" y="367" width="114" height="94"/>
+    <SubTexture name="camp_lower_switch_btn_state2" x="387" y="465" width="114" height="94"/>
+    <SubTexture name="camp_lower_switch_btn_switcher" x="67" y="1953" width="155" height="94" frameX="0" frameY="0" frameWidth="156" frameHeight="94"/>
+    <SubTexture name="camp_lower_top_over" x="505" y="263" width="4" height="580"/>
+    <SubTexture name="camp_lower_unlock_icon" x="226" y="1627" width="154" height="170"/>
+    <SubTexture name="GUIother_ButtonMaPrechodDoKempu" x="65" y="1291" width="59" height="93" frameX="-21" frameY="-2" frameWidth="100" frameHeight="100"/>
+</TextureAtlas>

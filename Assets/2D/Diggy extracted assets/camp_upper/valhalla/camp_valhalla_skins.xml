@@ -1,0 +1,19 @@
+<!--	UI SKIN DEFINITIONS FILE 	-->
+<data>
+    <fontSkin id="camp_valhalla_brown" font="@oswald_bold" autoSize="true" color="0x418bae" fontScale=".8"/>
+
+    <textureSkin id="camp_bg" texture="@camp_bg_valhalla" scaleX="2" scaleY="2"/>
+    <textureSkin id="elevator" texture="@elevator" scaleX="2" scaleY="2"/>
+    <textureSkin id="camp_valhalla_dirt" texture="@camp_valhalla_dirt" tiled="true" scaleX="2" scaleY="2"/>
+    <textureSkin id="camp_valhalla_god_bg" texture="@camp_valhalla_god_bg" scaleX="2" scaleY="2"/>
+    <textureSkin id="camp_valhalla_lift" texture="@camp_valhalla_lift" scaleX="2" scaleY="2"/>
+
+    <textureSkin id="camp_valhalla_caravan" texture="@camp_valhalla_caravan" scaleX="2" scaleY="2"/>
+    <textureSkin id="camp_valhalla_kitchen" texture="@camp_valhalla_kitchen" scaleX="2" scaleY="2"/>
+    <textureSkin id="camp_valhalla_metalurg" texture="@camp_valhalla_metalurg" scaleX="2" scaleY="2"/>
+    <textureSkin id="camp_valhalla_museum" texture="@camp_valhalla_museum" scaleX="2" scaleY="2"/>
+    <textureSkin id="camp_oracle" texture="@camp_oracle" scaleX="2" scaleY="2"/>
+    <textureSkin id="camp_balloon_valhalla" texture="@camp_balloon_valhalla" scaleX="1" scaleY="1"/>
+    <textureSkin id="pet_house_camp" texture="@pet_house_camp" scaleX="1" scaleY="1"/>
+
+</data>

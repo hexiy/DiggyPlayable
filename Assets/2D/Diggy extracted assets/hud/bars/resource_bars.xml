@@ -1,0 +1,10 @@
+<element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorX="0">
+    <p:layout><horizontal gap="51"/></p:layout>
+    <element name="top_exp_wrapper" preferredWidth="263" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+    <element name="top_energy_wrapper" preferredWidth="410" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+    <element name="top_tower_energy_wrapper" preferredWidth="410" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+    <element name="top_coins_wrapper" preferredWidth="340" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+    <element name="top_gems_wrapper" preferredWidth="250" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+    <element name="top_tower_crowns_wrapper" preferredWidth="250" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+    <element name="top_tower_coins_wrapper" preferredWidth="340" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER"/>
+</element>

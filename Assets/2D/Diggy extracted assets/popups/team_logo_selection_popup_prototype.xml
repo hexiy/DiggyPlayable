@@ -1,0 +1,19 @@
+<element name="black_screen" skin="@shade_black" anchorTop="0" anchorBottom="1" mouseUp="backMouseUp_handler">
+    <element name="popup_body" preferredWidth="1324" preferredHeight="836" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true">
+        <element name="popup_bg" skin="@small_popup_bg" preferredWidth="1600" preferredHeight="850" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER">
+<!--            <element skin="@small_popup_bg_divider" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="110" preferredWidth="1600"/>-->
+
+            <element anchorTop="0" anchorBottom="1" anchorLeft="0" anchorRight="1" mouseDown="scrollLogoSelectMouseDown_handler">
+                <element name="team_logo_select_scrollable_part_holder" skin="@black_bg" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="1400" preferredHeight="700" anchorX="0" anchorY="30">
+                    <element name="team_logo_select_scrollable_mask_wrapper" anchorAlign="TOP_CENTER" preferredWidth="1400" preferredHeight="670" anchorX="-700" anchorY="0">
+                        <element name="team_logo_select_scrollable_holder" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" preferredWidth="1400" preferredHeight="700" anchorX="0" anchorY="0"/>
+                    </element>
+                </element>
+            </element>
+            <element name="team_logo_select_btn" skin="@btn_green_01" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="35" preferredHeight="150" preferredWidth="350" mouseChildren="false">
+                <element name="team_logo_select_btn_label" skin="@oswald_bold_85_basic_drevo1" model="#GUI3262" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true" anchorY="-8"/>
+            </element>
+            <element name="btn_close" skin="@preloader_production_cancel_icon" visible="true" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" anchorX="50" anchorY="-50"/>
+        </element>
+    </element>
+</element>

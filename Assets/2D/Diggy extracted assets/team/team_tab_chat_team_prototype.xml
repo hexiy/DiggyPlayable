@@ -1,0 +1,21 @@
+<element anchorTop="0.25" anchorBottom="1" anchorLeft="0" anchorRight="1">
+    <element name="team_chat_scrollable_part_holder" skin="@black_bg" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" preferredWidth="2500" preferredHeight="626" mouseChildren="true">
+        <element name="team_chat_scrollable_mask_wrapper" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="2500" preferredHeight="626">
+            <element name="team_chat_scrollable_holder" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="2500" preferredHeight="626"/>
+        </element>
+    </element>
+
+    <element name="team_chat_msg_holder" visible.isHuawei="false" visible="true" skin="@brown_bg" pivotAlign="TOP_CENTER" anchorAlign="TOP_CENTER" anchorY="846" preferredHeight="110" preferredWidth="2400">
+        <element name="team_chat_msg_txt" anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT" flushBatch="true" anchorX="-5" anchorY="5" preferredWidth="1725" preferredHeight="100"/>
+        <element name="team_chat_msg_btn" skin="@btn_blue" anchorAlign="MIDDLE_RIGHT" pivotAlign="MIDDLE_RIGHT" preferredWidth="250" anchorX="180" preferredHeight="200" mouseChildren="false">
+            <element name="team_chat_msg_btn_lbl" skin="@oswald_bold_85_basic_drevo1_big"  anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true" model="#GUI3268"/>
+        </element>
+        <element name="team_chat_msg_char_counter" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" skin="@oswald_bold_75_basic_drevo1" flushBatch="true" model="0/160" preferredWidth="100" preferredHeight="20" anchorX="-90"/>
+    </element>
+    <element name="team_chat_request" pivotAlign="TOP_CENTER" anchorAlign="TOP_CENTER" anchorY="846" preferredHeight="110" preferredWidth="2400">
+        <element name="team_chat_request_holder" pivotAlign="MIDDLE_RIGHT" anchorAlign="MIDDLE_RIGHT" anchorY="0" anchorX="630" preferredHeight="200" preferredWidth="450" skin="@btn_green_01" skin.help_disabled="@btn_disabled" mouseEnabled.help_disabled="false" mouseEnabled="true" mouseChildren="false">
+            <element name="team_chat_request_txt" skin="@oswald_bold_85_basic_drevo1_big" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true" model="#GUI3264"/>
+        </element>
+    </element>
+
+</element>

@@ -1,0 +1,61 @@
+<element name="black_screen" skin="@black" anchorTop="0" anchorBottom="1" mouseUp="backMouseUp_handler">
+    <element name="popup_body" preferredWidth="594" preferredHeight="960" anchorX="-20" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+        <element skin="@middle_popup" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+        <element preferredWidth="554" preferredHeight="940" anchorX="-20" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+            <element name="popupText" skin="@shop_item_name_font" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="20" preferredWidth="450" preferredHeight="400"/>
+            <element name="info_wrapper" anchorY="85" preferredWidth="530">
+                <!-- BUILDING GRIDS -->
+                <element name="grid2" anchorY="350" pivotAlign="BOTTOM_CENTER" anchorLeft=".5" anchorRight=".5">
+                    <p:layout><horizontal gap="-23"/></p:layout>
+                    <element skin="@shop_equip_ph2"/>
+                    <element skin="@shop_equip_ph2"/>
+                    <element skin="@shop_equip_ph2"/>
+                    <element skin="@shop_equip_ph2"/>
+                </element>
+                <element name="grid3" anchorY="350" pivotAlign="BOTTOM_CENTER" anchorLeft=".5" anchorRight=".5">
+                    <p:layout><horizontal gap="-19"/></p:layout>
+                    <element skin="@shop_equip_ph3"/>
+                    <element skin="@shop_equip_ph3"/>
+                    <element skin="@shop_equip_ph3"/>
+                    <element skin="@shop_equip_ph3"/>
+                </element>
+                <element name="grid4" anchorY="350" pivotAlign="BOTTOM_CENTER" anchorLeft=".5" anchorRight=".5">
+                    <p:layout><horizontal gap="-20"/></p:layout>
+                    <element skin="@shop_equip_ph4"/>
+                    <element skin="@shop_equip_ph4"/>
+                    <element skin="@shop_equip_ph4"/>
+                    <element skin="@shop_equip_ph4"/>
+                </element>
+
+                <element name="popupImage" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="136" skin="@asset" flushBatch="true"/>
+                <element name="region_badge_holder" visible="false"
+                         pivotAlign="BOTTOM_CENTER" anchorAlign="BOTTOM_CENTER" anchorLeft=".5" anchorRight=".5">
+                    <element name="region_badge"
+                             skin.region1="@region_badge_1"
+                             skin.region2="@region_badge_2"
+                             skin.region3="@region_badge_3"
+                             skin.region4="@region_badge_4"
+                             skin.region5="@region_badge_5"
+                             skin.region6="@region_badge_6"
+                             skin.region7="@region_badge_7"
+                             skin.region8="@region_badge_8"
+                             skin.region9="@region_badge_9"
+                             anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+                </element>
+
+                <element name="rewardArea" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="594" preferredHeight="285" anchorY="412">
+                    <element skin="@line1" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"/>
+                    <element name="popupStaticLabel1" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="22" skin="@popup_normal_brown"/>
+                    <element name="popupRewards" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorX="22" anchorY="60">
+                        <p:layout><horizontal gap="44"/></p:layout>
+                    </element>
+                </element>
+            </element>
+            <element skin="@btn_center1" anchorAlign="BOTTOM_CENTER" pivotAlign="TOP_CENTER" anchorY="-186" preferredWidth="189" preferredHeight="132" mouseOut="buttonRestored_handler" mouseDown="buttonPushed_handler" mouseUp="okMouseDown_handler">
+                <element preferredWidth="100" preferredHeight="78" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER">
+                    <element skin="@shop_limit_reached" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"/>
+                </element>
+            </element>
+        </element>
+    </element>
+</element>

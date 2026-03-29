@@ -1,0 +1,6 @@
+<element anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1">
+    <element skin="@dark_shade_black" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1"
+             visible="false" visible.weak_device="true"/>
+    <element name="load_info_txt" preferredWidth="400" preferredHeight="100" skin="@oswald_bold_85_basic_drevo1_autosize_false"
+             anchorX="-100" anchorY="-100" anchorAlign="BOTTOM_RIGHT" pivotAlign="BOTTOM_RIGHT"/>
+</element>

@@ -1,0 +1,27 @@
+<element name="event_quests_tab" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1" visible="false" visible.inactive="false" visible.active="true">
+    <element name="event_quests_scrollable_list_mask" visible="true" visible.noQuests="false" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="1920" preferredHeight="910" useMask="true" mouseDown="scrollMouseDown_handler">
+        <element name="event_quests_scrollable_list_holder" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="1920" preferredHeight="0" anchorY="20">
+            <element name="event_quests_scrollable_list" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" preferredWidth="1920" preferredHeight="0">
+                <p:layout><vertical useChildrenWidth="true" gap="30"/></p:layout>
+            </element>
+        </element>
+    </element>
+
+    <element visible="false" visible.noQuests="true" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1">
+        <element name="no_quest_wrapper" preferredWidth="900" preferredHeight="310" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" >
+            <element preferredWidth="300" preferredHeight="310" anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT" >
+                <element skin="@popup_quest" anchorLeft="0.1" anchorTop="0.1" anchorBottom="0.9" anchorRight="0.9" />
+            </element>
+            <element preferredWidth="1000" preferredHeight="330" anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT" anchorX="300">
+                <element name="no_quests_title" skin="@typeface_62_white_at" preferredWidth="1000" preferredHeight="70" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" model="#GUI3573"/>
+                <element name="no_quests_description" skin="@typeface_36_white_left_top" preferredWidth="1000" preferredHeight="120" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" anchorY="80" model="All adventures in EGYPT are completed!"/>
+                <element name="no_quests_action_button" skin="@btn_orange_narrow" preferredWidth="380" preferredHeight="130" anchorAlign="BOTTOM_LEFT" pivotAlign="BOTTOM_LEFT">
+                    <element name="no_quests_action_button_text" skin="@typeface_48_white_center_middle" preferredWidth="360" preferredHeight="110" anchorAlign="TOP_LEFT" pivotAlign="TOP_LEFT" anchorX="5" model="GO TO MAP!"/>
+                </element>
+            </element>
+
+        </element>
+    </element>
+
+
+</element>

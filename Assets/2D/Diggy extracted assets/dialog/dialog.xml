@@ -1,0 +1,5 @@
+<element mouseEnabled="true">
+    <element name="dialogBackground" skin="@hud_dialog_bg" mouseUp="dialogMouseUp_handler" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" >
+        <element name="dialogText" skin="@dialog_font" anchorY="32" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER"/>
+    </element>
+</element>

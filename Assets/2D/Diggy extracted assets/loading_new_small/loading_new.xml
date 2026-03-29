@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:efa873364d3569aa059f2cd43e2a056a:64e65e124e0823110ea1dce8015b1a23:3f999720398486b824f022a6cc6be07c$ -->
+<TextureAtlas imagePath="loading_new.png" width="2048" height="512">
+    <SubTexture name="account_device_icon" x="1294" y="388" width="95" height="123"/>
+    <SubTexture name="account_fb_icon" x="1185" y="397" width="107" height="107"/>
+    <SubTexture name="eye_password" x="1670" y="287" width="44" height="30"/>
+    <SubTexture name="eye_password_crossed" x="1656" y="97" width="44" height="44"/>
+    <SubTexture name="free_skin_1" x="1414" y="53" width="94" height="134"/>
+    <SubTexture name="free_skin_29" x="1414" y="189" width="94" height="134"/>
+    <SubTexture name="free_skin_30" x="1510" y="151" width="94" height="134"/>
+    <SubTexture name="free_skin_31" x="1606" y="151" width="94" height="134"/>
+    <SubTexture name="free_skin_32" x="1702" y="151" width="94" height="134"/>
+    <SubTexture name="free_skin_45" x="1798" y="149" width="94" height="134"/>
+    <SubTexture name="free_skin_71" x="1894" y="238" width="94" height="134"/>
+    <SubTexture name="free_skin_120" x="1798" y="317" width="94" height="134"/>
+    <SubTexture name="login_fb_icon" x="1730" y="100" width="50" height="49"/>
+    <SubTexture name="login_hide_top" x="1106" y="397" width="72" height="54"/>
+    <SubTexture name="login_input_bg" x="1798" y="53" width="225" height="47"/>
+    <SubTexture name="login_mail_icon" x="1730" y="53" width="62" height="45"/>
+    <SubTexture name="preloader_apple_btn" x="1414" y="325" width="314" height="64"/>
+    <SubTexture name="preloader_arrow" x="1618" y="287" width="50" height="31"/>
+    <SubTexture name="preloader_bar_bg_c" x="1414" y="391" width="20" height="25"/>
+    <SubTexture name="preloader_bar_bg_l" x="1436" y="391" width="20" height="25"/>
+    <SubTexture name="preloader_bar_c" x="1437" y="489" width="20" height="19"/>
+    <SubTexture name="preloader_bar_l" x="1391" y="489" width="21" height="19"/>
+    <SubTexture name="preloader_bar_r" x="1414" y="489" width="21" height="19"/>
+    <SubTexture name="preloader_BG" x="1" y="1" width="1022" height="508"/>
+    <SubTexture name="preloader_black_bg" x="1716" y="287" width="143" height="28"/>
+    <SubTexture name="preloader_blank_btn" x="1829" y="102" width="125" height="42"/>
+    <SubTexture name="preloader_blue_mark" x="1391" y="420" width="66" height="67"/>
+    <SubTexture name="preloader_brown_BG" x="1391" y="53" width="21" height="365"/>
+    <SubTexture name="preloader_button_brown_01" x="1510" y="287" width="34" height="34"/>
+    <SubTexture name="preloader_button_green_01" x="1546" y="287" width="34" height="34"/>
+    <SubTexture name="preloader_button_red_01" x="1582" y="287" width="34" height="34"/>
+    <SubTexture name="preloader_button_wood" x="1894" y="196" width="136" height="40"/>
+    <SubTexture name="preloader_card_BG" x="1304" y="53" width="76" height="330"/>
+    <SubTexture name="preloader_highlight" x="1510" y="53" width="200" height="42"/>
+    <SubTexture name="preloader_inner_background" x="2031" y="1" width="16" height="15"/>
+    <SubTexture name="preloader_login_btn1" x="1510" y="97" width="144" height="48"/>
+    <SubTexture name="preloader_login_btn2" x="1894" y="146" width="144" height="48"/>
+    <SubTexture name="preloader_login_screen_BG" x="1106" y="1" width="72" height="394"/>
+    <SubTexture name="preloader_login_screen_BG2" x="1180" y="1" width="72" height="394"/>
+    <SubTexture name="preloader_login_screen_BG_apple" x="1032" y="1" width="72" height="457"/>
+    <SubTexture name="preloader_logo" x="1459" y="391" width="235" height="100"/>
+    <SubTexture name="preloader_map_manager_detail_name_bg" x="1304" y="1" width="725" height="50"/>
+    <SubTexture name="preloader_middle_popup_BG" x="1254" y="1" width="48" height="385"/>
+    <SubTexture name="preloader_play_btn" x="1032" y="460" width="151" height="51"/>
+    <SubTexture name="preloader_production_cancel_icon" x="1956" y="102" width="42" height="42"/>
+    <SubTexture name="preloader_red_mark" x="1782" y="102" width="45" height="45"/>
+    <SubTexture name="preloader_skinSelect_BG" x="1025" y="1" width="5" height="508"/>
+    <SubTexture name="preloader_white_circle_bg" x="1696" y="391" width="100" height="100"/>
+</TextureAtlas>

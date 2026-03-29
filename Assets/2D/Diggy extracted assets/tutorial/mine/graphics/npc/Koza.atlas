@@ -1,0 +1,70 @@
+
+Koza.png
+size: 64,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+koza_content_koza_hlava_tvar
+  rotate: false
+  xy: 1, 1
+  size: 19, 24
+  orig: 19, 24
+  offset: 0, 0
+  index: -1
+koza_content_koza_telo_Layer3
+  rotate: false
+  xy: 22, 1
+  size: 22, 24
+  orig: 22, 24
+  offset: 0, 0
+  index: -1
+koza_content_koza_nozka_Layer2
+  rotate: false
+  xy: 46, 1
+  size: 5, 18
+  orig: 5, 18
+  offset: 0, 0
+  index: -1
+koza_content_koza_ucho_Layer1
+  rotate: false
+  xy: 53, 1
+  size: 9, 16
+  orig: 9, 16
+  offset: 0, 0
+  index: -1
+koza_content_koza_hlava_rozky
+  rotate: false
+  xy: 1, 27
+  size: 18, 13
+  orig: 18, 13
+  offset: 0, 0
+  index: -1
+koza_content_koza_chvost_Layer5
+  rotate: false
+  xy: 46, 21
+  size: 15, 8
+  orig: 15, 8
+  offset: 0, 0
+  index: -1
+koza_main_tien
+  rotate: false
+  xy: 21, 31
+  size: 41, 8
+  orig: 41, 8
+  offset: 0, 0
+  index: -1
+koza_content_koza_oke_Layer3
+  rotate: false
+  xy: 21, 41
+  size: 17, 6
+  orig: 17, 6
+  offset: 0, 0
+  index: -1
+koza_content_koza_ocko_Layer3
+  rotate: false
+  xy: 40, 41
+  size: 4, 4
+  orig: 4, 4
+  offset: 0, 0
+  index: -1
+

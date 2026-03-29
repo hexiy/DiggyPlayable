@@ -1,0 +1,17 @@
+<element name="black_screen" skin="@black" anchorTop="0" anchorBottom="1" mouseUp="backMouseUp_handler">
+
+    <element name="popup_body" preferredWidth="1024" preferredHeight="850" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true">
+
+        <element anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" preferredWidth="980" preferredHeight="734" anchorX="28">
+            <element skin="@middle_popup" anchorTop="0" anchorBottom="1" anchorLeft="0" anchorRight="1"/>
+        </element>
+
+        <element anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" skin="@museum_popup_border1"/>
+        <element anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" skin="@museum_popup_border2"/>
+
+        <element name="title" skin="@museum_title_font_popup" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="50"/>
+        <element name="desc" skin="@museum_desc_font_tablet" preferredWidth="800" preferredHeight="450" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" anchorX="20" anchorY="60"/>
+        <element name="btn_cancel" skin="@production_cancel_icon" anchorX="-40" anchorY="0" anchorAlign="TOP_RIGHT" pivotAlign="TOP_RIGHT" flushBatch="true" />
+
+    </element>
+</element>

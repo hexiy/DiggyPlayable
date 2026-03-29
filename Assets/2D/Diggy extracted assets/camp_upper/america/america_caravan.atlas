@@ -1,0 +1,161 @@
+
+america_caravan.png
+size: 128,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Lama_content_Lama_krk_Layer_1
+  rotate: false
+  xy: 1, 1
+  size: 23, 41
+  orig: 23, 41
+  offset: 0, 0
+  index: -1
+Lama_content_Lama_naklad2_naklad
+  rotate: false
+  xy: 26, 1
+  size: 30, 34
+  orig: 30, 34
+  offset: 0, 0
+  index: -1
+Lama_content_Lama_telo_Layer_1
+  rotate: false
+  xy: 58, 1
+  size: 39, 27
+  orig: 39, 27
+  offset: 0, 0
+  index: -1
+Lama_content_Lama_decka_Layer_1_copy
+  rotate: false
+  xy: 99, 1
+  size: 26, 24
+  orig: 26, 24
+  offset: 0, 0
+  index: -1
+Lama_content_Noha_predna_Layer_2
+  rotate: false
+  xy: 99, 27
+  size: 13, 23
+  orig: 13, 23
+  offset: 0, 0
+  index: -1
+Lama_content_Lama_hlava_srst
+  rotate: false
+  xy: 58, 30
+  size: 14, 19
+  orig: 14, 19
+  offset: 0, 0
+  index: -1
+Lama_content_Lama_hlava_xicht_copy
+  rotate: false
+  xy: 74, 30
+  size: 17, 18
+  orig: 17, 18
+  offset: 0, 0
+  index: -1
+Lama_content_Noha_zadna_Layer_2
+  rotate: false
+  xy: 114, 27
+  size: 11, 18
+  orig: 11, 18
+  offset: 0, 0
+  index: -1
+Lama_content_Lama_hlava_xicht
+  rotate: false
+  xy: 26, 37
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+Lama_content_Lama_ucho_predne_Layer_1
+  rotate: false
+  xy: 44, 37
+  size: 7, 15
+  orig: 7, 15
+  offset: 0, 0
+  index: -1
+Lama_content_Noha_prednacopy_Layer_1
+  rotate: false
+  xy: 1, 44
+  size: 13, 15
+  orig: 13, 15
+  offset: 0, 0
+  index: -1
+Lama_content_Strapec2_Layer_1
+  rotate: false
+  xy: 16, 44
+  size: 7, 14
+  orig: 7, 14
+  offset: 0, 0
+  index: -1
+Lama_content_Lama_ucho_zadne_Layer_1
+  rotate: false
+  xy: 114, 47
+  size: 7, 13
+  orig: 7, 13
+  offset: 0, 0
+  index: -1
+Lama_content_Strapec3_Layer_1
+  rotate: false
+  xy: 74, 50
+  size: 7, 13
+  orig: 7, 13
+  offset: 0, 0
+  index: -1
+Lama_content_Strapec1_Layer_1
+  rotate: false
+  xy: 83, 50
+  size: 7, 13
+  orig: 7, 13
+  offset: 0, 0
+  index: -1
+Lama_content_Noha_predna2_Layer_1
+  rotate: false
+  xy: 93, 30
+  size: 4, 10
+  orig: 4, 10
+  offset: 0, 0
+  index: -1
+Lama_content_Lama_chvost_Layer_1
+  rotate: false
+  xy: 53, 51
+  size: 9, 10
+  orig: 9, 10
+  offset: 0, 0
+  index: -1
+Lama_content_Lama_hlava_ofina_tien
+  rotate: false
+  xy: 64, 51
+  size: 8, 6
+  orig: 8, 6
+  offset: 0, 0
+  index: -1
+Lama_content_Lama_oko_Layer_1
+  rotate: false
+  xy: 92, 52
+  size: 6, 5
+  orig: 6, 5
+  offset: 0, 0
+  index: -1
+Lama_content_Lama_oko_Layer_1_copy
+  rotate: false
+  xy: 100, 52
+  size: 6, 3
+  orig: 6, 3
+  offset: 0, 0
+  index: -1
+Lama_content_Strapec_cely_Layer_1
+  rotate: false
+  xy: 53, 37
+  size: 3, 3
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+Lama_content_Lama_zrenicka_Layer_1
+  rotate: false
+  xy: 53, 42
+  size: 3, 2
+  orig: 3, 2
+  offset: 0, 0
+  index: -1
+

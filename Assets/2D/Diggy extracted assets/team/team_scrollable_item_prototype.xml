@@ -1,0 +1,24 @@
+<element name="team_scrollable_item" preferredHeight="180" preferredWidth="2200" anchorY="-100" anchorX="50" pivotAlign="TOP_CENTER" anchorAlign="TOP_CENTER" skin.is_my_team_leaderboard="@blue_bg">
+    <element name="clickable_holder" mouseUp="onTeamDetail_handler" anchorLeft="0" anchorRight="1" anchorTop="0" anchorBottom="1">
+        <element name="team_skin_holder" preferredHeight="160" preferredWidth="2200" skin.is_my_team="@blue_bg" skin.is_my_team_leaderboard="" skin="@brown_bg" anchorY="10" anchorX="0" pivotAlign="TOP_CENTER" anchorAlign="TOP_CENTER" mouseChildren="false">
+            <element name="data_holder"/>
+            <element name="team_logo" preferredHeight="135" preferredWidth="135" anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT" skin="@asset" anchorX="5" anchorY="-5"/>
+            <element name="team_name" skin="@team_scrollable_body_big_left_font" anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT" anchorX="150" flushBatch="true" preferredWidth="400" preferredHeight="70"/>
+            <element name="team_score_holder" anchorAlign="MIDDLE_RIGHT" pivotAlign="MIDDLE_RIGHT" anchorX="-310" anchorX.is_my_team_leaderboard="-95" anchorX.has_team="-95" anchorX.cant_join="-310" anchorX.already_applied="-310" preferredHeight="160" preferredWidth="260">
+                <element name="team_score" skin="@oswald_bold_85_basic_drevo1_big" anchorAlign="TOP_CENTER" pivotAlign="TOP_CENTER" anchorY="25" flushBatch="true"/>
+                <element name="team_score_lbl" model="#GUI3469" skin="@team_help_font" anchorAlign="BOTTOM_CENTER" pivotAlign="BOTTOM_CENTER" anchorY="-5" flushBatch="true" preferredWidth="190" preferredHeight="70"/>
+            </element>
+            <element name="team_member_number" skin="@team_body_font_small" anchorAlign="MIDDLE_RIGHT" pivotAlign="MIDDLE_RIGHT" preferredWidth="260" preferredHeight="100" anchorX.has_team="50" anchorX.is_my_team_leaderboard="50" anchorX="-165" anchorX.already_applied="-165" anchorX.cant_join="-165" flushBatch="true"/>
+        </element>
+    </element>
+    <element name="team_join_btn" skin="@btn_blue" skin.is_not_open="@btn_red" visible="true" visible.is_my_team_leaderboard="false" visible.is_my_team="false" visible.already_applied="false" visible.has_team="false" visible.cant_join="false" anchorAlign="MIDDLE_RIGHT" pivotAlign="MIDDLE_RIGHT" preferredWidth="230" preferredHeight="160" anchorX="0" anchorY="3" mouseChildren="false">
+        <element name="team_join_btn_lbl" skin="@team_body_font" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" flushBatch="true" preferredHeight="90" preferredWidth="210"/>
+    </element>
+    <element name="team_cant_join_lbl" visible="false" visible.cant_join="true" visible.is_my_team_leaderboard="false" visible.is_my_team="false" skin="@team_body_font_small" anchorAlign="MIDDLE_RIGHT" pivotAlign="MIDDLE_RIGHT" anchorX="-5" flushBatch="true" preferredHeight="100" preferredWidth="260"/>
+    <element name="team_already_applied_lbl" visible="false" visible.already_applied="true" skin="@team_body_font_smaller" anchorAlign="MIDDLE_RIGHT" pivotAlign="MIDDLE_RIGHT" anchorX="-10" flushBatch="true" preferredHeight="100" preferredWidth="260"/>
+
+    <element name="team_leaderboard_rank_holder" anchorAlign="MIDDLE_LEFT" pivotAlign="MIDDLE_LEFT" visible="false" visible.is_leaderboards="true" preferredHeight="150" preferredWidth="150" anchorX="10">
+        <element name="team_leaderboard_rank_badge" skin="@white_circle_bg" anchorAlign="MIDDLE_CENTER" pivotAlign="MIDDLE_CENTER" visible="false" visible.top_three="true" preferredWidth="150" preferredHeight="150"/>
+        <element name="team_leaderboard_rank_number" skin="@team_premium_btn_font" preferredHeight="150" preferredWidth="150" flushBatch="true" anchorY="10" anchorX="-5"/>
+    </element>
+</element>
