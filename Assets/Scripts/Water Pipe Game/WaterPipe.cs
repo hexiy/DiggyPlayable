@@ -85,6 +85,10 @@ namespace DiggyPlayable.WaterPipeGame
 
         private void RotatePipe()
         {
+            // DoKill needs to be here, OnRotated can be called through DoKill and the game can be finished
+
+            _pipeVisual.DOKill(true);
+
             if (IsRotatable == false)
             {
                 return;
@@ -95,7 +99,6 @@ namespace DiggyPlayable.WaterPipeGame
                 return;
             }
 
-            _pipeVisual.DOKill(true);
 
             _pipeVisual.DOLocalRotate(new Vector3(0, 0, -90), 0.3f, RotateMode.LocalAxisAdd)
                 .OnComplete(() =>
