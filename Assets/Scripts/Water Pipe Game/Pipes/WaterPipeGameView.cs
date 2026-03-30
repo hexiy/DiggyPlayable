@@ -14,6 +14,9 @@ namespace DiggyPlayable.WaterPipeGame
         private GameObject _puzzlePanel;
 
         [SerializeField]
+        private TutorialController _tutorialController;
+
+        [SerializeField]
         private WaterPipe[] _pipes;
 
         [SerializeField]
@@ -74,6 +77,20 @@ namespace DiggyPlayable.WaterPipeGame
         public IEnumerator StartGame()
         {
             Show();
+
+            // find pipe to rotate
+            for (int i = 0; i < _pipes.Length; i++)
+            {
+                if (_pipes[i].HasSetRandomRotation)
+                {
+                    _tutorialController.ShowHand(_pipes[i].transform.position);
+                    int rotation = _pipes[i].CurrentRotation;
+                    yield return new WaitUntil(() => rotation != _pipes[i].CurrentRotation);
+                    _tutorialController.HideHand();
+
+                    break;
+                }
+            }
 
             _timer.StartTicking();
 

@@ -29,7 +29,8 @@ namespace DiggyPlayable.WaterPipeGame
         private int[] _correctRotations;
 
         private int _currentRotation;
-        private bool _setRandomRotation = false;
+        public int CurrentRotation => _currentRotation;
+        public bool HasSetRandomRotation { get; private set; } = false;
 
         /// <summary>
         /// Called when rotation animation ends
@@ -68,7 +69,7 @@ namespace DiggyPlayable.WaterPipeGame
                 _maskPositionFull = new Vector2(-_maskPositionFull.x, _maskPositionFull.y);
             }
 
-            if (_setRandomRotation == false)
+            if (HasSetRandomRotation == false)
             {
                 _currentRotation = (int)_pipeVisual.localEulerAngles.z % 360;
             }
@@ -150,7 +151,7 @@ namespace DiggyPlayable.WaterPipeGame
 
 
             _pipeVisual.localEulerAngles = new Vector3(0, 0, _currentRotation);
-            _setRandomRotation = true;
+            HasSetRandomRotation = true;
         }
 
         // unused, all pipes are movable
