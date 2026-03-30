@@ -10,6 +10,12 @@ namespace DiggyPlayable
     {
         private DiggyAnimationController _animationController;
 
+        [SerializeField]
+        private Transform _positionTop;
+        [SerializeField]
+        private Transform _positionBottom;
+        
+        
         private void Awake()
         {
             _animationController = GetComponent<DiggyAnimationController>();
