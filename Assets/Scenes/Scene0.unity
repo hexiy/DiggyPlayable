@@ -1581,6 +1581,7 @@ MonoBehaviour:
   - {fileID: 1212191991}
   - {fileID: 661814254}
   _water: {fileID: 107745084}
+  _timer: {fileID: 1319211086}
   _ease: 32
   _duration: 0.2
 --- !u!1 &963194225
@@ -2275,7 +2276,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _diggyController: {fileID: 2127625917}
   _pipeGameView: {fileID: 776811001}
-  _treasureImageSensor: {fileID: 1663833187}
   _drowningTimer: {fileID: 1319211086}
 --- !u!1001 &1384942798
 PrefabInstance:

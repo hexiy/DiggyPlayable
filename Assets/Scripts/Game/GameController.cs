@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using DiggyPlayable.EndScreen;
 using DiggyPlayable.WaterPipeGame;
 using UnityEngine;
 
@@ -7,43 +8,19 @@ namespace DiggyPlayable
 {
     public class GameController
     {
-        private DiggyController _diggy;
-        private WaterPipeGameController _waterPipeGame;
-        private TreasureClickSensor _treasureClickSensor;
+        private WaterPipeGameView _waterPipeGame;
+        private EndScreenView _endScreenView;
 
-        public GameController(DiggyController diggyController, WaterPipeGameController waterPipeGameController,
-            TreasureClickSensor treasureClickSensor)
+        public GameController(WaterPipeGameView waterPipeGame, EndScreenView endScreenView)
         {
-            _diggy = diggyController;
-            _waterPipeGame = waterPipeGameController;
-            _treasureClickSensor = treasureClickSensor;
+            _waterPipeGame = waterPipeGame;
+            _endScreenView = endScreenView;
         }
 
         public IEnumerator StartPlayable()
         {
-            yield return _diggy.Anim_PlayIdle();
-
-            yield return WaitForTreasureClick();
-
-            yield return _diggy.Anim_FallIntoHole();
-
             yield return _waterPipeGame.StartGame();
-        }
-
-        private IEnumerator WaitForTreasureClick()
-        {
-            var hasClicked = false;
-            Action handleTouch = () => hasClicked = true;
-
-            _treasureClickSensor.OnClicked += handleTouch;
-
-            Debug.Log("waiting for treasure tap");
-            while (!hasClicked)
-            {
-                yield return null;
-            }
-
-            _treasureClickSensor.OnClicked -= handleTouch;
+            _endScreenView.Show();
         }
     }
 }

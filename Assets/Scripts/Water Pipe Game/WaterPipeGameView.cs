@@ -16,7 +16,12 @@ namespace DiggyPlayable.WaterPipeGame
         [SerializeField]
         private Transform _water;
 
+        [SerializeField]
+        private DrowningTimer _timer;
+
         private bool _isSolved;
+
+        private bool _isFinished = false;
 
         private void Awake()
         {
@@ -35,16 +40,31 @@ namespace DiggyPlayable.WaterPipeGame
             }
         }
 
+        public IEnumerator StartGame()
+        {
+            Show();
+
+            _timer.StartTicking();
+
+            yield return WaitForSolved();
+
+            _timer.Stop();
+
+            yield return WaitForFinished();
+        }
+
         public void Show()
         {
             ScramblePipes();
 
             _isSolved = false;
+            _isFinished = false;
             _puzzlePanel.SetActive(true);
         }
 
         private void ScramblePipes()
         {
+            return;
             // todo random rotations only for 3-4 pipes
             foreach (var pipe in _pipes)
             {
@@ -57,13 +77,23 @@ namespace DiggyPlayable.WaterPipeGame
             yield return new WaitUntil(() => _isSolved);
         }
 
+        public IEnumerator WaitForFinished()
+        {
+            yield return new WaitUntil(() => _isFinished);
+        }
+
         private void OnPipeRotated()
         {
             if (CheckIfSolved())
             {
-                _isSolved = true;
-                StartCoroutine(PlayWaterAnimation());
+                OnSolved();
             }
+        }
+
+        private void OnSolved()
+        {
+            _isSolved = true;
+            StartCoroutine(PlayWaterAnimation());
         }
 
         private bool CheckIfSolved()
@@ -84,12 +114,12 @@ namespace DiggyPlayable.WaterPipeGame
             // testing only
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                ResetPipes();
-                StartCoroutine(PlayWaterAnimation());
+                ResetPipes_TestingOnly();
+                OnSolved();
             }
         }
 
-        private void ResetPipes()
+        private void ResetPipes_TestingOnly()
         {
             foreach (var pipe in _pipes)
             {
@@ -127,6 +157,10 @@ namespace DiggyPlayable.WaterPipeGame
                 // pipe._checkmark
                 // fly it to the chest
             }
+
+            yield return new WaitForSeconds(1);
+
+            _isFinished = true;
         }
     }
 }

@@ -14,17 +14,5 @@ namespace DiggyPlayable
         {
             _animationController = GetComponent<DiggyAnimationController>();
         }
-
-        public IEnumerator Anim_PlayIdle()
-        {
-            // Play();
-            yield return new WaitForSeconds(2f);
-        }
-
-        public IEnumerator Anim_FallIntoHole()
-        {
-            // Play();
-            yield return new WaitForSeconds(2f);
-        }
     }
 }

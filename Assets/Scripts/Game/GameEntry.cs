@@ -1,3 +1,4 @@
+using DiggyPlayable.EndScreen;
 using DiggyPlayable.WaterPipeGame;
 using UnityEngine;
 
@@ -13,7 +14,7 @@ namespace DiggyPlayable
         private WaterPipeGameView _pipeGameView;
 
         [SerializeField]
-        private TreasureClickSensor _treasureImageSensor;
+        private EndScreenView _endScreenView;
 
         [SerializeField]
         private DrowningTimer _drowningTimer;
@@ -22,15 +23,9 @@ namespace DiggyPlayable
 
         private void Awake()
         {
-            var waterPipeGameController = new WaterPipeGameController(
-                _pipeGameView,
-                _drowningTimer
-            );
-
             _game = new GameController(
-                _diggyController,
-                waterPipeGameController,
-                _treasureImageSensor
+                _pipeGameView,
+                _endScreenView
             );
         }
 
