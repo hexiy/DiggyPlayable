@@ -432,6 +432,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6de96239566641f9bc76c21fcfed316, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _isLong: 0
   _clickSensor: {fileID: 1549956413539859383}
   _pipeVisual: {fileID: 3829298708353573282}
   _checkmark: {fileID: 8833585688047870730}
@@ -441,6 +442,7 @@ MonoBehaviour:
   _maskPositionFull: {x: 0.4092, y: -0.1563}
   _maskScaleFull: {x: 5.191116, y: 0}
   _waterMask: {fileID: 4562156839978778479}
+  _waterRunsOtherWay: 0
 --- !u!1 &5772144783448435742
 GameObject:
   m_ObjectHideFlags: 0

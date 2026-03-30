@@ -47,10 +47,18 @@ namespace DiggyPlayable.WaterPipeGame
             _timer.StartTicking();
 
             yield return WaitForSolved();
-
+            DisablePipesInput();
             _timer.Stop();
 
             yield return WaitForFinished();
+        }
+
+        private void DisablePipesInput()
+        {
+            foreach (var pipe in _pipes)
+            {
+                pipe.IsInputEnabled = false;
+            }
         }
 
         public void Show()
@@ -102,6 +110,7 @@ namespace DiggyPlayable.WaterPipeGame
             {
                 if (!pipe.IsCorrectlyRotated)
                 {
+                    Debug.Log("this one is not correct", pipe.gameObject);
                     return false;
                 }
             }

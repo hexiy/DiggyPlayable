@@ -22,7 +22,7 @@ namespace DiggyPlayable.WaterPipeGame
         public SpriteRenderer _checkmark;
 
         [SerializeField]
-        private int _correctRotation;
+        private int[] _correctRotations;
 
         private int _currentRotation;
 
@@ -31,9 +31,11 @@ namespace DiggyPlayable.WaterPipeGame
         /// </summary>
         public event Action OnRotated;
 
-        public bool IsCorrectlyRotated => _currentRotation == _correctRotation;
+        public bool IsCorrectlyRotated => _correctRotations.Length > 0 && _correctRotations[0] == _currentRotation ||
+                                          _correctRotations.Length > 1 && _correctRotations[1] == _currentRotation;
 
         public bool IsRotatable { get; private set; } = true;
+        public bool IsInputEnabled { get; set; } = true;
         private Vector3 _defaultScale;
 
         [SerializeField]
@@ -51,8 +53,17 @@ namespace DiggyPlayable.WaterPipeGame
         [SerializeField]
         private Transform _waterMask;
 
+        [SerializeField]
+        private bool _waterRunsOtherWay = false;
+
         private void Awake()
         {
+            if (_waterRunsOtherWay)
+            {
+                _maskPositionFull = new Vector2(-_maskPositionFull.x, _maskPositionFull.y);
+            }
+
+            _currentRotation = (int)transform.localEulerAngles.z % 360;
             _clickSensor.OnClicked += RotatePipe;
 
             _checkmark.transform
@@ -79,18 +90,24 @@ namespace DiggyPlayable.WaterPipeGame
                 return;
             }
 
-            _currentRotation = (_currentRotation + 90) % 360;
-            var endRotation = Quaternion.Euler(0, 0, -_currentRotation);
-            _pipeVisual.DOLocalRotateQuaternion(endRotation, 0.3f).OnComplete(() =>
+            if (IsInputEnabled == false)
             {
-                if (_isLong)
-                {
-                    _pipeVisual.transform.localEulerAngles =
-                        new Vector3(0, 0, _pipeVisual.transform.localEulerAngles.z % 180);
-                }
+                return;
+            }
 
-                OnRotated?.Invoke();
-            });
+            _pipeVisual.DOKill(true);
+
+            _pipeVisual.DOLocalRotate(new Vector3(0, 0, -90), 0.3f, RotateMode.LocalAxisAdd)
+                .OnComplete(() =>
+                {
+                    int currentZ = (int)_pipeVisual.localEulerAngles.z;
+                    _currentRotation = currentZ % 360;
+                    if (_currentRotation < 0) _currentRotation += 360;
+
+                    _pipeVisual.localEulerAngles = new Vector3(0, 0, _currentRotation);
+
+                    OnRotated?.Invoke();
+                });
         }
 
         public void SetRandomRotation()
@@ -116,8 +133,11 @@ namespace DiggyPlayable.WaterPipeGame
         public IEnumerator DoWaterAnimation(Ease ease, float duration = 0.3f)
         {
             // float duration = 0.3f;
+            Vector3 newMaskPositionFull = _currentRotation == _correctRotations[0]
+                ? _maskPositionFull
+                : _maskPositionFull * new Vector2(-1, 1);
 
-            _waterMask.DOLocalMove(_maskPositionFull, duration).SetEase(ease).SetTarget(this);
+            _waterMask.DOLocalMove(newMaskPositionFull, duration).SetEase(ease).SetTarget(this);
             _waterMask.DOScale(_maskScaleFull, duration).SetEase(ease).SetTarget(this);
             _checkmark.DOFade(1, duration).SetDelay(duration)
                 // .SetLoops(2, LoopType.Yoyo)
@@ -134,9 +154,18 @@ namespace DiggyPlayable.WaterPipeGame
         [ContextMenu("SetCorrectRotationToCurrent")]
         public void SetCorrectRotationToCurrent()
         {
-            _correctRotation = (int)_pipeVisual.localEulerAngles.z;
-            
-         
+            if (_isLong == false)
+            {
+                _correctRotations = new int[] { (int)_pipeVisual.localEulerAngles.z };
+            }
+            else
+            {
+                _correctRotations = new int[]
+                {
+                    (int)_pipeVisual.localEulerAngles.z,
+                    ((int)_pipeVisual.localEulerAngles.z + 180) % 360
+                };
+            }
         }
     }
 }

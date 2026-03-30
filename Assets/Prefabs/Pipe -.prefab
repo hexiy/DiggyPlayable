@@ -133,6 +133,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7528586725031657139, guid: daab8dce750b543bda4e8c61de2957cc, type: 3}
+      propertyPath: _isLong
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7528586725031657139, guid: daab8dce750b543bda4e8c61de2957cc, type: 3}
       propertyPath: _waterMask
       value: 
       objectReference: {fileID: 1648225882657484168}
