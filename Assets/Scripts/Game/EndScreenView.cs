@@ -2,11 +2,10 @@ using UnityEngine;
 
 namespace DiggyPlayable.EndScreen
 {
-    public class EndScreenView
+    public class EndScreenView : MonoBehaviour
     {
         public void Show()
         {
-           
         }
     }
 }
