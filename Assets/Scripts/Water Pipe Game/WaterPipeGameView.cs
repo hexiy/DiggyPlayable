@@ -203,9 +203,9 @@ namespace DiggyPlayable.WaterPipeGame
 
         private void ScramblePipes()
         {
-            // todo random rotations only for 3-4 pipes
+            // todo random rotations only for 5 pipes
             List<int> _rotatedPipes = new List<int>();
-            for (int i = 0; i < 4; i++)
+            for (int i = 0; i < 5; i++)
             {
                 int pipeIndex = UnityEngine.Random.Range(0, _pipes.Length);
                 if (_rotatedPipes.Contains(pipeIndex))

@@ -152,9 +152,11 @@ namespace DiggyPlayable.WaterPipeGame
             _setRandomRotation = true;
         }
 
+        // unused, all pipes are movable
         public void SetImmovable()
         {
-            IsRotatable = true;
+            IsRotatable = false;
+            IsInputEnabled = false;
         }
 
 
