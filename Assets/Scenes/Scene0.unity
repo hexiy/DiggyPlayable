@@ -6006,6 +6006,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _diggy: {fileID: 1252665795}
+  _animationController: {fileID: 531288817}
   _positionTopLandscape: {x: -6.8, y: 1.29}
   _positionTopPortrait: {x: -7.33, y: 1.79}
   _positionBottomLandscape: {x: -6.8, y: -1.62}

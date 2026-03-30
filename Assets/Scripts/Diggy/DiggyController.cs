@@ -14,7 +14,7 @@ namespace DiggyPlayable
 
         private Tween _floatingTween;
 
-
+        [SerializeField]
         private DiggyAnimationController _animationController;
 
         [SerializeField]
@@ -35,7 +35,6 @@ namespace DiggyPlayable
 
         private void Awake()
         {
-            _animationController = GetComponent<DiggyAnimationController>();
             OrientationManager.OnOrientationChanged += OnOrientationChanged;
         }
 
@@ -78,6 +77,8 @@ namespace DiggyPlayable
 
         public void GoDownWithWater(float duration)
         {
+            DOVirtual.DelayedCall(duration - 0.2f, () => { _animationController.PlayIdle(); });
+            DOVirtual.DelayedCall(duration - 0.2f + 2f, () => { _animationController.PlayIdle2(); });
             _isSinking = true;
             _floatingTween?.Kill(false);
             if (_currentOrientation == OrientationManager.Orientation.Landscape)
@@ -88,8 +89,6 @@ namespace DiggyPlayable
             {
                 _diggy.DOLocalMoveX(_positionBottomPortrait.x, duration);
             }
-
-            DOVirtual.DelayedCall(duration - 0.2f, () => { _animationController.PlayIdle(); });
         }
     }
 }

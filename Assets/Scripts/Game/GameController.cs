@@ -21,7 +21,7 @@ namespace DiggyPlayable
         {
             yield return _waterPipeGame.StartGame();
 
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(1.2f);
             yield return _endScreenView.Show();
             _waterPipeGame.gameObject.SetActive(false);
         }

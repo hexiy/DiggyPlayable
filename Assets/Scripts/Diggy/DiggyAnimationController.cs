@@ -28,12 +28,26 @@ namespace DiggyPlayable
 
         public void Play(string animation, bool loop = false)
         {
+            // spine.Initialize(true);
+            //
+            // // Ensure the component is active and enabled to see the results.
+            // spine.gameObject.SetActive(true);
+            // spine.enabled = true;
+
             spine.AnimationState.SetAnimation(0, animation, loop);
+            //
+            // // Force an update so it doesn't wait until the next frame to show the animation change.
+            // spine.Update(0);
+            // spine.LateUpdate();
         }
 
         public void PlayIdle()
         {
             Play(_idleAnimation, true);
+        }
+        public void PlayIdle2()
+        {
+            Play(_idleAnimationAlt, true);
         }
         private void Awake()
         {
