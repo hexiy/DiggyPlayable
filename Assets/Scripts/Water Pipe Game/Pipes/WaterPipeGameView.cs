@@ -90,9 +90,9 @@ namespace DiggyPlayable.WaterPipeGame
                     _tutorialController.ShowHand(_pipes[i].transform.position);
                     int rotation = _pipes[i].CurrentRotation;
                     yield return new WaitUntil(() => rotation != _pipes[i].CurrentRotation);
-                    
+
                     AudioController.I.PlayMusic(); // can only play music after first interaction
-                    
+
                     _tutorialController.HideHand();
 
                     break;
@@ -123,7 +123,7 @@ namespace DiggyPlayable.WaterPipeGame
             _canCollectRewards = true;
             // _collectRewardsBackgroundTint.DOFade(0, 0);
             // _collectRewardsBackgroundTint.DOFade(0.92f, 0.5f);
-            
+
             _collectRewardsHintCG.alpha = 0;
             _collectRewardsHintCG.gameObject.SetActive(true);
 
@@ -155,6 +155,7 @@ namespace DiggyPlayable.WaterPipeGame
         }
 
         private bool _clicked = false;
+
         public IEnumerator WaitForRewardsCollected()
         {
             int rewardsToCollect = 0;
@@ -170,7 +171,6 @@ namespace DiggyPlayable.WaterPipeGame
             int rewardsCollected = 0;
             while (rewardsCollected < rewardsToCollect)
             {
-                
                 if (Input.GetMouseButtonDown(0))
                 {
                     _clicked = true;
@@ -183,7 +183,7 @@ namespace DiggyPlayable.WaterPipeGame
                         StartCoroutine(FillOutPipes());
                     }
                 }
-                
+
                 if (Input.GetMouseButton(0) && _clicked)
                 {
                     // check distance from  rewards;
@@ -286,6 +286,11 @@ namespace DiggyPlayable.WaterPipeGame
 
         private void OnPipeRotated()
         {
+            if (_isSolved)
+            {
+                return;
+            }
+
             if (CheckIfSolved())
             {
                 OnSolved();
@@ -306,7 +311,7 @@ namespace DiggyPlayable.WaterPipeGame
             {
                 if (!pipe.IsCorrectlyRotated)
                 {
-                    Debug.Log("this one is not correct", pipe.gameObject);
+                    // Debug.Log("this one is not correct", pipe.gameObject);
                     return false;
                 }
             }
