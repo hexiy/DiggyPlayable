@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
 using Random = System.Random;
@@ -15,7 +16,10 @@ namespace DiggyPlayable.WaterPipeGame
         private WaterPipe[] _pipes;
 
         [SerializeField]
-        private Transform _water;
+        private Transform _waterLandscape;
+
+        [SerializeField]
+        private Transform _waterPortrait;
 
         [SerializeField]
         private DrowningTimer _timer;
@@ -188,6 +192,7 @@ namespace DiggyPlayable.WaterPipeGame
 
         public void Show()
         {
+            ResetWater();
             ScramblePipes();
 
             _isSolved = false;
@@ -197,11 +202,19 @@ namespace DiggyPlayable.WaterPipeGame
 
         private void ScramblePipes()
         {
-            return;
             // todo random rotations only for 3-4 pipes
-            foreach (var pipe in _pipes)
+            List<int> _rotatedPipes = new List<int>();
+            for (int i = 0; i < 4; i++)
             {
-                pipe.SetRandomRotation();
+                int pipeIndex = UnityEngine.Random.Range(0, _pipes.Length);
+                if (_rotatedPipes.Contains(pipeIndex))
+                {
+                    i--;
+                    continue;
+                }
+
+                _pipes[pipeIndex].SetRandomRotation();
+                _rotatedPipes.Add(pipeIndex);
             }
         }
 
@@ -270,18 +283,23 @@ namespace DiggyPlayable.WaterPipeGame
         [SerializeField]
         private float _duration;
 
-
         private void ResetWater()
         {
-            _water.DOKill(true);
-            _water.localScale = new Vector3(_water.localScale.x, 4.446384f, _water.localScale.z);
+            _waterLandscape.DOKill(true);
+            _waterLandscape.localScale =
+                new Vector3(_waterLandscape.localScale.x, 4.446384f, _waterLandscape.localScale.z);
+
+            _waterPortrait.DOKill(true);
+            _waterPortrait.localScale =
+                new Vector3(_waterPortrait.localScale.x, 4.446384f, _waterPortrait.localScale.z);
         }
 
         private IEnumerator PlayWaterFillUpAnimation()
         {
             ResetWater();
 
-            _water.DOScaleY(0.54f, _duration * _pipes.Length).SetEase(Ease.Flash).SetTarget(_water);
+            _waterLandscape.DOScaleY(0.54f, _duration * _pipes.Length).SetEase(Ease.Flash).SetTarget(_waterLandscape);
+            _waterPortrait.DOScaleY(0f, _duration * _pipes.Length).SetEase(Ease.Flash).SetTarget(_waterPortrait);
 
             for (int i = 0; i < _pipes.Length; i++)
             {

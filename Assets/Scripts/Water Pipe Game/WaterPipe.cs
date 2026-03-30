@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using System.Linq;
 using DG.Tweening;
 using UnityEngine;
 using Random = System.Random;
@@ -28,6 +29,7 @@ namespace DiggyPlayable.WaterPipeGame
         private int[] _correctRotations;
 
         private int _currentRotation;
+        private bool _setRandomRotation = false;
 
         /// <summary>
         /// Called when rotation animation ends
@@ -66,7 +68,11 @@ namespace DiggyPlayable.WaterPipeGame
                 _maskPositionFull = new Vector2(-_maskPositionFull.x, _maskPositionFull.y);
             }
 
-            _currentRotation = (int)transform.localEulerAngles.z % 360;
+            if (_setRandomRotation == false)
+            {
+                _currentRotation = (int)_pipeVisual.localEulerAngles.z % 360;
+            }
+
             _clickSensor.OnClicked += RotatePipe;
 
             Reward.transform.SetParent(null);
@@ -133,8 +139,17 @@ namespace DiggyPlayable.WaterPipeGame
         public void SetRandomRotation()
         {
             IsRotatable = true;
+
             _currentRotation = UnityEngine.Random.Range(0, 4) * 90;
-            _pipeVisual.localRotation = Quaternion.Euler(0, 0, -_currentRotation);
+
+            if (_correctRotations.Contains(_currentRotation))
+            {
+                _currentRotation = (_currentRotation + 90) % 360;
+            }
+
+
+            _pipeVisual.localEulerAngles = new Vector3(0, 0, _currentRotation);
+            _setRandomRotation = true;
         }
 
         public void SetImmovable()
