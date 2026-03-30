@@ -8,14 +8,13 @@ namespace DiggyPlayable.EndScreen
     {
         [SerializeField]
         private CanvasGroup _cg;
-
+        
         public IEnumerator Show()
         {
-            AudioController.I.PlayEndScreenClip();
-            gameObject.SetActive(true);
-            _cg.DOFade(0, 0);
+            _cg.alpha = 0;
 
             _cg.DOFade(1, 0.5f);
+            AudioController.I.PlayEndScreenClip();
 
             _cg.interactable = true;
             _cg.blocksRaycasts = true;

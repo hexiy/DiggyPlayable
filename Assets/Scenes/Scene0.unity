@@ -2273,6 +2273,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _puzzlePanel: {fileID: 776810999}
+  _endScreenView: {fileID: 1626291338}
   _tutorialController: {fileID: 187439607}
   _diggyController: {fileID: 2127625917}
   _pipes:

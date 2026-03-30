@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
+using DiggyPlayable.EndScreen;
 using UnityEngine;
 using UnityEngine.UI;
 using Random = System.Random;
@@ -12,6 +13,9 @@ namespace DiggyPlayable.WaterPipeGame
     {
         [SerializeField]
         private GameObject _puzzlePanel;
+
+        [SerializeField]
+        private EndScreenView _endScreenView;
 
         [SerializeField]
         private TutorialController _tutorialController;
@@ -115,7 +119,11 @@ namespace DiggyPlayable.WaterPipeGame
 
             yield return WaitForRewardsCollected();
 
-            // show some treasure animation idk
+            yield return new WaitForSecondsRealtime(1.2f);
+
+            yield return _endScreenView.Show();
+
+            // _waterPipeGame.gameObject.SetActive(false);
         }
 
         private IEnumerator ShowRewardCollectionHint()
@@ -168,6 +176,7 @@ namespace DiggyPlayable.WaterPipeGame
                 }
             }
 
+            Debug.Log("Waiting to collect " + rewardsToCollect + " rewards");
             int rewardsCollected = 0;
             while (rewardsCollected < rewardsToCollect)
             {
@@ -206,6 +215,8 @@ namespace DiggyPlayable.WaterPipeGame
 
                 yield return null;
             }
+
+            Debug.Log("Collected all rewards");
         }
 
         private void CollectReward(WaterPipe pipe, Transform reward)

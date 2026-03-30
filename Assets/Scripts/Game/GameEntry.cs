@@ -24,8 +24,7 @@ namespace DiggyPlayable
         private void Awake()
         {
             _game = new GameController(
-                _pipeGameView,
-                _endScreenView
+                _pipeGameView
             );
         }
 
