@@ -29,7 +29,7 @@ namespace DiggyPlayable.WaterPipeGame
 
         public bool IsCorrectlyRotated => _currentRotation == _correctRotation;
 
-        public bool IsRotatable { get; private set; }
+        public bool IsRotatable { get; private set; } = true;
         private Vector3 _defaultScale;
 
         [SerializeField]
