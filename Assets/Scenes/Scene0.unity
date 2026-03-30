@@ -2211,6 +2211,9 @@ GameObject:
   - component: {fileID: 938187255}
   - component: {fileID: 938187254}
   - component: {fileID: 938187256}
+  - component: {fileID: 938187258}
+  - component: {fileID: 938187257}
+  - component: {fileID: 938187259}
   m_Layer: 5
   m_Name: button
   m_TagString: Untagged
@@ -2295,7 +2298,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 0
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -2319,7 +2322,57 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 938187254}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 938187259}
+        m_TargetAssemblyTypeName: PlayNowButton, Assembly-CSharp
+        m_MethodName: OpenLink
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &938187257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938187252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76d99ac51815c413b985f2a4874cf973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CG: {fileID: 0}
+  _disabledColorIsNormalColor: 1
+--- !u!225 &938187258
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938187252}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!114 &938187259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938187252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07a9871f2e0bf42a5ab2a918e8ff5a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &940705323
 GameObject:
   m_ObjectHideFlags: 0
@@ -3367,7 +3420,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 277.3374, y: 0}
+  m_SizeDelta: {x: 2821.5762, y: 0}
   m_Pivot: {x: 0.8, y: 0.5}
 --- !u!114 &1488639633
 MonoBehaviour:
@@ -3603,7 +3656,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -6.3116}
+  m_AnchoredPosition: {x: 0, y: -1}
   m_SizeDelta: {x: 652.5566, y: 139.8888}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1549817487
@@ -3626,7 +3679,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: DOWNLOAD NOW!
+  m_text: PLAY NOW
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 950674afb76454e94a6445716b6c2dfb, type: 2}
   m_sharedMaterial: {fileID: 5134761262902155426, guid: 950674afb76454e94a6445716b6c2dfb, type: 2}
@@ -3653,8 +3706,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 64.72
-  m_fontSizeBase: 64.72
+  m_fontSize: 106.5
+  m_fontSizeBase: 106.5
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
