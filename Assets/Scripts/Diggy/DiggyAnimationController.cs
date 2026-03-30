@@ -31,6 +31,10 @@ namespace DiggyPlayable
             spine.AnimationState.SetAnimation(0, animation, loop);
         }
 
+        public void PlayIdle()
+        {
+            Play(_idleAnimation, true);
+        }
         private void Awake()
         {
             spine.SkeletonDataAsset.GetAnimationStateData().SkeletonData.Animations.ForEach(animation =>

@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class DrowningTimer : MonoBehaviour
 {
     public float TimeLeft { get; private set; }
-    public float MaxTime { get; } = 6f;
+    public float MaxTime { get; } = 20f;
     public bool IsRunning { get; set; }
 
     [SerializeField]
@@ -29,10 +29,13 @@ public class DrowningTimer : MonoBehaviour
         if (IsRunning && TimeLeft > 0)
         {
             TimeLeft -= Time.deltaTime;
+            if (TimeLeft <= 0)
+            {
+                TimeLeft = MaxTime;
+            }
         }
 
         var normalized = TimeLeft / MaxTime;
-        _timerFill.fillAmount = 1-normalized;
-        _timerFill.color = Color.Lerp(Color.red, Color.green, normalized);
+        _timerFill.fillAmount = 1 - normalized;
     }
 }

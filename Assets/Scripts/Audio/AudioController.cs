@@ -33,9 +33,6 @@ public class AudioController : MonoBehaviour
     private AudioClip _pipesFinishedWinClip;
 
     [SerializeField]
-    private AudioClip _loseClip;
-
-    [SerializeField]
     private AudioClip _waterFlowClip;
 
     [SerializeField]
@@ -44,6 +41,9 @@ public class AudioController : MonoBehaviour
     [SerializeField]
     private AudioClip _rewardCollectClip;
 
+    [SerializeField]
+    private AudioClip _endScreenClip;
+    
     [SerializeField]
     private AudioClip _rewardTouchChestClip;
 
@@ -112,5 +112,10 @@ public class AudioController : MonoBehaviour
         _soundSource.pitch = Random.Range(0.85f, 1.2f);
 
         _soundSource.PlayOneShot(_rewardTouchChestClip);
+    }
+
+    public void PlayEndScreenClip()
+    {
+        _soundSource.PlayOneShot(_endScreenClip);
     }
 }

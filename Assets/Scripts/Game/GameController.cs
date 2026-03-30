@@ -20,7 +20,10 @@ namespace DiggyPlayable
         public IEnumerator StartPlayable()
         {
             yield return _waterPipeGame.StartGame();
-            _endScreenView.Show();
+
+            yield return new WaitForSeconds(0.5f);
+            yield return _endScreenView.Show();
+            _waterPipeGame.gameObject.SetActive(false);
         }
     }
 }

@@ -17,6 +17,9 @@ namespace DiggyPlayable.WaterPipeGame
         private TutorialController _tutorialController;
 
         [SerializeField]
+        private DiggyController _diggyController;
+
+        [SerializeField]
         private WaterPipe[] _pipes;
 
         [SerializeField]
@@ -77,6 +80,7 @@ namespace DiggyPlayable.WaterPipeGame
         public IEnumerator StartGame()
         {
             Show();
+            _timer.StartTicking();
 
             // find pipe to rotate
             for (int i = 0; i < _pipes.Length; i++)
@@ -92,7 +96,6 @@ namespace DiggyPlayable.WaterPipeGame
                 }
             }
 
-            _timer.StartTicking();
 
             yield return WaitForSolved();
             _timer.Stop();
@@ -349,6 +352,7 @@ namespace DiggyPlayable.WaterPipeGame
 
             _waterLandscape.DOScaleY(0.54f, _duration * _pipes.Length).SetEase(Ease.Flash).SetTarget(_waterLandscape);
             _waterPortrait.DOScaleY(0f, _duration * _pipes.Length).SetEase(Ease.Flash).SetTarget(_waterPortrait);
+            _diggyController.GoDownWithWater(_duration * _pipes.Length);
 
             for (int i = 0; i < _pipes.Length; i++)
             {
