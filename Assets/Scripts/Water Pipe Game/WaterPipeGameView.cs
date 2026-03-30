@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.UI;
 using Random = System.Random;
 
 namespace DiggyPlayable.WaterPipeGame
@@ -39,6 +40,8 @@ namespace DiggyPlayable.WaterPipeGame
         [SerializeField]
         private RectTransform _collectRewardsHintHand;
 
+        [SerializeField]
+        private CanvasGroup _collectRewardsHintHandCG;
 
         [SerializeField]
         private TreasureChest _treasureChest_Landscape;
@@ -102,6 +105,28 @@ namespace DiggyPlayable.WaterPipeGame
             _collectRewardsHintCG.DOFade(0, 0);
 
             _collectRewardsHintCG.DOFade(1, 0.5f);
+
+            // _collectRewardsHintHand.DOMoveX(_collectRewardsHintHand.anchoredPosition.x + 100, 2f)
+            //     .SetLoops(-1, LoopType.Yoyo).OnStepComplete(() =>
+            //     {
+            //         _collectRewardsHintHandImage.DOFade(0, 0.5f).SetLoops(2, LoopType.Yoyo);
+            //     });
+            float startX = _collectRewardsHintHand.anchoredPosition.x;
+            float endX = startX + 400f;
+
+            Sequence handSequence = DOTween.Sequence();
+
+            handSequence.Append(_collectRewardsHintHand.DOAnchorPosX(endX, 1.5f).SetEase(Ease.InOutQuad));
+
+            handSequence.Append(_collectRewardsHintHandCG.DOFade(0, 0.1f));
+            handSequence.AppendCallback(() =>
+            {
+                _collectRewardsHintHand.anchoredPosition =
+                    new Vector2(startX, _collectRewardsHintHand.anchoredPosition.y);
+            });
+            handSequence.Append(_collectRewardsHintHandCG.DOFade(1, 0.1f));
+
+            handSequence.SetLoops(-1);
 
             yield return new WaitForSeconds(0.5f);
         }
@@ -207,7 +232,8 @@ namespace DiggyPlayable.WaterPipeGame
             List<int> _rotatedPipes = new List<int>();
             for (int i = 0; i < 5; i++)
             {
-                int pipeIndex = UnityEngine.Random.Range(0, _pipes.Length-1); // -1 because the last one might not be visible...
+                int pipeIndex =
+                    UnityEngine.Random.Range(1, _pipes.Length - 1); // -1 because the last one might not be visible...
                 if (_rotatedPipes.Contains(pipeIndex))
                 {
                     i--;

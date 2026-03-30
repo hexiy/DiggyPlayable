@@ -2048,6 +2048,7 @@ MonoBehaviour:
   _collectRewardsHintCG: {fileID: 1543459555}
   _collectRewardsBackgroundTint: {fileID: 2030565848}
   _collectRewardsHintHand: {fileID: 1612324811}
+  _collectRewardsHintHandCG: {fileID: 1612324814}
   _treasureChest_Landscape: {fileID: 725232656}
   _treasureChest_Portrait: {fileID: 785605986}
   _ease: 32
@@ -3716,6 +3717,7 @@ GameObject:
   - component: {fileID: 1612324811}
   - component: {fileID: 1612324813}
   - component: {fileID: 1612324812}
+  - component: {fileID: 1612324814}
   m_Layer: 5
   m_Name: Hand
   m_TagString: Untagged
@@ -3755,7 +3757,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.95686275}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3780,6 +3782,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1612324810}
   m_CullTransparentMesh: 1
+--- !u!225 &1612324814
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1612324810}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
 --- !u!1 &1626291336
 GameObject:
   m_ObjectHideFlags: 0
