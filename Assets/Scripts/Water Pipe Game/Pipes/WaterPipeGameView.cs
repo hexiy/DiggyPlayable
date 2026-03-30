@@ -339,16 +339,25 @@ namespace DiggyPlayable.WaterPipeGame
             _waterLandscape.DOKill(true);
             _waterLandscape.localScale =
                 new Vector3(_waterLandscape.localScale.x, 4.446384f, _waterLandscape.localScale.z);
+            _waterLandscape.DOScaleY(-0.15f, 1.2f).SetRelative().SetLoops(-1, LoopType.Yoyo).SetEase(Ease.InOutSine)
+                .SetTarget(_waterLandscape);
 
             _waterPortrait.DOKill(true);
             _waterPortrait.localScale =
-                new Vector3(_waterPortrait.localScale.x, 4.446384f, _waterPortrait.localScale.z);
+                new Vector3(_waterPortrait.localScale.x, 3.8f, _waterPortrait.localScale.z);
+
+            _waterPortrait.DOScaleY(-0.15f, 1.2f).SetRelative().SetLoops(-1, LoopType.Yoyo).SetEase(Ease.InOutSine)
+                .SetTarget(_waterPortrait);
         }
 
         private IEnumerator PlayWaterFillUpAnimation()
         {
             AudioController.I.PlayPipesWaterSounds();
             ResetWater();
+
+            _waterLandscape.DOKill(false);
+            _waterPortrait.DOKill(false);
+
 
             _waterLandscape.DOScaleY(0.54f, _duration * _pipes.Length).SetEase(Ease.Flash).SetTarget(_waterLandscape);
             _waterPortrait.DOScaleY(0f, _duration * _pipes.Length).SetEase(Ease.Flash).SetTarget(_waterPortrait);

@@ -12,6 +12,8 @@ namespace DiggyPlayable
         [SerializeField]
         private Transform _diggy;
 
+        private Tween _floatingTween;
+
 
         private DiggyAnimationController _animationController;
 
@@ -49,13 +51,35 @@ namespace DiggyPlayable
                 _diggy.localPosition = orientation == OrientationManager.Orientation.Landscape
                     ? _positionTopLandscape
                     : _positionTopPortrait;
+
+                StartFloating();
+            }
+        }
+
+        private void StartFloating()
+        {
+            _floatingTween?.Kill();
+
+            if (_currentOrientation == OrientationManager.Orientation.Landscape)
+            {
+                float targetY = _diggy.localPosition.y + 0.25f;
+                _floatingTween = _diggy.DOLocalMoveY(targetY, 1.2f)
+                    .SetLoops(-1, LoopType.Yoyo)
+                    .SetEase(Ease.InOutSine);
+            }
+            else
+            {
+                float targetX = _diggy.localPosition.x + 0.25f;
+                _floatingTween = _diggy.DOLocalMoveX(targetX, 1.2f)
+                    .SetLoops(-1, LoopType.Yoyo)
+                    .SetEase(Ease.InOutSine);
             }
         }
 
         public void GoDownWithWater(float duration)
         {
             _isSinking = true;
-
+            _floatingTween?.Kill(false);
             if (_currentOrientation == OrientationManager.Orientation.Landscape)
             {
                 _diggy.DOLocalMoveY(_positionBottomLandscape.y, duration);

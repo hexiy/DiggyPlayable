@@ -36,6 +36,6 @@ public class DrowningTimer : MonoBehaviour
         }
 
         var normalized = TimeLeft / MaxTime;
-        _timerFill.fillAmount = 1 - normalized;
+        _timerFill.fillAmount = normalized;
     }
 }
