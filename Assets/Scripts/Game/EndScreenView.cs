@@ -11,6 +11,7 @@ namespace DiggyPlayable.EndScreen
 
         public IEnumerator Show()
         {
+            AudioController.I.PlayEndScreenClip();
             gameObject.SetActive(true);
             _cg.DOFade(0, 0);
 
