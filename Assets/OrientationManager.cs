@@ -16,9 +16,10 @@ namespace DiggyPlayable
         private int _lastWidth;
         private int _lastHeight;
 
-        void Awake()
+        void Start()
         {
             CheckOrientation();
+            OnOrientationChanged?.Invoke(_isLandscape ? Orientation.Landscape : Orientation.Portrait);
         }
 
         void Update()
