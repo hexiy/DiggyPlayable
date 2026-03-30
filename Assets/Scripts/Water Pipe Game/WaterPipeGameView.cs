@@ -207,7 +207,7 @@ namespace DiggyPlayable.WaterPipeGame
             List<int> _rotatedPipes = new List<int>();
             for (int i = 0; i < 5; i++)
             {
-                int pipeIndex = UnityEngine.Random.Range(0, _pipes.Length);
+                int pipeIndex = UnityEngine.Random.Range(0, _pipes.Length-1); // -1 because the last one might not be visible...
                 if (_rotatedPipes.Contains(pipeIndex))
                 {
                     i--;
