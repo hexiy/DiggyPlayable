@@ -22,6 +22,17 @@ public class CameraController : MonoBehaviour
     {
         transform.localEulerAngles =
             new Vector3(0, 0, orientation is OrientationManager.Orientation.Landscape ? 0 : 90);
-        _camera.orthographicSize = orientation is OrientationManager.Orientation.Landscape ? 5.89f : 10.49f;
+
+        float ratio = Mathf.Max((float)Screen.width, (float)Screen.height) / (float)Mathf.Min((float)Screen.width, (float)Screen.height);
+        if (ratio < 1.5f)
+        {
+            // tablet
+            _camera.orthographicSize = orientation is OrientationManager.Orientation.Landscape ? 7.92f : 10.49f;
+        }
+        else
+        {
+            // pc/phone
+            _camera.orthographicSize = orientation is OrientationManager.Orientation.Landscape ? 5.89f : 10.49f;
+        }
     }
 }

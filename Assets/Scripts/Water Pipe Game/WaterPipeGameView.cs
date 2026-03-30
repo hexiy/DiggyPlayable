@@ -123,6 +123,7 @@ namespace DiggyPlayable.WaterPipeGame
             {
                 if (Input.GetMouseButtonDown(0))
                 {
+                    _collectRewardsHintCG.DOKill(false);
                     _collectRewardsHintCG.DOFade(0, 0.2f);
 
                     if (_fillingOutPipes == false)
@@ -316,7 +317,7 @@ namespace DiggyPlayable.WaterPipeGame
         {
             foreach (WaterPipe pipe in _pipes)
             {
-                yield return pipe.PlayWaterFillOutAnimation(_ease, _duration * 2);
+                yield return pipe.PlayWaterFillOutAnimation(_ease, _duration * 0.5f);
             }
         }
     }
