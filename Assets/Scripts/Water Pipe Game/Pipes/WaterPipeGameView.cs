@@ -184,6 +184,8 @@ namespace DiggyPlayable.WaterPipeGame
 
         private void CollectReward(WaterPipe pipe, Transform reward)
         {
+            AudioController.I.PlayRewardCollect();
+
             pipe.RewardCollected = true;
             reward.transform.DOKill();
 
@@ -191,6 +193,7 @@ namespace DiggyPlayable.WaterPipeGame
                 .SetEase(Ease.InBack)
                 .OnComplete(() =>
                 {
+                    AudioController.I.PlayRewardTouchChestClip();
                     pipe.Reward.DOFade(0, 0.1f);
                     ActiveTreasureChest.transform.DOKill(true);
                     ActiveTreasureChest.transform
@@ -267,6 +270,7 @@ namespace DiggyPlayable.WaterPipeGame
         {
             _isSolved = true;
             DisablePipesInput();
+            AudioController.I.PlayWin();
             StartCoroutine(PlayWaterFillUpAnimation());
         }
 
@@ -323,6 +327,7 @@ namespace DiggyPlayable.WaterPipeGame
 
         private IEnumerator PlayWaterFillUpAnimation()
         {
+            AudioController.I.PlayPipesWaterSounds();
             ResetWater();
 
             _waterLandscape.DOScaleY(0.54f, _duration * _pipes.Length).SetEase(Ease.Flash).SetTarget(_waterLandscape);
@@ -343,7 +348,7 @@ namespace DiggyPlayable.WaterPipeGame
         {
             foreach (WaterPipe pipe in _pipes)
             {
-                yield return pipe.PlayWaterFillOutAnimation(_ease, _duration * 0.5f);
+                yield return pipe.PlayWaterFillOutAnimation(_ease, _duration * 2f);
             }
         }
     }
