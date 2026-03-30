@@ -9,6 +9,10 @@ namespace DiggyPlayable.WaterPipeGame
     public class WaterPipe : MonoBehaviour
     {
         [SerializeField]
+        // if is long -------- , 2 rotations are correct
+        private bool _isLong = false;
+
+        [SerializeField]
         private PipeClickSensor _clickSensor;
 
         [SerializeField]
@@ -77,7 +81,16 @@ namespace DiggyPlayable.WaterPipeGame
 
             _currentRotation = (_currentRotation + 90) % 360;
             var endRotation = Quaternion.Euler(0, 0, -_currentRotation);
-            _pipeVisual.DOLocalRotateQuaternion(endRotation, 0.3f).OnComplete(() => OnRotated?.Invoke());
+            _pipeVisual.DOLocalRotateQuaternion(endRotation, 0.3f).OnComplete(() =>
+            {
+                if (_isLong)
+                {
+                    _pipeVisual.transform.localEulerAngles =
+                        new Vector3(0, 0, _pipeVisual.transform.localEulerAngles.z % 180);
+                }
+
+                OnRotated?.Invoke();
+            });
         }
 
         public void SetRandomRotation()
@@ -111,9 +124,19 @@ namespace DiggyPlayable.WaterPipeGame
                 .SetTarget(this);
 
             _checkmark.transform.localScale = _defaultScale;
-            _checkmark.transform.DOPunchScale(new Vector3(_defaultScale.x < 0 ? -0.3f : 0.3f, _defaultScale.y < 0 ? -0.3f : 0.3f,0.3f), 0.4f, vibrato: 4).SetDelay(duration)
+            _checkmark.transform
+                .DOPunchScale(new Vector3(_defaultScale.x < 0 ? -0.3f : 0.3f, _defaultScale.y < 0 ? -0.3f : 0.3f, 0.3f),
+                    0.4f, vibrato: 4).SetDelay(duration)
                 .SetTarget(this);
             yield return new WaitForSeconds(duration);
+        }
+
+        [ContextMenu("SetCorrectRotationToCurrent")]
+        public void SetCorrectRotationToCurrent()
+        {
+            _correctRotation = (int)_pipeVisual.localEulerAngles.z;
+            
+         
         }
     }
 }
