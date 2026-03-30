@@ -33,18 +33,21 @@
       "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs"
     ],
     [
-      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Scripts/Diggy/DiggyAnimationController.cs"
-    ],
-    [
-      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Scripts/Diggy/DiggyController.cs",
-      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Scripts/Game/GameController.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Scripts/Audio/AudioController.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Scripts/Game/EndScreenView.cs",
       "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Scripts/Game/GameEntry.cs",
-      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Scripts/Water Pipe Game/WaterPipeGameView.cs",
-      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Scripts/Water Pipe Game/WaterPipeGameController.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Scripts/Diggy/DiggyController.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Scripts/Water Pipe Game/Pipes/WaterPipeGameView.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Scripts/Game/GameController.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Scripts/Water Pipe Game/TutorialController.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Scripts/Water Pipe Game/Pipes/WaterPipe.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Scripts/Water Pipe Game/Pipes/PipeClickSensor.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Scripts/Misc/OrientationManager.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Scripts/Camera/CameraController.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Scripts/Misc/OrientationObjectsController.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Scripts/Water Pipe Game/TreasureChest.cs",
       "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Scripts/Water Pipe Game/DrowningTimerUI.cs",
-      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Scripts/Water Pipe Game/WaterPipe.cs",
-      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Scripts/Water Pipe Game/PipeClickSensor.cs",
-      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Scripts/TreasureClickSensor.cs",
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Scripts/Diggy/DiggyAnimationController.cs",
       "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Components/SkeletonAnimation.cs",
       "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Modules/Timeline/PlayableHandle Component/SkeletonAnimationPlayableHandle.cs",
       "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Modules/Timeline/PlayableHandle Component/SpinePlayableHandleBase.cs",
@@ -130,7 +133,16 @@
       "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Scripts/Game/GameInstaller.cs"
     ],
     [
-      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Scripts/Water Pipe Game/DrowningTimer.cs"
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Scripts/UI/ButtonTween.cs"
+    ],
+    [
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Scripts/UI/PlayNowButton.cs"
+    ],
+    [
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Scripts/Water Pipe Game/Pipes/WaterPipeGameController.cs"
+    ],
+    [
+      "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Scripts/Water Pipe Game/TreasureClickSensor.cs"
     ],
     [
       "/Users/hexiy/dev/GettingAJob/Pixel Federation/DiggyPlayable/LunaTemp/stage3/processed-scripts/Assets/Spine/spine-unity/Mesh Generation/Unused/ArraysMeshGenerator.cs"
