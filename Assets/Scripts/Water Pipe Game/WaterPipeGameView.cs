@@ -37,12 +37,12 @@ namespace DiggyPlayable.WaterPipeGame
 
 
         [SerializeField]
-        private Transform _treasureChest_Landscape;
+        private TreasureChest _treasureChest_Landscape;
 
         [SerializeField]
-        private Transform _treasureChest_Portrait;
+        private TreasureChest _treasureChest_Portrait;
 
-        private Transform ActiveTreasureChest => _treasureChest_Landscape.gameObject.activeSelf
+        private TreasureChest ActiveTreasureChest => _treasureChest_Landscape.gameObject.activeSelf
             ? _treasureChest_Landscape
             : _treasureChest_Portrait;
 
@@ -75,6 +75,11 @@ namespace DiggyPlayable.WaterPipeGame
 
 
             yield return WaitForWaterFillUpAnimationFinished();
+
+            _treasureChest_Landscape.PlayUnlockAnimation();
+            _treasureChest_Portrait.PlayUnlockAnimation();
+
+            yield return new WaitForSeconds(1);
 
             yield return ShowRewardCollectionHint();
 
@@ -152,16 +157,16 @@ namespace DiggyPlayable.WaterPipeGame
             pipe.RewardCollected = true;
             reward.transform.DOKill();
 
-            reward.transform.DOMove(ActiveTreasureChest.position, 0.3f)
+            reward.transform.DOMove(ActiveTreasureChest.transform.position, 0.3f)
                 .SetEase(Ease.InBack)
                 .OnComplete(() =>
                 {
                     pipe.Reward.DOFade(0, 0.1f);
-                    ActiveTreasureChest.DOKill(true);
-                    ActiveTreasureChest
+                    ActiveTreasureChest.transform.DOKill(true);
+                    ActiveTreasureChest.transform
                         .DOPunchScale(Vector3.one * 0.05f * UnityEngine.Random.Range(0.8f, 1.5f), 0.3f, vibrato: 3)
                         .SetEase(Ease.InOutQuad);
-                    ActiveTreasureChest
+                    ActiveTreasureChest.transform
                         .DOPunchRotation(new Vector3(0, 0, UnityEngine.Random.Range(-15, 15)), 0.3f, vibrato: 3)
                         .SetEase(Ease.InOutQuad);
                 });
