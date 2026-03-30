@@ -281,9 +281,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 202
+  m_SortingLayerID: -48174689
+  m_SortingLayer: 1
+  m_SortingOrder: 10
   m_Sprite: {fileID: -1085872246, guid: f1f0f4555951041d4902315819b43376, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
@@ -435,8 +435,9 @@ MonoBehaviour:
   _isLong: 0
   _clickSensor: {fileID: 1549956413539859383}
   _pipeVisual: {fileID: 3829298708353573282}
-  _checkmark: {fileID: 8833585688047870730}
-  _correctRotation: 0
+  Reward: {fileID: 8833585688047870730}
+  RewardCollected: 0
+  _correctRotations: 
   _maskPositionEmpty: {x: 0.1141, y: 0.1249}
   _maskScaleEmpty: {x: 2.792885, y: 5.191116}
   _maskPositionFull: {x: 0.4092, y: -0.1563}

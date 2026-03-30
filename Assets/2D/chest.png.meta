@@ -100,15 +100,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ChatGPT Image Mar 30, 2026 at 12_56_13 AM_0
+      name: chest
       rect:
         serializedVersion: 2
         x: 101
         y: 120
         width: 836
         height: 849
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.295373}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f9ea685d2381f440798e905ba2aef693
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ChatGPT Image Mar 30, 2026 at 12_56_13 AM_0: -5693328527754480168
+      chest: -5693328527754480168
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -19,7 +19,10 @@ namespace DiggyPlayable.WaterPipeGame
         private Transform _pipeVisual;
 
         [SerializeField]
-        public SpriteRenderer _checkmark;
+        public SpriteRenderer Reward;
+
+        [HideInInspector]
+        public bool RewardCollected = false;
 
         [SerializeField]
         private int[] _correctRotations;
@@ -66,16 +69,30 @@ namespace DiggyPlayable.WaterPipeGame
             _currentRotation = (int)transform.localEulerAngles.z % 360;
             _clickSensor.OnClicked += RotatePipe;
 
-            _checkmark.transform
+            Reward.transform.SetParent(null);
+            Reward.transform
                 .DOBlendableMoveBy(
                     new Vector3(UnityEngine.Random.Range(-0.2f, -0.2f), UnityEngine.Random.Range(-0.2f, -0.2f), 0),
                     UnityEngine.Random.Range(3, 5))
                 .SetDelay(UnityEngine.Random.Range(0f, 2f))
-                .SetLoops(-1, LoopType.Yoyo).SetEase(Ease.InOutQuad).SetTarget(_checkmark);
+                .SetLoops(-1, LoopType.Yoyo).SetEase(Ease.InOutQuad).SetTarget(Reward);
 
-            _checkmark.transform.Rotate(new Vector3(0, 0, UnityEngine.Random.Range(-30, 30)));
 
-            _defaultScale = _checkmark.transform.localScale;
+            OrientationManager.OnOrientationChanged += orientation =>
+            {
+                if (orientation == OrientationManager.Orientation.Landscape)
+                {
+                    Reward.transform.localEulerAngles = Vector3.zero;
+                }
+                else
+                {
+                    Reward.transform.localEulerAngles = new Vector3(0, 0, 90);
+                }
+
+                Reward.transform.Rotate(new Vector3(0, 0, UnityEngine.Random.Range(-30, 30)));
+            };
+
+            _defaultScale = Reward.transform.localScale;
         }
 
         private void OnDestroy()
@@ -133,7 +150,7 @@ namespace DiggyPlayable.WaterPipeGame
             _waterMask.localScale = _maskScaleEmpty;
         }
 
-        public IEnumerator DoWaterAnimation(Ease ease, float duration = 0.3f)
+        public IEnumerator PlayWaterFillUpAnimation(Ease ease, float duration = 0.3f)
         {
             // float duration = 0.3f;
             Vector3 newMaskPositionFull = _currentRotation == _correctRotations[0]
@@ -142,15 +159,32 @@ namespace DiggyPlayable.WaterPipeGame
 
             _waterMask.DOLocalMove(newMaskPositionFull, duration).SetEase(ease).SetTarget(this);
             _waterMask.DOScale(_maskScaleFull, duration).SetEase(ease).SetTarget(this);
-            _checkmark.DOFade(1, duration).SetDelay(duration)
+
+            Reward.DOFade(1, duration).SetDelay(duration)
                 // .SetLoops(2, LoopType.Yoyo)
                 .SetTarget(this);
 
-            _checkmark.transform.localScale = _defaultScale;
-            _checkmark.transform
-                .DOPunchScale(new Vector3(_defaultScale.x < 0 ? -0.3f : 0.3f, _defaultScale.y < 0 ? -0.3f : 0.3f, 0.3f),
+            Reward.transform.localScale = _defaultScale;
+            Reward.transform
+                .DOPunchScale(
+                    new Vector3(_defaultScale.x < 0 ? -0.3f : 0.3f, _defaultScale.y < 0 ? -0.3f : 0.3f, 0.3f),
                     0.4f, vibrato: 4).SetDelay(duration)
                 .SetTarget(this);
+
+            yield return new WaitForSeconds(duration);
+        }
+
+        public IEnumerator PlayWaterFillOutAnimation(Ease ease, float duration = 0.3f)
+        {
+            _waterMask.localScale = _maskScaleFull;
+            _waterMask.localPosition = _maskPositionFull * new Vector2(-1, 1);
+
+
+            Vector3 targetPosition = _maskPositionEmpty;
+
+            _waterMask.DOLocalMove(targetPosition, duration).SetEase(ease).SetTarget(this);
+            _waterMask.DOScale(_maskScaleEmpty, duration).SetEase(ease).SetTarget(this);
+
             yield return new WaitForSeconds(duration);
         }
 
