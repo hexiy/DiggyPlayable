@@ -22,6 +22,7 @@ namespace DiggyPlayable
         private readonly string _walkNormalAnimation = "Walk_side_normal";
         private readonly string _walkFastAnimation = "Walk_side_fast";
         private readonly string _idleAnimation = "Idle_normal_02";
+        private readonly string _idleAnimationAlt = "Idle_normal_01";
 
         private List<string> _allAnimations = new List<string>();
 

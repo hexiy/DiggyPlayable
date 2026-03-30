@@ -1,0 +1,6500 @@
+fileFormatVersion: 2
+guid: b3041241d59b34e5aabfacb8eef0459a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5744904054898057027
+    second: checkmark_0
+  - first:
+      213: -5057487537925639029
+    second: checkmark_1
+  - first:
+      213: 6245772511452397417
+    second: checkmark_2
+  - first:
+      213: -7754608707123506140
+    second: checkmark_3
+  - first:
+      213: -544225531557247015
+    second: checkmark_4
+  - first:
+      213: 2688704310088905163
+    second: checkmark_5
+  - first:
+      213: 5541450958583467120
+    second: checkmark_6
+  - first:
+      213: 7392015746500777864
+    second: checkmark_7
+  - first:
+      213: 8377550613370620251
+    second: checkmark_8
+  - first:
+      213: 3413507492250858662
+    second: checkmark_9
+  - first:
+      213: 5795604717118869592
+    second: checkmark_10
+  - first:
+      213: 8677469383860301216
+    second: checkmark_11
+  - first:
+      213: -8049359391475203209
+    second: checkmark_12
+  - first:
+      213: 6100522334939000554
+    second: checkmark_13
+  - first:
+      213: -1834736604689463042
+    second: checkmark_14
+  - first:
+      213: 1781345623139485195
+    second: checkmark_15
+  - first:
+      213: -91377568342376180
+    second: checkmark_16
+  - first:
+      213: -4102485870184256604
+    second: checkmark_17
+  - first:
+      213: 1710516904220304639
+    second: checkmark_18
+  - first:
+      213: 3177947989037123663
+    second: checkmark_19
+  - first:
+      213: -481530415158552242
+    second: checkmark_20
+  - first:
+      213: -6858077259008501503
+    second: checkmark_21
+  - first:
+      213: 6331757116182675298
+    second: checkmark_22
+  - first:
+      213: 6075692712129447743
+    second: checkmark_23
+  - first:
+      213: 4678725920932839015
+    second: checkmark_24
+  - first:
+      213: 5953378863491917401
+    second: checkmark_25
+  - first:
+      213: 8766355666919120085
+    second: checkmark_26
+  - first:
+      213: 4968141668117788781
+    second: checkmark_27
+  - first:
+      213: 6184515797055970682
+    second: checkmark_28
+  - first:
+      213: -2048343153580143170
+    second: checkmark_29
+  - first:
+      213: 4168201505036593687
+    second: checkmark_30
+  - first:
+      213: -1583166904678785757
+    second: checkmark_31
+  - first:
+      213: -4016551881758337096
+    second: checkmark_32
+  - first:
+      213: -8104130934934985612
+    second: checkmark_33
+  - first:
+      213: 8165441284015337725
+    second: checkmark_34
+  - first:
+      213: -1798765393595968713
+    second: checkmark_35
+  - first:
+      213: 6015888609253596613
+    second: checkmark_36
+  - first:
+      213: 786687316373545839
+    second: checkmark_37
+  - first:
+      213: 5644647440606458762
+    second: checkmark_38
+  - first:
+      213: -7256794181054352353
+    second: checkmark_39
+  - first:
+      213: -2878743714063902920
+    second: checkmark_40
+  - first:
+      213: 5005663247976504325
+    second: checkmark_41
+  - first:
+      213: -5522075986031872957
+    second: checkmark_42
+  - first:
+      213: -5597366404122820148
+    second: checkmark_43
+  - first:
+      213: 1308831250579161273
+    second: checkmark_44
+  - first:
+      213: 4068949101937623450
+    second: checkmark_45
+  - first:
+      213: 3107559480566733630
+    second: checkmark_46
+  - first:
+      213: -1513525979802234642
+    second: checkmark_47
+  - first:
+      213: 5680610233055274349
+    second: checkmark_48
+  - first:
+      213: 8430396087813059630
+    second: checkmark_49
+  - first:
+      213: -5757804991082987109
+    second: checkmark_50
+  - first:
+      213: 8472925098506508303
+    second: checkmark_51
+  - first:
+      213: -8590016511291388120
+    second: checkmark_52
+  - first:
+      213: 9050237595332551702
+    second: checkmark_53
+  - first:
+      213: 324982518398188928
+    second: checkmark_54
+  - first:
+      213: -1193772809115922441
+    second: checkmark_55
+  - first:
+      213: 3593851176819757031
+    second: checkmark_56
+  - first:
+      213: -3834385903206629286
+    second: checkmark_57
+  - first:
+      213: -6265030181883699559
+    second: checkmark_58
+  - first:
+      213: 5171572479381878627
+    second: checkmark_59
+  - first:
+      213: 7964147446827004894
+    second: checkmark_60
+  - first:
+      213: -6339428280144425385
+    second: checkmark_61
+  - first:
+      213: -5928130172984083310
+    second: checkmark_62
+  - first:
+      213: 8450547011221656871
+    second: checkmark_63
+  - first:
+      213: -598118314069797153
+    second: checkmark_64
+  - first:
+      213: 7515483613872900816
+    second: checkmark_65
+  - first:
+      213: 1788495974516756853
+    second: checkmark_66
+  - first:
+      213: 1793586818541622372
+    second: checkmark_67
+  - first:
+      213: -7467547514260403857
+    second: checkmark_68
+  - first:
+      213: -36151171598902902
+    second: checkmark_69
+  - first:
+      213: -7423495910052210296
+    second: checkmark_70
+  - first:
+      213: 3678379490549976066
+    second: checkmark_71
+  - first:
+      213: 5474404305575251295
+    second: checkmark_72
+  - first:
+      213: 1708842647723882000
+    second: checkmark_73
+  - first:
+      213: 2235552041682277197
+    second: checkmark_74
+  - first:
+      213: -3991101082226933839
+    second: checkmark_75
+  - first:
+      213: 1370759708746341962
+    second: checkmark_76
+  - first:
+      213: -7756342662592179972
+    second: checkmark_77
+  - first:
+      213: -2077424610419848133
+    second: checkmark_78
+  - first:
+      213: -8442055274531183672
+    second: checkmark_79
+  - first:
+      213: -1211176399548404221
+    second: checkmark_80
+  - first:
+      213: 7262156019861257419
+    second: checkmark_81
+  - first:
+      213: 5138232695304327731
+    second: checkmark_82
+  - first:
+      213: -1604913640904446560
+    second: checkmark_83
+  - first:
+      213: 6866445170290062962
+    second: checkmark_84
+  - first:
+      213: -928860228338970730
+    second: checkmark_85
+  - first:
+      213: -2293230854818428711
+    second: checkmark_86
+  - first:
+      213: -5750308527697448944
+    second: checkmark_87
+  - first:
+      213: -6188067405788066195
+    second: checkmark_88
+  - first:
+      213: 5884619095771920231
+    second: checkmark_89
+  - first:
+      213: 3897837085111310729
+    second: checkmark_90
+  - first:
+      213: -678954877961084028
+    second: checkmark_91
+  - first:
+      213: -5747024672191330008
+    second: checkmark_92
+  - first:
+      213: -3888513668314134600
+    second: checkmark_93
+  - first:
+      213: -6238835876930159651
+    second: checkmark_94
+  - first:
+      213: -2247072717296625084
+    second: checkmark_95
+  - first:
+      213: 8683838944341886359
+    second: checkmark_96
+  - first:
+      213: 881779268145268975
+    second: checkmark_97
+  - first:
+      213: -3696537371647778326
+    second: checkmark_98
+  - first:
+      213: 4837966739074321550
+    second: checkmark_99
+  - first:
+      213: -7580369692059721482
+    second: checkmark_100
+  - first:
+      213: -4568130757619015726
+    second: checkmark_101
+  - first:
+      213: -2569166015988723943
+    second: checkmark_102
+  - first:
+      213: 2564849725512483098
+    second: checkmark_103
+  - first:
+      213: -2532311840310524060
+    second: checkmark_104
+  - first:
+      213: 4045461856981599039
+    second: checkmark_105
+  - first:
+      213: 3952611792343576688
+    second: checkmark_106
+  - first:
+      213: 2886436147006622246
+    second: checkmark_107
+  - first:
+      213: -6673138006814322218
+    second: checkmark_108
+  - first:
+      213: 6685296924035800398
+    second: checkmark_109
+  - first:
+      213: -1153759370616333409
+    second: checkmark_110
+  - first:
+      213: 8803591636096435361
+    second: checkmark_111
+  - first:
+      213: -4316555073062150550
+    second: checkmark_112
+  - first:
+      213: -9150931996658030970
+    second: checkmark_113
+  - first:
+      213: 8907207565030969022
+    second: checkmark_114
+  - first:
+      213: -3803021630249208584
+    second: checkmark_115
+  - first:
+      213: -8000917761799093640
+    second: checkmark_116
+  - first:
+      213: 4227560476884239368
+    second: checkmark_117
+  - first:
+      213: -3588717112781770114
+    second: checkmark_118
+  - first:
+      213: 2934977279054837765
+    second: checkmark_119
+  - first:
+      213: -1931498486577749695
+    second: checkmark_120
+  - first:
+      213: 6996897391912820193
+    second: checkmark_121
+  - first:
+      213: -8756493328998415435
+    second: checkmark_122
+  - first:
+      213: -607536975806220200
+    second: checkmark_123
+  - first:
+      213: 7127926671794050660
+    second: checkmark_124
+  - first:
+      213: -7458602424188396632
+    second: checkmark_125
+  - first:
+      213: -5313125451186678830
+    second: checkmark_126
+  - first:
+      213: 3612002681923886859
+    second: checkmark_127
+  - first:
+      213: -6805265489369364807
+    second: checkmark_128
+  - first:
+      213: -8151950028300462338
+    second: checkmark_129
+  - first:
+      213: 3853630903165715670
+    second: checkmark_130
+  - first:
+      213: -3070187756993613346
+    second: checkmark_131
+  - first:
+      213: 4551647053145059661
+    second: checkmark_132
+  - first:
+      213: -6452348510961786464
+    second: checkmark_133
+  - first:
+      213: -4326452651983511081
+    second: checkmark_134
+  - first:
+      213: -5418257649359518592
+    second: checkmark_135
+  - first:
+      213: -756689657655729477
+    second: checkmark_136
+  - first:
+      213: -755909871322788642
+    second: checkmark_137
+  - first:
+      213: -6696260099591697611
+    second: checkmark_138
+  - first:
+      213: -6537724418217006838
+    second: checkmark_139
+  - first:
+      213: -6376325448253169578
+    second: checkmark_140
+  - first:
+      213: -704468862781718858
+    second: checkmark_141
+  - first:
+      213: -5486779847912394160
+    second: checkmark_142
+  - first:
+      213: 7559456828756662808
+    second: checkmark_143
+  - first:
+      213: -8428674942235615484
+    second: checkmark_144
+  - first:
+      213: -8264479933504551593
+    second: checkmark_145
+  - first:
+      213: 4179072520785517761
+    second: checkmark_146
+  - first:
+      213: -2825491541729561390
+    second: checkmark_147
+  - first:
+      213: -7068028429911825142
+    second: checkmark_148
+  - first:
+      213: 3171961370761936298
+    second: checkmark_149
+  - first:
+      213: -2751525311137420303
+    second: checkmark_150
+  - first:
+      213: -3652449772246101294
+    second: checkmark_151
+  - first:
+      213: 7458935980538328724
+    second: checkmark_152
+  - first:
+      213: -8311887269752805061
+    second: checkmark_153
+  - first:
+      213: 3265102618421299372
+    second: checkmark_154
+  - first:
+      213: -5998663428579539759
+    second: checkmark_155
+  - first:
+      213: 1571005371519847583
+    second: checkmark_156
+  - first:
+      213: -7542391505316734708
+    second: checkmark_157
+  - first:
+      213: 8732361360798892079
+    second: checkmark_158
+  - first:
+      213: 5109923462708782049
+    second: checkmark_159
+  - first:
+      213: 9146701968379250165
+    second: checkmark_160
+  - first:
+      213: 3572994992515318241
+    second: checkmark_161
+  - first:
+      213: 2623497775863413711
+    second: checkmark_162
+  - first:
+      213: 5419935026644913381
+    second: checkmark_163
+  - first:
+      213: -4687974589830355446
+    second: checkmark_164
+  - first:
+      213: -1198564726842474067
+    second: checkmark_165
+  - first:
+      213: -4489944073448837838
+    second: checkmark_166
+  - first:
+      213: 3750283650902010891
+    second: checkmark_167
+  - first:
+      213: -5573353055591327907
+    second: checkmark_168
+  - first:
+      213: -1228277922073346506
+    second: checkmark_169
+  - first:
+      213: 802921872870154066
+    second: checkmark_170
+  - first:
+      213: -1244971978936654132
+    second: checkmark_171
+  - first:
+      213: 8219001376439730751
+    second: checkmark_172
+  - first:
+      213: -8956444491023507524
+    second: checkmark_173
+  - first:
+      213: 4026470958921312262
+    second: checkmark_174
+  - first:
+      213: -738304459325999409
+    second: checkmark_175
+  - first:
+      213: 4904621264965329880
+    second: checkmark_176
+  - first:
+      213: -1219140919965442905
+    second: checkmark_177
+  - first:
+      213: -8516119967529478088
+    second: checkmark_178
+  - first:
+      213: 6465870369603758504
+    second: checkmark_179
+  - first:
+      213: 2536600383286086555
+    second: checkmark_180
+  - first:
+      213: 550090701947174215
+    second: checkmark_181
+  - first:
+      213: 4819359686962541268
+    second: checkmark_182
+  - first:
+      213: -1966700691049871466
+    second: checkmark_183
+  - first:
+      213: 9077437915632935159
+    second: checkmark_184
+  - first:
+      213: 1888367889167977232
+    second: checkmark_185
+  - first:
+      213: 6604746058257257039
+    second: checkmark_186
+  - first:
+      213: -8018756538555085310
+    second: checkmark_187
+  - first:
+      213: 4929771197366439657
+    second: checkmark_188
+  - first:
+      213: 2933380751986062389
+    second: checkmark_189
+  - first:
+      213: 4318807053423477873
+    second: checkmark_190
+  - first:
+      213: 3495806406684339888
+    second: checkmark_191
+  - first:
+      213: -1534800416944285974
+    second: checkmark_192
+  - first:
+      213: -2284055735584963191
+    second: checkmark_193
+  - first:
+      213: 5121914145955228540
+    second: checkmark_194
+  - first:
+      213: 4970637792209096814
+    second: checkmark_195
+  - first:
+      213: 1035110732354488055
+    second: checkmark_196
+  - first:
+      213: 220808333813759114
+    second: checkmark_197
+  - first:
+      213: 2999747684160506033
+    second: checkmark_198
+  - first:
+      213: 4251933241846005692
+    second: checkmark_199
+  - first:
+      213: 5716173297302849442
+    second: checkmark_200
+  - first:
+      213: -3883445429251356672
+    second: checkmark_201
+  - first:
+      213: -667537997981024607
+    second: checkmark_202
+  - first:
+      213: -3740259830629635687
+    second: checkmark_203
+  - first:
+      213: 606135627231923251
+    second: checkmark_204
+  - first:
+      213: -3814726784280650800
+    second: checkmark_205
+  - first:
+      213: -829311249100489380
+    second: checkmark_206
+  - first:
+      213: 4804879999560724218
+    second: checkmark_207
+  - first:
+      213: 8206461540576723207
+    second: checkmark_208
+  - first:
+      213: 6951328598943092528
+    second: checkmark_209
+  - first:
+      213: -4762671659221149174
+    second: checkmark_210
+  - first:
+      213: -113454540655829351
+    second: checkmark_211
+  - first:
+      213: 5227320721370313177
+    second: checkmark_212
+  - first:
+      213: -4929485497715481764
+    second: checkmark_213
+  - first:
+      213: 8069791425343575787
+    second: checkmark_214
+  - first:
+      213: 4569894069088771554
+    second: checkmark_215
+  - first:
+      213: -8775958447238887191
+    second: checkmark_216
+  - first:
+      213: 8910669229654588248
+    second: checkmark_217
+  - first:
+      213: -1251580142879334839
+    second: checkmark_218
+  - first:
+      213: -5164566640683711275
+    second: checkmark_219
+  - first:
+      213: 7218536427968315736
+    second: checkmark_220
+  - first:
+      213: -5227559870183528632
+    second: checkmark_221
+  - first:
+      213: 2866177295627783840
+    second: checkmark_222
+  - first:
+      213: 2351286176168406074
+    second: checkmark_223
+  - first:
+      213: 9139449718087230455
+    second: checkmark_224
+  - first:
+      213: 4731903058686617875
+    second: checkmark_225
+  - first:
+      213: 6473859460612377547
+    second: checkmark_226
+  - first:
+      213: -1109112374326562779
+    second: checkmark_227
+  - first:
+      213: -7322410880668490911
+    second: checkmark_228
+  - first:
+      213: 7057818589470376625
+    second: checkmark_229
+  - first:
+      213: 2280513252434721013
+    second: checkmark_230
+  - first:
+      213: 1691145894112449511
+    second: checkmark_231
+  - first:
+      213: 2003721105698937350
+    second: checkmark_232
+  - first:
+      213: -3347001503015596654
+    second: checkmark_233
+  - first:
+      213: 3268296368144027402
+    second: checkmark_234
+  - first:
+      213: -6937176938448072558
+    second: checkmark_235
+  - first:
+      213: 3457345934689024692
+    second: checkmark_236
+  - first:
+      213: -3518055740524991195
+    second: checkmark_237
+  - first:
+      213: -3509169342783865082
+    second: checkmark_238
+  - first:
+      213: 6740112120063479410
+    second: checkmark_239
+  - first:
+      213: -7209384596495252256
+    second: checkmark_240
+  - first:
+      213: 4953839609875286955
+    second: checkmark_241
+  - first:
+      213: -5244322697879627558
+    second: checkmark_242
+  - first:
+      213: -4911584238564918745
+    second: checkmark_243
+  - first:
+      213: 8079671159344944847
+    second: checkmark_244
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: checkmark_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 507
+        width: 8
+        height: 1540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34f56e4dccff9bf40800000000000000
+      internalID: 5744904054898057027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_1
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1973
+        width: 514
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b843af541e130d9b0800000000000000
+      internalID: -5057487537925639029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_2
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1911
+        width: 190
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96ff405f1017da650800000000000000
+      internalID: 6245772511452397417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_3
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 2039
+        width: 48
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42490cf6778126490800000000000000
+      internalID: -7754608707123506140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_4
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1905
+        width: 45
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d705d133c58278f0800000000000000
+      internalID: -544225531557247015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_5
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 2013
+        width: 1028
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc139ec1352305520800000000000000
+      internalID: 2688704310088905163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_6
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1915
+        width: 254
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07c8d96794037ec40800000000000000
+      internalID: 5541450958583467120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_7
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1861
+        width: 462
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 887d5482827b59660800000000000000
+      internalID: 7392015746500777864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_8
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 1965
+        width: 50
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b59cfcd85e9034470800000000000000
+      internalID: 8377550613370620251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_9
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 1917
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a43fb98af63f5f20800000000000000
+      internalID: 3413507492250858662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_10
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1921
+        width: 8
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 850d276a8cf1e6050800000000000000
+      internalID: 5795604717118869592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_11
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 1959
+        width: 729
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ad225eed609c6870800000000000000
+      internalID: 8677469383860301216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_12
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 1876
+        width: 142
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7738aa1e74eea4090800000000000000
+      internalID: -8049359391475203209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_13
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 1876
+        width: 101
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee206eddb869a450800000000000000
+      internalID: 6100522334939000554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_14
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1849
+        width: 462
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef8041567c4b986e0800000000000000
+      internalID: -1834736604689463042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_15
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1839
+        width: 456
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b060d61086c98b810800000000000000
+      internalID: 1781345623139485195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_16
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 1747
+        width: 238
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c018382f59c5bbef0800000000000000
+      internalID: -91377568342376180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_17
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1837
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4abab9346da0117c0800000000000000
+      internalID: -4102485870184256604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_18
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 1823
+        width: 435
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff42a5acf0afcb710800000000000000
+      internalID: 1710516904220304639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_19
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 1808
+        width: 277
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f488939cbd65a1c20800000000000000
+      internalID: 3177947989037123663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_20
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 1835
+        width: 8
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e499def73a24159f0800000000000000
+      internalID: -481530415158552242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_21
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 1768
+        width: 106
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1091d9e811733d0a0800000000000000
+      internalID: -6858077259008501503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_22
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 1768
+        width: 107
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26fbe12dc8beed750800000000000000
+      internalID: 6331757116182675298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_23
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1783
+        width: 254
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f37c7eec452315450800000000000000
+      internalID: 6075692712129447743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_24
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1735
+        width: 462
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76e3d96af6c2ee040800000000000000
+      internalID: 4678725920932839015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_25
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1750
+        width: 8
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95621c3b886ae9250800000000000000
+      internalID: 5953378863491917401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_26
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1794
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dc527d680a58a970800000000000000
+      internalID: 8766355666919120085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_27
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 1754
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d683af9568262f440800000000000000
+      internalID: 4968141668117788781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_28
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 1679
+        width: 382
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7d1057b950d3d550800000000000000
+      internalID: 6184515797055970682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_29
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 1729
+        width: 60
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebd80c021c2d293e0800000000000000
+      internalID: -2048343153580143170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_30
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 1632
+        width: 266
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a64fb4f2d68d930800000000000000
+      internalID: 4168201505036593687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_31
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 1791
+        width: 8
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32d57729616770ae0800000000000000
+      internalID: -1583166904678785757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_32
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 731
+        width: 8
+        height: 1004
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b71ed918575248c0800000000000000
+      internalID: -4016551881758337096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_33
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 873
+        width: 53
+        height: 862
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47422f92ad7588f80800000000000000
+      internalID: -8104130934934985612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_34
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 961
+        width: 96
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df03b00e599715170800000000000000
+      internalID: 8165441284015337725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_35
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 961
+        width: 96
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7335270a7608907e0800000000000000
+      internalID: -1798765393595968713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_36
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 961
+        width: 96
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cd11ea01dabc7350800000000000000
+      internalID: 6015888609253596613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_37
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1657
+        width: 56
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6320c932ffdaea00800000000000000
+      internalID: 786687316373545839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_38
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1461
+        width: 127
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a837aabc0f0d55e40800000000000000
+      internalID: 5644647440606458762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_39
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 1688
+        width: 219
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f143226f320ba4b90800000000000000
+      internalID: -7256794181054352353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_40
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 1655
+        width: 59
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83715d328d5ac08d0800000000000000
+      internalID: -2878743714063902920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_41
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 1609
+        width: 314
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50c1ed0f330b77540800000000000000
+      internalID: 5005663247976504325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_42
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 1527
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 344faddd525ad53b0800000000000000
+      internalID: -5522075986031872957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_43
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1603
+        width: 56
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc1cd8c59e82252b0800000000000000
+      internalID: -5597366404122820148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_44
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 1523
+        width: 171
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b083b18617e92210800000000000000
+      internalID: 1308831250579161273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_45
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 1555
+        width: 376
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a91032666afc77830800000000000000
+      internalID: 4068949101937623450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_46
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 1545
+        width: 314
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3bd39d02e4402b20800000000000000
+      internalID: 3107559480566733630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_47
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1545
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee0109fe320eefae0800000000000000
+      internalID: -1513525979802234642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_48
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1489
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6565b8e8e495de40800000000000000
+      internalID: 5680610233055274349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_49
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 1429
+        width: 358
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e24b0f16398cef470800000000000000
+      internalID: 8430396087813059630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_50
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 1397
+        width: 275
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b910784edda2810b0800000000000000
+      internalID: -5757804991082987109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_51
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 1381
+        width: 310
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f08d8f05c70e59570800000000000000
+      internalID: 8472925098506508303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_52
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1433
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f8cbdae712ac880800000000000000
+      internalID: -8590016511291388120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_53
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 1459
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 614aeaa8427e89d70800000000000000
+      internalID: 9050237595332551702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_54
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1460
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08df55fe0e1928400800000000000000
+      internalID: 324982518398188928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_55
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1460
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ff002a74fdde6fe0800000000000000
+      internalID: -1193772809115922441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_56
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 1460
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ef06f1ba9cefd130800000000000000
+      internalID: 3593851176819757031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_57
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1460
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a508a93265689cac0800000000000000
+      internalID: -3834385903206629286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_58
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 1462
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99e98bd3e342e09a0800000000000000
+      internalID: -6265030181883699559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_59
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 1389
+        width: 256
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3673eb315cd15c740800000000000000
+      internalID: 5171572479381878627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_60
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1356
+        width: 75
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed335f238e5568e60800000000000000
+      internalID: 7964147446827004894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_61
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1358
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e0de22193d508a0800000000000000
+      internalID: -6339428280144425385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_62
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 1262
+        width: 230
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c3209240d0bbda0800000000000000
+      internalID: -5928130172984083310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_63
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 1369
+        width: 360
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7251b99dbbf564570800000000000000
+      internalID: 8450547011221656871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_64
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 1254
+        width: 295
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd6d634ff8e03b7f0800000000000000
+      internalID: -598118314069797153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_65
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 1353
+        width: 252
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dac920378c5c4860800000000000000
+      internalID: 7515483613872900816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_66
+      rect:
+        serializedVersion: 2
+        x: 2038
+        y: 1345
+        width: 8
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 571994bec9302d810800000000000000
+      internalID: 1788495974516756853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_67
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 967
+        width: 93
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4641ff865b914e810800000000000000
+      internalID: 1793586818541622372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_68
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 1266
+        width: 80
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f69482db911fd5890800000000000000
+      internalID: -7467547514260403857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_69
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 1192
+        width: 206
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8912a273b09f7ff0800000000000000
+      internalID: -36151171598902902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_70
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 1214
+        width: 141
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 889d5c91dc17af890800000000000000
+      internalID: -7423495910052210296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_71
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 1245
+        width: 110
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20c405368aa3c0330800000000000000
+      internalID: 3678379490549976066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_72
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 1268
+        width: 98
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5d8ea616bdf8fb40800000000000000
+      internalID: 5474404305575251295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_73
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 1193
+        width: 250
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 016be92955707b710800000000000000
+      internalID: 1708842647723882000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_74
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1347
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d431f59ccb6460f10800000000000000
+      internalID: 2235552041682277197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_75
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 1284
+        width: 81
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bfbf2326b2cc98c0800000000000000
+      internalID: -3991101082226933839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_76
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 1272
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e5e3841bae50310800000000000000
+      internalID: 1370759708746341962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_77
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 1319
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf05cf7717feb5490800000000000000
+      internalID: -7756342662592179972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_78
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 1174
+        width: 80
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3c4540d2518b23e0800000000000000
+      internalID: -2077424610419848133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_79
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 968
+        width: 27
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c32b5ba47bc7da80800000000000000
+      internalID: -8442055274531183672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_80
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 990
+        width: 86
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30ea4905b79013fe0800000000000000
+      internalID: -1211176399548404221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_81
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 996
+        width: 104
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcc7b4b6c6c58c460800000000000000
+      internalID: 7262156019861257419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_82
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 1238
+        width: 58
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33299e0b96bae4740800000000000000
+      internalID: 5138232695304327731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_83
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 1075
+        width: 78
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ad26bafb833ab9e0800000000000000
+      internalID: -1604913640904446560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_84
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 1170
+        width: 94
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 276f5dc90838a4f50800000000000000
+      internalID: 6866445170290062962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_85
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 1156
+        width: 230
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69f0edb2b860c13f0800000000000000
+      internalID: -928860228338970730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_86
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 1133
+        width: 68
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d8059600becc20e0800000000000000
+      internalID: -2293230854818428711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_87
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 1015
+        width: 163
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 010b1b94cdcc230b0800000000000000
+      internalID: -5750308527697448944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_88
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1007
+        width: 184
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e44dfea719f1aa0800000000000000
+      internalID: -6188067405788066195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_89
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 1075
+        width: 90
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76737f9b3ed5aa150800000000000000
+      internalID: 5884619095771920231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_90
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 1178
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98957626d26e71630800000000000000
+      internalID: 3897837085111310729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_91
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 1007
+        width: 184
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4836c90c22ed396f0800000000000000
+      internalID: -678954877961084028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_92
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 1103
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82941aa72877e30b0800000000000000
+      internalID: -5747024672191330008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_93
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 1092
+        width: 78
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b782efbb69390ac0800000000000000
+      internalID: -3888513668314134600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_94
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 1089
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddb7d9f13d33b69a0800000000000000
+      internalID: -6238835876930159651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_95
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 1012
+        width: 226
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44a1015e44bc0d0e0800000000000000
+      internalID: -2247072717296625084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_96
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 1065
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 795833cc281338870800000000000000
+      internalID: 8683838944341886359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_97
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 1023
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe84a109295bc3c00800000000000000
+      internalID: 881779268145268975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_98
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 1012
+        width: 78
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae16af778d243bcc0800000000000000
+      internalID: -3696537371647778326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_99
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 924
+        width: 191
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c0ea5dd19e32340800000000000000
+      internalID: 4837966739074321550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_100
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 993
+        width: 73
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f0a4a67ded1dc690800000000000000
+      internalID: -7580369692059721482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_101
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 974
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2df1598674dba90c0800000000000000
+      internalID: -4568130757619015726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_102
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 901
+        width: 162
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f8cf7de1d785cd0800000000000000
+      internalID: -2569166015988723943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_103
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 1001
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a110e677c3d289320800000000000000
+      internalID: 2564849725512483098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_104
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 938
+        width: 74
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46786c94ccb6bdcd0800000000000000
+      internalID: -2532311840310524060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_105
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 977
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f33c7c9002e542830800000000000000
+      internalID: 4045461856981599039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_106
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 978
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070b8a9bb7f7ad630800000000000000
+      internalID: 3952611792343576688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_107
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 877
+        width: 229
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a4d29f16eae0820800000000000000
+      internalID: 2886436147006622246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_108
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 877
+        width: 119
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d19caea6504463a0800000000000000
+      internalID: -6673138006814322218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_109
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 879
+        width: 111
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4d5a27d122f6cc50800000000000000
+      internalID: 6685296924035800398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_110
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 959
+        width: 82
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9b922e17f50dffe0800000000000000
+      internalID: -1153759370616333409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_111
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 923
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a4c02913f3ac2a70800000000000000
+      internalID: 8803591636096435361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_112
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 948
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e58b8f7048814c0800000000000000
+      internalID: -4316555073062150550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_113
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 935
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 686217f25db510180800000000000000
+      internalID: -9150931996658030970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_114
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 847
+        width: 168
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebec7568612cc9b70800000000000000
+      internalID: 8907207565030969022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_115
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 875
+        width: 344
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f47edff9f3f83bc0800000000000000
+      internalID: -3803021630249208584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_116
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 873
+        width: 148
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8720ad2bfa707f090800000000000000
+      internalID: -8000917761799093640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_117
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 877
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8048a2beadf4baa30800000000000000
+      internalID: 4227560476884239368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_118
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 777
+        width: 144
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e72f64dbcc0523ec0800000000000000
+      internalID: -3588717112781770114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_119
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 857
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 508f7edf8422bb820800000000000000
+      internalID: 2934977279054837765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_120
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 878
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14124572c50f135e0800000000000000
+      internalID: -1931498486577749695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_121
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 803
+        width: 162
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed12d65b19f91160800000000000000
+      internalID: 6996897391912820193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_122
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 882
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b3c8fe06bfaa7680800000000000000
+      internalID: -8756493328998415435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_123
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 869
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 858b721e6589197f0800000000000000
+      internalID: -607536975806220200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_124
+      rect:
+        serializedVersion: 2
+        x: 1933
+        y: 859
+        width: 55
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4661159ea8b7be260800000000000000
+      internalID: 7127926671794050660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_125
+      rect:
+        serializedVersion: 2
+        x: 1989
+        y: 845
+        width: 56
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ab1261dc98bd7890800000000000000
+      internalID: -7458602424188396632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_126
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 733
+        width: 140
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d35ee26d8cf346b0800000000000000
+      internalID: -5313125451186678830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_127
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 735
+        width: 256
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0fd4df4d49602230800000000000000
+      internalID: 3612002681923886859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_128
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 735
+        width: 139
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b60aefd717de81a0800000000000000
+      internalID: -6805265489369364807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_129
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 735
+        width: 139
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef65a60e3a47ede80800000000000000
+      internalID: -8151950028300462338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_130
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 739
+        width: 139
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d409a693e8da7530800000000000000
+      internalID: 3853630903165715670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_131
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 739
+        width: 139
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed174a660808465d0800000000000000
+      internalID: -3070187756993613346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_132
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 767
+        width: 120
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d413aa111e2ba2f30800000000000000
+      internalID: 4551647053145059661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_133
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 731
+        width: 116
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a12a1d1737a476a0800000000000000
+      internalID: -6452348510961786464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_134
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 786
+        width: 101
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d1e9fc4c3a55f3c0800000000000000
+      internalID: -4326452651983511081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_135
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 705
+        width: 157
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0840264006b7ec4b0800000000000000
+      internalID: -5418257649359518592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_136
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 766
+        width: 129
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb2e736f3c2bf75f0800000000000000
+      internalID: -756689657655729477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_137
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 708
+        width: 152
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edc089d1af77285f0800000000000000
+      internalID: -755909871322788642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_138
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 709
+        width: 133
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53b0730faea1213a0800000000000000
+      internalID: -6696260099591697611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_139
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 517
+        width: 124
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0927cca7465545a0800000000000000
+      internalID: -6537724418217006838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_140
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 529
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 650269cb9cdb287a0800000000000000
+      internalID: -6376325448253169578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_141
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 531
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6be729e3d493936f0800000000000000
+      internalID: -704468862781718858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_142
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 542
+        width: 321
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052f86c6cca0bd3b0800000000000000
+      internalID: -5486779847912394160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_143
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 631
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a11fc1fe598e860800000000000000
+      internalID: 7559456828756662808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_144
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 659
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40f5fcc0cc4570b80800000000000000
+      internalID: -8428674942235615484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_145
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 670
+        width: 140
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7550e1e994bae4d80800000000000000
+      internalID: -8264479933504551593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_146
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 633
+        width: 112
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cc5404e05c0ff930800000000000000
+      internalID: 4179072520785517761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_147
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 698
+        width: 72
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d4b653b966d9c8d0800000000000000
+      internalID: -2825491541729561390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_148
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 560
+        width: 139
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a056ebc479159ed90800000000000000
+      internalID: -7068028429911825142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_149
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 631
+        width: 137
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aadb6899f02150c20800000000000000
+      internalID: 3171961370761936298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_150
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 616
+        width: 150
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fb6827ce4e90d9d0800000000000000
+      internalID: -2751525311137420303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_151
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 645
+        width: 124
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d2905d9844ef4dc0800000000000000
+      internalID: -3652449772246101294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_152
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 523
+        width: 106
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 496fd5251c6738760800000000000000
+      internalID: 7458935980538328724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_153
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 499
+        width: 110
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b39ea41019e36ac80800000000000000
+      internalID: -8311887269752805061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_154
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 603
+        width: 55
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca8033e3889ff4d20800000000000000
+      internalID: 3265102618421299372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_155
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 586
+        width: 78
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d4c36cd46770cca0800000000000000
+      internalID: -5998663428579539759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_156
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 527
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9ccba5df055dc510800000000000000
+      internalID: 1571005371519847583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_157
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 592
+        width: 110
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c091ca023ea045790800000000000000
+      internalID: -7542391505316734708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_158
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 569
+        width: 133
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20c3c044649f2970800000000000000
+      internalID: 8732361360798892079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_159
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 556
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e3e038d0581ae640800000000000000
+      internalID: 5109923462708782049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_160
+      rect:
+        serializedVersion: 2
+        x: 1777
+        y: 560
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f58c9b9afc9fee70800000000000000
+      internalID: 9146701968379250165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_161
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 552
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e10021e304d59130800000000000000
+      internalID: 3572994992515318241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_162
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 511
+        width: 122
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcbbd57c359886420800000000000000
+      internalID: 2623497775863413711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_163
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 509
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec0ed0d03a773b40800000000000000
+      internalID: 5419935026644913381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_164
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 509
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a06aa11d2f7f0feb0800000000000000
+      internalID: -4687974589830355446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_165
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 515
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da1cd303bb7dd5fe0800000000000000
+      internalID: -1198564726842474067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_166
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 520
+        width: 184
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23d26b867a380b1c0800000000000000
+      internalID: -4489944073448837838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_167
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 507
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0c28f25c1fab0430800000000000000
+      internalID: 3750283650902010891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_168
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 508
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5714a1cce877a2b0800000000000000
+      internalID: -5573353055591327907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_169
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 508
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63efc51dcb744fee0800000000000000
+      internalID: -1228277922073346506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_170
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 512
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25f11d6703d842b00800000000000000
+      internalID: 802921872870154066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_171
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 397
+        width: 139
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc66a20d498f8bee0800000000000000
+      internalID: -1244971978936654132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_172
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 413
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f32032ba432cf0270800000000000000
+      internalID: 8219001376439730751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_173
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 446
+        width: 139
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbf1a0e403154b380800000000000000
+      internalID: -8956444491023507524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_174
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 423
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6086ee40106e0e730800000000000000
+      internalID: 4026470958921312262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_175
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 488
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc679c5810401c5f0800000000000000
+      internalID: -738304459325999409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_176
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 497
+        width: 98
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d3e5100e07b01440800000000000000
+      internalID: 4904621264965329880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_177
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 515
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac1156eacdb41fe0800000000000000
+      internalID: -1219140919965442905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_178
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 505
+        width: 57
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8385bc6820aa0d980800000000000000
+      internalID: -8516119967529478088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_179
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 493
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a9a4ffe7d26bb950800000000000000
+      internalID: 6465870369603758504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_180
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 493
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9b03eeeb90d33320800000000000000
+      internalID: 2536600383286086555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_181
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 494
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74d7ec3349052a700800000000000000
+      internalID: 550090701947174215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_182
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 488
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d27d3ae91ec1e240800000000000000
+      internalID: 4819359686962541268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_183
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 508
+        width: 184
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 697057a3420e4b4e0800000000000000
+      internalID: -1966700691049871466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_184
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 98
+        width: 714
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f0a6ff90b989fd70800000000000000
+      internalID: 9077437915632935159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_185
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 393
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b8c171794d43a10800000000000000
+      internalID: 1888367889167977232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_186
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 408
+        width: 75
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f42d51aeb85c8ab50800000000000000
+      internalID: 6604746058257257039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_187
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 476
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20e4513d967a7b090800000000000000
+      internalID: -8018756538555085310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_188
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 476
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ee8af2f8c01a6440800000000000000
+      internalID: 4929771197366439657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_189
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 430
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 534f811904675b820800000000000000
+      internalID: 2933380751986062389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_190
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 468
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17402c0122c7feb30800000000000000
+      internalID: 4318807053423477873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_191
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 465
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0be64f1c769938030800000000000000
+      internalID: 3495806406684339888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_192
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 453
+        width: 64
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae61aea072b43bae0800000000000000
+      internalID: -1534800416944285974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_193
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 447
+        width: 64
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 985c341f8676d40e0800000000000000
+      internalID: -2284055735584963191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_194
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 450
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7ba5b757c1b41740800000000000000
+      internalID: 5121914145955228540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_195
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 447
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6051c78cb04bf440800000000000000
+      internalID: 4970637792209096814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_196
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 309
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f60f211ab37d5e00800000000000000
+      internalID: 1035110732354488055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_197
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 378
+        width: 133
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8c3a6c7208701300800000000000000
+      internalID: 220808333813759114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_198
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 349
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b8003a10ae31a920800000000000000
+      internalID: 2999747684160506033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_199
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 412
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbff7e871c6e10b30800000000000000
+      internalID: 4251933241846005692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_200
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 412
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a74f4c045de35f40800000000000000
+      internalID: 5716173297302849442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_201
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 378
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 008cbdc15fa3b1ac0800000000000000
+      internalID: -3883445429251356672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_202
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 375
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aef3444abd6cb6f0800000000000000
+      internalID: -667537997981024607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_203
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 259
+        width: 139
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99968a3308de71cc0800000000000000
+      internalID: -3740259830629635687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_204
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 289
+        width: 104
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33c0eda342d696800800000000000000
+      internalID: 606135627231923251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_205
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 350
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db98c3733e5f0bc0800000000000000
+      internalID: -3814726784280650800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_206
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 358
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d312510d1bd74f0800000000000000
+      internalID: -829311249100489380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_207
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 356
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe223af6ec5ea240800000000000000
+      internalID: 4804879999560724218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_208
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 388
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7010bfc9a4533e170800000000000000
+      internalID: 8206461540576723207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_209
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 312
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03f4401f784187060800000000000000
+      internalID: 6951328598943092528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_210
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 316
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0a9d421c5797edb0800000000000000
+      internalID: -4762671659221149174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_211
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 308
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99edd0642bdec6ef0800000000000000
+      internalID: -113454540655829351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_212
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 290
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d1f054208c2b8840800000000000000
+      internalID: 5227320721370313177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_213
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 246
+        width: 98
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c53aa3fae03f69bb0800000000000000
+      internalID: -4929485497715481764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_214
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 264
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be6d817bb88adff60800000000000000
+      internalID: 8069791425343575787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_215
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 158
+        width: 54
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ed533981768b6f30800000000000000
+      internalID: 4569894069088771554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_216
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 252
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e8ccbc0a48853680800000000000000
+      internalID: -8775958447238887191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_217
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 255
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85bb090247e09ab70800000000000000
+      internalID: 8910669229654588248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_218
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 261
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94e9ebfbd7e71aee0800000000000000
+      internalID: -1251580142879334839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_219
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 121
+        width: 139
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d4073bd006c358b0800000000000000
+      internalID: -5164566640683711275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_220
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 225
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851c443c2a46d2460800000000000000
+      internalID: 7218536427968315736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_221
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 180
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 847af9faef9f377b0800000000000000
+      internalID: -5227559870183528632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_222
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 225
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ae0f219015b6c720800000000000000
+      internalID: 2866177295627783840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_223
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 188
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3cedcfc15271a020800000000000000
+      internalID: 2351286176168406074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_224
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 190
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f322218819d5de70800000000000000
+      internalID: 9139449718087230455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_225
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 162
+        width: 98
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319a99cd2c81ba140800000000000000
+      internalID: 4731903058686617875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_226
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 122
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcb4a9321e4c7d950800000000000000
+      internalID: 6473859460612377547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_227
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 127
+        width: 64
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52076400c24ab90f0800000000000000
+      internalID: -1109112374326562779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_228
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 4
+        width: 136
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 163ac4e8912916a90800000000000000
+      internalID: -7322410880668490911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_229
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 141
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b2c78afc9862f160800000000000000
+      internalID: 7057818589470376625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_230
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 141
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f831fc68b206af10800000000000000
+      internalID: 2280513252434721013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_231
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 12
+        width: 64
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e3dee90b38287710800000000000000
+      internalID: 1691145894112449511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_232
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 13
+        width: 55
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60a532ebab5aecb10800000000000000
+      internalID: 2003721105698937350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_233
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 100
+        width: 64
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29d8e0ebddf0d81d0800000000000000
+      internalID: -3347001503015596654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_234
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 72
+        width: 64
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0f8ceb0b325b5d20800000000000000
+      internalID: 3268296368144027402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_235
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 91
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29055c744523abf90800000000000000
+      internalID: -6937176938448072558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_236
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 2
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bab7ce4fc5faff20800000000000000
+      internalID: 3457345934689024692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_237
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 10
+        width: 92
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52debf581fa5d2fc0800000000000000
+      internalID: -3518055740524991195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_238
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 10
+        width: 72
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60f3daa331dec4fc0800000000000000
+      internalID: -3509169342783865082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_239
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 13
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e40b63340b98d50800000000000000
+      internalID: 6740112120063479410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_240
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 2
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e44abc08ee13fb90800000000000000
+      internalID: -7209384596495252256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_241
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 2
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab40ece0e29fb440800000000000000
+      internalID: 4953839609875286955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_242
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 2
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad8dd59ba4c6837b0800000000000000
+      internalID: -5244322697879627558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_243
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 81
+        width: 64
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72a3eef582c86dbb0800000000000000
+      internalID: -4911584238564918745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark_244
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 63
+        width: 64
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc659ba8c12c02070800000000000000
+      internalID: 8079671159344944847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      checkmark_0: 5744904054898057027
+      checkmark_1: -5057487537925639029
+      checkmark_10: 5795604717118869592
+      checkmark_100: -7580369692059721482
+      checkmark_101: -4568130757619015726
+      checkmark_102: -2569166015988723943
+      checkmark_103: 2564849725512483098
+      checkmark_104: -2532311840310524060
+      checkmark_105: 4045461856981599039
+      checkmark_106: 3952611792343576688
+      checkmark_107: 2886436147006622246
+      checkmark_108: -6673138006814322218
+      checkmark_109: 6685296924035800398
+      checkmark_11: 8677469383860301216
+      checkmark_110: -1153759370616333409
+      checkmark_111: 8803591636096435361
+      checkmark_112: -4316555073062150550
+      checkmark_113: -9150931996658030970
+      checkmark_114: 8907207565030969022
+      checkmark_115: -3803021630249208584
+      checkmark_116: -8000917761799093640
+      checkmark_117: 4227560476884239368
+      checkmark_118: -3588717112781770114
+      checkmark_119: 2934977279054837765
+      checkmark_12: -8049359391475203209
+      checkmark_120: -1931498486577749695
+      checkmark_121: 6996897391912820193
+      checkmark_122: -8756493328998415435
+      checkmark_123: -607536975806220200
+      checkmark_124: 7127926671794050660
+      checkmark_125: -7458602424188396632
+      checkmark_126: -5313125451186678830
+      checkmark_127: 3612002681923886859
+      checkmark_128: -6805265489369364807
+      checkmark_129: -8151950028300462338
+      checkmark_13: 6100522334939000554
+      checkmark_130: 3853630903165715670
+      checkmark_131: -3070187756993613346
+      checkmark_132: 4551647053145059661
+      checkmark_133: -6452348510961786464
+      checkmark_134: -4326452651983511081
+      checkmark_135: -5418257649359518592
+      checkmark_136: -756689657655729477
+      checkmark_137: -755909871322788642
+      checkmark_138: -6696260099591697611
+      checkmark_139: -6537724418217006838
+      checkmark_14: -1834736604689463042
+      checkmark_140: -6376325448253169578
+      checkmark_141: -704468862781718858
+      checkmark_142: -5486779847912394160
+      checkmark_143: 7559456828756662808
+      checkmark_144: -8428674942235615484
+      checkmark_145: -8264479933504551593
+      checkmark_146: 4179072520785517761
+      checkmark_147: -2825491541729561390
+      checkmark_148: -7068028429911825142
+      checkmark_149: 3171961370761936298
+      checkmark_15: 1781345623139485195
+      checkmark_150: -2751525311137420303
+      checkmark_151: -3652449772246101294
+      checkmark_152: 7458935980538328724
+      checkmark_153: -8311887269752805061
+      checkmark_154: 3265102618421299372
+      checkmark_155: -5998663428579539759
+      checkmark_156: 1571005371519847583
+      checkmark_157: -7542391505316734708
+      checkmark_158: 8732361360798892079
+      checkmark_159: 5109923462708782049
+      checkmark_16: -91377568342376180
+      checkmark_160: 9146701968379250165
+      checkmark_161: 3572994992515318241
+      checkmark_162: 2623497775863413711
+      checkmark_163: 5419935026644913381
+      checkmark_164: -4687974589830355446
+      checkmark_165: -1198564726842474067
+      checkmark_166: -4489944073448837838
+      checkmark_167: 3750283650902010891
+      checkmark_168: -5573353055591327907
+      checkmark_169: -1228277922073346506
+      checkmark_17: -4102485870184256604
+      checkmark_170: 802921872870154066
+      checkmark_171: -1244971978936654132
+      checkmark_172: 8219001376439730751
+      checkmark_173: -8956444491023507524
+      checkmark_174: 4026470958921312262
+      checkmark_175: -738304459325999409
+      checkmark_176: 4904621264965329880
+      checkmark_177: -1219140919965442905
+      checkmark_178: -8516119967529478088
+      checkmark_179: 6465870369603758504
+      checkmark_18: 1710516904220304639
+      checkmark_180: 2536600383286086555
+      checkmark_181: 550090701947174215
+      checkmark_182: 4819359686962541268
+      checkmark_183: -1966700691049871466
+      checkmark_184: 9077437915632935159
+      checkmark_185: 1888367889167977232
+      checkmark_186: 6604746058257257039
+      checkmark_187: -8018756538555085310
+      checkmark_188: 4929771197366439657
+      checkmark_189: 2933380751986062389
+      checkmark_19: 3177947989037123663
+      checkmark_190: 4318807053423477873
+      checkmark_191: 3495806406684339888
+      checkmark_192: -1534800416944285974
+      checkmark_193: -2284055735584963191
+      checkmark_194: 5121914145955228540
+      checkmark_195: 4970637792209096814
+      checkmark_196: 1035110732354488055
+      checkmark_197: 220808333813759114
+      checkmark_198: 2999747684160506033
+      checkmark_199: 4251933241846005692
+      checkmark_2: 6245772511452397417
+      checkmark_20: -481530415158552242
+      checkmark_200: 5716173297302849442
+      checkmark_201: -3883445429251356672
+      checkmark_202: -667537997981024607
+      checkmark_203: -3740259830629635687
+      checkmark_204: 606135627231923251
+      checkmark_205: -3814726784280650800
+      checkmark_206: -829311249100489380
+      checkmark_207: 4804879999560724218
+      checkmark_208: 8206461540576723207
+      checkmark_209: 6951328598943092528
+      checkmark_21: -6858077259008501503
+      checkmark_210: -4762671659221149174
+      checkmark_211: -113454540655829351
+      checkmark_212: 5227320721370313177
+      checkmark_213: -4929485497715481764
+      checkmark_214: 8069791425343575787
+      checkmark_215: 4569894069088771554
+      checkmark_216: -8775958447238887191
+      checkmark_217: 8910669229654588248
+      checkmark_218: -1251580142879334839
+      checkmark_219: -5164566640683711275
+      checkmark_22: 6331757116182675298
+      checkmark_220: 7218536427968315736
+      checkmark_221: -5227559870183528632
+      checkmark_222: 2866177295627783840
+      checkmark_223: 2351286176168406074
+      checkmark_224: 9139449718087230455
+      checkmark_225: 4731903058686617875
+      checkmark_226: 6473859460612377547
+      checkmark_227: -1109112374326562779
+      checkmark_228: -7322410880668490911
+      checkmark_229: 7057818589470376625
+      checkmark_23: 6075692712129447743
+      checkmark_230: 2280513252434721013
+      checkmark_231: 1691145894112449511
+      checkmark_232: 2003721105698937350
+      checkmark_233: -3347001503015596654
+      checkmark_234: 3268296368144027402
+      checkmark_235: -6937176938448072558
+      checkmark_236: 3457345934689024692
+      checkmark_237: -3518055740524991195
+      checkmark_238: -3509169342783865082
+      checkmark_239: 6740112120063479410
+      checkmark_24: 4678725920932839015
+      checkmark_240: -7209384596495252256
+      checkmark_241: 4953839609875286955
+      checkmark_242: -5244322697879627558
+      checkmark_243: -4911584238564918745
+      checkmark_244: 8079671159344944847
+      checkmark_25: 5953378863491917401
+      checkmark_26: 8766355666919120085
+      checkmark_27: 4968141668117788781
+      checkmark_28: 6184515797055970682
+      checkmark_29: -2048343153580143170
+      checkmark_3: -7754608707123506140
+      checkmark_30: 4168201505036593687
+      checkmark_31: -1583166904678785757
+      checkmark_32: -4016551881758337096
+      checkmark_33: -8104130934934985612
+      checkmark_34: 8165441284015337725
+      checkmark_35: -1798765393595968713
+      checkmark_36: 6015888609253596613
+      checkmark_37: 786687316373545839
+      checkmark_38: 5644647440606458762
+      checkmark_39: -7256794181054352353
+      checkmark_4: -544225531557247015
+      checkmark_40: -2878743714063902920
+      checkmark_41: 5005663247976504325
+      checkmark_42: -5522075986031872957
+      checkmark_43: -5597366404122820148
+      checkmark_44: 1308831250579161273
+      checkmark_45: 4068949101937623450
+      checkmark_46: 3107559480566733630
+      checkmark_47: -1513525979802234642
+      checkmark_48: 5680610233055274349
+      checkmark_49: 8430396087813059630
+      checkmark_5: 2688704310088905163
+      checkmark_50: -5757804991082987109
+      checkmark_51: 8472925098506508303
+      checkmark_52: -8590016511291388120
+      checkmark_53: 9050237595332551702
+      checkmark_54: 324982518398188928
+      checkmark_55: -1193772809115922441
+      checkmark_56: 3593851176819757031
+      checkmark_57: -3834385903206629286
+      checkmark_58: -6265030181883699559
+      checkmark_59: 5171572479381878627
+      checkmark_6: 5541450958583467120
+      checkmark_60: 7964147446827004894
+      checkmark_61: -6339428280144425385
+      checkmark_62: -5928130172984083310
+      checkmark_63: 8450547011221656871
+      checkmark_64: -598118314069797153
+      checkmark_65: 7515483613872900816
+      checkmark_66: 1788495974516756853
+      checkmark_67: 1793586818541622372
+      checkmark_68: -7467547514260403857
+      checkmark_69: -36151171598902902
+      checkmark_7: 7392015746500777864
+      checkmark_70: -7423495910052210296
+      checkmark_71: 3678379490549976066
+      checkmark_72: 5474404305575251295
+      checkmark_73: 1708842647723882000
+      checkmark_74: 2235552041682277197
+      checkmark_75: -3991101082226933839
+      checkmark_76: 1370759708746341962
+      checkmark_77: -7756342662592179972
+      checkmark_78: -2077424610419848133
+      checkmark_79: -8442055274531183672
+      checkmark_8: 8377550613370620251
+      checkmark_80: -1211176399548404221
+      checkmark_81: 7262156019861257419
+      checkmark_82: 5138232695304327731
+      checkmark_83: -1604913640904446560
+      checkmark_84: 6866445170290062962
+      checkmark_85: -928860228338970730
+      checkmark_86: -2293230854818428711
+      checkmark_87: -5750308527697448944
+      checkmark_88: -6188067405788066195
+      checkmark_89: 5884619095771920231
+      checkmark_9: 3413507492250858662
+      checkmark_90: 3897837085111310729
+      checkmark_91: -678954877961084028
+      checkmark_92: -5747024672191330008
+      checkmark_93: -3888513668314134600
+      checkmark_94: -6238835876930159651
+      checkmark_95: -2247072717296625084
+      checkmark_96: 8683838944341886359
+      checkmark_97: 881779268145268975
+      checkmark_98: -3696537371647778326
+      checkmark_99: 4837966739074321550
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,3 +1,4 @@
+using DG.Tweening;
 using DiggyPlayable.WaterPipeGame;
 using TMPro;
 using UnityEngine;
@@ -22,6 +23,7 @@ public class DrowningTimer : MonoBehaviour
     public void Stop()
     {
         IsRunning = false;
+        transform.DOScale(Vector3.zero, 0.4f).SetEase(Ease.InOutQuad).OnComplete(() => gameObject.SetActive(false));
     }
 
     private void Update()

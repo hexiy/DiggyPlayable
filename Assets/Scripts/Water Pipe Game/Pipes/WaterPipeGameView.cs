@@ -90,6 +90,9 @@ namespace DiggyPlayable.WaterPipeGame
                     _tutorialController.ShowHand(_pipes[i].transform.position);
                     int rotation = _pipes[i].CurrentRotation;
                     yield return new WaitUntil(() => rotation != _pipes[i].CurrentRotation);
+                    
+                    AudioController.I.PlayMusic(); // can only play music after first interaction
+                    
                     _tutorialController.HideHand();
 
                     break;
@@ -120,9 +123,9 @@ namespace DiggyPlayable.WaterPipeGame
             _canCollectRewards = true;
             // _collectRewardsBackgroundTint.DOFade(0, 0);
             // _collectRewardsBackgroundTint.DOFade(0.92f, 0.5f);
-
+            
+            _collectRewardsHintCG.alpha = 0;
             _collectRewardsHintCG.gameObject.SetActive(true);
-            _collectRewardsHintCG.DOFade(0, 0);
 
             _collectRewardsHintCG.DOFade(1, 0.5f);
 
@@ -151,6 +154,7 @@ namespace DiggyPlayable.WaterPipeGame
             yield return new WaitForSeconds(0.5f);
         }
 
+        private bool _clicked = false;
         public IEnumerator WaitForRewardsCollected()
         {
             int rewardsToCollect = 0;
@@ -166,8 +170,10 @@ namespace DiggyPlayable.WaterPipeGame
             int rewardsCollected = 0;
             while (rewardsCollected < rewardsToCollect)
             {
+                
                 if (Input.GetMouseButtonDown(0))
                 {
+                    _clicked = true;
                     _collectRewardsHintCG.DOKill(false);
                     _collectRewardsHintCG.DOFade(0, 0.2f);
 
@@ -177,8 +183,8 @@ namespace DiggyPlayable.WaterPipeGame
                         StartCoroutine(FillOutPipes());
                     }
                 }
-
-                if (Input.GetMouseButton(0))
+                
+                if (Input.GetMouseButton(0) && _clicked)
                 {
                     // check distance from  rewards;
                     Vector3 touchWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);

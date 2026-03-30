@@ -43,7 +43,7 @@ public class AudioController : MonoBehaviour
 
     [SerializeField]
     private AudioClip _endScreenClip;
-    
+
     [SerializeField]
     private AudioClip _rewardTouchChestClip;
 
@@ -55,14 +55,17 @@ public class AudioController : MonoBehaviour
 
     private void Start()
     {
-        PlayMusic();
-
         _soundSource.volume = SoundVolume;
         _soundSource2.volume = SoundVolume;
     }
 
-    private void PlayMusic()
+    public void PlayMusic()
     {
+        if (_musicSource.isPlaying)
+        {
+            return;
+        }
+
         _musicSource.clip = _musicClip;
         _musicSource.loop = true;
         _musicSource.volume = 0f;

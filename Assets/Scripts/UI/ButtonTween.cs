@@ -30,7 +30,7 @@ public class ButtonTween : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     {
         CG = GetComponent<CanvasGroup>();
         _btn = GetComponent<Button>();
-        _btn.image.raycastPadding = Vector4.one * -_raycastPadding;
+        // _btn.image.raycastPadding = Vector4.one * -_raycastPadding;
         _ogSize = transform.localScale;
 
         // GetComponent<Button>()?.onClick.AddListener(() =>
