@@ -38269,6 +38269,16 @@
                         "script": "",
                         "ext": "",
                         "name": "Assets/2D/lock.png"
+                    },
+                    {
+                        "maxWidth": 1024,
+                        "maxHeight": 1024,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/2D/Diggy extracted assets/loading_new/loading_new.png"
                     }
                 ]
             },
